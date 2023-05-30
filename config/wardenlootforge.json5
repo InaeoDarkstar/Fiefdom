@@ -1,0 +1,38 @@
+{
+	// Determines whether the given item(s) will be loaded into the game on launch
+	"registry": {
+		"registerTools": true,
+		"registerChestplate": true,
+		"registerHelmetLeggingsBoots": true,
+		"registerWardenBaneEnchantment": false
+	},
+	"stats": {
+		"toolMiningLevel": 4,
+		"toolDurability": 3070,
+		"toolSpeed": 12.0,
+		"toolBaseDamage": 8.0,
+		"armorBaseProtection": 8,
+		"armorToughness": 4.0,
+		"wardenBaneEnchantmentMultiplier": 1.0
+	},
+	"lootTables": {
+		"sculkDropsSoul": true,
+		// 0.006 = 0.6%
+		"soulChanceFromSculk": 0.6000000238418579,
+		"ancientCityHasModLoot": true,
+		"wardenDropsModLoot": true,
+		"wardenKillsDropSoul": true
+	},
+	"misc": {
+		/* Setting this to false will make it so that only the player wearing the Tendrils trinket
+		   will be able to see highlighted mobs, but it will also introduce some unsatisfying behavior
+		   like 'ghost noises' where a mob is highlighted without making any noise
+		   (if anyone knows how to fix this pls let me know lol)
+		*/
+		"trinketClientOnly": false,
+		"trinketCosmeticOnly": true,
+		"trinketRangeMultiplier": 1.0,
+		// Set this to false if the armor animation is failing due to an incompatibility
+		"animateArmor": true
+	}
+}
