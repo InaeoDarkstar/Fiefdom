@@ -1,0 +1,39 @@
+
+#These settings define which perks are used and the settings which govern them.
+[Perks]
+
+	[Perks.For_Event]
+
+		[Perks.For_Event.SPRINT_JUMP]
+
+			
+
+		[Perks.For_Event.BREAK_SPEED]
+
+			
+
+		[Perks.For_Event.JUMP]
+
+			
+		[Perks.For_Event.SUBMERGED]
+
+			
+
+		[Perks.For_Event.SKILL_UP]
+
+
+		[Perks.For_Event.CROUCH_JUMP]
+
+			
+
+		[Perks.For_Event.RANGED_TO_MOBS]
+
+			
+
+		[Perks.For_Event.DEAL_RANGED_DAMAGE]
+
+			
+
+		[Perks.For_Event.FROM_IMPACT]
+
+			

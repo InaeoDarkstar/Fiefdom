@@ -1,0 +1,135 @@
+
+#========================================================================
+#
+# All skills in pmmo are defined when they are used anywhere in PMMO.
+# You do not need to define a skill here to use it. However, defining
+# a skills attributes here will give you amore rounded skill list and
+# a cleaner looking mod. Note that all the defaults here can be replaced
+# if you wish. Also note that when using custom icon sizes they must be
+# a square image(eg. 16x16, 24x24, 32x32) and they default to 18x18.
+#
+#========================================================================
+[Skills]
+
+	[Skills.Entry]
+
+		[Skills.Entry.magic]
+			maxLevel = 100
+			icon = "minecraft:textures/particle/enchanted_hit.png"
+			iconSize = 8
+			color = 3364863
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.combat]
+			maxLevel = 100
+			icon = "minecraft:textures/mob_effect/strength.png"
+			iconSize = 18
+			color = 16724736
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.mining]
+			maxLevel = 100
+			icon = "minecraft:textures/mob_effect/haste.png"
+			iconSize = 18
+			color = 65535
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.building]
+			maxLevel = 100
+			icon = "pmmo:textures/skills/building.png"
+			iconSize = 32
+			color = 65535
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.smithing]
+			maxLevel = 100
+			icon = "pmmo:textures/skills/smithing.png"
+			iconSize = 32
+			color = 11184557
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.reforging]
+			maxLevel = 1
+			icon = "minecraft:textures/item/anvil.png"
+			iconSize = 32
+			color = 5983577
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.swimming]
+			maxLevel = 100
+			icon = "minecraft:textures/mob_effect/dolphins_grace.png"
+			iconSize = 18
+			color = 3368703
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.crafting]
+			maxLevel = 100
+			icon = "pmmo:textures/skills/crafting.png"
+			iconSize = 32
+			color = 16750848
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.cooking]
+			maxLevel = 100
+			icon = "minecraft:textures/item/cooked_mutton.png"
+			iconSize = 16
+			color = 15112448
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.agility]
+			maxLevel = 100
+			icon = "minecraft:textures/mob_effect/speed.png"
+			iconSize = 18
+			color = 6736998
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+		
+		[Skills.Entry.total_level]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/iron_chestplate"
+			iconSize = 16
+			color = 13596693
+			noAfkPenalty = false
+			useTotalLevels = true
+			displayGroupName = true
+			[Skills.Entry.total_level.groupFor]
+        			combat = 1
+        			magic = 1
+       				swimming = 1
+				mining = 1
+				agility = 1
+				cooking = 1
+				crafting = 1
+				smithing = 1
+				building = 1
+				harvesting = 1
+
+		[Skills.Entry.harvesting]
+			maxLevel = 100
+			icon = "minecraft:textures/item/iron_axe.png"
+			iconSize = 16
+			color = 16753434
+			noAfkPenalty = false
+			displayGroupName = false
+			useTotalLevels = false
+
+
