@@ -1,0 +1,356 @@
+
+[origins]
+
+	[origins."origins-classes:magic/professor"]
+		enabled = true
+		"origins:magic_writing" = true
+
+	[origins."origins-classes:magic/wizard"]
+		enabled = true
+		"origins:stun" = true
+
+	[origins."origins-classes:warrior"]
+		enabled = true
+		"origins-classes:more_attack_damage" = true
+		"origins-classes:less_shield_slowdown" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins-classes:explorer"]
+		enabled = true
+		"origins-classes:explorer_kit" = true
+		"origins-classes:no_sprint_exhaustion" = true
+
+	[origins."origins-classes:magic/priest"]
+		enabled = true
+		"origins:healing" = true
+		"origins:healing_ray" = true
+
+	[origins."origins-classes:rancher"]
+		enabled = true
+		"origins-classes:twin_breeding" = true
+		"origins-classes:more_animal_loot" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:tyr"]
+		enabled = true
+		"origins:expert" = true
+		"origins:gamestage-tyr" = true
+		"origins:precision_strike" = true
+
+	[origins."origins:circe"]
+		enabled = true
+		"origins:gamestage-circle" = true
+		"origins:mana_regen_c" = true
+
+	[origins."origins-classes:farmer"]
+		enabled = true
+		"origins-classes:more_crop_drops" = true
+		"origins-classes:better_bone_meal" = true
+
+	[origins."origins-classes:miner"]
+		enabled = true
+		"origins-classes:more_stone_break_speed" = true
+		"origins-classes:no_mining_exhaustion" = true
+
+	[origins."origins-classes:soldier/warrior"]
+		enabled = true
+		"origins:second_wind" = true
+
+	[origins."origins-classes:cook"]
+		enabled = true
+		"origins-classes:better_crafted_food" = true
+		"origins-classes:more_smoker_xp" = true
+
+	[origins."origins-classes:soldier/beserker"]
+		enabled = true
+		"origins:berserk" = true
+
+	[origins."origins:scythia"]
+		enabled = true
+		"origins:experienced_equestrian" = true
+		"origins:gamestage-scythia" = true
+		"origins:seeking" = true
+
+	[origins."origins-classes:freeman/artisan"]
+		enabled = true
+		"origins:crafting" = true
+
+	[origins."origins-classes:freeman/cultivator"]
+		enabled = true
+		"origins-classes:more_crop_drops" = true
+		"origins-classes:twin_breeding" = true
+
+	[origins."origins-classes:magic/warlock"]
+		enabled = true
+		"origins:ghostform" = true
+		"origins:enderchest" = true
+
+	[origins."origins-classes:freeman/blacksmith"]
+		enabled = true
+		"origins-classes:quality_equipment" = true
+		"origins:apotheosis_salvage" = true
+		"origins:apotheosis_forging" = true
+
+	[origins."origins-classes:blacksmith"]
+		enabled = true
+		"origins-classes:quality_equipment" = true
+		"origins-classes:efficient_repairs" = true
+
+	[origins."origins-classes:magic/alchemist"]
+		enabled = true
+		"origins:always_prepareda" = true
+		"origins:always_preparedb" = true
+
+	[origins."origins-classes:soldier/beastmaster"]
+		enabled = true
+		"origins-classes:tamed_animal_boost" = true
+		"origins-classes:tamed_potion_diffusal" = true
+
+	[origins."origins-classes:rogue"]
+		enabled = true
+		"origins-classes:sneaky" = true
+		"origins-classes:stealth" = true
+		"origins-classes:stealth_core" = true
+
+	[origins."origins-classes:nitwit"]
+		enabled = true
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins-classes:soldier/soldier"]
+		enabled = true
+		"origins-classes:less_shield_slowdown" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins-classes:beastmaster"]
+		enabled = true
+		"origins-classes:tamed_animal_boost" = true
+		"origins-classes:tamed_potion_diffusal" = true
+
+	[origins."origins-classes:merchant"]
+		enabled = true
+		"origins-classes:trade_availability" = true
+		"origins-classes:rare_wandering_loot" = true
+
+	[origins."origins:tengri"]
+		enabled = true
+		"origins:run_speed" = true
+		"origins:gamestage-tengri" = true
+		"origins:run_speed_b" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins-classes:freeman/prospector"]
+		enabled = true
+		"origins:maniac_mining" = true
+		"origins:extraore" = true
+
+	[origins."origins-classes:archer"]
+		enabled = true
+		"origins-classes:no_projectile_divergence" = true
+		"origins-classes:less_bow_slowdown" = true
+
+	[origins."origins-classes:freeman/freeman"]
+		enabled = true
+		"origins:pockets" = true
+
+	[origins."origins-classes:soldier/ranger"]
+		enabled = true
+		"origins-classes:less_bow_slowdown" = true
+		"origins:endless_quiver" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins-classes:lumberjack"]
+		enabled = true
+		"origins-classes:tree_felling" = true
+		"origins-classes:more_planks_from_logs" = true
+
+	[origins."origins-classes:soldier/archer"]
+		enabled = true
+		"origins-classes:less_bow_slowdown" = true
+
+	[origins."origins-classes:vassal"]
+		enabled = true
+
+	[origins."origins-classes:magic/enchanter"]
+		enabled = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."origins-classes:magic/mage"]
+		enabled = true
+		"origins:magic_missle" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins-classes:cleric"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins-classes:freeman/excavator"]
+		enabled = true
+		"origins-classes:no_mining_exhaustion" = true
+
+	[origins."origins:sinann"]
+		enabled = true
+		"origins:lucky_catch" = true
+		"origins:gamestage-sinann" = true
+		"origins:breathe" = true
+
+	[origins."origins-classes:soldier/guardian"]
+		enabled = true
+		"origins-classes:less_shield_slowdown" = true
+		"origins:defensive_stance" = true
+
+	[origins."origins-classes:freeman/baron"]
+		enabled = true
+		"origins-classes:trade_availability" = true
+		"origins:tradesecrets" = true
+
+	[origins."origins:phrygia"]
+		enabled = true
+		"origins:gold" = true
+		"origins:gamestage-phrygia" = true
+		"origins:cowards_heal" = true
+		"origins:overworld_lover" = true
+
+	[origins."origins:circle"]
+		enabled = true
+		"origins:mana_regen_c" = true
+		"origins:gamestage-circle" = true
+		"origins:shieldpower" = true
+
+	[origins."ars_scalaes:arse"]
+		enabled = true
+		"ars_scalaes:source_addict" = true
+		"ars_scalaes:source_addict_2" = true
+		"ars_scalaes:mana_absorber" = true
+
+	[origins."disabled:origin_layers/origin"]
+		enabled = true
+
+	[origins."ars_scalaes:drygmy"]
+		enabled = true
+
+	[origins."ars_scalaes:bookwyrm"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/fire_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:class/arsificer"]
+		enabled = true
+		"ars_scalaes:book_inept" = true
+
+	[origins."ars_scalaes:affinity/earth_affinity"]
+		enabled = true
+		"ars_scalaes:flyphase" = true
+		"ars_scalaes:toggle_phase" = true
+
+	[origins."ars_scalaes:affinity/air_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:whirlis"]
+		enabled = true
+
+	[origins."ars_scalaes:sourcerer"]
+		enabled = true
+		"ars_scalaes:source_loved" = true
+		"ars_scalaes:boost_magic_weak_phys" = true
+		"ars_scalaes:magic_boost" = true
+
+	[origins."ars_scalaes:affinity/abjuration"]
+		enabled = true
+
+	[origins."ars_scalaes:starbuncle"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/water_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:wixie"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/conjuration"]
+		enabled = true
+
