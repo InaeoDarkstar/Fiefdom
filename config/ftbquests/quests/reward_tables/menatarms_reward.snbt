@@ -1,0 +1,16 @@
+{
+	id: "77DA8861584F56D9"
+	order_index: 3
+	title: "Men-at-Arms Reward"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ title: "Endless Torches", icon: "minecraft:torch", item: "minecraft:torch", count: 24 }
+		{ item: "levelhearts:heart_container" }
+		{ item: "minecraft:arrow", count: 64 }
+		{ item: "minecraft:iron_nugget", count: 24 }
+		{ item: "minecraft:glowstone_dust", count: 3 }
+		{ item: "minecraft:redstone", count: 32 }
+		{ item: "minecraft:chest", count: 16 }
+	]
+}

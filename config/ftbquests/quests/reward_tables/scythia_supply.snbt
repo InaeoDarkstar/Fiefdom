@@ -1,0 +1,90 @@
+{
+	id: "0AD75307FD50026A"
+	order_index: 10
+	title: "Scythia Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "minecraft:saddle"
+							Count: 1b
+						}
+						{
+							Slot: 1b
+							id: "minecraft:horse_spawn_egg"
+							Count: 1b
+						}
+						{
+							Slot: 2b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:ordinary"
+								}
+							}
+						}
+						{
+							Slot: 3b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:strong"
+								}
+							}
+						}
+						{
+							Slot: 4b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:ruined"
+								}
+							}
+						}
+						{
+							Slot: 5b
+							id: "minecraft:torch"
+							Count: 16b
+						}
+						{
+							Slot: 6b
+							id: "minecraft:apple"
+							Count: 16b
+						}
+						{
+							Slot: 7b
+							id: "toughasnails:purified_water_canteen"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 8b
+							id: "minecraft:name_tag"
+							Count: 1b
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

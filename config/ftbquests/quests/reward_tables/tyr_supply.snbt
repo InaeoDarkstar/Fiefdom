@@ -1,0 +1,113 @@
+{
+	id: "6B630F5FD7E42BA7"
+	order_index: 15
+	title: "Tyr Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "minecraft:stone_sword"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:fair"
+								}
+							}
+						}
+						{
+							Slot: 1b
+							id: "magistuarmory:wood_roundshield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 2b
+							id: "minecraft:torch"
+							Count: 16b
+						}
+						{
+							Slot: 3b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:average"
+								}
+							}
+						}
+						{
+							Slot: 4b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:average"
+								}
+							}
+						}
+						{
+							Slot: 5b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:ordinary"
+								}
+							}
+						}
+						{
+							Slot: 6b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:average"
+								}
+							}
+						}
+						{
+							Slot: 7b
+							id: "minecraft:cooked_mutton"
+							Count: 10b
+						}
+						{
+							Slot: 8b
+							id: "betteranimalsplus:bear_cape_brown"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 9b
+							id: "toughasnails:water_canteen"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

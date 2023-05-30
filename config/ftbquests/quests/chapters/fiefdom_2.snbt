@@ -1,0 +1,1005 @@
+{
+	id: "05CAD65108609745"
+	group: ""
+	order_index: 0
+	filename: "fiefdom_2"
+	title: "Fiefdom"
+	icon: {
+		id: "minecolonies:resourcescroll"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -5.5d
+			y: 0.0d
+			width: 16.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/fiefdom.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -16.5d
+			y: 3.0d
+			width: 8.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/tutorial.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.0d
+			y: 13.5d
+			width: 10.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: 13.5d
+			width: 10.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/ftb_warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Fiefdom"
+			icon: {
+				id: "minecolonies:resourcescroll"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: -4.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"You’ve been tasked to tame the wilds of the Overworld by colonizing and creating a fief. "
+				""
+				"This home page questline can help when you get stuck. "
+				""
+				"Progressing through these quests will open up additional quest line chapters (accessed by the arrow on the left of your screen), covering the majority of the major mods making up Fiefdom."
+			]
+			size: 4.0d
+			id: "5537B2F842E53571"
+			tasks: [{
+				id: "0B80796B5B430749"
+				type: "dimension"
+				title: "Welcome to the Overworld"
+				icon: "minecraft:grass_block"
+				disable_toast: true
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "08E95C86500B9D11"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:fiefdom_guide"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "70CC50584CB68688"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "ftbquests:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Minecolonies"
+			icon: "minecolonies:supplycampdeployer"
+			x: 4.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Building a Kingdom"
+			description: ["The best way to claim your land, is to create a Minecolony. Search in the JEI for @Minecol to see what is available. The first step, call in a supply camp!"]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "429CD8465BF61A3E"
+			tasks: [{
+				id: "20237015C9497D2E"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "060F3559A96BE803"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_beef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "A Magical World"
+			icon: "ars_nouveau:novice_spell_book"
+			x: 4.0d
+			y: 6.0d
+			shape: "square"
+			subtitle: "A World of Danger"
+			description: [
+				"This chapter will help you proceed in a magical world:"
+				""
+				"Ars Noveau brings magic to your hands to combat the creatures."
+				""
+				"Forbidden and Arcanus holds useful structures and powerful utilities."
+				""
+				"This questline will also guide you through several other creature mods."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "108C57241265F705"
+			tasks: [{
+				id: "57936A2919934B65"
+				type: "item"
+				item: {
+					id: "ars_nouveau:worn_notebook"
+					Count: 1b
+					ForgeCaps: {
+						"pmmo:vein_data": {
+							charge: -1.0d
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Create"
+			icon: "create:goggles"
+			x: 8.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "Mechanical Advantages"
+			description: ["Minecolonies has various ways to automate processes. But that’s sometimes not enough for the ingenuitive engineer. The Create mod has various ways to get the job done."]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "4A31F90BCE24D994"
+			tasks: [{
+				id: "00A0BFE327697006"
+				type: "item"
+				item: "create:zinc_ingot"
+				count: 16L
+				consume_items: true
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "243A18C6A436FF4A"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "Alternate Dimensions"
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+				Count: 1b
+				ForgeCaps: {
+					"pmmo:vein_data": {
+						charge: -1.0d
+					}
+				}
+			}
+			x: 8.0d
+			y: 6.0d
+			shape: "square"
+			subtitle: "Dimensional Strides"
+			description: ["Other dimensions may hold the key to survival, whether through stronger gear, or additional loot. Learn all that you can, to survive"]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "63B12F7E7A964195"
+			tasks: [{
+				id: "5AFAE8B602AC3D03"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "57F2245060CF4183"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_beef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Challenges"
+			icon: "minecraft:bedrock"
+			x: 13.0d
+			y: 10.0d
+			shape: "square"
+			subtitle: "The Insane Quests"
+			description: [
+				"And if the other quest lines are not enough, try to complete these challenges."
+				""
+				"(Trust me, it's not worth it) ;)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5F06EFA6A8548D43"]
+			hide: true
+			size: 2.0d
+			id: "3456ED806BF80262"
+			tasks: [{
+				id: "0549E0B51FB7173E"
+				type: "item"
+				item: { id: "minecraft:stone", Count: 68b }
+				count: 64000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48FDF29591E5C217"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Collector's Paradise"
+			x: 8.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "The Wilds"
+			description: ["If you want to tame 'The Wilds', you'll need to learn everything you can. Collect them all!"]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			size: 2.0d
+			id: "5F06EFA6A8548D43"
+			tasks: [{
+				id: "1ED400C3CEF59D64"
+				type: "advancement"
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1C1F8A289F17B76D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "End Remastered"
+			icon: {
+				id: "endrem:nether_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "A Journey to the End"
+			description: ["Looking for the End? Well, it’s a much more daunting task. Gather the eyes, and maybe you can see the way….to the End."]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "07365A8288991590"
+			tasks: [{
+				id: "16E0D1D34DA29BBD"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "35A7949CCDDC2C61"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Torches"
+			x: -19.0d
+			y: 5.5d
+			description: [
+				"Torches will keep you safe from the many hostile mobs that make up these lands."
+				""
+				"Be sure to know the various ways to light up your area."
+			]
+			hide_dependency_lines: false
+			hide: true
+			id: "36A8C760116B4F47"
+			tasks: [{
+				id: "2F10FB4AD18CC189"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+		{
+			title: "Campfires"
+			x: -19.0d
+			y: 7.0d
+			description: [
+				"Click with empty hand to check fuel level"
+				""
+				"Throw wood into the fire to increase"
+				""
+				"Need to be lit and will burn as long as they have fuel."
+			]
+			dependencies: ["36A8C760116B4F47"]
+			hide: true
+			id: "37A47F5B724E6E39"
+			tasks: [{
+				id: "5D282B14AC270C3B"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			title: "Resting"
+			icon: "minecraft:campfire"
+			x: -19.0d
+			y: 8.5d
+			description: [
+				"Campfires give Regen when you stay near them."
+				""
+				"They can be used as an alternate food cooking source, while lit"
+			]
+			dependencies: [
+				"37A47F5B724E6E39"
+				"5C6289EB5057EDD4"
+			]
+			hide: true
+			id: "27DA2CACAD0E3AE1"
+			tasks: [{
+				id: "3C94309EAAB7612B"
+				type: "item"
+				title: "Any #minecraft:logs_that_burn"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				}
+				count: 8L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Healing"
+			icon: {
+				id: "roughtweaks:medkit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -17.5d
+			y: 5.5d
+			description: [
+				"Creating Salves, Plasters and Bandages will keep you alive, as your health will not regenerate like normal."
+				""
+				"And if you still can not survive, you can increase your health with heart containers."
+			]
+			id: "5C6289EB5057EDD4"
+			tasks: [{
+				id: "30997C8380761846"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FD4537C33F93EFB"
+				type: "item"
+				item: {
+					id: "levelhearts:heart_container"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Salves"
+			x: -17.5d
+			y: 7.0d
+			description: ["The lowest healing item, but a requirement for plasters"]
+			dependencies: ["5C6289EB5057EDD4"]
+			hide: true
+			id: "5BB746DEE1B0CEAE"
+			tasks: [{
+				id: "616E5C4CDF3A3C55"
+				type: "item"
+				item: {
+					id: "roughtweaks:salve"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Plasters"
+			x: -17.5d
+			y: 8.5d
+			description: ["Two levels of plasters help heal you."]
+			dependencies: ["5BB746DEE1B0CEAE"]
+			hide: true
+			id: "5F70DB370A456697"
+			tasks: [{
+				id: "03835E900C40CD14"
+				type: "item"
+				item: {
+					id: "roughtweaks:plaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Bandages"
+			icon: {
+				id: "roughtweaks:bandage"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -17.5d
+			y: 10.0d
+			description: ["Bandages are upgraded items that heal more"]
+			dependencies: ["5F70DB370A456697"]
+			hide: true
+			id: "03678998DAC9C823"
+			tasks: [{
+				id: "4A2BA6FA7A5DD00E"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60C3B9DF69269218"
+				type: "loot"
+				table_id: 2446961366978359448L
+			}]
+		}
+		{
+			title: "Thirst"
+			icon: "toughasnails:purified_water_bottle"
+			x: -14.5d
+			y: 5.5d
+			description: [
+				"There are many different drinks in Fiefdom.  "
+				""
+				"Thirst is a silent killer, same as food. Knowing how to manage your thirst will help you survive."
+				""
+				"It's better to drink it bottled, but if all else fails, you can shift-right click water with an empty hand to drink."
+			]
+			id: "3B8003352E038E19"
+			tasks: [{
+				id: "3B041238CEB8EC9B"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+			}]
+		}
+		{
+			title: "Purifier"
+			x: -14.5d
+			y: 7.0d
+			description: ["Water can be cleaned with a purifier and charcoal.  Use bottles or canteens"]
+			dependencies: ["3B8003352E038E19"]
+			hide: true
+			id: "387CE07A0C8B5437"
+			tasks: [{
+				id: "01114FE2DCD1FA42"
+				type: "item"
+				item: "toughasnails:water_purifier"
+			}]
+		}
+		{
+			title: "Purified Water"
+			x: -14.5d
+			y: 8.5d
+			description: ["Purified water will recover alot of thirst."]
+			dependencies: ["387CE07A0C8B5437"]
+			hide: true
+			id: "5CDC751B34542450"
+			tasks: [{
+				id: "1F006F799E2A84C0"
+				type: "item"
+				item: "toughasnails:purified_water_bottle"
+			}]
+		}
+		{
+			title: "Juices"
+			icon: "croptopia:grape_juice"
+			x: -14.5d
+			y: 10.0d
+			description: [
+				"It's not just water that recovers your thirst, but also juices and other types of drinks."
+				""
+				"Try a variety of options to find what works best for you."
+			]
+			dependencies: ["5CDC751B34542450"]
+			hide: true
+			id: "51D1B5A9F51D0D78"
+			tasks: [
+				{
+					id: "6D56C57AE7252DAC"
+					type: "item"
+					item: "toughasnails:glow_berry_juice"
+				}
+				{
+					id: "206361129385B765"
+					type: "item"
+					item: "toughasnails:cactus_juice"
+				}
+				{
+					id: "0CD0B84E12E9FF5A"
+					type: "item"
+					item: "toughasnails:apple_juice"
+				}
+				{
+					id: "266650CA5225E80E"
+					type: "item"
+					item: "toughasnails:sweet_berry_juice"
+				}
+			]
+		}
+		{
+			title: "Tutorial Complete"
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: -11.25d
+			y: 8.25d
+			description: [
+				"With a better understanding of the mechanics of Fiefdom, you have a better chance of survival."
+				""
+				"Now go explore!"
+				""
+				"(If you want to customize your backpack, most of the base upgrades can be obtained from the Wandering Trader)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"51D1B5A9F51D0D78"
+				"27DA2CACAD0E3AE1"
+				"03678998DAC9C823"
+				"5537B2F842E53571"
+				"613376D09D538C13"
+				"19611166CFBFD5B0"
+			]
+			hide: false
+			size: 2.0d
+			id: "753BFFA5AB66F2E6"
+			tasks: [{
+				id: "0E7E589502B10FCD"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4F6AFBDA9DC6085B"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			title: "Food and You"
+			icon: "minecraft:cake"
+			x: 4.0d
+			y: 12.0d
+			shape: "square"
+			subtitle: "Master Chef"
+			description: [
+				"“This crab is so undercooked I can still hear it singing ‘Under the Sea.'\""
+				""
+				"A Master Chef knows how to use salt correctly."
+			]
+			size: 2.0d
+			id: "042405075CA41D91"
+			tasks: [
+				{
+					id: "28E78DF90489AC13"
+					type: "item"
+					item: {
+						id: "croptopia:salt"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "455399258D366006"
+					type: "item"
+					item: {
+						id: "croptopia:flour"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "3E56EC873B2461CE"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_beef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			title: "Brewing and Tombstones"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:luck"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 12.0d
+			shape: "square"
+			subtitle: "A Lesson of Potions and Death"
+			description: [
+				"A water bottle can be consumed, but it also is potential. The potential to be much more."
+				""
+				"Use this chapter to earn rewards for brewing and learn how to use the Corail's Tombstone modpack."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			size: 2.0d
+			id: "171FA75727232622"
+			tasks: [
+				{
+					id: "45F73F0959F0AAE7"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+				{
+					id: "59206428D1685C45"
+					type: "item"
+					item: {
+						id: "tombstone:grave_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3481C0D893B6CACF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Affixed to Affixes"
+			x: -16.0d
+			y: 8.5d
+			description: [
+				"Apotheosis brings affixes to weapons and armor."
+				""
+				"You can find them and gems as loot in dungeons or dropped from bosses."
+				" "
+				"These bosses can spawn at night, followed by an awakening sound and a message."
+				""
+				"For more information, consult the chronicle of shadows."
+			]
+			dependencies: ["7B38C99B8E8FAA28"]
+			hide: true
+			id: "64F9798AFA623755"
+			tasks: [{
+				id: "4FE29700BDF3699A"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Salvaging Resources"
+			x: -16.0d
+			y: 10.0d
+			description: [
+				"Knowing how to salvage will be a valuable tool."
+				""
+				"Shift - Right Click onto a smithing table with an item you wish to salvage."
+				""
+				"You will gain items back, dependant on your smithing leveling."
+				""
+				"Check the PMMO glossary (default key \"P\") for salvagable items and resources you can obtain!"
+			]
+			dependencies: ["64F9798AFA623755"]
+			id: "19611166CFBFD5B0"
+			tasks: [{
+				id: "4C180E42BEDD341B"
+				type: "item"
+				item: {
+					id: "minecraft:smithing_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "PMMO Leveling"
+			x: -16.0d
+			y: 5.5d
+			description: [
+				"Many items' use and crafting are locked behind PMMO levels. "
+				""
+				"Doing certain tasks and quests will earn you XP for PMMO."
+				""
+				"Once you meet requirements for items and gear, the requirement will be removed from the information screen."
+				""
+				"Use P (default key) to check the guide. Alt (default key) will toggle the skills on your screen."
+			]
+			id: "7CBED53F84182F4A"
+			tasks: [{
+				id: "6BFC3E67696BAC3F"
+				type: "pmmo:skill"
+				title: "Combat Level 5"
+				skill: "combat"
+				requiredLevel: 5
+			}]
+		}
+		{
+			title: "A Shop of Skills"
+			icon: "shoppy:shop_block"
+			x: 13.0d
+			y: 7.0d
+			shape: "square"
+			subtitle: "Hrothgar's Hero's Hub"
+			description: [
+				"King Hrothgar has established skilled teachers to assist with your heroic feats. "
+				""
+				"All he requires in return is coin."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "0DD8D8E6A5D51DF6"
+			tasks: [{
+				id: "35CEF8ACD6245BD2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Class and Cause"
+			icon: "waystones:bound_scroll"
+			x: 13.0d
+			y: 4.0d
+			shape: "square"
+			subtitle: "The Class Tree"
+			description: [
+				"A Vassal can only handle so much. "
+				""
+				"Follow your ideal classes to amplify your playstyle."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5537B2F842E53571"]
+			hide: false
+			size: 2.0d
+			id: "7679EC2A24151B00"
+			tasks: [{
+				id: "297D74E63FB7CB88"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Class Tree"
+			x: -16.0d
+			y: 7.0d
+			description: [
+				"Open up the class tree and make sure you are a vassal."
+				""
+				"The class tree will help give you more powers, and build your own way to play. "
+				""
+				"Try it out. Make sure to not use FTB Teams, or it will break your progression."
+				""
+				"Some classes will have skills (default key 'g')."
+			]
+			dependencies: ["7CBED53F84182F4A"]
+			hide: true
+			id: "7B38C99B8E8FAA28"
+			tasks: [{
+				id: "40BD8A41A6C5CCE9"
+				type: "gamestage"
+				title: "Class Tree: Vassal"
+				stage: "vassal"
+			}]
+		}
+		{
+			title: "The Grim Towers"
+			icon: "harderfarther:life_heart"
+			x: -13.0d
+			y: 5.5d
+			description: [
+				"The Harder Farther mod adds Grim Towers."
+				""
+				"These towers create a weakness and slowness aura around them, forcing you to clear them before advancing further out in your world."
+				""
+				"Follow the sounds and particles to find the source of the aura, and break the heart of the tower (generally found in the center of the tower, sometimes covered by blocks) to negate the aura."
+			]
+			id: "3FFFD7324309BCC5"
+			tasks: [{
+				id: "03C6C3C904FCF264"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Traveler's Tools"
+			icon: {
+				id: "minecraft:leather_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: -13.0d
+			y: 7.0d
+			description: [
+				"In order to make your travel much easier, there a few tools to use."
+				""
+				"Nomadic tents are moveable structures that can hold your base until you are ready to settle down. Make one for yourself."
+				""
+				"The nature's compass can you help locate specific biome, perfect for the traveler who wants to settle down in a specific place."
+			]
+			dependencies: ["3FFFD7324309BCC5"]
+			hide: true
+			id: "613376D09D538C13"
+			tasks: [
+				{
+					id: "3FBA15878AE824F1"
+					type: "item"
+					item: {
+						id: "nomadictents:mallet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "474D3847DA414DF0"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

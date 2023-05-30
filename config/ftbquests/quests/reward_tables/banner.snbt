@@ -1,0 +1,25 @@
+{
+	id: "322817112C416E2B"
+	order_index: 5
+	title: "Banner "
+	icon: "minecraft:black_banner"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:white_banner" }
+		{ item: "minecraft:orange_banner" }
+		{ item: "minecraft:magenta_banner" }
+		{ item: "minecraft:light_blue_banner" }
+		{ item: "minecraft:yellow_banner" }
+		{ item: "minecraft:lime_banner" }
+		{ item: "minecraft:pink_banner" }
+		{ item: "minecraft:gray_banner" }
+		{ item: "minecraft:light_gray_banner" }
+		{ item: "minecraft:cyan_banner" }
+		{ item: "minecraft:purple_banner" }
+		{ item: "minecraft:blue_banner" }
+		{ item: "minecraft:brown_banner" }
+		{ item: "minecraft:green_banner" }
+		{ item: "minecraft:red_banner" }
+		{ item: "minecraft:black_banner" }
+	]
+}

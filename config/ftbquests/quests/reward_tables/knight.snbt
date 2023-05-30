@@ -1,0 +1,36 @@
+{
+	id: "6ADD66499D6E3C70"
+	order_index: 2
+	title: "Knight Reward"
+	icon: {
+		id: "iceandfire:armor_silver_metal_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:netherite_ingot", count: 3 }
+		{ item: "minecraft:diamond_block" }
+		{ item: "minecraft:glowstone_dust", count: 64 }
+		{ item: "eyeofdragons:eye_of_firedragon", count: 2 }
+		{ item: "eyeofdragons:eye_of_icedragon", count: 2 }
+		{ item: "eyeofdragons:eye_of_lightningdragon", count: 2 }
+		{ item: "minecraft:golden_apple", count: 10 }
+		{ item: "levelhearts:heart_container", count: 3 }
+	]
+}

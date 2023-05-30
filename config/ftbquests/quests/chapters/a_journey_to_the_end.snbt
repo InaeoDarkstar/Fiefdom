@@ -1,0 +1,693 @@
+{
+	id: "7FFA7EF665E6ECD4"
+	group: ""
+	order_index: 5
+	filename: "a_journey_to_the_end"
+	title: "A Journey to the End"
+	icon: {
+		id: "endrem:nether_eye"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.5d
+			y: -4.5d
+			width: 30.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/end.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "State of Eyes"
+			icon: "minecraft:ender_eye"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"To get to the End, you’ll need to find the End Remastered eyes. "
+				""
+				"The eyes have been given custom recipies to make the most of various dimensions and exploration opportunities. This guide will help you on your quest."
+			]
+			hide_dependency_lines: true
+			dependencies: ["07365A8288991590"]
+			hide: true
+			size: 2.0d
+			id: "5E09096612FF15D3"
+			tasks: [{
+				id: "5C096CE65058C509"
+				type: "item"
+				item: "minecraft:ender_eye"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33E414DD449DE3DF"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
+		}
+		{
+			title: "Locating Portals"
+			icon: "minecraft:end_portal_frame"
+			x: 0.0d
+			y: 7.0d
+			description: ["The Eyes can be used in a vanilla stronghold. Use them like normal eyes of ender. Remove any eyes that are in the portal by right clicking them out."]
+			hide_dependency_lines: true
+			dependencies: ["5E09096612FF15D3"]
+			hide: false
+			size: 2.0d
+			id: "354AABDE1BEDE3B5"
+			tasks: [{
+				id: "3EB492608DC40842"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "427E315D854626F5"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 2
+			}]
+		}
+		{
+			title: "Rogue Eye"
+			icon: {
+				id: "endrem:rogue_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 3.0d
+			description: [
+				"The knowledge of Redstone came from this eye.  "
+				""
+				"Carminite can be found in Ur-Ghast's tower in the Twilight Forest, or can be crafted with Borer Essence, obtained in the tower or by slaying Towerwood Borers."
+				""
+				"You will need to set up an assembly line to create the precision mechanism. Progress and ponder through create!"
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "05C1C7FB3DB20CDC"
+			tasks: [{
+				id: "4D4137689EE3FAEC"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DB787692A6B1107"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Black Eye"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Avast ye matey, time for a treasure hunt!"
+				""
+				"You'll need to find the flying dutchman structure to locate this eye."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "40D855EDEC5E9F2E"
+			tasks: [{
+				id: "5FDC10A69709A459"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61CEB30640946516"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			icon: {
+				id: "endrem:lost_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			description: ["Forged by the first Blacksmiths of time… you will need to track down the top metals from across all the lands. "]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "602B4A7106EE401B"
+			tasks: [{
+				id: "759A2DF6132C9101"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B83E508C957B999"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Witch Eye"
+			icon: {
+				id: "endrem:witch_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"One of the easiest ways to make an eye, is to use an already created pupil. Hunt down witches (there is a new ancient witch structure) to get a witch pupil drop to combine with an eye of ender."
+				""
+				"Collecting the knowledge from the witches will require you to dispel their power."
+				""
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "3A68BCA538D51D70"
+			tasks: [{
+				id: "004C0FEEFB980ACC"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A9CA1EFD01673BB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Nether Eye"
+			icon: {
+				id: "endrem:nether_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"The Nether Eye uses nether materials."
+				""
+				"Ancient Debris can be found from Y level 8-22 (15 being the most common). Or, Netherite Scraps can be found in Bastions."
+				""
+				"Spore bottles can be obtained from Keeping Castles located in Nether Wastes or Crimson Forests."
+				""
+				"The warped muscle and hemolymph sac can be obtained from a warped mosco. Cover a Mungus from a Mooshroom island with warped fungus, and feed it to a crimson mosquito to make this mini boss."
+				""
+				"Additionally, you will need to progress in Ars to create this eye."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "2F8FEA631EA4E0E8"
+			tasks: [{
+				id: "66F1AFD436038BEF"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01AC99393F9814DB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Wither Eye"
+			icon: {
+				id: "endrem:wither_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"The power of this eye comes from the core of Wither."
+				""
+				"Wither roses can be found in cemetaries in the overworld or by killing mobs with the wither."
+				""
+				"Hunting the wither skeletons will lead you to a source of their power."
+				""
+				"Corrupted mobs will drop the corruption needed to craft the metal."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "4768677329B713B6"
+			tasks: [{
+				id: "4558F47A77EA52CD"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "38A526CADE0D1528"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Guardian Eye"
+			icon: {
+				id: "endrem:guardian_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 4.5d
+			description: [
+				"Guardians? Removing the eye from the Elder is just the start."
+				""
+				"Delve into 'The Undergarden\" dimension to find the materials you need. (Check the Dimensions Questline for assistance on entering)"
+				""
+				"The primary need is forgotten shards. These are obtained from Forgotten Guardians in the 'Catacombs'. Find these most commonly in the 'Forgotten Fields' biome."
+				""
+				"You will need to find buried treasures and nautilus shells to create conduits."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "78E49752021F12FB"
+			tasks: [{
+				id: "6F4DC4A3740046F0"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4793A84EFC1E22FF"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Cold Eye"
+			icon: {
+				id: "endrem:cold_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			description: [
+				"Can you feel that? A cold breeze is rolling in. To craft your Cold Eye, you'll need track down the biggest beasts of the snow covered lands."
+				""
+				"The etheral arc is obtained from Blinding Dungeons in the Everbright, while the dusk arc is from the Blinding Dungeons in the Everdawn."
+				""
+				"Penguin feathers can be obtained by growing baby penguins."
+				""
+				"Froststalkers can be found in icy biomes. Kill one for its horn."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "5811D5FC279EE147"
+			tasks: [{
+				id: "135B036F55D2B7D8"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "126F4D50ACBBFA11"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Corrupted Eye"
+			icon: {
+				id: "endrem:corrupted_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Sometimes power changes people. You'll need to beat the Alchemist or Summoner to craft this 'Corrupted Eye'."
+				""
+				"In order to bring infinite fortune.. you must collect all the gems of the Blinding lands."
+				""
+				"Each Blinding Dungeon has a few Star Flares hidden through out them. See if you can find one!"
+				""
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "18B9E7F2C913F923"
+			tasks: [{
+				id: "03D61471CA63D09A"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "176E653FB90F2780"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Old Eye"
+			icon: {
+				id: "endrem:old_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 4.5d
+			description: [
+				"Some people hate sand. But if you’re planning on going to the End, you’ll need to brave the desert."
+				""
+				"In order to get the sombrero, you'll need to give a cockroach a maraca and kill them while dancing. Or trade with an elephant riding trader."
+				""
+				"The pocket of sand can be crafted from a guster eye found in deserts."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "16209CF8EE234944"
+			tasks: [{
+				id: "5C7AF86DAA41B46D"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47F9B5BB0254D291"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "Magical Eye"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"Magic abounds in the Twilight Dimension. To craft this eye, you'll need to brave the bosses and absorb their powers. (Follow the Dimension Questlines if needing additional assistance)."
+				""
+				"Locate the questing ram and provide him the colors of wool that he is missing."
+				""
+				"Magic Beans are horded by the Trolls of the caves."
+				""
+				"Blaze fiber can be created from Magebloom seeds."
+				""
+				"You will need to create a mana regen amulet."
+				""
+				"The final piece is what gives Evokers their real power."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "453B6A83AFE7CB6E"
+			tasks: [{
+				id: "32539D103F3B4838"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D83CD9701EEB352"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"A smithing master, luck will be on your side when you make this eye."
+				""
+				"Show your prowess with create and ars to create this eye."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "2E4A6209FA103B03"
+			tasks: [{
+				id: "018AF0C34B029B4E"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "343ECC33E6168116"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"The sea calls to you with this eye."
+				""
+				"Sirens can be found in the water. Give them a sea pickle to get their shards."
+				""
+				"The abyssal amethyst can be obtained from the mother of the maze in the frozen maze."
+				""
+				"The esca can be found from anglerfish in the frozen maze."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "7326ADD466974943"
+			tasks: [{
+				id: "7BB114B114571795"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0771E40E941BD9ED"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: [
+				"To create the undead eye, you will need to be the master of death."
+				""
+				"Soul fragments are found from killing creatures in the Blue Skies dimensions."
+				""
+				"The undead souls can be found by killing skeleton horses."
+				""
+				""
+				"The Heart of the Deep and the sculk souls can be obtained from killing a Warden."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "32BAEAA9302BEB18"
+			tasks: [{
+				id: "1CE1C3E0E47A5F15"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FA88CDEBA1EA814"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"You would have to be cursed to make this. "
+				""
+				"Hunt mobs from born in chaos to create this eye."
+				""
+				"You'll need to slay the grim reaper for his scythe to make this eye. Use the Death, and How to Cure it book from MCA for more information."
+			]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "1C6A919A165A65D9"
+			tasks: [{
+				id: "440CCD4C70039FC4"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7099E6DF4A625517"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["The cryptic eye can be obtained randomly while enchanting."]
+			dependencies: ["5E09096612FF15D3"]
+			hide: true
+			size: 1.5d
+			id: "6D0A1DB0C4D31B8E"
+			tasks: [{
+				id: "513F4A454A306469"
+				type: "item"
+				item: {
+					id: "endrem:cryptic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DF2EBECB9EA6E64"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+	]
+	quest_links: [ ]
+}

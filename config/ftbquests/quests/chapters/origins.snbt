@@ -1,0 +1,1601 @@
+{
+	id: "1A1F309EC815B42D"
+	group: "390342AC46863EE8"
+	order_index: 0
+	filename: "origins"
+	title: "Origins"
+	icon: "origins:orb_of_origin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -11.0d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/skythialogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/phrygialogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			width: 1.5d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/tirlogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			width: 2.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/tengrilogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			width: 2.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/sinannlogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/circlelogo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			width: 10.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/origins.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Principality of Scythia"
+			x: -11.0d
+			y: -2.5d
+			description: ["Horsemen from Scythia bond with their horses, commanding them with almost telepathic ability."]
+			dependencies: ["5537B2F842E53571"]
+			optional: true
+			incompatible: [
+				"61D492D4F0443294"
+				"72166DB7365BBFB1"
+				"6579EEBA1B394DB0"
+				"1B316B50597DFB81"
+				"4B3E564A20837062"
+			]
+			id: "5EAF56787A935E15"
+			tasks: [{
+				id: "0F005BF80EA5F71A"
+				type: "gamestage"
+				icon: "minecraft:diamond_horse_armor"
+				stage: "scythia"
+			}]
+			rewards: [{
+				id: "77AF68F257645C31"
+				type: "item"
+				title: "Scythian Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:saddle"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:horse_spawn_egg"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:coif"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:gambeson_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 4b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:gambeson_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 5b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:torch"
+									Count: 16b
+								}
+								{
+									Slot: 6b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:apple"
+									Count: 16b
+								}
+								{
+									Slot: 7b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:purified_water_canteen"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 8b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:name_tag"
+									Count: 1b
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+								{
+									Slot: 12b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:wood_heavywarhammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Republic Merchants of Phrygia"
+			icon: "dotcoinmod:gold_coin"
+			x: -8.0d
+			y: -2.5d
+			description: ["The Republic Merchants of Phrygia value their gold above all, and trade with whoever have coin to spare."]
+			dependencies: ["5537B2F842E53571"]
+			optional: true
+			incompatible: [
+				"5EAF56787A935E15"
+				"1B316B50597DFB81"
+				"6579EEBA1B394DB0"
+				"72166DB7365BBFB1"
+				"61D492D4F0443294"
+			]
+			id: "4B3E564A20837062"
+			tasks: [{
+				id: "4F27CDCE6F4D82A5"
+				type: "gamestage"
+				icon: "dotcoinmod:gold_coin"
+				stage: "phrygia"
+			}]
+			rewards: [{
+				id: "3680D900C9228B35"
+				type: "item"
+				title: "Phrygia Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:stone_stylet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:pantyhose"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:fair"
+										}
+									}
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:ordinary"
+										}
+									}
+								}
+								{
+									Slot: 4b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:yellow_banner"
+									Count: 1b
+								}
+								{
+									Slot: 5b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:purified_water_canteen"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 6b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "betteranimalsplus:pheasantcooked"
+									Count: 10b
+								}
+								{
+									Slot: 7b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:lantern"
+									Count: 16b
+								}
+								{
+									Slot: 8b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "dotcoinmod:gold_coin"
+									Count: 5b
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Scholars of Circe"
+			icon: "ars_nouveau:novice_spell_book"
+			x: -5.0d
+			y: -2.5d
+			description: ["The Scholars from the Circle Conclave study the arcane arts and are adept with magic from a young age."]
+			dependencies: ["5537B2F842E53571"]
+			optional: true
+			incompatible: [
+				"5EAF56787A935E15"
+				"4B3E564A20837062"
+				"1B316B50597DFB81"
+				"6579EEBA1B394DB0"
+				"61D492D4F0443294"
+			]
+			id: "72166DB7365BBFB1"
+			tasks: [{
+				id: "5B8569B7774CE31A"
+				type: "gamestage"
+				icon: "ars_nouveau:novice_spell_book"
+				stage: "circle"
+			}]
+			rewards: [{
+				id: "32A5EF69C3BE0CD3"
+				type: "item"
+				title: "Circe Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [{
+												data: [ ]
+												source: "dungeons_libraries:gear_config"
+											}]
+										}
+									}
+									id: "dungeons_mobs:mage_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:white_candle"
+									Count: 10b
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ars_nouveau:novice_spell_book"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ars_nouveau:source_berry"
+									Count: 32b
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Warriors of Tyr"
+			x: 4.0d
+			y: -2.5d
+			description: ["The Warriors of Tyr are expert fighters, where survival of the fittest is a way of life."]
+			dependencies: ["5537B2F842E53571"]
+			optional: true
+			incompatible: [
+				"5EAF56787A935E15"
+				"4B3E564A20837062"
+				"1B316B50597DFB81"
+				"72166DB7365BBFB1"
+				"6579EEBA1B394DB0"
+			]
+			id: "61D492D4F0443294"
+			tasks: [{
+				id: "04EB2C17FD5786BA"
+				type: "gamestage"
+				icon: {
+					id: "magistuarmory:wood_ellipticalshield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stage: "tyr"
+			}]
+			rewards: [{
+				id: "514BE85C416A9ACE"
+				type: "item"
+				title: "Tyr Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:stone_sword"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:fair"
+										}
+									}
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:wood_roundshield"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:torch"
+									Count: 16b
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:average"
+										}
+									}
+								}
+								{
+									Slot: 4b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:average"
+										}
+									}
+								}
+								{
+									Slot: 5b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:ordinary"
+										}
+									}
+								}
+								{
+									Slot: 6b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:average"
+										}
+									}
+								}
+								{
+									Slot: 7b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:cooked_mutton"
+									Count: 10b
+								}
+								{
+									Slot: 8b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "betteranimalsplus:bear_cape_brown"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:water_canteen"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 10b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Sinann Empire"
+			icon: "minecolonies:supplychestdeployer"
+			x: 1.0d
+			y: -2.5d
+			description: ["Those from the Kingdom of Sinann tame the mighty seas with their ships and feast on the bounty of the sea."]
+			dependencies: ["5537B2F842E53571"]
+			optional: true
+			incompatible: [
+				"5EAF56787A935E15"
+				"4B3E564A20837062"
+				"1B316B50597DFB81"
+				"72166DB7365BBFB1"
+				"61D492D4F0443294"
+			]
+			id: "6579EEBA1B394DB0"
+			tasks: [{
+				id: "55FD39ED20A1DDFA"
+				type: "gamestage"
+				icon: "minecolonies:supplychestdeployer"
+				stage: "sinann"
+			}]
+			rewards: [{
+				id: "34C7A91ADE0952A3"
+				type: "item"
+				title: "Sinann Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "magistuarmory:stone_ranseur"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:cooked_cod"
+									Count: 10b
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "smallships:oak_cog"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:fishing_rod"
+									Count: 1b
+									tag: {
+										Damage: 0
+										Tiered: {
+											Tier: "tiered:lucky"
+										}
+									}
+								}
+								{
+									Slot: 4b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:sea_lantern"
+									Count: 5b
+								}
+								{
+									Slot: 5b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:water_canteen"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 6b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:spyglass"
+									Count: 1b
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+								{
+									Slot: 7b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:leather_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+										AttributeModifiers: [
+											{
+												Amount: 3.0d
+												Slot: "chest"
+												AttributeName: "minecraft:generic.armor"
+												Operation: 0
+												UUID: [I;
+													2093290387
+													-1352514528
+													-1601122140
+													1537357050
+												]
+												Name: "base_armor"
+											}
+											{
+												Amount: 0.01d
+												Slot: "chest"
+												AttributeName: "minecraft:generic.attack_damage"
+												Operation: 2
+												UUID: [I;
+													-1440372563
+													-876591680
+													-1082561756
+													1737526934
+												]
+												Name: "base_bonus"
+											}
+										]
+										display: {
+											color: 711840
+											Name: "{\"translate\":\"set.aquamirae.dead_sea_doublet\"}"
+										}
+									}
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Tengri Tribes"
+			icon: "minecraft:grass"
+			x: -2.0d
+			y: -2.5d
+			description: ["Nomads from the Tengri Tribe call any land their home and are excellent farmers."]
+			optional: true
+			incompatible: [
+				"5EAF56787A935E15"
+				"4B3E564A20837062"
+				"72166DB7365BBFB1"
+				"6579EEBA1B394DB0"
+				"61D492D4F0443294"
+			]
+			id: "1B316B50597DFB81"
+			tasks: [{
+				id: "4E774DA599186B9D"
+				type: "gamestage"
+				icon: "minecraft:grass"
+				stage: "tengri"
+			}]
+			rewards: [{
+				id: "1CE310D860A1770A"
+				type: "item"
+				title: "Tengri Supply"
+				auto: "enabled"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:bow"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 1b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:arrow"
+									Count: 64b
+								}
+								{
+									Slot: 2b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:cooked_rabbit"
+									Count: 10b
+								}
+								{
+									Slot: 3b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "betteranimalsplus:wolf_cape_brown"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 4b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:water_canteen"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 5b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:flint_and_steel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 6b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "minecraft:campfire"
+									Count: 5b
+								}
+								{
+									Slot: 7b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:wool_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 8b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "toughasnails:wool_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Slot: 9b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "valhelsia_structures:white_sleeping_bag"
+									Count: 1b
+								}
+								{
+									Slot: 10b
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": { }
+									}
+									id: "ftbquests:book"
+									Count: 1b
+								}
+							]
+							ForgeData: {
+								state: {
+									facing: "east"
+									waterlogged: "false"
+									type: "SINGLE"
+								}
+							}
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Circe Lore"
+			icon: "ars_nouveau:novice_spell_book"
+			x: -5.0d
+			y: -1.0d
+			description: [
+				"The greatest mage-historians are formal: magic is cyclical, it comes and goes in fairly regular and long cycles. During the first crisis of magic in 785, it disappeared for several decades before suddenly reappearing in 1128."
+				""
+				"Some even believe that magic moves around the globe like clouds, which would mean that the crises do not affect the whole planet. And indeed, at the dawn of a new crisis on the Old Continent, these new lands seemed to not only be still brimming with magic, but also ancient ruins, as reported by the first expeditions. "
+				""
+				"The Conclave has therefore decided to send many apprentices (including you) to complete their training in these favourable lands. Their adventures may lead them to discover ancient artifacts or even the secret behind those strange monoliths."
+			]
+			dependencies: ["72166DB7365BBFB1"]
+			id: "551D3AF99B076C7E"
+			tasks: [{
+				id: "7FD0033312EEC45D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tengri Lore"
+			icon: {
+				id: "minecraft:grass"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: -1.0d
+			description: [
+				"Refusing to settle down, the nomadic Tengri tribes have roamed the plains for thousands of years. They have no borders like other kingdoms, as nature is their kingdom. This has led to incidents with other nations who do not necessarily welcome the movement of groups outside their authority into their territory. "
+				""
+				"The deforestation of recent decades and the development of agricultural fields have greatly reduced the area in which the tribes can move freely and safely. Faced with this situation, and with the discovery of a new unexplored continent, the elders have made an important decision: the tribes will leave the old continent for the new lands for good. "
+				""
+				"The journey will be long and perilous, but the time has come. You who have arrived in these unknown lands, the future of your tribe is yours. Find a hospitable land to call home again."
+			]
+			dependencies: ["1B316B50597DFB81"]
+			id: "79B92C1204B35758"
+			tasks: [{
+				id: "01670419855DEE39"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Phrygia Lore"
+			icon: {
+				id: "dotcoinmod:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.0d
+			y: -1.0d
+			description: [
+				"When news of the discovery of new unexplored lands reached Phrygia, the Council of the Doges met immediately. New lands, and with them new resources.... potentially unknown and rare, can all be summed up in one word: profit."
+				""
+				"To arrive first would give the Republic a significant advantage over the competition and a monopoly on trade. You are a rather modest merchant, certainly not one of the wealthiest, but rich enough to charter a transport and escort to your destination. "
+				""
+				"You need to build and develop a trading post quickly if you want to secure the monopoly. This could be the turning point in your family's history."
+			]
+			dependencies: ["4B3E564A20837062"]
+			id: "020EFBA785624F44"
+			tasks: [{
+				id: "7E55399BFC09D6F3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Scythia Lore"
+			icon: "minecraft:diamond_horse_armor"
+			x: -11.0d
+			y: -1.0d
+			description: [
+				"As the primary antagonist to the Tengri tribes, the Principality of Scythia has made their home in the vast grassy prairies, dominating the spaces thanks to their mounts, with which they have an important, almost psychic, relationship. "
+				""
+				"Their mobility and connection to their mounts have left their mark on the stories of within the other kingdoms, often calling them centaurs (half man, half beast). "
+				""
+				"However, with the loss of magic to the continent it has forced them to find new places to live, encroaching on other claimed territories. The last time they left their pastures was several centuries ago, but now they must leave, finding new lands and horses to tame."
+			]
+			dependencies: ["5EAF56787A935E15"]
+			id: "78D1BA43CFC9D16F"
+			tasks: [{
+				id: "473ABF3AF1968EEA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sinann Lore"
+			icon: "minecolonies:supplychestdeployer"
+			x: 1.0d
+			y: -1.0d
+			description: [
+				"For years, the Pirates of Sinann ruled the seas with their sailing techniques and superior shipwrights. As mystical as the serpents of the ocean, the Sinanns would raid and pillage coastal regions, never being caught, never being killed. They became known as the ‘Ghosts of the Sea’ often arriving in the morning fog, vanishing just as quickly. "
+				""
+				"With the changing of the trade routes and aggressive protection of sea faring vessels, the Sinnans were forced to change their operations, forming themselves into a kingdom of islands. Hired by the men and women they used to pillage, the merchants knew that if their cargo was protected by a Sinnan ship, it would safely reach their destination."
+				""
+				"Some, however, seek greater things. With the discovery of the new continent, a faction of Sinnans decided to go and explore, searching for newer seas."
+			]
+			dependencies: ["6579EEBA1B394DB0"]
+			id: "0393D2405035AF55"
+			tasks: [{
+				id: "0E72EA96F496B938"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tyr Lore"
+			icon: {
+				id: "magistuarmory:wood_ellipticalshield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: -1.0d
+			description: [
+				"In times past, the Warriors of Tyr were scattered clans. Each boasting a specific claim to a weapon, their inability to agree led to many skirmishes and infighting. Despite this, they were known for their ferociousness and tenacity. They fought in many wars, often on both sides, their only desire being battle. "
+				""
+				"Their numbers remained few until the arrival of a powerful warlord, who united the Warriors of Tyr under his banner. While each faction contained their knowledge and desire for their specific weapon, the warlord showed them the power of the sword, making it into their strongest weapon. With the clans united, the warriors become known as the strongest mercenaries, being the deciding factor in many wars, depending on who had the most money. "
+				""
+				"Always seeking a new battle, with the discovery of the new continent, many from Tyr signed up to be on the first boat over, wanting to be the first for all the new glory the fresh lands would hold."
+			]
+			dependencies: ["61D492D4F0443294"]
+			id: "36E37ECB09ED5527"
+			tasks: [{
+				id: "188998781BC621D3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Sovereign Claim"
+			icon: {
+				id: "dungeons_mobs:drowned_necromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: 0.5d
+			description: [
+				"Before your boat for the new lands was able to leave, it was held up in the Capital’s port. Soldiers checked your papers, and apprehended several of your ship mates, disappearing to never be seen again. As terror began to strike you and your mates, the passengers were summoned to the deck."
+				""
+				"“This ship has been commandeered by order of King Hrothgar. All legal citizens will be allowed to depart for the new lands, on one condition. You will be given the tools and manpower to cultivate the land and send your products back as tribute to the King. Anyone who does not agree to these demands will be removed and not be allowed to depart.”"
+				""
+				"Everyone gathered on the ship murmurs. Somehow the King has already claimed the untamed lands, and he’s going to make you tame it for him. Even in new world, you can not escape the sovereign claim. Regardless of what the King wants from you, your future is in these lands. Nothing will stop you from your destiny. "
+				""
+				"[Complete the “Accept your Fiefdom from the King” quest in the “Building a Kingdom” questline]"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 2
+			dependencies: [
+				"79B92C1204B35758"
+				"23734B6EEC432699"
+				"551D3AF99B076C7E"
+				"020EFBA785624F44"
+				"0393D2405035AF55"
+				"78D1BA43CFC9D16F"
+				"36E37ECB09ED5527"
+			]
+			id: "4D63739E42317B52"
+			tasks: [{
+				id: "6A61CE3CAF4E32ED"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "09EFECB9C61C4D60"
+				type: "item"
+				item: {
+					id: "dotcoinmod:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "A Nomad"
+			icon: "minecraft:grass"
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"Landing at the new world, your only thought is to find the perfect place to settle. While you’re used to the nomad life, the sights and biomes of this land intrigue you, and you’re sure you can find the best place to live, even if you have to go to the ends of the island."
+				""
+				"As you familiarize yourself with the land, you're able to move faster."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"79B92C1204B35758"
+				"4D63739E42317B52"
+			]
+			id: "7E1F18384F2537E1"
+			tasks: [{
+				id: "5D50AB3AF10A1963"
+				type: "stat"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 250000
+			}]
+			rewards: [{
+				id: "79BF7A0C4DFEA6E5"
+				type: "advancement"
+				title: "Unlock Plainswalker II"
+				auto: "enabled"
+				advancement: "adventure:tengri1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Fisher"
+			icon: "minecolonies:supplychestdeployer"
+			x: 1.0d
+			y: 2.0d
+			description: [
+				"The seas and rivers of the new lands are filled with fish, some that you have never seen before. Making use of your skills, you catch hordes of fish and items. Thankfully, it can feed your colonists in your burgeoning colony."
+				""
+				"Between all the diving and swimming you’ve done while fishing, your lung capacity has increased significantly."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0393D2405035AF55"
+				"4D63739E42317B52"
+			]
+			id: "57BAD173F39899E9"
+			tasks: [{
+				id: "35DB81DFE1A8C50C"
+				type: "stat"
+				icon: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "minecraft:fish_caught"
+				value: 250
+			}]
+			rewards: [{
+				id: "3DDBF41CE6F7DBC1"
+				type: "advancement"
+				title: "Unlock Extended Breathing"
+				auto: "enabled"
+				advancement: "adventure:sinann1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Warrior"
+			icon: {
+				id: "magistuarmory:wood_ellipticalshield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 2.0d
+			description: [
+				"Fresh exploits await you on this new land. Creatures that you’ve never seen before. But that won’t stop you and your blade. Many unique creatures fall to your weapon as you carve your place in the unexplored wastes."
+				""
+				"Your prowess with your sword has allowed you to pinpoint enemy weaknesses."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"36E37ECB09ED5527"
+				"4D63739E42317B52"
+			]
+			hide: false
+			id: "6E6BD5CA87139E30"
+			tasks: [
+				{
+					id: "7AB01B730223B282"
+					type: "kill"
+					icon: {
+						id: "minecraft:zombie_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "minecraft:zombie"
+					value: 50L
+				}
+				{
+					id: "541A1F3AA35CDADC"
+					type: "kill"
+					icon: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "minecraft:skeleton"
+					value: 50L
+				}
+				{
+					id: "73D0B30A0D679715"
+					type: "kill"
+					icon: {
+						id: "supplementaries:enderman_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "minecraft:enderman"
+					value: 10L
+				}
+				{
+					id: "5C9ACE5867E2D93B"
+					type: "kill"
+					icon: {
+						id: "minecraft:blaze_powder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "minecraft:blaze"
+					value: 25L
+				}
+			]
+			rewards: [{
+				id: "4E5D73BD0AFD4DD0"
+				type: "advancement"
+				title: "Unlock Precision Strike"
+				auto: "enabled"
+				advancement: "adventure:tyr1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Scholar"
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -5.0d
+			y: 2.0d
+			description: [
+				"The Conclave was correct. Landing on the new lands, you can feel the magic flowing through the earth itself. Something is calling to you, and you can feel the influence of several dimensions, encroaching on the fertile lands. As if this place did not have enough to teach you, the other dimensions can as well. Traveling to them, you see many things that inspire your magical creativity."
+				""
+				"The canopies of the Twilight Forest have inspired you to create a passive shielding magic."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"551D3AF99B076C7E"
+				"4D63739E42317B52"
+			]
+			id: "1EF25C21EFD7E26A"
+			tasks: [{
+				id: "7EDF2DC05F7DC11C"
+				type: "item"
+				item: {
+					id: "twilightforest:canopy_sapling"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "291BB262BC06021A"
+				type: "advancement"
+				title: "Unlock Wild Shield"
+				auto: "enabled"
+				advancement: "adventure:circle1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Merchant"
+			icon: {
+				id: "dotcoinmod:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.0d
+			y: 2.0d
+			description: [
+				"As expected, the new world held plenty of trading opportunities. You targeted many villages which were scattered across the lands. The people welcomed your trade, though you are not sure they are the best economists, coming out significantly richer. Perhaps they are just happy to see new people."
+				""
+				"Your travel through the dangerous lands has taught you how to better survive."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"020EFBA785624F44"
+				"4D63739E42317B52"
+			]
+			id: "6EFF5493B626E63A"
+			tasks: [
+				{
+					id: "4A2F5F2A6E9605CE"
+					type: "stat"
+					icon: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					stat: "minecraft:traded_with_villager"
+					value: 50
+				}
+				{
+					id: "64786BF9A4787941"
+					type: "stat"
+					icon: {
+						id: "minecraft:emerald"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					stat: "goblintraders:trade_with_goblin"
+					value: 5
+				}
+			]
+			rewards: [{
+				id: "7F418FDD67878A22"
+				type: "advancement"
+				title: "Unlock Coward's Heal"
+				auto: "enabled"
+				advancement: "adventure:phrygia1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Cavalier"
+			icon: {
+				id: "minecraft:diamond_horse_armor"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -11.0d
+			y: 2.0d
+			description: [
+				"To your delight, the new land held a variety of rideable creatures. With a saddle in your hand, you rode your way deeper into the vast unknown."
+				""
+				"Your understanding of creatures allows you to sense entities in a 16-block radius."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"78D1BA43CFC9D16F"
+				"4D63739E42317B52"
+			]
+			id: "47A871932EF0C378"
+			tasks: [{
+				id: "2A4EECE1B1942CD8"
+				type: "stat"
+				icon: {
+					id: "minecraft:diamond_horse_armor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "minecraft:horse_one_cm"
+				value: 250000
+			}]
+			rewards: [{
+				id: "6AABAD6F6002C552"
+				type: "advancement"
+				title: "Unlock Seeking"
+				auto: "enabled"
+				advancement: "adventure:scythia1"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A Scared Merchant"
+			icon: {
+				id: "dotcoinmod:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.0d
+			y: 3.5d
+			description: [
+				"While your fortune is being made, you've seen the darker side of the trade."
+				""
+				"Zombifying villagers and converting them back helps convince them to give you better trades. But it reminds you of the terrors of the worlds. "
+				""
+				"Due to your experimentation and trauma, you prefer to stay in the overworld, taking more damage in other dimensions."
+			]
+			dependencies: ["6EFF5493B626E63A"]
+			id: "59BDD6003BFF0DD7"
+			tasks: [{
+				id: "6ED7F55FE53F95FB"
+				type: "stat"
+				icon: {
+					id: "minecraft:zombie_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "tombstone:zombify"
+				value: 25
+			}]
+			rewards: [{
+				id: "19320E3A6D434949"
+				type: "advancement"
+				title: "Unlock Overworld Lover"
+				auto: "enabled"
+				advancement: "adventure:phrygia2"
+				criterion: ""
+			}]
+		}
+	]
+	quest_links: [ ]
+}

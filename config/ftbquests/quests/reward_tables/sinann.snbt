@@ -1,0 +1,66 @@
+{
+	id: "1C4E454BD6BFC583"
+	order_index: 13
+	title: "Sinann Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "minecolonies:spear"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 1b
+							id: "minecraft:cooked_cod"
+							Count: 10b
+						}
+						{
+							Slot: 2b
+							id: "smallships:oak_cog"
+							Count: 1b
+						}
+						{
+							Slot: 3b
+							id: "minecraft:fishing_rod"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:lucky"
+								}
+							}
+						}
+						{
+							Slot: 4b
+							id: "minecraft:sea_lantern"
+							Count: 5b
+						}
+						{
+							Slot: 5b
+							id: "toughasnails:water_canteen"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

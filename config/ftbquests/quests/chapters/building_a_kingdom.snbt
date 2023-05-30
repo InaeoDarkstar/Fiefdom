@@ -1,0 +1,1965 @@
+{
+	id: "4108E7F2B246FFF0"
+	group: ""
+	order_index: 1
+	filename: "building_a_kingdom"
+	title: "Building a Kingdom"
+	icon: "minecolonies:supplycampdeployer"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.0d
+			y: -5.5d
+			width: 25.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/kingdom.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -9.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Stone is Strong"
+			icon: "minecraft:cobblestone"
+			x: -17.5d
+			y: 0.5d
+			description: ["Gather 64 Cobblestone"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "7D24E7751ED7C6BA"
+			tasks: [{
+				id: "04E33387C3BDA69F"
+				type: "item"
+				icon: "minecraft:cobblestone"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+		}
+		{
+			title: "I Have Made Fire"
+			x: -17.0d
+			y: 1.5d
+			description: ["Construct 32 Torches"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "56995A7CA1ACE0C2"
+			tasks: [{
+				id: "51342B99F6430341"
+				type: "item"
+				item: "minecraft:torch"
+				count: 32L
+			}]
+		}
+		{
+			title: "Good Night Sheep"
+			x: -18.5d
+			y: 0.0d
+			description: ["Gather 12 Wool for beds"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "6700778E21D2EB71"
+			tasks: [{
+				id: "166F602141EEFBBB"
+				type: "item"
+				title: "Wool"
+				icon: "minecraft:white_wool"
+				item: "minecraft:white_wool"
+				count: 12L
+			}]
+		}
+		{
+			title: "Gather Supplies"
+			icon: "minecraft:chest"
+			x: -18.5d
+			y: 1.5d
+			description: ["Gather Basic Supplies for your Fiefdom"]
+			hide_dependency_lines: false
+			dependencies: [
+				"7D24E7751ED7C6BA"
+				"56995A7CA1ACE0C2"
+				"6700778E21D2EB71"
+			]
+			hide: false
+			id: "780D75509A9C5F2E"
+			tasks: [{
+				id: "2506EACD85D1E651"
+				type: "checkmark"
+				icon: "minecraft:chest"
+			}]
+			rewards: [
+				{
+					id: "2A7FBADE029A11D0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "5C91D1FD3ECB4900"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "harvesting"
+					amount: 100L
+					ignoreBonuses: true
+				}
+				{
+					id: "11E4D4F56051C9C2"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Gather Wood"
+			x: -23.0d
+			y: 3.5d
+			description: ["Choose your wood type, based off of the town hall you want to build, and gather a supply"]
+			dependencies: [
+				"5A0A1083B8D298F9"
+				"5012D0E8498F05B5"
+				"3B04ECDF7CB0B891"
+				"00C06BBE02CB1730"
+				"506FD403148D3CE0"
+				"551E750983C16168"
+			]
+			hide: false
+			dependency_requirement: "one_completed"
+			id: "655F40D72979DA1E"
+			tasks: [{
+				id: "6A938901034A612E"
+				type: "checkmark"
+				title: "Gather Wood"
+				icon: "minecraft:oak_wood"
+			}]
+			rewards: [
+				{
+					id: "5674930F20182F30"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "harvesting"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "136E504B27F404A9"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Oak"
+			x: -24.0d
+			y: 2.5d
+			description: ["Gather 64 Oak"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "506FD403148D3CE0"
+			tasks: [{
+				id: "4ADC9AD566EBB26E"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "Birch"
+			x: -23.0d
+			y: 2.0d
+			subtitle: "Gather 64 Birch"
+			description: ["Gather 64 Birch"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "5012D0E8498F05B5"
+			tasks: [{
+				id: "34A7A1792FDF95FF"
+				type: "item"
+				item: "minecraft:birch_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "Spruce"
+			x: -24.0d
+			y: 4.5d
+			description: ["Gather 64 Spruce"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "551E750983C16168"
+			tasks: [{
+				id: "5A8BC1064D833D09"
+				type: "item"
+				item: "minecraft:spruce_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "Acacia"
+			x: -24.5d
+			y: 3.5d
+			description: ["Gather 64 Acacia"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "5A0A1083B8D298F9"
+			tasks: [{
+				id: "02B889D6B710BFF7"
+				type: "item"
+				item: "minecraft:acacia_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "Dark Oak"
+			x: -22.0d
+			y: 4.5d
+			description: ["Gather 64 Dark Oak"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "3B04ECDF7CB0B891"
+			tasks: [{
+				id: "6808BA05D4A0016F"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "Jungle"
+			x: -23.0d
+			y: 5.0d
+			description: ["Gather 64 Jungle"]
+			hide_dependency_lines: true
+			dependencies: ["4185F40B0F34280A"]
+			dependency_requirement: "one_completed"
+			id: "00C06BBE02CB1730"
+			tasks: [{
+				id: "2DE7323D1E43DD5E"
+				type: "item"
+				title: "Jungle"
+				item: "minecraft:jungle_log"
+				count: 64L
+			}]
+		}
+		{
+			title: "My Little Fiefdom"
+			icon: {
+				id: "minecolonies:banner_rally_guards"
+				Count: 1b
+				tag: {
+					isActive: 0b
+					guardtowerpositions: [ ]
+				}
+			}
+			x: -21.0d
+			y: 0.0d
+			description: [
+				"With a supply camp laid, you've found a spot you want to claim as your colony."
+				""
+				"Brandish your build wand and prepare for the crafting ahead."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"429CD8465BF61A3E"
+				"23734B6EEC432699"
+			]
+			hide: true
+			size: 2.0d
+			id: "4185F40B0F34280A"
+			tasks: [{
+				id: "417AB1341F065336"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+		}
+		{
+			title: "Start Your Colony"
+			disable_toast: true
+			x: -19.5d
+			y: 3.75d
+			description: [
+				"With your town hall, decide on your village!"
+				""
+				"Using the build wand is key to visualizing the style and facing of your buildings"
+				""
+				""
+			]
+			dependencies: [
+				"655F40D72979DA1E"
+				"780D75509A9C5F2E"
+			]
+			size: 1.5d
+			id: "72A01428C48DE031"
+			tasks: [{
+				id: "0A975B0DD6893B7B"
+				type: "item"
+				item: {
+					id: "minecolonies:blockhuttownhall"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39905F18775D9AA0"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			title: "You Can't do it Alone"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -16.5d
+			y: 3.5d
+			description: [
+				"You are responsible for the safety and well being of your citizens. Recruit a Builder and Guard."
+				""
+				"Build a Build's Hut and Guard Tower."
+				""
+			]
+			dependencies: ["72A01428C48DE031"]
+			hide: true
+			id: "3C037F8C2DE62E8C"
+			tasks: [
+				{
+					id: "22301C97C5334745"
+					type: "advancement"
+					advancement: "minecolonies:minecolonies/build_builder"
+					criterion: ""
+				}
+				{
+					id: "1FB32418AA8B27F6"
+					type: "advancement"
+					advancement: "minecolonies:minecolonies/build_guard_tower"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "11FA40F16D49E817"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "39E047D2260BF437"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 200L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Basic Needs"
+			icon: {
+				id: "minecraft:iron_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: -17.0d
+			y: 5.0d
+			description: [
+				"Supply your Citizens with the basic needs.  Create a Farm and Colonist House."
+				""
+				"Construct a Farm Hut and Colonist House."
+			]
+			dependencies: ["72A01428C48DE031"]
+			hide: true
+			id: "72DA23AB73CA12C3"
+			tasks: [
+				{
+					id: "0F8BA125D808E927"
+					type: "advancement"
+					advancement: "minecolonies:production/build_farmer"
+					criterion: ""
+				}
+				{
+					id: "2F534E974DF14361"
+					type: "advancement"
+					advancement: "minecolonies:minecolonies/build_citizen"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5EABA560C8B52AF1"
+					type: "item"
+					title: "Taxes"
+					icon: "dotcoinmod:gold_coin"
+					item: "dotcoinmod:gold_coin"
+					count: 5
+				}
+				{
+					id: "59A849A809D22967"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "524562664A2CF55D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "harvesting"
+					amount: 200L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Supplies, Supplies, Supplies.."
+			icon: "minecraft:oak_sapling"
+			x: -18.0d
+			y: 6.0d
+			description: [
+				"Gathering supplies is busy work, recruit a Miner and Lumberjack"
+				""
+				"Construct a Miner and Forester's Hut"
+			]
+			dependencies: ["72A01428C48DE031"]
+			hide: true
+			id: "36B987A930DD2EED"
+			tasks: [
+				{
+					id: "46048798E6CCF039"
+					type: "advancement"
+					advancement: "minecolonies:production/build_miner"
+					criterion: ""
+				}
+				{
+					id: "57C01D79FB8369F3"
+					type: "advancement"
+					advancement: "minecolonies:production/build_lumberjack"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2F316740885FA691"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7C1AFFC5C4A7FA95"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "1293F647740A4EE8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "harvesting"
+					amount: 200L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Do you Deliver?"
+			icon: "minecraft:bread"
+			x: -19.5d
+			y: 6.5d
+			description: [
+				"Running supplies to your colony workers is a tough job.  Recruit a Cook and Deliveryman"
+				""
+				"Construct a Restaurant and Courier Hut"
+			]
+			dependencies: ["72A01428C48DE031"]
+			hide: true
+			id: "1A714DD89A9C69AF"
+			tasks: [
+				{
+					id: "18506C87D4A410BD"
+					type: "advancement"
+					advancement: "minecolonies:production/build_cook"
+					criterion: ""
+				}
+				{
+					id: "2018498BE5F3B9C4"
+					type: "advancement"
+					advancement: "minecolonies:production/build_delivery_person"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "7E22EC98434A6C0D"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1C244E03D451E5A5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "41A032138ACB3A8C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "agility"
+					amount: 200L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Visitors from Far off Lands"
+			icon: "minecolonies:blockhuttavern"
+			x: -14.375d
+			y: 6.875d
+			description: [
+				"Word has spread about your Fiefdom and visitors are arriving.  Give them a place to meet."
+				""
+				"Build a Tavern"
+			]
+			dependencies: [
+				"72DA23AB73CA12C3"
+				"1A714DD89A9C69AF"
+				"3C037F8C2DE62E8C"
+				"36B987A930DD2EED"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "5493DBF00DFF39C9"
+			tasks: [{
+				id: "7B5A6A2F2D4D2BC0"
+				type: "advancement"
+				title: "Build Tavern"
+				icon: "minecolonies:blockhuttavern"
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7E2F0C11E78C75FD"
+					type: "item"
+					title: "Rent"
+					icon: "dotcoinmod:gold_coin"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51E88CB4F18EF4E4"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Accept your Fiefdom from the King"
+			icon: {
+				id: "waystones:warp_scroll"
+				Count: 1b
+				ForgeCaps: {
+					"pmmo:vein_data": {
+						charge: -1.0d
+					}
+				}
+			}
+			x: -17.5d
+			y: -2.5d
+			description: [
+				"In exchange for your service, King Hrothgar has granted you a Fiefdom."
+				""
+				"Accept your destiny."
+				""
+			]
+			dependencies: ["429CD8465BF61A3E"]
+			hide: true
+			size: 2.5d
+			id: "23734B6EEC432699"
+			tasks: [{
+				id: "09A6F4CC5FAEF229"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "7B3CDCA6A607ECD7"
+					type: "choice"
+					icon: "minecraft:white_dye"
+					table_id: 2216220602551426833L
+				}
+				{
+					id: "20C30776DDA2F393"
+					type: "item"
+					item: {
+						id: "minecolonies:colony_banner"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "7B5FCAFF137A478B"
+					type: "choice"
+					table_id: 7952166913768288603L
+				}
+			]
+		}
+		{
+			title: "Growing your Village"
+			icon: {
+				id: "minecolonies:banner_rally_guards"
+				Count: 1b
+				tag: {
+					isActive: 0b
+					guardtowerpositions: [ ]
+				}
+			}
+			x: -10.0d
+			y: 0.0d
+			description: [
+				"As your town grows, you'll need more citizens. You can get them the natural way, or hire them from the tavern."
+				""
+				"Most of the buildings can be unlocked from the University. Making one would be a good next step."
+				""
+				"Grow your Fief!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5493DBF00DFF39C9"]
+			hide: true
+			size: 2.0d
+			id: "3DC5B6FC5910C90F"
+			tasks: [{
+				id: "0CC6C8196E2605DF"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/colony_population_10"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C763797411D2D11"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 1000L
+					ignoreBonuses: false
+				}
+				{
+					id: "64AE75A7311BD9C5"
+					type: "item"
+					item: "minecraft:netherite_block"
+				}
+			]
+		}
+		{
+			title: "A Home for Citizens"
+			x: -10.0d
+			y: 5.5d
+			description: ["For your citizens to be satisfied, they'll need homes."]
+			dependencies: ["57AEEB9D75733072"]
+			hide: true
+			id: "6C04ED1692C889FA"
+			tasks: [{
+				id: "11A255F2966F2CE8"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_citizen"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5C61CCBDAAC6C991"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_beef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Keeping it Safe"
+			x: -7.0d
+			y: 3.5d
+			description: ["To keep yourself safe from mobs and bandits, consider hiring more guards."]
+			dependencies: ["57AEEB9D75733072"]
+			hide: true
+			id: "6BFDAAEC72E8EC29"
+			tasks: [{
+				id: "3887E94DE720988A"
+				type: "advancement"
+				advancement: "minecolonies:military/army_8"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24FE92F8F1ADDC0F"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Bastion of Defense"
+			x: -5.5d
+			y: 2.5d
+			description: ["To organize your troops, make a barracks. It'll house a ton of guards, sure to keep your village safe."]
+			dependencies: ["6BFDAAEC72E8EC29"]
+			hide: true
+			id: "6211DDADE1C41FA6"
+			tasks: [{
+				id: "28DDBAE0DE233B99"
+				type: "advancement"
+				advancement: "minecolonies:military/build_barracks"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "14FE26878BDD68E7"
+				type: "item"
+				item: {
+					id: "minecraft:gold_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			title: "Storage Woes"
+			x: -8.5d
+			y: 6.0d
+			description: [
+				"With so many different items for your village, you'll need a place to store it."
+				""
+				"Make a warehouse."
+			]
+			dependencies: ["6C04ED1692C889FA"]
+			hide: true
+			id: "3E1855DC2900FF7F"
+			tasks: [{
+				id: "2BFC08D3F97CF52D"
+				type: "advancement"
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "11C6A9E0D33D1B0C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archwood_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Herd Mentality"
+			x: -7.0d
+			y: 5.0d
+			description: [
+				"Animals drop a lot of useful items. If you don't want to make vanilla farms, Minecolony has a solution for you."
+				""
+				"Make a farm house for each type of animal."
+			]
+			dependencies: ["3E1855DC2900FF7F"]
+			hide: true
+			id: "7A6414190D692AB3"
+			tasks: [{
+				id: "382CBD521F217044"
+				type: "advancement"
+				advancement: "minecolonies:production/build_all_herders"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "732F2166DFFABAF8"
+					type: "item"
+					item: {
+						id: "minecraft:wheat"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "02C6011DB5A400C1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "harvesting"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Mine to the Bottom"
+			x: -7.0d
+			y: 7.0d
+			description: [
+				"You set up the mine, but you'll only get the best ores from the bottom. "
+				""
+				"Upgrade your mine to hit bedrock."
+			]
+			dependencies: ["3E1855DC2900FF7F"]
+			hide: true
+			id: "125300FC7C0D526F"
+			tasks: [{
+				id: "0464CD3EFC6710A2"
+				type: "advancement"
+				advancement: "minecolonies:production/deep_mine"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4E34F54BB693015C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "42F66872602A1FFD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Smelt Business"
+			x: -6.5d
+			y: 6.0d
+			description: [
+				"If you're sick of using furnaces, set up a smelter."
+				""
+				"As the smelter levels up, it has a better chance of doubling and tripling output."
+			]
+			dependencies: ["3E1855DC2900FF7F"]
+			hide: true
+			id: "7FEABA5D7B136E57"
+			tasks: [{
+				id: "4DB5DC2D277D138C"
+				type: "advancement"
+				advancement: "minecolonies:production/build_smeltery"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6E8C826F69FB407A"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "5D34A2D3DF7D805B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "smithing"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Finding a Footing"
+			x: -9.75d
+			y: 3.0d
+			description: [
+				"You want your town to grow. You could build a ton of level 1 buildings"
+				""
+				"Or, you could level up your builder's hut to make level 5 buildings."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3DC5B6FC5910C90F"]
+			hide: true
+			size: 1.5d
+			id: "57AEEB9D75733072"
+			tasks: [{
+				id: "785D54D508F806AF"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_builder_2"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "51400A3A4015462D"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Training the Bow"
+			x: -5.0d
+			y: 4.0d
+			description: ["The Archery will train your archer guards without them being at risk of dying."]
+			dependencies: ["6211DDADE1C41FA6"]
+			hide: true
+			id: "3A3EEE66DFBC7100"
+			tasks: [{
+				id: "27CF3CEE3A4041FA"
+				type: "advancement"
+				advancement: "minecolonies:military/build_archery"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31B34841E1F5A434"
+				type: "item"
+				item: {
+					id: "minecraft:spectral_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64
+			}]
+		}
+		{
+			title: "Training the Line"
+			x: -4.0d
+			y: 3.0d
+			description: ["The Combat Academy will train your guard without them being at risk of dying."]
+			dependencies: ["6211DDADE1C41FA6"]
+			hide: true
+			id: "2E826834045EC55D"
+			tasks: [{
+				id: "437AA099C91E87A7"
+				type: "advancement"
+				advancement: "minecolonies:military/build_combat_academy"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2B9C6EB55421A454"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Eating to Survive"
+			x: -9.5d
+			y: 7.0d
+			description: [
+				"Whether by accident, or on purpose, your villagers ate some rotten flesh."
+				""
+				"Do better!"
+			]
+			dependencies: ["6C04ED1692C889FA"]
+			hide: true
+			id: "1452D45ABCC2D5B3"
+			tasks: [{
+				id: "34161B4DA96B0982"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/citizen_eat_food_rotten_flesh"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "14E11D514FA1701E"
+				type: "item"
+				item: {
+					id: "minecraft:rotten_flesh"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Not always to plan"
+			x: -3.0d
+			y: 6.0d
+			description: [
+				"You may have a flourishing village, and a lot of guards."
+				""
+				"Sometimes things don't go to plan."
+				""
+				"Make a cemetary, and have a citizen buried to advance."
+			]
+			dependencies: [
+				"7FEABA5D7B136E57"
+				"125300FC7C0D526F"
+				"3A3EEE66DFBC7100"
+				"2E826834045EC55D"
+				"7A6414190D692AB3"
+			]
+			hide: true
+			size: 1.5d
+			id: "69F917511B0EDA8C"
+			tasks: [{
+				id: "7A752E2E2B223826"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/citizen_bury"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "56D2610E8FFE7B60"
+					type: "item"
+					item: {
+						id: "minecraft:wither_skeleton_skull"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6D6C3B6A883C90D1"
+					type: "item"
+					item: {
+						id: "minecraft:wither_rose"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Mega Fiefdom"
+			icon: {
+				id: "minecolonies:banner_rally_guards"
+				Count: 1b
+				tag: {
+					isActive: 0b
+					guardtowerpositions: [ ]
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Your growing village puts others to shame."
+				""
+				"The King would be proud of your progress."
+				""
+				"Perhaps you might be the king next..."
+				""
+				"(To complete this quest, upgrade your town hall to level 5)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69F917511B0EDA8C"]
+			hide: true
+			size: 2.0d
+			id: "3205442883325680"
+			tasks: [{
+				id: "48E879F7EC16D101"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_town_hall_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5A2401C0DD5B8F8E"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1312A18BC5CE0A7A"
+					type: "item"
+					item: "minecraft:netherite_block"
+				}
+			]
+		}
+		{
+			title: "Wealth Apparent"
+			x: 2.5d
+			y: 4.0d
+			description: ["It's a bit superfluous, but a max level mystical site is sure to make your colony the place to be."]
+			dependencies: ["0A3BBE45031EBEF1"]
+			hide: true
+			id: "2D62B4743A90BAB3"
+			tasks: [{
+				id: "69EEDB6DD46A7DB5"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_mysticalsite_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5D397F788C19B5D3"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1D78D04A0A7FAF3D"
+					type: "choice"
+					table_id: 7952166913768288603L
+				}
+			]
+		}
+		{
+			title: "How Oresome!"
+			x: 5.0d
+			y: 4.0d
+			description: [
+				"Your smelter can triple ores."
+				""
+				"What a deal!"
+				""
+				"(Max out your smelter hut)"
+			]
+			dependencies: ["0A3BBE45031EBEF1"]
+			hide: true
+			id: "7EFD4C1159F0C36F"
+			tasks: [{
+				id: "1FED1FD881908152"
+				type: "advancement"
+				advancement: "minecolonies:production/build_smeltery_5"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04E783830ACD1BB4"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 2000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Max Crops"
+			x: 5.0d
+			y: 2.0d
+			description: [
+				"You have so many fields, one farmer has the max he can handle."
+				""
+				"(Assign the max amount of fields to a max level farmer's hut to achieve this advancement)"
+			]
+			dependencies: ["0A3BBE45031EBEF1"]
+			hide: true
+			id: "077A646EA06E4658"
+			tasks: [{
+				id: "252499D78F4563FA"
+				type: "advancement"
+				advancement: "minecolonies:production/max_fields"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EEFCA27B01CE0CE"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Max Defenses"
+			x: 6.5d
+			y: 5.5d
+			description: [
+				"Your barracks are nothing to sneer at."
+				""
+				"Max out your barracks and all towers to complete this advancement."
+			]
+			dependencies: [
+				"7EFD4C1159F0C36F"
+				"2D62B4743A90BAB3"
+				"077A646EA06E4658"
+			]
+			hide: true
+			id: "163B6232743D6804"
+			tasks: [{
+				id: "5F69D61237444025"
+				type: "advancement"
+				advancement: "minecolonies:military/build_all_barracks_towers"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1F6E0C5B4354B34C"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 2000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Guards, Guards, Guards"
+			x: 6.5d
+			y: 7.5d
+			description: [
+				"You've hired 30 soldiers to protect your colony."
+				""
+				"Nothing can stop you now."
+			]
+			dependencies: ["163B6232743D6804"]
+			hide: true
+			id: "435E6FD960D863D5"
+			tasks: [{
+				id: "14E7932B98897336"
+				type: "advancement"
+				advancement: "minecolonies:military/army_30"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1B9563A7BC795F4A"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Finding The End"
+			icon: "minecraft:end_portal_frame"
+			x: 2.5d
+			y: 2.0d
+			description: [
+				"Most level 5 buildings require materials from The End."
+				""
+				"Make your way there to find the necessary items."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3205442883325680"]
+			hide: true
+			id: "0A3BBE45031EBEF1"
+			tasks: [{
+				id: "1AF76DD74CD5482D"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "711D5465DB74F6F3"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Flourishing Village"
+			icon: "minecraft:lantern"
+			x: 8.5d
+			y: 5.5d
+			description: [
+				"Your town has grown."
+				""
+				"So many mouths to feed."
+			]
+			dependencies: ["163B6232743D6804"]
+			hide: true
+			id: "6314DFB80BE93A1F"
+			tasks: [{
+				id: "5BEA54C23C852C13"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/colony_population_75"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4B56FDEC90268144"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_beef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "The King of the Wild"
+			x: 10.5d
+			y: 9.0d
+			description: [
+				"You've tamed the wilds."
+				""
+				"Your colony is flourishing."
+				"Your village is safe."
+				""
+				"Your king is proud of your progress."
+				""
+				"Now the question remains...."
+				""
+				"Will you continue to follow him, or claim yourself as the new king and wage war on King Hrothgar? Only time will answer."
+			]
+			dependencies: [
+				"6EBB612AF1298A10"
+				"104B8425F6C8E40B"
+				"6314DFB80BE93A1F"
+				"435E6FD960D863D5"
+			]
+			hide: true
+			size: 3.0d
+			id: "552075D0AEF760FC"
+			tasks: [{
+				id: "74D0F2954FC98FF6"
+				type: "advancement"
+				advancement: "mca:monarch"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7A34F1F2F60691D9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 3000L
+					ignoreBonuses: true
+				}
+				{
+					id: "10D26E3FF40B17C7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 3000L
+					ignoreBonuses: true
+				}
+				{
+					id: "3937927CFB7CBF57"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 18
+				}
+				{
+					id: "734509EFC60F672A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+		{
+			title: "The Lifeblood of the Village"
+			x: -19.0d
+			y: 11.0d
+			description: [
+				"You may have entered a village and realized they're a bit different."
+				""
+				"Instead of long nosed villagers that go 'hrang', there are actual people."
+				""
+				"You can still trade with these villagers by providing them the required work benches."
+				"But there is a bit more as well."
+				""
+				"Welcome to 'Minecraft Comes Alive'"
+				""
+				"(Search @comes in JEI to access items from this pack)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["23734B6EEC432699"]
+			hide: true
+			size: 2.0d
+			id: "1F2A21E4AFED126C"
+			tasks: [{
+				id: "5258C2C3EACB46CE"
+				type: "advancement"
+				advancement: "mca:root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "68DE69B062057EA2"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Trade Deals"
+			x: -15.75d
+			y: 9.75d
+			description: [
+				"Villagers may look different, but they trade the same."
+				""
+				"Use the trade function to trade with a villager."
+				""
+				"(Note: Most trades have been changed to coins instead of emeralds)"
+			]
+			dependencies: ["1F2A21E4AFED126C"]
+			hide: true
+			size: 1.5d
+			id: "48B3924569768FBC"
+			tasks: [{
+				id: "5952DD459BDF622D"
+				type: "advancement"
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "33D27BE9698C352D"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Claiming a Village"
+			x: -10.0d
+			y: 11.0d
+			description: [
+				"You may have a village you have enjoyed visiting."
+				""
+				"If you build the blueprint, you can upgrade and increase the amount of villagers."
+				""
+				"Craft one and see what the bounds of your village is."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1AE910A33B5B4D08"
+				"3DC5B6FC5910C90F"
+			]
+			hide: true
+			size: 2.0d
+			id: "395225C22B176697"
+			tasks: [{
+				id: "6CF7E230B7ED8901"
+				type: "item"
+				item: {
+					id: "mca:blueprint"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C97DC9F0732A92C"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "building"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Making Friends"
+			x: -13.5d
+			y: 11.25d
+			description: [
+				"Villagers can be interacted with in various ways."
+				""
+				"The only way to increase their friendship is talking or gifting them."
+				""
+				"But just like real life, they may not always like what you do, and will get tired of you."
+				""
+				"Make it a habit to visit them ocassionally through-out the day!"
+				""
+				"(Note: Experiment with different gifts! If you are not sure, emeralds work well)"
+			]
+			dependencies: ["1F2A21E4AFED126C"]
+			hide: true
+			size: 1.5d
+			id: "1AE910A33B5B4D08"
+			tasks: [{
+				id: "15FF3CBBB4B801F1"
+				type: "advancement"
+				advancement: "mca:friend"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31800B20AD2B6BD3"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			title: "Accepting Management"
+			x: -6.75d
+			y: 11.25d
+			description: [
+				"Using your blueprint, you can see how to make the requirements needed to rank up the village."
+				""
+				"Under the catalog tab, you can see how to make the buildings requested for each rank."
+				""
+				"(Note: Adding building needs to be done from inside the created building. It needs to have a door and a roof)"
+				""
+				"(Note: Average hearts is not average of the village, but actually the reputation on the 'Rank' tab)"
+				""
+				"To complete this quest, rank up your village once."
+				""
+			]
+			dependencies: ["395225C22B176697"]
+			hide: true
+			size: 1.5d
+			id: "3BDA0941EF3709C2"
+			tasks: [{
+				id: "354A98022877E8DF"
+				type: "advancement"
+				advancement: "mca:merchant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1928921835BE5280"
+				type: "item"
+				item: {
+					id: "minecraft:emerald_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Village Friends"
+			x: -6.75d
+			y: 9.75d
+			description: [
+				"Sometimes to get a best friend, you need to give some gifts."
+				""
+				"Reach 200 hearts with a villager."
+			]
+			dependencies: ["395225C22B176697"]
+			hide: true
+			size: 1.5d
+			id: "3621B50BEC55FFE1"
+			tasks: [{
+				id: "5597F7F95C05702A"
+				type: "advancement"
+				advancement: "mca:best_friend"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0211BAA80DC6C73D"
+				type: "item"
+				item: {
+					id: "minecraft:emerald_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Village Spouse"
+			x: -4.5d
+			y: 9.75d
+			description: [
+				"'I don't have friends, I have family.\""
+				""
+				"         -Dom Toretto"
+				""
+				"(Marry a villager. You have a higher chance above 100 hearts)"
+			]
+			dependencies: ["3621B50BEC55FFE1"]
+			hide: true
+			size: 1.5d
+			id: "0AA7D9F137B79FE5"
+			tasks: [{
+				id: "6EF7B880F639A6EB"
+				type: "advancement"
+				advancement: "mca:marriage"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0CBD474CC952EEEB"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 50L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Village Grows"
+			x: -3.0d
+			y: 11.25d
+			description: ["Rank up the village again."]
+			dependencies: ["3BDA0941EF3709C2"]
+			hide: true
+			size: 1.5d
+			id: "02481631F7FD5AD5"
+			tasks: [{
+				id: "5FD1B4AA6B1FC4BB"
+				type: "advancement"
+				advancement: "mca:noble"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "52E25C67DA8A1656"
+				type: "item"
+				item: {
+					id: "minecraft:emerald_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "A Tale of Two Cities"
+			x: 1.0d
+			y: 11.0d
+			description: [
+				"Your Fief is growing."
+				""
+				"You're the mayor of a village."
+				""
+				"What's next?"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"02481631F7FD5AD5"
+				"3205442883325680"
+			]
+			hide: true
+			size: 2.0d
+			id: "1CA938A71D83228B"
+			tasks: [{
+				id: "5F030F55192B5C16"
+				type: "advancement"
+				advancement: "mca:mayor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2F738BE6AD3185DB"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "building"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Starting the Family"
+			x: 2.5d
+			y: 9.5d
+			description: [
+				"'Procreate' with your spouse to have a child."
+				""
+				"Use the 'Managing your Family' book if you need further guidance."
+			]
+			dependencies: [
+				"1CA938A71D83228B"
+				"0AA7D9F137B79FE5"
+			]
+			hide: true
+			id: "6BA49249022D2F65"
+			tasks: [{
+				id: "08B111BBEE4D9C35"
+				type: "advancement"
+				advancement: "mca:baby"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5959EAFDDB7B0763"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "I got Family"
+			x: 5.5d
+			y: 9.5d
+			description: ["(Have your kid have a kid)"]
+			dependencies: ["3E6B6ACA436E22BA"]
+			hide: true
+			id: "104B8425F6C8E40B"
+			tasks: [{
+				id: "34216E518623981D"
+				type: "advancement"
+				advancement: "mca:grandparent"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A923E31DF1D2B8E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "More Hands"
+			x: 4.0d
+			y: 9.5d
+			description: [
+				"Your kid has grown into an adult."
+				""
+				"You should be so proud."
+			]
+			dependencies: ["6BA49249022D2F65"]
+			hide: true
+			id: "3E6B6ACA436E22BA"
+			tasks: [{
+				id: "07ABFB5B94403DCB"
+				type: "advancement"
+				advancement: "mca:grow_adult"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7BEB9A6E3CD7081C"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Freezing Your Place"
+			x: 3.5d
+			y: 11.0d
+			description: [
+				"You may be ready to be in charge. But you need to prove it."
+				""
+				"Topple the Ice Queen in the Twilight Forest to show your ruling might."
+				""
+				"(Follow the Quest Line in the Dimension chapter for assistance)"
+			]
+			dependencies: ["1CA938A71D83228B"]
+			id: "74F40FC4D6C1A17F"
+			tasks: [{
+				id: "4FDA190167F38F5A"
+				type: "advancement"
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7B9B04CE73C8A071"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+		{
+			title: "Blazing Your Place"
+			icon: "minecraft:nether_star"
+			x: 5.5d
+			y: 11.0d
+			description: [
+				"Controlling one dimension is never enough."
+				""
+				"Take over the nether to show your power."
+			]
+			dependencies: ["74F40FC4D6C1A17F"]
+			hide: true
+			id: "6EBB612AF1298A10"
+			tasks: [
+				{
+					id: "3DFEF1C456A34876"
+					type: "kill"
+					icon: "create:blaze_burner"
+					entity: "stalwart_dungeons:reinforced_blaze"
+					value: 25L
+				}
+				{
+					id: "0B98BBA9657A81E9"
+					type: "kill"
+					icon: "stalwart_dungeons:nether_keeper_altar"
+					entity: "stalwart_dungeons:nether_keeper"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "2CD138BA70201971"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+	]
+	quest_links: [ ]
+}

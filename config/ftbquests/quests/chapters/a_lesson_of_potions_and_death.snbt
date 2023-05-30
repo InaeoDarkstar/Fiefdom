@@ -1,0 +1,1318 @@
+{
+	id: "0CE350A787CF87D8"
+	group: ""
+	order_index: 8
+	filename: "a_lesson_of_potions_and_death"
+	title: "A Lesson of Potions and Death"
+	icon: {
+		id: "minecraft:potion"
+		Count: 1b
+		tag: {
+			Potion: "minecraft:luck"
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -2.0d
+			width: 20.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/potion.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Potions, Please"
+			icon: "minecraft:brewing_stand"
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"Regardless of the potion you plan to brew, you'll need three things:"
+				""
+				"A brewing stand"
+				"A healthy supply of nether wart"
+				"A pinch of blaze powder"
+			]
+			dependencies: ["171FA75727232622"]
+			hide: true
+			id: "4DF643015070A6D4"
+			tasks: [
+				{
+					id: "07E89A1EF9A354EA"
+					type: "item"
+					item: {
+						id: "minecraft:nether_wart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "6F58B3E9AF7CB435"
+					type: "item"
+					item: {
+						id: "minecraft:blaze_powder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "151229CEECB830C4"
+					type: "item"
+					item: {
+						id: "minecraft:brewing_stand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "49B6049A9907BE5E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 150L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Dusting Days"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Strange dust from the undead litters your pockets. "
+				""
+				"What can these be used for?"
+			]
+			dependencies: ["171FA75727232622"]
+			hide: true
+			id: "4068251A7C839C3D"
+			tasks: [{
+				id: "518C763037BBD159"
+				type: "item"
+				item: {
+					id: "tombstone:grave_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "58F0AFDDD3A4E703"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4726D7E9A87960B3"
+					type: "item"
+					item: {
+						id: "tombstone:essence_of_undeath"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Blaze Slayer"
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"Did you need to kill this many blaze?"
+				""
+				"Probably not. But you can never have enough powder."
+			]
+			dependencies: ["4DF643015070A6D4"]
+			hide: true
+			id: "13124F963096051C"
+			tasks: [{
+				id: "0A6CC7ACD4F7AD3D"
+				type: "kill"
+				icon: {
+					id: "minecraft:blaze_rod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:blaze"
+				value: 100L
+			}]
+			rewards: [{
+				id: "7C938FD69DF7B917"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Grave Matter"
+			x: 4.0d
+			y: 1.0d
+			description: [
+				"Many items for Corail's will use grave souls."
+				""
+				"Use your dust to make yourself a graveyard."
+				""
+				"While one may be enough, it never hurts to have more."
+				""
+				"You'll know when the grave has a soul as an orb will be floating around it."
+			]
+			dependencies: ["4068251A7C839C3D"]
+			hide: true
+			id: "37514B85F93517FD"
+			tasks: [{
+				id: "3ED03B8D48160A68"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_simple"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66BF645BFEB41A0E"
+					type: "item"
+					item: {
+						id: "tombstone:white_marble"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "736F6CEC7EB321AC"
+					type: "item"
+					item: {
+						id: "tombstone:dark_marble"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "The Misfortune of Death"
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"Oh no. You died."
+				""
+				"Thankfully, the grave will hold your items. Try to go get them back!"
+			]
+			dependencies: ["4068251A7C839C3D"]
+			hide: true
+			id: "3415286C6DAD4E5E"
+			tasks: [{
+				id: "7D7E1AA67CDB30C9"
+				type: "advancement"
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1ABF055D407D83FB"
+				type: "item"
+				item: {
+					id: "minecraft:ender_pearl"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "A Grave Warp"
+			x: 2.0d
+			y: 2.5d
+			description: [
+				"You have a key since you died. It will give you back your grave items. You can also crouch over the grave to retrieve your items."
+				""
+				"But instead of walking, you can enchant your key."
+				""
+				"Combine with an ender pearl, or use a grave soul to warp back, even across dimensions!"
+			]
+			dependencies: [
+				"37514B85F93517FD"
+				"3415286C6DAD4E5E"
+			]
+			hide: true
+			id: "6DFD608EC52DD413"
+			tasks: [{
+				id: "170F46B044EA0AB7"
+				type: "advancement"
+				advancement: "tombstone:adventure/enchant_grave_key"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4DE5B5738A4D10AA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "The Grave Perks"
+			x: 4.0d
+			y: 2.5d
+			description: [
+				"As you complete items in Corail's and kill the undead, you'll learn more about death."
+				""
+				"Use this knowledge to pick perks. Check the 'Knowledge of Death' keybind in options and select a perk."
+				"(You can also find the mod compendium here)"
+			]
+			dependencies: ["37514B85F93517FD"]
+			hide: true
+			id: "3F9C1D2B95F4EA8A"
+			tasks: [{
+				id: "05B6CFD6E77B5626"
+				type: "advancement"
+				advancement: "tombstone:adventure/choose_knowledge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "49C5E360C58104EA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Grave Prayer"
+			x: 5.5d
+			y: 2.5d
+			description: [
+				"The ankh is a useful tool."
+				""
+				"It can use a grave soul to reset your knowledge of death perks."
+				"It can be channeled near a grave to increase your knowledge of death."
+				"It can be used to cure zombie villagers. (This may not work due to MCA and other mods)"
+			]
+			dependencies: ["3F9C1D2B95F4EA8A"]
+			hide: true
+			id: "72969935080E9CBD"
+			tasks: [{
+				id: "3836DFC873770F60"
+				type: "item"
+				item: {
+					id: "tombstone:ankh_of_pray"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "158173194E0C8EB4"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Indecision"
+			x: 6.0d
+			y: 1.5d
+			description: [
+				"If you want to try other perks, or don't like the ones you chose, reset them with the Ankh and a grave soul."
+				""
+				"There is a cool down before you can do it again."
+			]
+			dependencies: ["72969935080E9CBD"]
+			hide: true
+			id: "63DCA7775A4CF5E1"
+			tasks: [{
+				id: "45E0AA15347405FF"
+				type: "advancement"
+				advancement: "tombstone:adventure/new_path"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0EDF4A45A2266B3B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "A Grave Routine"
+			x: 6.5d
+			y: 2.5d
+			description: [
+				"You've prayed once at a grave."
+				""
+				"You've prayed 50 times at a grave."
+				""
+				"A routine that you can't get away from!"
+			]
+			dependencies: ["72969935080E9CBD"]
+			hide: true
+			id: "20272BC5BB2B7856"
+			tasks: [{
+				id: "3AB448E8B012AFE8"
+				type: "advancement"
+				advancement: "tombstone:adventure/guardian_of_eternity"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4C7E9AE9B89FA5D3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "67FF2AE5B2CCD114"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "58F03E7783038619"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Grave Personalities"
+			icon: {
+				id: "minecraft:lantern"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			description: [
+				"In the Knowledge of Death page, the config will allow you to customize your grave."
+				""
+				"Stylish!"
+			]
+			dependencies: ["3F9C1D2B95F4EA8A"]
+			hide: true
+			id: "326EB3528CFE9D2A"
+			tasks: [{
+				id: "55952B1375A4F3AE"
+				type: "advancement"
+				advancement: "tombstone:adventure/choose_grave_type"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3DCE79B15D03B2D6"
+					type: "command"
+					auto: "invisible"
+					command: "/w @p That grave is looking stylish! I bet you're dying to try it out!"
+					player_command: false
+				}
+				{
+					id: "39D5E4A112B34998"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Gathering Grave Gadgets"
+			icon: {
+				id: "tombstone:lost_tablet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"Corail's allows you to use various magical items in combination with grave souls."
+				""
+				"Prepare the various materials you'll need for the quests ahead."
+			]
+			dependencies: ["3F9C1D2B95F4EA8A"]
+			hide: true
+			id: "432B5EDE1289847E"
+			tasks: [
+				{
+					id: "2668B53AE1284A03"
+					type: "item"
+					item: {
+						id: "minecraft:book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "2733E6FD46F9C170"
+					type: "item"
+					item: {
+						id: "tombstone:strange_tablet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "50EF2617B3EA7CCE"
+					type: "item"
+					item: {
+						id: "tombstone:strange_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "676B32C037B3AD1A"
+					type: "item"
+					item: {
+						id: "tombstone:voodoo_poppet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "504E72A6BEB528DF"
+				type: "item"
+				item: {
+					id: "tombstone:grave_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Grave Disenchantments"
+			x: 5.5d
+			y: 6.0d
+			description: [
+				"Do you have tons of enchanted gear, and no way to put the enchants on another tool or armor?"
+				""
+				"Use this book to remove enchatments into book form. The enchanter perk can make quick work of many enchants."
+				""
+				"Place the item in your off hand, and click the book onto a grave soul."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "421CFAF82ACF24B3"
+			tasks: [{
+				id: "2C39FCAE175A73E7"
+				type: "item"
+				item: {
+					id: "tombstone:book_of_disenchantment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "449B3D7D06B1B5B5"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Recycles"
+			x: 3.0d
+			y: 7.0d
+			description: [
+				"Looking to upgrade, but dont want to throw away something you could salvage?"
+				""
+				"This book is for you! You can break down an item back into its parts with this book. If it is a tool, it will need to be full durability, and will lose any enchantments, so take care of that first."
+				""
+				"Place the item in your off hand, and click the book onto a grave soul."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "4E1C51E837D5453D"
+			tasks: [{
+				id: "57D23F9794A78318"
+				type: "item"
+				item: {
+					id: "tombstone:book_of_recycling"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "26B5D3FB1576FBAA"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Repairs"
+			x: 2.5d
+			y: 6.0d
+			description: [
+				"Don't have mending and your favorite tool is about to break?"
+				""
+				"The repair book can fix up your tools. This should also lower the 'repair cost' associated with the tool."
+				""
+				"Place the item in your off hand, and click the book onto a grave soul."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "2356AE1716F9A962"
+			tasks: [{
+				id: "1793AC35BAC7598C"
+				type: "item"
+				item: {
+					id: "tombstone:book_of_repairing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "099DB64535CA96C8"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Enchantments"
+			x: 5.0d
+			y: 7.0d
+			description: [
+				"Can you not find the higher level enchantments? Looting III evading you?"
+				""
+				"This book will increase enchantments to the vanilla limit. If multiple enchants are on the item or book, it will randomly pick one to increase."
+				""
+				"Place the item in your off hand, and click the book onto a grave soul."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "4718603058721D40"
+			tasks: [{
+				id: "578A2D7549112655"
+				type: "item"
+				item: {
+					id: "tombstone:book_of_magic_impregnation"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BB4FFC28C64E12D"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Tablets"
+			x: 4.0d
+			y: 7.5d
+			description: [
+				"The tablets can be used to warp you about."
+				""
+				"Craft the recall tablet. To activate it you will need to use a grave soul."
+				""
+				"This will also bind the tablet to the selected grave. A quick way home!"
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "57E0429388FAA067"
+			tasks: [{
+				id: "3CB42D31933E8844"
+				type: "item"
+				item: {
+					id: "tombstone:tablet_of_recall"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C4787AC70234D51"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Scrolls"
+			x: 4.0d
+			y: 6.5d
+			description: [
+				"The scroll can make various buff granting items."
+				""
+				"Craft the slow falling scroll. To make it useable you will need to activate it with a grave soul."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			hide: true
+			id: "372F49131E0D253D"
+			tasks: [{
+				id: "3FCA5E11ED742A63"
+				type: "item"
+				item: {
+					id: "tombstone:scroll_of_feather_fall"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74D4B3DA57C116E0"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Grave Protections"
+			icon: {
+				id: "tombstone:voodoo_poppet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 5.5d
+			description: [
+				"The voodoo doll has a chance of preventing your death from certain actions."
+				""
+				"Use a magma cream to create a doll that can prevent you from dying from burns. Might be good against a fire dragon?"
+				""
+				"Click the doll onto a grave soul to activate it once it has the proctections you want."
+			]
+			dependencies: ["432B5EDE1289847E"]
+			id: "4737C9E8DF38C622"
+			tasks: [{
+				id: "14DED7568C40E36A"
+				type: "item"
+				item: {
+					id: "minecraft:magma_cream"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5819B6BD2ED6630B"
+				type: "item"
+				item: {
+					id: "tombstone:essence_of_undeath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Base Potions"
+			icon: {
+				id: "minecraft:brewing_stand"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.0d
+			y: 1.0d
+			description: [
+				"While there is some variance, the majority of potions are made from a base potion:"
+				""
+				"Mundane, Thick, Awkward"
+				""
+				"Make a few of each to practice."
+			]
+			dependencies: ["4DF643015070A6D4"]
+			hide: true
+			id: "034ED50372ABD4F6"
+			tasks: [
+				{
+					id: "166A8DE1EA2B0C34"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "238C3C09FC971A8E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "2397D35CA2176CF3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:thick"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "29794EE90EE27FA6"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Visions"
+			x: -6.5d
+			y: 2.5d
+			description: [
+				"Potions can be used to apply a variety of buffs."
+				""
+				"Use your awkward potions to craft a night vision potion."
+				""
+				"While the recipies vary, to make the 8 minute potion, you can extend the length of potion duration with redstone."
+			]
+			dependencies: ["034ED50372ABD4F6"]
+			hide: true
+			id: "2994C48F9578745D"
+			tasks: [{
+				id: "09A88B75BE88331D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+			}]
+		}
+		{
+			title: "The Awkward"
+			x: -4.5d
+			y: 3.0d
+			description: [
+				"The awkward potion is the vanilla base potion. "
+				""
+				"Use a set of awkward potions and a glistering melon to make health potions."
+			]
+			dependencies: ["034ED50372ABD4F6"]
+			hide: true
+			id: "1A9C820097D23BEB"
+			tasks: [{
+				id: "43C4D050272F20D7"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "2977EF041E43197F"
+					type: "item"
+					item: {
+						id: "minecraft:fermented_spider_eye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0C72161EC66294D2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 500L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "A Splash of Damage"
+			x: -4.5d
+			y: 4.0d
+			description: [
+				"Use the provided fermented spider eye to make potions of harming with your health potions."
+				""
+				"Applying gunpowder will make potions into throwable versions."
+			]
+			dependencies: ["1A9C820097D23BEB"]
+			hide: true
+			id: "58C8CEE84EFA5AC4"
+			tasks: [{
+				id: "6D6D20C299742F59"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "47FEE285E7F40E1B"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Lingering Damage"
+			x: -4.5d
+			y: 5.0d
+			description: [
+				"While splash potions are great, you can also allow them to linger."
+				""
+				"You will need to gather dragon breath from the Ender Dragon."
+			]
+			dependencies: ["58C8CEE84EFA5AC4"]
+			hide: true
+			id: "0E2C3C5E2A768570"
+			tasks: [{
+				id: "4FEFD51FC41A1B2B"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "4DBAF52EBFDDC552"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Unlimited Visions"
+			x: -7.0d
+			y: 3.5d
+			description: [
+				"While potions are a one time use, you can craft most potions into a toggleable charm."
+				""
+				"Try it out with your night vision potions. You can also apply the unbreaking enchant to make it last even longer!"
+				""
+				"Or, if you are able to infuse the charm via the apotheosis enchanting table, it can become unbreakable."
+			]
+			dependencies: ["2994C48F9578745D"]
+			hide: true
+			id: "1673C8A6FD254516"
+			tasks: [{
+				id: "5554704BEAE4AEF2"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:long_night_vision"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "48EAFDB59C39B3D4"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Support Healer"
+			icon: {
+				id: "ars_nouveau:potion_flask_amplify"
+				Count: 1b
+				tag: {
+					Damage: 8
+				}
+			}
+			x: -7.0d
+			y: 6.5d
+			description: [
+				"While potions may not be for you, sometimes you can combine a variety of mods for powerful effects."
+				""
+				""
+				""
+				"Experiment to find out what works best for you!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0E2C3C5E2A768570"
+				"1673C8A6FD254516"
+			]
+			hide: true
+			id: "3F653313BA69D304"
+			tasks: [{
+				id: "51C782FCB86B7ABF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:potion_flask_amplify"
+					Count: 1b
+					tag: {
+						Damage: 8
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "025DE16B7DA11EDB"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Support Buffer"
+			x: -5.5d
+			y: 6.5d
+			description: [
+				"While potions may not be for you, sometimes you can combine a variety of mods for powerful effects."
+				""
+				"Corail's has perks that extend the duration of potions or you can use the extend time flask from Ars, you can have potions that last for a long time."
+				""
+				"Experiment to find out what works best for you!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1673C8A6FD254516"
+				"0E2C3C5E2A768570"
+			]
+			hide: true
+			id: "136B439AF1ABD330"
+			tasks: [{
+				id: "1C10E5386563ECE7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:potion_flask_extend_time"
+					Count: 1b
+					tag: {
+						Damage: 8
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F30019B6DEC2960"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Thick Thoughts"
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"The thick potions can be used to create two items: Vial of Searing Expulsion and Vial of Arcane Extraction."
+				""
+				"These can be used to either clear or retrieve the gems from a socketed Apotheosis item. However, something will be lost in the process."
+			]
+			dependencies: ["034ED50372ABD4F6"]
+			id: "522F1040A1FC4F0C"
+			tasks: [
+				{
+					id: "558387E6B517A122"
+					type: "item"
+					item: {
+						id: "apotheosis:vial_of_expulsion"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "709383D3AE3476A6"
+					type: "item"
+					item: {
+						id: "apotheosis:vial_of_extraction"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3E6B0B775E43D4C1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

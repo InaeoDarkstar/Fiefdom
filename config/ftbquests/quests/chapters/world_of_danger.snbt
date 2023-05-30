@@ -1,0 +1,2452 @@
+{
+	id: "5A9CBF4CCEF35754"
+	group: ""
+	order_index: 3
+	filename: "world_of_danger"
+	title: "A World of Danger"
+	icon: "ars_nouveau:novice_spell_book"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -3.5d
+			width: 20.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/danger.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Defensive Magics"
+			x: -6.0d
+			y: 1.0d
+			description: [
+				"While the world is a dangerous place, it also has enough mana to be used for your own uses."
+				""
+				"Now that you have a book to channel the magic, try to make a Touch, Break spell."
+				""
+				"The Worn Notebook can be used for more information."
+			]
+			dependencies: ["108C57241265F705"]
+			hide: true
+			size: 2.0d
+			id: "2F5353A356C036EF"
+			tasks: [{
+				id: "327BBA38EFF0FCF6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "25E54E113FF88F93"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Mage's First Spell"
+			x: -9.0d
+			y: 3.0d
+			description: ["Using the scribe's table and the items required, try crafting your first glyph."]
+			dependencies: [
+				"45D9008277FE095B"
+				"21F5521BAB0B83DC"
+			]
+			hide: true
+			id: "2418A9678A4D724A"
+			tasks: [{
+				id: "5023C8C35332F0B5"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_light"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C8AA5070FBABB2E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Expanding Knowledge"
+			x: -6.75d
+			y: 4.5d
+			description: [
+				"Upgrading to the next tier of spell book will allow you to craft more spells."
+				""
+				"You're on your way to being a powerful mage!"
+			]
+			dependencies: ["2418A9678A4D724A"]
+			hide: true
+			size: 2.0d
+			id: "1D27D774B1E3DF8D"
+			tasks: [{
+				id: "7D49E1FE13FCE8F6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_spell_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A7CF76813BDFEEC"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "An Exploration for Magic Woods"
+			x: -5.0d
+			y: 4.5d
+			description: [
+				"Go find Archwood. It will be needed for various recipies."
+				""
+				"They have a chance to spawn in all biomes, or you can search for an Archwood Forest."
+			]
+			dependencies: ["1D27D774B1E3DF8D"]
+			hide: true
+			id: "4B9063C0A801120D"
+			tasks: [
+				{
+					id: "6EF0F71725468C4E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:blue_archwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7E386105603F071F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:purple_archwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4AD56314E440A7E2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:green_archwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B38E7D605AF018C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:red_archwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "77DB3EAF768336EA"
+					type: "item"
+					item: {
+						id: "ars_elemental:yellow_archwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3D9B8F6037FB2D64"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Ritual Magic"
+			icon: {
+				id: "ars_nouveau:ritual_moonfall"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -5.5d
+			y: 5.5d
+			description: [
+				"A ritual brazier can be used for various uses."
+				""
+				"Use a ritual to make it night."
+				""
+				"Place the brazier, use the tablet. You can add items to modify the ritual, or activate the ritual with an empty hand."
+				""
+				"Use the worn notebook to see all available rituals."
+				""
+				"(Some rituals may need mana so make sure to have source nearby)"
+			]
+			dependencies: ["1D27D774B1E3DF8D"]
+			hide: true
+			id: "737DBE874CF52FDB"
+			tasks: [
+				{
+					id: "085F508DE6A39F17"
+					type: "item"
+					item: {
+						id: "ars_nouveau:ritual_moonfall"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "028C9FFB6D9CD052"
+					type: "item"
+					item: "ars_nouveau:ritual_brazier"
+				}
+			]
+			rewards: [{
+				id: "213ED5DA9680E0C9"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 750L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Familiar Magic"
+			icon: {
+				id: "ars_nouveau:ritual_binding"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -5.5d
+			y: 6.5d
+			description: [
+				"Using the Ritual of Binding near an Ars familiar, you can create a Binding Script."
+				""
+				"This will register the familiar in your book so you can summon them."
+				""
+				"Prepare for the task by making the necessary components."
+			]
+			dependencies: ["737DBE874CF52FDB"]
+			hide: true
+			id: "3BD8AA1AAC98E239"
+			tasks: [
+				{
+					id: "4D78DF0A56CA8E19"
+					type: "item"
+					item: {
+						id: "ars_nouveau:ritual_binding"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "6605C5EF3D0D9A7E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:glyph_dispel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4CB34137D27B794E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Gotta Tame 'Em All"
+			icon: {
+				id: "ars_nouveau:ritual_binding"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -6.5d
+			y: 6.5d
+			description: [
+				"Gather a script for each type of familiar."
+				""
+				"Reminder, complete a Ritual of Binding near each creature."
+				""
+				"Additionally, once you have summoned a familiar from your spell book, it will hold a portion of your max mana to stay active. Use Dispel to remove them."
+			]
+			dependencies: ["3BD8AA1AAC98E239"]
+			hide: true
+			id: "58DDAA8DFC03B11D"
+			tasks: [
+				{
+					id: "6DE764FCE099FA3D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:familiar_bookwyrm"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "567423F5B240C314"
+					type: "item"
+					item: {
+						id: "ars_nouveau:familiar_drygmy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "02D8F2E29DA1CBCE"
+					type: "item"
+					item: {
+						id: "ars_nouveau:familiar_wixie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F2CA15F97486788"
+					type: "item"
+					item: "ars_nouveau:familiar_starbuncle"
+				}
+				{
+					id: "487EDEB9DAC7778F"
+					type: "item"
+					item: "ars_nouveau:familiar_whirlisprig"
+				}
+				{
+					id: "2B46DC25AF73144C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:familiar_amethyst_golem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "27300D33F9B09030"
+					type: "item"
+					item: {
+						id: "ars_elemental:siren_familiar"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "19B0089D96207D78"
+					type: "item"
+					item: {
+						id: "ars_elemental:firenando_familiar"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "142A540A422312CE"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Archmage Rises"
+			x: -5.0d
+			y: 8.0d
+			description: [
+				"You've made the Archmage book."
+				""
+				"While you've braved through many tasks, there is still much to learn for the modpack."
+				""
+				"Explore what the Worn Notebook additionally has to offer."
+			]
+			dependencies: [
+				"14C1979676C55065"
+				"58DDAA8DFC03B11D"
+				"1FF487CEF4C1636A"
+			]
+			hide: true
+			size: 2.0d
+			id: "05C5B1D7932C5E59"
+			tasks: [{
+				id: "4048AAE8644D115C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_spell_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "295E2CAF1D4B989F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 1500L
+					ignoreBonuses: true
+				}
+				{
+					id: "3AC98A10AA7EF3CE"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Enchantments Chosen"
+			x: -9.5d
+			y: 5.0d
+			description: [
+				"Using mana, you can apply specific enchantments to tools, weapons, and gear."
+				""
+				"Craft the pedestals that will hold your enchantment components."
+			]
+			dependencies: [
+				"1D27D774B1E3DF8D"
+				"38AA28941C761CE5"
+			]
+			hide: true
+			id: "6DC2865887C5AF82"
+			tasks: [{
+				id: "0250A8CD9DAB0BDA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:arcane_pedestal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 6L
+			}]
+			rewards: [{
+				id: "3357CBEC12CB659D"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Automated Amethysts"
+			x: -8.5d
+			y: 6.0d
+			description: [
+				"Tired of gathering amethyst?"
+				""
+				"Use an awakening ritual near budding amethyst to create an amethyst golem charm."
+			]
+			dependencies: ["1D27D774B1E3DF8D"]
+			hide: true
+			id: "090CE2FDEEC7124D"
+			tasks: [{
+				id: "6A77F8C2A80100A2"
+				type: "item"
+				item: "ars_nouveau:amethyst_golem_charm"
+			}]
+			rewards: [{
+				id: "156E3972D3E96363"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Magic Fibers"
+			x: -8.5d
+			y: 7.0d
+			description: [
+				"Gather enough fiber to create gear."
+				""
+				"There are three tiers, depending what you can afford."
+				""
+				"Each tier give more mana regen and a bigger mana pool."
+			]
+			dependencies: ["72E9FA4A3120A72B"]
+			hide: true
+			id: "1FF487CEF4C1636A"
+			tasks: [{
+				id: "6D5861CF41C829F7"
+				type: "item"
+				item: "ars_nouveau:magebloom_fiber"
+				count: 24L
+			}]
+			rewards: [{
+				id: "62E20E27BAFCB372"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Wilden Ritual"
+			icon: {
+				id: "ars_nouveau:ritual_wilden_summon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
+			y: 7.5d
+			description: [
+				"If you want to advance to Tier 3, you'll need to defeat the Wilden Chimera."
+				""
+				"Gather the necessary components. "
+				""
+				"Conduct a ritual and add the wilden drops to summon the Chimera."
+				""
+				"(Check the Worn Notebook for more information)"
+			]
+			dependencies: ["1D27D774B1E3DF8D"]
+			hide: true
+			id: "14C1979676C55065"
+			tasks: [
+				{
+					id: "4D5752C00C4020D2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:wilden_horn"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "280C155CDBF89945"
+					type: "item"
+					item: {
+						id: "ars_nouveau:wilden_wing"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6039B899EB6F5629"
+					type: "item"
+					item: {
+						id: "ars_nouveau:wilden_spike"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A60852815D429F6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:ritual_wilden_summon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Enchantment Core"
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: 6.0d
+			description: [
+				"You'll need to make the arcane core and enchanting apparatus."
+				""
+				"Place the core in the center of your pedestals. Place the enchanting apparatus on top of your core."
+				""
+				"With a nearby mana source jar, try to enchant an item."
+			]
+			dependencies: ["6DC2865887C5AF82"]
+			hide: true
+			id: "726BBB17465EFA6D"
+			tasks: [
+				{
+					id: "23B991B9B953D807"
+					type: "item"
+					item: {
+						id: "ars_nouveau:arcane_core"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "644C39D5EA0DD1A8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanting_apparatus"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6A4F329DB6B8DFCE"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Seed of Magic"
+			x: -10.0d
+			y: 7.0d
+			description: ["With your enchanting set up, you can create magebloom seeds."]
+			dependencies: ["726BBB17465EFA6D"]
+			hide: true
+			id: "72E9FA4A3120A72B"
+			tasks: [{
+				id: "27085D7BBA856FEC"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [{
+				id: "38B9CD05D98CC0D2"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 750L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Eye of the Dragon"
+			icon: "minecraft:dragon_head"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"We know why you're really here. In order to get your own dragon, you will need an egg from the ender dragon."
+				""
+				"If you need help getting to the end, check the 'A Journey to the End' Quest"
+			]
+			dependencies: ["108C57241265F705"]
+			hide: true
+			size: 2.0d
+			id: "2DA090339223CB4A"
+			tasks: [{
+				id: "269E86463DBFAE78"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "34AD11E5009971AD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Eggs?"
+			x: 5.5d
+			y: 0.0d
+			description: ["Acquire an egg of your own... become the Mother of Dragons."]
+			dependencies: ["2DA090339223CB4A"]
+			hide: true
+			id: "7FA78E954576A7F7"
+			tasks: [{
+				id: "096ECF57D252A416"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+		}
+		{
+			title: "Growth Hormone"
+			icon: "minecraft:cod"
+			x: 5.5d
+			y: -1.0d
+			description: ["Stuff your dragon full of food to make it grow. Bigger is better."]
+			dependencies: ["7FA78E954576A7F7"]
+			hide: true
+			id: "32CC1D3941E0FAD4"
+			tasks: [{
+				id: "15CDF05372F2290B"
+				type: "item"
+				item: "minecraft:cod"
+				count: 64L
+			}]
+			rewards: [{
+				id: "614F7F70EE4C89CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "When one egg is not enough..."
+			icon: "minecraft:egg"
+			x: 6.5d
+			y: 0.0d
+			description: [
+				"...all the eggs might be enough."
+				""
+				"(The End Dragon Egg can be placed in various biomes to change the type of dragon that will hatch)"
+			]
+			dependencies: ["7FA78E954576A7F7"]
+			hide: true
+			id: "4088E8434D3B6278"
+			tasks: [
+				{
+					id: "2F6913CAAE351C22"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.fire"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:fire"
+							}
+						}
+					}
+				}
+				{
+					id: "3F691950D7A2C378"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.end"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+				}
+				{
+					id: "043D6344488A01C6"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.ghost"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:ghost"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "70C19EE2F7657C54"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.water"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:water"
+							}
+						}
+					}
+				}
+				{
+					id: "43610E834DD11598"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.nether"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:nether"
+							}
+						}
+					}
+				}
+				{
+					id: "07CEC9304069D9CE"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.forest"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:forest"
+							}
+						}
+					}
+				}
+				{
+					id: "15FB8F069558E2A0"
+					type: "item"
+					item: {
+						id: "dragonmounts:dragon_egg"
+						Count: 1b
+						tag: {
+							ItemName: "dragon_breed.dragonmounts.aether"
+							BlockEntityTag: {
+								HatchTime: 12000
+								Breed: "dragonmounts:aether"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2391C71FD89DEDAE"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "585B681B4B494809"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "...wait, what?"
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"How'd that get in there...."
+				""
+				"That's not a dragon egg..."
+			]
+			dependencies: ["4088E8434D3B6278"]
+			hide: true
+			id: "39AF502D764E53A4"
+			tasks: [{
+				id: "78DEB5C439E93777"
+				type: "item"
+				item: "minecraft:turtle_egg"
+			}]
+			rewards: [{
+				id: "466DA010C1C893D7"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "More Eggs?"
+			x: 7.0d
+			y: 1.0d
+			description: [
+				"Having to fight all these monsters to get eggs must be leaving you...."
+				""
+				"eggs-hausted."
+			]
+			dependencies: ["39AF502D764E53A4"]
+			hide: true
+			id: "1ABAB9B1BC964762"
+			tasks: [{
+				id: "2170682EECE989BB"
+				type: "item"
+				item: "betteranimalsplus:pheasant_egg"
+			}]
+			rewards: [{
+				id: "4BCDD3B6DFA0D258"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "More Eggs....."
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"At least journeying about is good for..."
+				""
+				"eggs-ercise."
+			]
+			dependencies: ["1ABAB9B1BC964762"]
+			hide: true
+			id: "1F0D7CD762C3207E"
+			tasks: [{
+				id: "1D860D90F8F10D5B"
+				type: "item"
+				item: "betteranimalsplus:turkey_egg"
+			}]
+			rewards: [{
+				id: "52104CC668A4FBC7"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: ".....eggs....."
+			x: 10.0d
+			y: 1.0d
+			description: [
+				"...."
+				""
+				""
+				""
+				"I'm not going to egg you on"
+				""
+				""
+				""
+				"...."
+			]
+			dependencies: ["3F3D18A06EF96FFB"]
+			hide: true
+			id: "032E500E37F3EE3E"
+			tasks: [{
+				id: "7D658F94D55E4481"
+				type: "item"
+				item: "betteranimalsplus:golden_goose_egg"
+			}]
+			rewards: [{
+				id: "782891018ACC7693"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "......."
+			x: 8.0d
+			y: 1.0d
+			description: ["Egg-scuse me, I'm tired of egg quests."]
+			dependencies: ["1F0D7CD762C3207E"]
+			hide: true
+			id: "1ABCE4251F48BAAD"
+			tasks: [{
+				id: "37C2AC79ED288C5C"
+				type: "item"
+				item: {
+					id: "alexsmobs:emu_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E557E95337AFE10"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "........"
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"Don't egg-nore me. "
+				""
+				"Stop the egg quests."
+				""
+				""
+				""
+				""
+				"Or I'll eggs-it the game!"
+			]
+			dependencies: ["1ABCE4251F48BAAD"]
+			hide: true
+			id: "0664727EA2FE9CDC"
+			tasks: [{
+				id: "31730039D1784A4C"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "461FD049D77F9D6C"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "............."
+			x: 9.0d
+			y: 0.0d
+			description: [
+				"Eggs-traordinary."
+				""
+				"You have to be running out of eggs to collect."
+			]
+			dependencies: ["0664727EA2FE9CDC"]
+			hide: true
+			id: "3F3D18A06EF96FFB"
+			tasks: [{
+				id: "0B4D6A4C6D55F2CA"
+				type: "item"
+				item: {
+					id: "alexsmobs:terrapin_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "56A61550E62B20DF"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "..................."
+			icon: {
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "atum:quail_egg"
+				Count: 1b
+			}
+			x: 21.5d
+			y: 3.0d
+			description: [
+				"You're pretty"
+				""
+				"egg-centric"
+				""
+				"to be collecting all these eggs."
+			]
+			dependencies: ["28200FE5B853B997"]
+			hide: true
+			id: "6CDA239DB976AC27"
+			rewards: [{
+				id: "37ACD609F1CF96D9"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "............................................"
+			x: 21.5d
+			y: 4.0d
+			description: [
+				"You're quite the"
+				""
+				"egg-splorer"
+				""
+				"to be finding all of these."
+			]
+			dependencies: ["6CDA239DB976AC27"]
+			hide: true
+			id: "28200FE5B853B997"
+			rewards: [{
+				id: "7DD428769664BC21"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: ".............................................................."
+			x: 21.5d
+			y: 5.0d
+			description: [
+				"Are these quests"
+				""
+				"egg-citing?"
+				""
+				"You keep doing them, so they must be..."
+			]
+			dependencies: ["28200FE5B853B997"]
+			hide: true
+			id: "1BCB7D945BDE7625"
+			rewards: [{
+				id: "12E67443B58DF642"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Omelettin' this slide...."
+			x: 21.5d
+			y: 6.0d
+			description: [
+				"There are too many of these quests."
+				""
+				"I'm not"
+				""
+				"eggs-aggerating"
+				""
+				"when I say this is getting old."
+			]
+			dependencies: ["1BCB7D945BDE7625"]
+			hide: true
+			id: "4ADC8B0974F0C3E9"
+			rewards: [{
+				id: "30A0B269D3061BEB"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "....please stop...."
+			x: 21.5d
+			y: 7.0d
+			description: [
+				"Did you notice? You just earned a dozen eggs."
+				""
+				"The fact you did all these quests makes you"
+				""
+				"eggs-tra"
+				""
+				"special."
+			]
+			dependencies: ["4ADC8B0974F0C3E9"]
+			hide: true
+			id: "6363BAE3BBD03EBE"
+			rewards: [{
+				id: "3F20970957CB8E04"
+				type: "item"
+				item: {
+					id: "minecraft:egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Scrambled"
+			x: 10.0d
+			y: 0.0d
+			description: ["What a practical yolker."]
+			dependencies: ["032E500E37F3EE3E"]
+			hide: true
+			id: "059365073DCBE7FB"
+			tasks: [{
+				id: "1E04FB771AB4B892"
+				type: "item"
+				item: "betteranimalsplus:fried_egg"
+			}]
+			rewards: [{
+				id: "600C3179887DB340"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Crafting Source"
+			icon: "ars_nouveau:imbuement_chamber"
+			x: -8.5d
+			y: 0.5d
+			description: [
+				"Imbuement chambers are used to create source gems."
+				""
+				"Use one to make a block."
+			]
+			dependencies: ["2F5353A356C036EF"]
+			hide: true
+			id: "44760D24A9D91F15"
+			tasks: [
+				{
+					id: "5F332C269559DA9E"
+					type: "item"
+					item: "ars_nouveau:imbuement_chamber"
+				}
+				{
+					id: "59613936DCEE12E1"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Crafting Spells"
+			x: -8.0d
+			y: 2.0d
+			description: [
+				"In order to expand your spell knowledge, you will need a scribe's table."
+				""
+				"Craft one now."
+			]
+			dependencies: ["2F5353A356C036EF"]
+			hide: true
+			id: "45D9008277FE095B"
+			tasks: [{
+				id: "340E61F2CBAA35F7"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+		}
+		{
+			title: "The Search for Source"
+			x: -7.5d
+			y: -0.5d
+			description: ["To make source gems, you will need to find Amethyst or Lapis. Use a dousing rod to make this task easier."]
+			dependencies: ["2F5353A356C036EF"]
+			hide: true
+			id: "7EAF72191A1F3CB0"
+			tasks: [{
+				id: "4A525620F282C93C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dowsing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D8DA3356F41E2B0"
+				type: "item"
+				item: "minecraft:amethyst_block"
+			}]
+		}
+		{
+			title: "Imbueing Essence"
+			x: -9.5d
+			y: 1.0d
+			description: ["Using the imbuement chamber, you will need to have pedestals within a block to create essences. "]
+			dependencies: ["44760D24A9D91F15"]
+			hide: true
+			id: "21F5521BAB0B83DC"
+			tasks: [{
+				id: "3EDAFE80CDE3E937"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+				count: 3L
+			}]
+		}
+		{
+			title: "Essence Collector"
+			icon: "twilightforest:borer_essence"
+			x: -10.0d
+			y: -0.5d
+			description: ["You're on the route to good things."]
+			dependencies: ["21F5521BAB0B83DC"]
+			hide: true
+			id: "6226143152BF8334"
+			tasks: [
+				{
+					id: "0F569257B559B3C3"
+					type: "item"
+					item: "ars_nouveau:abjuration_essence"
+					count: 7L
+				}
+				{
+					id: "0982F363E882AF92"
+					type: "item"
+					item: "ars_nouveau:conjuration_essence"
+					count: 7L
+				}
+				{
+					id: "610FE71B43BE94FE"
+					type: "item"
+					item: "ars_nouveau:air_essence"
+					count: 7L
+				}
+				{
+					id: "575B47CC7136AEBF"
+					type: "item"
+					item: "ars_nouveau:earth_essence"
+					count: 7L
+				}
+				{
+					id: "674E8831A90FD140"
+					type: "item"
+					item: "ars_nouveau:fire_essence"
+					count: 7L
+				}
+				{
+					id: "6955F2566416CAD9"
+					type: "item"
+					item: "ars_nouveau:manipulation_essence"
+					count: 7L
+				}
+				{
+					id: "3F022791FE103E96"
+					type: "item"
+					item: "ars_nouveau:water_essence"
+					count: 7L
+				}
+			]
+			rewards: [{
+				id: "376617A6E4D284D0"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Source Containers"
+			x: -11.0d
+			y: 2.5d
+			description: ["Tired of waiting for your items to finish? Learn how to gather source, so the process is not as long."]
+			dependencies: ["21F5521BAB0B83DC"]
+			hide: true
+			id: "4CA99401AE3F8D91"
+			tasks: [{
+				id: "39ADED15ABC815B1"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+			}]
+		}
+		{
+			title: "Source from Crops"
+			x: -10.5d
+			y: 3.5d
+			description: [
+				"One of the easiest ways of gathering source is from growing trees and crops. "
+				""
+				"Use the agronomic sourcelink to gather the source into your jars."
+			]
+			dependencies: ["4CA99401AE3F8D91"]
+			hide: true
+			id: "38AA28941C761CE5"
+			tasks: [{
+				id: "55B07789ABC52DA7"
+				type: "item"
+				item: "ars_nouveau:agronomic_sourcelink"
+			}]
+		}
+		{
+			title: "A Nest for Dragons"
+			x: 17.0d
+			y: 2.0d
+			description: [
+				"If you don't want to journey to the end, you can still play with dragons. "
+				""
+				"Craft the egg hatcher to prepare for your eggs."
+			]
+			dependencies: ["1EE08E7B6C8E9023"]
+			hide: true
+			size: 2.0d
+			id: "57A6A6717712C1AF"
+			tasks: [{
+				id: "79DB03F7EEDBA6FE"
+				type: "item"
+				item: "dragonmod:egghatcher"
+			}]
+		}
+		{
+			title: "Exploring for Biomes"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 15.5d
+			y: 4.0d
+			description: ["Eggs from the Fairy Dragons can be found in the mod biomes. Locate them!"]
+			dependencies: ["57A6A6717712C1AF"]
+			hide: true
+			id: "1EE08E7B6C8E9023"
+			tasks: [
+				{
+					id: "67DE7D9D2B2A3B2E"
+					type: "biome"
+					icon: "dragonmod:scarletbamboo"
+					biome: "dragonmod:scarlethills"
+				}
+				{
+					id: "076FA9EE4EA09F9B"
+					type: "biome"
+					icon: "dragonmod:flowersparklingleaves"
+					biome: "dragonmod:sparklingbiome"
+				}
+			]
+		}
+		{
+			title: "Egg Collection"
+			icon: "dragonmod:egg_3"
+			x: 18.5d
+			y: 4.0d
+			description: [
+				"You'll need to locate nests within the biomes to gain eggs."
+				""
+				"Sparkling forest will hold Blue, Lime, and Silver eggs."
+				""
+				"Scarlet Bamboo Forest will hold Obsidian and Maple eggs."
+			]
+			dependencies: ["1EE08E7B6C8E9023"]
+			hide: true
+			id: "7B0D79F7B51BB3E8"
+			tasks: [
+				{
+					id: "6B440631B12CF041"
+					type: "item"
+					item: "dragonmod:egg"
+				}
+				{
+					id: "511260037C8833A0"
+					type: "item"
+					item: "dragonmod:dragonegg_2"
+				}
+				{
+					id: "0EEBC61AB115D915"
+					type: "item"
+					item: "dragonmod:egg_3"
+				}
+				{
+					id: "4A9F672709323FDC"
+					type: "item"
+					item: "dragonmod:egg_4"
+				}
+				{
+					id: "505333507A3357EB"
+					type: "item"
+					item: "dragonmod:egg_5"
+				}
+				{
+					id: "7802B76F548CA58A"
+					type: "item"
+					item: "dragonmod:egg_6"
+				}
+			]
+		}
+		{
+			title: "Meat for the Dragons"
+			x: 17.0d
+			y: 5.0d
+			description: ["Place an egg on the egg hatcher. Once it hatches, feed the dragon with the dragon treat."]
+			dependencies: ["1EE08E7B6C8E9023"]
+			hide: true
+			id: "579C2D8815068BF9"
+			tasks: [{
+				id: "621CF3834EEA453E"
+				type: "item"
+				item: "dragonmod:dragontreat"
+				count: 32L
+			}]
+		}
+		{
+			title: "Dust for Eggs"
+			icon: "dragonmod:silverdust"
+			x: 18.0d
+			y: 5.5d
+			description: ["You'll need at least 4 dust per type of dragon you want to make. Better safe than sorry! Make a few."]
+			dependencies: ["1EE08E7B6C8E9023"]
+			hide: true
+			id: "715CA4B8F730D821"
+			tasks: [
+				{
+					id: "2B062A819D1F4255"
+					type: "item"
+					item: "dragonmod:limedust"
+					count: 4L
+				}
+				{
+					id: "17971C78E3205D1A"
+					type: "item"
+					item: "dragonmod:bluedust"
+					count: 4L
+				}
+				{
+					id: "68A6C12694F962EF"
+					type: "item"
+					item: "dragonmod:obsidiandust"
+					count: 4L
+				}
+				{
+					id: "73298BE3EDC8B804"
+					type: "item"
+					item: "dragonmod:mapledust"
+					count: 4L
+				}
+				{
+					id: "4BEDBA05E1CB0D4E"
+					type: "item"
+					item: "dragonmod:rubydust"
+					count: 4L
+				}
+				{
+					id: "62622CAE9CF2FDC2"
+					type: "item"
+					item: "dragonmod:silverdust"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Halfway There"
+			x: 18.5d
+			y: 6.5d
+			description: ["Your dragon has turned into a chrysalis. Youll need to craft this with dust to create a hatched dragon."]
+			dependencies: ["579C2D8815068BF9"]
+			hide: true
+			id: "564615386D3C3F41"
+			tasks: [{
+				id: "060F352EB63D6F11"
+				type: "item"
+				item: "dragonmod:chrysalis"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 6.5d
+			description: ["Place down the crafted dragon. Tame it with more dragon meat."]
+			dependencies: ["564615386D3C3F41"]
+			hide: true
+			id: "4AA5EC89C09A8BFC"
+			tasks: [{
+				id: "29AFF365A2DB3E06"
+				type: "item"
+				item: "dragonmod:hatchedfairydragon"
+			}]
+		}
+		{
+			title: "A Fine Collection"
+			icon: "dragonmod:hatchedsilverfairydragon"
+			x: 17.0d
+			y: 3.5d
+			description: [
+				"Blue and Obsidian have Ranged Attacks."
+				""
+				"Lime, White, Maple, and Ruby have Melee Attacks."
+			]
+			dependencies: ["1B559BC8B52EFCFA"]
+			id: "32DEA9FC8DAA2EC0"
+			tasks: [
+				{
+					id: "33694AEAD669AAA0"
+					type: "item"
+					item: "dragonmod:hatchedfairydragon"
+				}
+				{
+					id: "09DAC1818F32F7B2"
+					type: "item"
+					item: "dragonmod:hatchedbluedragon"
+				}
+				{
+					id: "562ADFA36FB5DDF8"
+					type: "item"
+					item: "dragonmod:hatchedsilverfairydragon"
+				}
+				{
+					id: "65782162D4897B1E"
+					type: "item"
+					item: "dragonmod:hatchedobsidianfairydragon"
+				}
+				{
+					id: "70E12F8461DDB086"
+					type: "item"
+					item: "dragonmod:harchedmaplefairydragon"
+				}
+				{
+					id: "4264CE03985E7370"
+					type: "item"
+					item: "dragonmod:hatchedrubyfairydragon"
+				}
+			]
+		}
+		{
+			title: "The Chrysali"
+			icon: "dragonmod:silverchrysailis"
+			x: 19.5d
+			y: 5.5d
+			description: ["Gotta Hatch 'Em All"]
+			dependencies: [
+				"715CA4B8F730D821"
+				"7B0D79F7B51BB3E8"
+			]
+			id: "1B559BC8B52EFCFA"
+			tasks: [
+				{
+					id: "5731533052221619"
+					type: "item"
+					item: "dragonmod:chrysalis"
+				}
+				{
+					id: "22AC6CFDA2A6974C"
+					type: "item"
+					item: "dragonmod:bluechrysalis"
+				}
+				{
+					id: "04EC8E9162D55BC4"
+					type: "item"
+					item: "dragonmod:silverchrysailis"
+				}
+				{
+					id: "23AACB73628F20A0"
+					type: "item"
+					item: "dragonmod:chry_4"
+				}
+				{
+					id: "6C10DFD0DC3F0532"
+					type: "item"
+					item: "dragonmod:chry_5"
+				}
+				{
+					id: "37F461F23C896513"
+					type: "item"
+					item: "dragonmod:chy_6"
+				}
+			]
+		}
+		{
+			title: "Strange Happenings"
+			x: -1.0d
+			y: 3.0d
+			description: [
+				"Forbidden and Arcanus adds corruption and aureal stats. You'll need to be careful about killing passive mobs."
+				""
+				"The more corruption you have, you can gain bad effects."
+			]
+			dependencies: ["108C57241265F705"]
+			hide: true
+			size: 2.0d
+			id: "4E9C0B205376A20C"
+			tasks: [{
+				id: "71FB1B1BF512B0A5"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:sanity_meter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DB075EB85FC9F75"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 200L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Dark Materials"
+			x: 1.0d
+			y: 3.5d
+			description: [
+				"Darkstone is the core material for the structures in Forbidden and Arcanus. "
+				""
+				"You can find this stone at deepslate level."
+			]
+			dependencies: ["4E9C0B205376A20C"]
+			hide: true
+			id: "377A5B2A9E264C9C"
+			tasks: [{
+				id: "61A0824418423E36"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:darkstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A5BC8B6A6BE470B"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:darkstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Coping with Corruption"
+			icon: {
+				id: "forbidden_arcanus:wet_purifying_soap"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						"forbidden_arcanus:dry_timer": {
+							value: 0
+						}
+					}
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: -1.0d
+			y: 4.5d
+			description: [
+				"In order to clean your corruption, you can either wait for it to decrease, or use purifying soap by tossing it into water."
+				""
+				"Increasing your aureal, on the other hand, can be done with aureal bottles, or by idling near a nipa plant."
+			]
+			dependencies: ["4E9C0B205376A20C"]
+			hide: true
+			id: "3E50E30A806B6109"
+			tasks: [
+				{
+					id: "080668CA3BC470B6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:aureal_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "19ABA3CDF04679FC"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:purifying_soap"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "74047485EC9D344C"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Gathering for a Forge"
+			icon: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"You'll need to gather the materials for the hephaestus forge."
+				""
+				"Many of the core pieces of other mods have been locked behind this structure."
+				""
+				"{image:kubejs:textures/images/FA_forgestructure.png width:175 height:150 align:1}"
+			]
+			dependencies: ["377A5B2A9E264C9C"]
+			hide: true
+			id: "584E637978676D24"
+			tasks: [
+				{
+					id: "2982FADCF9950863"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 45L
+				}
+				{
+					id: "72209AE675CB6883"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "75394533E281DA73"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "6D04C9C23F42B164"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Activating the Forge"
+			x: 1.0d
+			y: 4.5d
+			description: ["You need to place a vanilla smithing table onto the center of the structure, and right click with a mundabitur dust to activate the forge."]
+			dependencies: ["584E637978676D24"]
+			id: "4001BB9B21A2090A"
+			tasks: [{
+				id: "2D0D5FF975A83C2F"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mundabitur_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "The Clibano"
+			icon: "forbidden_arcanus:clibano_core"
+			x: 2.5d
+			y: 3.0d
+			description: [
+				"The Clibano acts like a stove but has a chance of multiplying ingots."
+				""
+				"Gather the necessary components."
+				""
+				"{image:kubejs:textures/images/FA_clibano.png width:175 height:150 align:1}"
+			]
+			dependencies: ["377A5B2A9E264C9C"]
+			hide: true
+			id: "3F1DD4DEF66A6C86"
+			tasks: [
+				{
+					id: "4603E49E39C582B4"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:polished_darkstone_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 17L
+				}
+				{
+					id: "0F85DCC2E138BC02"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "70D98C5A43A574E0"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:clibano_core"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E2779984E0436C3"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 150L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Ritual of Preparation"
+			icon: "forbidden_arcanus:darkstone_pedestal"
+			x: 1.0d
+			y: 5.5d
+			description: [
+				"You'll need pedestals to hold your items, and a gavel to activate it."
+				""
+				"Be aware that the gavels have charges and will not activate rituals once used up."
+			]
+			dependencies: ["4001BB9B21A2090A"]
+			id: "43171DF5811EBE44"
+			tasks: [
+				{
+					id: "757B7C74838FDC49"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:darkstone_pedestal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "15EC8F55F9D56FCC"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:wooden_blacksmith_gavel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5C47BB6AA2934B67"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Novice Ritualist Smith"
+			icon: {
+				id: "forbidden_arcanus:wooden_blacksmith_gavel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 2.0d
+			y: 5.5d
+			description: ["Use your forge to create an item."]
+			dependencies: ["43171DF5811EBE44"]
+			id: "5DFE6D3D17B64E90"
+			tasks: [{
+				id: "3D25012246D9B8CE"
+				type: "item"
+				item: {
+					id: "create:water_wheel"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "335EE4418C87749D"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Activating the Clibano"
+			x: 3.5d
+			y: 3.0d
+			description: ["Activate the Clibano with mundabiter dust."]
+			dependencies: ["3F1DD4DEF66A6C86"]
+			hide: true
+			id: "2FF3CFC9203DDF94"
+			tasks: [{
+				id: "706CE3A2B214550D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mundabitur_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "30E539A36C810A9B"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Ritual Master"
+			x: 3.5d
+			y: 5.5d
+			description: [
+				"The eternal stella is one of the best items you can make from the ritual."
+				""
+				"It can be used to either repair all the items in your inventory, or applied to an item to make it unbreakable."
+				""
+				"But try it for yourself."
+			]
+			dependencies: ["5DFE6D3D17B64E90"]
+			hide: true
+			hide_text_until_complete: false
+			id: "4DBC025C4038B027"
+			tasks: [{
+				id: "596099A8E56289DA"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C1288902DC531A6"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6A2F0AA226D249FA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "smithing"
+					amount: 1500L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			title: "Obelisks"
+			icon: {
+				id: "forbidden_arcanus:arcane_crystal_obelisk"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 2.0d
+			y: 6.5d
+			description: [
+				"You can create arcane crystal obelisks to help generate aureal for your rituals. "
+				""
+				"Since most rituals only require 6 inputs, you have two spaces left for your obelisks."
+				""
+				"Create one by placing the arcane polished darkstone block on the bottom, and the two arcane crystal blocks on top."
+				""
+				"Activate it with a mundabitur dust to create the structure."
+			]
+			dependencies: ["43171DF5811EBE44"]
+			hide: true
+			id: "75B4EF369753C696"
+			tasks: [
+				{
+					id: "191A94A37C0B7049"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "579621306FC4C43C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_crystal_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "416F470F800A5028"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 300L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Edelwood"
+			icon: {
+				id: "forbidden_arcanus:growing_edelwood"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 0.5d
+			y: 2.0d
+			description: [
+				"Edelwood trees can be found in Dark Forest biomes."
+				""
+				"You'll need some of the wood to advance."
+				""
+				"You can create the saplings by applying a corrupted soul to an oak sapling or a dead bush."
+				""
+				"Try it out."
+			]
+			dependencies: ["4E9C0B205376A20C"]
+			hide: true
+			id: "7907C00CD2BCA9C9"
+			tasks: [{
+				id: "667D314D03095EDD"
+				type: "item"
+				item: {
+					id: "minecraft:oak_sapling"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A32ABD987D984A1"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:corrupt_soul"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Edelwood Oil"
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"The Edelwood tree will sometimes leak oil. "
+				""
+				"Collect it with a bottle. This can be used to create black dye."
+			]
+			dependencies: ["7907C00CD2BCA9C9"]
+			hide: true
+			id: "248D5FE16FD7A70A"
+			tasks: [{
+				id: "0DD48CC1F314FFCC"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:edelwood_oil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D6BEED423D10586"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Black Hole"
+			icon: {
+				id: "forbidden_arcanus:dark_matter"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 2.5d
+			y: 2.0d
+			description: [
+				"Dark matter can be created by smelting edelwood logs. "
+				""
+				"Combine this with corrupti dust to create a black hole. "
+				""
+				"This will consume small entities like experience orbs. Once it has taken in enough, it will give you an xpetrified orb."
+			]
+			dependencies: ["248D5FE16FD7A70A"]
+			hide: true
+			id: "31E952733D1FAB75"
+			tasks: [
+				{
+					id: "73375D118B4AA28B"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:dark_matter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+				{
+					id: "383A4BD054CB5549"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:corrupti_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3231B9901CDAED0B"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

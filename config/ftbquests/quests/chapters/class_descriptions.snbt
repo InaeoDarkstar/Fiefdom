@@ -1,0 +1,293 @@
+{
+	id: "4D958853D0874543"
+	group: "390342AC46863EE8"
+	order_index: 2
+	filename: "class_descriptions"
+	title: "Class Descriptions"
+	icon: "waystones:bound_scroll"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -6.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/freeman.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 15.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/class.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 8.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/mage.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/soldier.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 21.0d
+			y: 7.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/archer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 18.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/warrior.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 18.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/professor.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -17.0d
+			y: 8.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/wizard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -15.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/artisan.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -15.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/excavator.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.0d
+			y: -22.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/baron.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -23.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/cultivator.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -28.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/blacksmith.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -28.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/prospector.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -27.0d
+			y: 8.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/warlock.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -23.0d
+			y: 18.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/enchanter.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -16.0d
+			y: 25.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/alchemist.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 28.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/cleric.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 29.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/guardian.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.5d
+			y: 25.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/berserker.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 27.5d
+			y: 18.0d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/beastmaster.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 29.0d
+			y: 7.5d
+			width: 7.5d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/cards/ranger.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [{
+		title: "Class Descriptions"
+		disable_toast: true
+		x: 0.0d
+		y: 2.0d
+		size: 0.1d
+		invisible: true
+		secret: true
+		id: "048520214357EEFA"
+		tasks: [{
+			id: "220577802AE7A3D9"
+			type: "dimension"
+			dimension: "minecraft:overworld"
+		}]
+	}]
+	quest_links: [ ]
+}

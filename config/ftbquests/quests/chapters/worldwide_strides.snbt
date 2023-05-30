@@ -1,0 +1,1354 @@
+{
+	id: "142580A8B6C5FF35"
+	group: ""
+	order_index: 4
+	filename: "worldwide_strides"
+	title: "Dimensional Strides"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: true
+	images: [
+		{
+			x: 0.5d
+			y: -12.5d
+			width: 30.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/dimention.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "A Dimensional Guide"
+			icon: "dimdungeons:block_gold_portal"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"This quest page can help you progress through out the various dimensions."
+				""
+				"You live in the Overworld, you’ve braved the Nether, and you know of the End. But have you heard? There’s more to explore. We heard you like dimensions!"
+			]
+			dependencies: ["63B12F7E7A964195"]
+			hide: true
+			size: 2.0d
+			id: "66A2E3443C85CD54"
+			tasks: [{
+				id: "46F34E935FEBCBC6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The UNDERGARDEN"
+			icon: "undergarden:catalyst"
+			x: -6.0d
+			y: 0.0d
+			description: [
+				"Welcome to The Undergarden."
+				""
+				"You'll need to create the catalyst to get started."
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			hide: false
+			size: 1.5d
+			id: "047B633F7B1112E8"
+			tasks: [{
+				id: "272735006DEBED1E"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			title: "BLUE SKIES"
+			icon: "blue_skies:multi_portal_item"
+			x: -3.0d
+			y: -4.5d
+			description: [
+				"You'll need to purchase a zeal lighter from a gatekeeper. "
+				""
+				"Either find one as you travel, or use the ritual of locating to find the gatekeeper's house."
+				""
+				"He will also have the first portal you will need hidden in his structure."
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			hide: false
+			size: 1.5d
+			id: "73EC51F430E73A56"
+			tasks: [{
+				id: "0D9B629DF5B66067"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "TWILIGHT FOREST"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -3.0d
+			y: 4.5d
+			description: [
+				"Twilight Forest beckons. "
+				""
+				"Gather a diamond to activate the portal."
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			hide: false
+			size: 1.5d
+			id: "0FCA4FC4C26FCE22"
+			tasks: [{
+				id: "31A79715C6E884C4"
+				type: "item"
+				item: "minecraft:diamond"
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "The ABYSS"
+			icon: "minecraft:structure_void"
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"The deep beckons, darkness extends. The evil spreads..."
+				""
+				" (TO BE IMPLEMENTED)"
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			hide: false
+			size: 1.5d
+			id: "1C634C453FC154EA"
+			tasks: [{
+				id: "57ED4599BF35A971"
+				type: "custom"
+			}]
+		}
+		{
+			title: "DIMENSIONAL DUNGEONS"
+			icon: "dimdungeons:block_portal_keyhole"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Loot you're finding not enough? Well look no further than dimensional dungeons. "
+				""
+				"Puzzling mazes with loot, these dimensional gates will be sure to keep you interested."
+				""
+				"Craft a Portal Keyhole Block and Gilded Portal Blocks to get started."
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			hide: false
+			size: 1.5d
+			id: "677155B9C611CA52"
+			tasks: [
+				{
+					id: "0D224DE75002B9C4"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "6ED2E78E30390ABB"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+			]
+		}
+		{
+			title: "Building the Portal"
+			x: -8.0d
+			y: 0.0d
+			description: [
+				"You'll need 10 stone bricks to create the portal."
+				""
+				"Set them up like a normal nether portal (2 for the base, 3 for each side, 2 at the top)."
+				""
+				"With nether spread, if you do not already have a nether portal, you will need at least 4 charcoal blocks to stop the world from being corrupted."
+			]
+			hide_dependency_lines: false
+			dependencies: ["047B633F7B1112E8"]
+			hide: true
+			id: "6D7D7C7C87FB6BB9"
+			tasks: [{
+				id: "7F59027121102088"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 10L
+			}]
+		}
+		{
+			title: "Entering the Garden"
+			icon: "undergarden:twistytwig"
+			x: -10.0d
+			y: 0.0d
+			description: ["Adventure Awaits!"]
+			hide_dependency_lines: false
+			dependencies: ["6D7D7C7C87FB6BB9"]
+			hide: true
+			id: "7A172EE0D008D027"
+			tasks: [{
+				id: "0274C84DF08CF482"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+		}
+		{
+			title: "Garden Traveler"
+			x: -11.5d
+			y: 0.0d
+			description: ["Visit all 9 Biomes of The Undergarden"]
+			hide_dependency_lines: false
+			dependencies: ["7A172EE0D008D027"]
+			hide: true
+			id: "7CBBCD9DE57306B3"
+			tasks: [{
+				id: "7E4057D509A04CD8"
+				type: "advancement"
+				advancement: "undergarden:undergarden/all_undergarden_biomes"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0260B8C4AC0FF17B"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+				count: 16
+			}]
+		}
+		{
+			title: "Slayer of Rot"
+			x: -11.5d
+			y: -1.0d
+			description: ["Kill the 3 types of Rot Monsters"]
+			hide_dependency_lines: false
+			dependencies: ["7A172EE0D008D027"]
+			hide: true
+			id: "1C57FB3FCD4EFAAF"
+			tasks: [{
+				id: "04F727062227ECFA"
+				type: "advancement"
+				advancement: "undergarden:undergarden/kill_all_rotspawn"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6EF7B16048D36350"
+				type: "item"
+				item: "undergarden:shard_o_lantern"
+				count: 2
+			}]
+		}
+		{
+			title: "Enter the Catacombs"
+			icon: {
+				id: "undergarden:forgotten_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -11.5d
+			y: 1.0d
+			description: ["Find a Catacombs."]
+			hide_dependency_lines: false
+			dependencies: ["7A172EE0D008D027"]
+			hide: true
+			id: "28F2DCD84738D785"
+			tasks: [{
+				id: "6EA6656A1C2844BD"
+				type: "advancement"
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C6047E7292E0A3E"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+				count: 16
+			}]
+		}
+		{
+			title: "The Gardener"
+			icon: "undergarden:catalyst"
+			x: -9.0d
+			y: 1.5d
+			description: ["You've become a master gardener."]
+			hide_dependency_lines: true
+			dependencies: ["047B633F7B1112E8"]
+			hide: false
+			size: 1.5d
+			id: "34B4F828E703ABBE"
+			tasks: [
+				{
+					id: "2CA18510818DEFC9"
+					type: "advancement"
+					advancement: "undergarden:undergarden/forgotten_tools"
+					criterion: ""
+				}
+				{
+					id: "76980E278420D8B8"
+					type: "advancement"
+					advancement: "undergarden:undergarden/catch_gwibling"
+					criterion: ""
+				}
+				{
+					id: "20A5A3C73DACAE48"
+					type: "advancement"
+					advancement: "undergarden:undergarden/all_ore_blocks"
+					criterion: ""
+				}
+				{
+					id: "554E56F89A718214"
+					type: "advancement"
+					advancement: "undergarden:undergarden/summon_minion"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "42894D0A54ABE1E3"
+					type: "item"
+					item: {
+						id: "undergarden:depthrock_diamond_ore"
+						Count: 1b
+						ForgeCaps: {
+							"pmmo:vein_data": {
+								charge: -1.0d
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "505CD8D91FF23266"
+					type: "item"
+					item: "undergarden:regalium_block"
+					count: 3
+				}
+				{
+					id: "3967F89499B5C6AC"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Entering the Everbright"
+			icon: "blue_skies:everbright_portal"
+			x: -6.0d
+			y: -4.5d
+			description: [
+				"Use the Zeal lighter to enter the Gatekeeper's portal. (Use charcoal blocks to prevent nether spread)"
+				""
+				"Welcome to the Everbright. Your vanilla tools are not effective, so you will need specific Blue Skies tools to progress."
+				""
+				"Once you have the appropriate tools, you can gather turquoise stone to craft into bricks to create a portal wherever you please."
+			]
+			hide_dependency_lines: false
+			dependencies: ["73EC51F430E73A56"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "6BB6121F5C30BABD"
+			tasks: [{
+				id: "2C35BBB85F6A1513"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "012CE1BED051D607"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+				count: 10
+			}]
+		}
+		{
+			title: "Entering the Everdawn"
+			icon: "blue_skies:everdawn_portal"
+			x: -3.0d
+			y: -7.5d
+			description: [
+				"Use the Zeal lighter to enter the Gatekeeper's portal. (Use charcoal blocks to prevent nether spread)"
+				""
+				"Welcome to the Everdawn. Your vanilla tools are not effective, so you will need specific Blue Skies tools to progress."
+				""
+				"Once you have the appropriate tools, you can gather lunar stone to craft into bricks to create a portal wherever you please."
+			]
+			hide_dependency_lines: false
+			dependencies: ["73EC51F430E73A56"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "17F550E9F4B3D46B"
+			tasks: [{
+				id: "66DCAA7D97B04213"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "6D10ED4333AD421A"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+				count: 10
+			}]
+		}
+		{
+			title: "The Blinding Dungeon"
+			icon: "blue_skies:blinding_key"
+			x: -6.0d
+			y: -7.5d
+			description: [
+				"Both dimensions have a version of the blinding dungeon, with different bosses."
+				""
+				"Climb the tower, collect the keys, and challenge the boss."
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"6BB6121F5C30BABD"
+				"17F550E9F4B3D46B"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "4949762DB59DB49B"
+			tasks: [{
+				id: "731C65EE3EA85BB9"
+				type: "advancement"
+				advancement: "blue_skies:enter_blinding_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Alchemist"
+			x: -3.0d
+			y: -10.5d
+			description: [
+				"You've defeated the boss of the Everdawn Blinding Dungeon."
+				""
+				"You can uses your Arc to re-challenge the boss, for rarer loot."
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"4949762DB59DB49B"
+				"17F550E9F4B3D46B"
+			]
+			hide: true
+			id: "5B52B8D1D5275C4A"
+			tasks: [{
+				id: "6BBE54D3D8C568AE"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/kill_alchemist"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C94EF62DF5746B5"
+				type: "item"
+				item: "blue_skies:cooked_monitor_tail"
+				count: 16
+			}]
+		}
+		{
+			title: "The Summoner"
+			x: -9.0d
+			y: -4.5d
+			description: [
+				"You've defeated the boss of the Everbright Blinding Dungeon."
+				""
+				"You can uses your Arc to re-challenge the boss, for rarer loot."
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"6BB6121F5C30BABD"
+				"4949762DB59DB49B"
+			]
+			hide: true
+			id: "57DE22A0D05086AD"
+			tasks: [{
+				id: "41ED307BFA904479"
+				type: "advancement"
+				advancement: "blue_skies:everbright/kill_summoner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "766A5C9E98A81C00"
+				type: "item"
+				item: "blue_skies:cooked_carabeef"
+				count: 16
+			}]
+		}
+		{
+			title: "Delving Deeper into the Dawn"
+			x: -6.0d
+			y: -10.5d
+			description: ["Sometimes curiosity is not rewarded..."]
+			hide_dependency_lines: false
+			dependencies: ["5B52B8D1D5275C4A"]
+			hide: true
+			id: "1860579EC7A8E5DE"
+			tasks: [{
+				id: "5F65C8F991D1E692"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6FC4B9856DBB2107"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_arachnarch"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/common"
+						Rarity: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Delving Deeper into the Bright"
+			x: -9.0d
+			y: -7.5d
+			description: ["When nature strikes back..."]
+			hide_dependency_lines: false
+			dependencies: ["57DE22A0D05086AD"]
+			hide: true
+			id: "6AF48D88BA6974CB"
+			tasks: [{
+				id: "16722E3BA60A7150"
+				type: "advancement"
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2569C3F96E293C69"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_starlit_crusher"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+						Rarity: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Master of the Skies"
+			icon: "blue_skies:multi_portal_item"
+			x: -9.0d
+			y: -10.5d
+			description: ["You've mastered the skies."]
+			hide_dependency_lines: true
+			dependencies: ["73EC51F430E73A56"]
+			hide: false
+			size: 1.5d
+			id: "4064D62C0C1B2778"
+			tasks: [
+				{
+					id: "1742D8A59F65468A"
+					type: "advancement"
+					advancement: "blue_skies:everdawn/kill_bug"
+					criterion: ""
+				}
+				{
+					id: "10F23565CCD16D62"
+					type: "advancement"
+					advancement: "blue_skies:everdawn/alchemy_gold"
+					criterion: ""
+				}
+				{
+					id: "69959AB4FB0937BD"
+					type: "advancement"
+					advancement: "blue_skies:everdawn/kill_arachnarch"
+					criterion: ""
+				}
+				{
+					id: "79FF7D04ED2B0CF6"
+					type: "advancement"
+					advancement: "blue_skies:everbright/kill_starlit_crusher"
+					criterion: ""
+				}
+				{
+					id: "35D5A56A1852F237"
+					type: "advancement"
+					advancement: "blue_skies:blue_sky_pie"
+					criterion: ""
+				}
+				{
+					id: "32AB9887FFFA0C5B"
+					type: "advancement"
+					advancement: "blue_skies:everbright/use_falsite_in_tool_box"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "260FCF221B055CDA"
+					type: "item"
+					item: "minecraft:diamond_ore"
+					count: 32
+				}
+				{
+					id: "36A0C18B6E9B8C36"
+					type: "item"
+					item: "blue_skies:charoite_block"
+					count: 3
+				}
+				{
+					id: "34DAD292BC850576"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Building the Portal"
+			icon: "minecraft:stone_bricks"
+			x: 8.5d
+			y: 0.0d
+			description: [
+				"You can use any stone brick variants to create the portal. But you'll need at least 9."
+				""
+				"The portal consists of two 2x1 pillars, topped with the Gilded Portal Blocks, next to a 2x1 entrance, topped by the Keyblock."
+				""
+				""
+				""
+				""
+				""
+				"{image:kubejs:textures/images/dimportal.png width:150 height:100 align:1}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["677155B9C611CA52"]
+			hide: true
+			id: "70E7F756D69B0C36"
+			tasks: [{
+				id: "121C858ABE174BDE"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 9L
+			}]
+			rewards: [{
+				id: "1368AAA927E7AD7C"
+				type: "item"
+				item: "dimdungeons:item_portal_key"
+			}]
+		}
+		{
+			title: "Creating a Key"
+			x: 10.5d
+			y: 0.0d
+			description: [
+				"While your portal is complete, you'll need a key to activate it."
+				""
+				"Your first key was provided, but you'll need to make more. In order to create the key, you'll need to activate it on the Key Inscribing Station."
+				""
+				"Create one."
+			]
+			hide_dependency_lines: false
+			dependencies: ["70E7F756D69B0C36"]
+			hide: true
+			id: "5582167FEF14127E"
+			tasks: [{
+				id: "71835DD0D778DCCC"
+				type: "item"
+				item: "dimdungeons:block_key_charger"
+			}]
+		}
+		{
+			title: "Entering the Dungeons"
+			x: 12.5d
+			y: 0.0d
+			description: ["Adventure Awaits!"]
+			hide_dependency_lines: false
+			dependencies: ["5582167FEF14127E"]
+			hide: true
+			id: "7545846F7E499127"
+			tasks: [{
+				id: "3468F8A700EC738F"
+				type: "advancement"
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Building the Portal"
+			icon: "minecraft:cornflower"
+			x: -3.0d
+			y: 6.5d
+			description: [
+				"Build a 2x2 hole in the ground, filled with water. "
+				""
+				"Surround the hole with flowers."
+				""
+				"Toss the diamond into the water. (If the portal does not activate, try different types of flowers)."
+			]
+			hide_dependency_lines: false
+			dependencies: ["0FCA4FC4C26FCE22"]
+			hide: true
+			id: "5EE4E6B2E26327BE"
+			tasks: [{
+				id: "78D8E48E267C4F9A"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Entering the Twilight"
+			icon: "twilightforest:firefly"
+			x: -4.0d
+			y: 5.5d
+			description: [
+				"Adventure Awaits!"
+				""
+				"(Twilight has a guide in world. If you run into a yellow barrier, you have not defeated the appropriate pre-requisite boss)"
+			]
+			hide_dependency_lines: false
+			dependencies: ["5EE4E6B2E26327BE"]
+			hide: true
+			id: "122A444C57E2C20C"
+			tasks: [{
+				id: "7164B6EAEC60DBC5"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+		}
+		{
+			title: "Scaled Courtyard"
+			icon: "twilightforest:naga_trophy"
+			x: -4.5d
+			y: 6.5d
+			description: ["Find a Naga in its courtyard and defeat it."]
+			hide_dependency_lines: false
+			dependencies: ["122A444C57E2C20C"]
+			hide: true
+			id: "6C39CB5465DB5ECE"
+			tasks: [{
+				id: "46781666C42E03F4"
+				type: "advancement"
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Climbing the Lich Tower"
+			icon: "twilightforest:lich_trophy"
+			x: -7.0d
+			y: 6.0d
+			description: ["Next step to master Twilight is to go defeat the Lich."]
+			hide_dependency_lines: false
+			dependencies: ["6C39CB5465DB5ECE"]
+			hide: true
+			id: "264E1C504940B211"
+			tasks: [{
+				id: "76FE609E002C128F"
+				type: "advancement"
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Catacombs"
+			icon: "twilightforest:knight_phantom_trophy"
+			x: -8.5d
+			y: 7.5d
+			description: [
+				"Take an acquired trophy and place it on a pedastal in the forest."
+				""
+				"This will open an entrance to the catacombs. You will need to defeat the phantoms in the Tomb to progress."
+			]
+			hide_dependency_lines: false
+			dependencies: ["264E1C504940B211"]
+			hide: true
+			id: "26C4D7765435041C"
+			tasks: [{
+				id: "0223919ADA68FA23"
+				type: "advancement"
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+			}]
+		}
+		{
+			title: "A-Maze-ing Wanderings"
+			icon: "twilightforest:minoshroom_trophy"
+			x: -5.5d
+			y: 7.5d
+			description: [
+				"You'll need to enter the maze near the Fire Swamp."
+				""
+				"Hidden deep within is the Minoshroom. You will be prepared for the swamp with the food he drops."
+			]
+			hide_dependency_lines: false
+			dependencies: ["264E1C504940B211"]
+			hide: true
+			id: "4F9684E469B5AA81"
+			tasks: [{
+				id: "0400FFD15B846968"
+				type: "advancement"
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Yeti"
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+				Count: 1b
+				ForgeCaps: {
+					"pmmo:vein_data": {
+						charge: -1.0d
+					}
+				}
+			}
+			x: -7.0d
+			y: 7.5d
+			description: [
+				"Brave the cold and face down the Alpha Yeti."
+				""
+				"Its fur will prepare you for the chill of the Ice Queen."
+			]
+			hide_dependency_lines: false
+			dependencies: ["264E1C504940B211"]
+			hide: true
+			id: "32184151AEBD3203"
+			tasks: [{
+				id: "583BD5AD4261B228"
+				type: "advancement"
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Who Built this Castle?"
+			icon: "twilightforest:snow_queen_trophy"
+			x: -7.0d
+			y: 9.0d
+			description: [
+				"It's almost as if an Ice Dragon was here..."
+				""
+				"Brave the icy cold of the Snow Queen's place and defeat her."
+			]
+			hide_dependency_lines: false
+			dependencies: ["32184151AEBD3203"]
+			hide: true
+			id: "433CB179282146D9"
+			tasks: [{
+				id: "264D282276E915D9"
+				type: "advancement"
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+			}]
+		}
+		{
+			title: "More Heads to Count"
+			icon: "twilightforest:hydra_trophy"
+			x: -5.5d
+			y: 9.0d
+			description: ["Strengthened by your meal, head into the Fire Swamp and face down the Hydra."]
+			hide_dependency_lines: false
+			dependencies: ["4F9684E469B5AA81"]
+			hide: true
+			id: "3A38BD47B149D036"
+			tasks: [{
+				id: "11A2FD7AE6063167"
+				type: "advancement"
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Ghastbusters"
+			x: -8.5d
+			y: 9.0d
+			description: [
+				"Climb the tower in the deep forest."
+				""
+				"Face down the Ur-Ghast."
+				""
+				"(If you run out of arrows, activating the carminite traps and consuming mini ghasts will pull Ur Ghast from the sky)"
+			]
+			hide_dependency_lines: false
+			dependencies: ["26C4D7765435041C"]
+			hide: true
+			id: "7F2FBE094C7F64A8"
+			tasks: [{
+				id: "43EE162C610BBE05"
+				type: "advancement"
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+			}]
+		}
+		{
+			title: "There Can Only Be One"
+			x: -7.0d
+			y: 10.5d
+			description: ["With the three bosses defeated, head into the Highlands."]
+			hide_dependency_lines: false
+			dependencies: [
+				"433CB179282146D9"
+				"7F2FBE094C7F64A8"
+				"3A38BD47B149D036"
+			]
+			hide: true
+			id: "2BE006C38FDF7795"
+			tasks: [{
+				id: "221AFF0F32BDACE0"
+				type: "advancement"
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Taking Twilight"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -3.0d
+			y: 9.0d
+			description: ["You've conquered the forest."]
+			dependencies: ["0FCA4FC4C26FCE22"]
+			hide: false
+			size: 1.5d
+			id: "22A8C1686A98872A"
+			tasks: [
+				{
+					id: "79B3EB1F75212189"
+					type: "advancement"
+					advancement: "twilightforest:progress_troll"
+					criterion: ""
+				}
+				{
+					id: "2CE63B1EBD9732FA"
+					type: "advancement"
+					advancement: "twilightforest:mazebreaker"
+					criterion: ""
+				}
+				{
+					id: "4A86C0CD3B95DDC9"
+					type: "advancement"
+					advancement: "twilightforest:quest_ram"
+					criterion: ""
+				}
+				{
+					id: "4E5F44D3F5F40E49"
+					type: "advancement"
+					advancement: "twilightforest:hill3"
+					criterion: ""
+				}
+				{
+					id: "3D1E0E5F0109F16F"
+					type: "advancement"
+					advancement: "twilightforest:lich_scepters"
+					criterion: ""
+				}
+				{
+					id: "5088E525022E2F78"
+					type: "advancement"
+					advancement: "twilightforest:magic_map_focus"
+					criterion: ""
+				}
+				{
+					id: "5527E55B5B3CDB85"
+					type: "advancement"
+					advancement: "twilightforest:twilight_dinner"
+					criterion: ""
+				}
+				{
+					id: "64979BDA55DC56FA"
+					type: "advancement"
+					advancement: "twilightforest:hedge"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "053B99A4C830AF3D"
+					type: "item"
+					item: "minecraft:diamond_ore"
+					count: 32
+				}
+				{
+					id: "47C3E9A3C27C8E2B"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 16
+				}
+				{
+					id: "208451E7C8442719"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 18
+				}
+			]
+		}
+		{
+			title: "Preparing Advanced"
+			x: 14.0d
+			y: -1.0d
+			description: [
+				"If you find a portal block in a dungeon, it may hold an advanced key."
+				""
+				"This is your ticket to greater riches."
+			]
+			hide_dependency_lines: false
+			dependencies: ["7545846F7E499127"]
+			hide: true
+			id: "40B906AD032C9AD8"
+			tasks: [{
+				id: "2C6AD2CD607FA88E"
+				type: "item"
+				item: "dimdungeons:item_blank_advanced_key"
+			}]
+		}
+		{
+			title: "Preparing Advanced"
+			x: 16.0d
+			y: -1.0d
+			description: [
+				"To access advanced portals, you will need to find two portal crowns."
+				""
+				"Place them next to your keystone."
+				""
+				"Cover your pillars with white or purple banners."
+			]
+			hide_dependency_lines: false
+			dependencies: ["40B906AD032C9AD8"]
+			hide: true
+			id: "4975B9ECBBFDE2CF"
+			tasks: [{
+				id: "24D52C50B3ABE126"
+				type: "item"
+				item: "dimdungeons:block_portal_crown"
+				count: 2L
+			}]
+		}
+		{
+			title: "A Place to Call Your Own"
+			x: 14.0d
+			y: 0.5d
+			description: [
+				"Lucky!"
+				""
+				"A peronal dimension key can be used with a key inscriber to create a void dimension."
+				""
+				"Plenty of space for activites."
+			]
+			hide_dependency_lines: false
+			dependencies: ["7545846F7E499127"]
+			hide: true
+			id: "200256BF59F5B1C4"
+			tasks: [{
+				id: "1C372F24BEFC78AD"
+				type: "item"
+				item: "dimdungeons:item_blank_build_key"
+			}]
+			rewards: [{
+				id: "0E79A15FDAB4C0BE"
+				type: "item"
+				item: "dimdungeons:block_key_charger"
+			}]
+		}
+		{
+			title: "The Dungeon Delver"
+			icon: {
+				id: "dimdungeons:block_portal_keyhole"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 11.25d
+			y: 2.25d
+			description: ["The Dungeons have 8 unique artifacts. Collect them all."]
+			dependencies: ["677155B9C611CA52"]
+			size: 1.5d
+			id: "7018110CAB2F0DDB"
+			tasks: [{
+				id: "54203F973724BF6A"
+				type: "advancement"
+				advancement: "dimdungeons:dungeons/all_trophies"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1398FD3FF0DAA844"
+					type: "item"
+					item: "minecraft:deepslate_diamond_ore"
+					count: 32
+				}
+				{
+					id: "429D513489B1D99C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "66EB7CDE97D88B7F"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "DEEPER AND DARKER"
+			icon: {
+				id: "minecraft:sculk_shrieker"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: -4.0d
+			description: [
+				"Only a brave adventurer will delve into the Deep Dark, and go even deeper and darker to the Warden's home."
+				""
+				"You'll need to locate an ancient city with a portal in order to enter this dimension."
+			]
+			dependencies: ["66A2E3443C85CD54"]
+			size: 1.5d
+			id: "3A583EC3D7184A11"
+			tasks: [{
+				id: "55D33B09F7752ED0"
+				type: "biome"
+				icon: {
+					id: "deeperdarker:warden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "minecraft:deep_dark"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			description: ["In order to enter the portal you will need to kill a Warden. Summon him by activating a sculk shrieker. Take his heart as the catalyst for the portal."]
+			hide_dependency_lines: false
+			dependencies: ["3A583EC3D7184A11"]
+			hide: true
+			id: "6DACF57EBE112278"
+			tasks: [{
+				id: "2BBB4DE0EE7B6117"
+				type: "item"
+				item: {
+					id: "deeperdarker:heart_of_the_deep"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Darkness Protection"
+			x: 7.5d
+			y: -6.0d
+			description: [
+				"The Otherside of the portal will inflict constant blindness. In order to negate this effect and explore successfully, you will need to craft and wear the Warden Helmet."
+				""
+				"The Warden Carapace can alternatively be gained from the vases in the Ancient City, but be careful as breaking them can spawn the Stalker, a small mini boss."
+			]
+			hide_dependency_lines: false
+			dependencies: ["6DACF57EBE112278"]
+			hide: true
+			id: "447D8433C92660F7"
+			tasks: [{
+				id: "48E3FEFB01AAC002"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Entering The Otherside"
+			x: 9.0d
+			y: -5.0d
+			description: ["Use the heart to enter The Otherside"]
+			hide_dependency_lines: false
+			dependencies: ["447D8433C92660F7"]
+			hide: true
+			id: "4BC1B1E7C8F19A6E"
+			tasks: [{
+				id: "6BEE7AF72ACBADCE"
+				type: "dimension"
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				dimension: "deeperdarker:otherside"
+			}]
+		}
+		{
+			title: "Self Propulsed Wings"
+			x: 10.5d
+			y: -6.0d
+			description: [
+				"The main attraction of The Otherside is the upgraded Elytra. Work through the dimension and gather the necessary materials."
+				""
+				"Soul dust can be dropped from the Shattered. Sculk Centipedes drop sculk bones. The Stalker drops the soul crystal."
+			]
+			hide_dependency_lines: false
+			dependencies: ["4BC1B1E7C8F19A6E"]
+			hide: true
+			id: "516AF32A9EE80170"
+			tasks: [{
+				id: "0181307105F52785"
+				type: "item"
+				item: {
+					id: "deeperdarker:soul_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Master of the Dark"
+			icon: {
+				id: "minecraft:sculk_shrieker"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.0d
+			y: -7.5d
+			description: ["You've mastered the dark"]
+			dependencies: ["3A583EC3D7184A11"]
+			size: 1.5d
+			id: "04F0DDDBAC715112"
+			tasks: [
+				{
+					id: "7C55AE577FE46A7F"
+					type: "advancement"
+					advancement: "deeperdarker:main/explore_otherside"
+					criterion: ""
+				}
+				{
+					id: "0F9A80849F0781AF"
+					type: "advancement"
+					advancement: "deeperdarker:main/obtain_soul_elytra"
+					criterion: ""
+				}
+				{
+					id: "4EDD0873F1D99A95"
+					type: "kill"
+					entity: "minecraft:warden"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "4C9C676236A52619"
+					type: "item"
+					item: {
+						id: "deeperdarker:sculk_stone_diamond_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "4BC8EF8330D42BC8"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 9
+				}
+				{
+					id: "276C7C0F922EEAFC"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+		}
+		{
+			title: "A Strange Transmitter"
+			x: 11.5d
+			y: -5.0d
+			description: ["Found in the temples within the Otherside, the transmitter can link to a storage and let you access it at a distance."]
+			hide_dependency_lines: false
+			dependencies: ["4BC1B1E7C8F19A6E"]
+			hide: true
+			id: "53C820E29568DDE7"
+			tasks: [{
+				id: "28D893DA3FA6C44E"
+				type: "item"
+				item: {
+					id: "deeperdarker:sculk_transmitter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

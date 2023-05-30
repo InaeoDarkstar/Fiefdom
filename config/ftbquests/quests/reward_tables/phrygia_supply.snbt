@@ -1,0 +1,99 @@
+{
+	id: "0651C5E2D6AD12BD"
+	order_index: 11
+	title: "Phrygia Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "minecraft:stone_sword"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:common_tool"
+								}
+							}
+						}
+						{
+							Slot: 1b
+							id: "vanillafoodpantry:bottle_rose_water"
+							Count: 10b
+						}
+						{
+							Slot: 2b
+							id: "betteranimalsplus:pheasantcooked"
+							Count: 10b
+						}
+						{
+							Slot: 3b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:fair"
+								}
+							}
+						}
+						{
+							Slot: 4b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:average"
+								}
+							}
+						}
+						{
+							Slot: 5b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:ordinary"
+								}
+							}
+						}
+						{
+							Slot: 6b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+								Tiered: {
+									Tier: "tiered:average"
+								}
+							}
+						}
+						{
+							Slot: 7b
+							id: "minecraft:lantern"
+							Count: 16b
+						}
+						{
+							Slot: 8b
+							id: "dotcoinmod:gold_coin"
+							Count: 5b
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,3370 @@
+{
+	id: "3E0F15C7ED9103A8"
+	group: ""
+	order_index: 9
+	filename: "hrothgars_heros_hub"
+	title: "Hrothgar's Hero's Hub"
+	icon: {
+		id: "shoppy:shop_block"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -6.5d
+		width: 20.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "kubejs:textures/images/hrothgars.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "A Shop of Skills"
+			icon: {
+				id: "shoppy:shop_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: ["Sometimes, money is the answer."]
+			dependencies: ["0DD8D8E6A5D51DF6"]
+			hide: true
+			size: 1.5d
+			id: "1D0A6DDA64A4E333"
+			tasks: [{
+				id: "271672801BA975C8"
+				type: "item"
+				item: {
+					id: "dotcoinmod:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Agility"
+			icon: {
+				id: "minecraft:leather_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"pmmo:vein_data": {
+						charge: -1.0d
+					}
+				}
+			}
+			x: -2.0d
+			y: -1.5d
+			description: ["Cuz these boots were made for walking"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "00302463E3A24B69"
+			tasks: [{
+				id: "2BE0E7A76D0F82E4"
+				type: "stat"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:sprint_one_cm"
+				value: 150000
+			}]
+		}
+		{
+			title: "Alchemy"
+			x: -13.5d
+			y: 5.0d
+			description: ["Time to brew a potion"]
+			hide_dependency_lines: true
+			dependencies: ["255F6E71C43D108E"]
+			hide: true
+			optional: true
+			id: "3962EABD7672F637"
+			tasks: [{
+				id: "225AF020892F2D9C"
+				type: "advancement"
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Archery"
+			x: -10.5d
+			y: 1.0d
+			description: ["Hitting a bullseye from 30 blocks away is a cakewalk for you!"]
+			hide_dependency_lines: true
+			dependencies: ["05AE8DA66E68BB7E"]
+			hide: true
+			optional: true
+			id: "0382604673D22740"
+			tasks: [{
+				id: "19D4276C725779C0"
+				type: "advancement"
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Building"
+			x: -0.5d
+			y: -1.5d
+			description: ["To build or not to build"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "1010FA944FA76A62"
+			tasks: [{
+				id: "354C605DF314D368"
+				type: "advancement"
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Combat"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			description: ["You've slain a few pillagers in your time."]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "11D4E45AC7E95585"
+			tasks: [{
+				id: "203E33C4696CA2E0"
+				type: "advancement"
+				advancement: "tombstone:adventure/fortuitous_militia"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Cooking"
+			icon: {
+				id: "dungeons_mobs:chef_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			x: -2.0d
+			y: 1.5d
+			description: ["Live, Laugh, Eat."]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "02E30D533940CAA1"
+			tasks: [
+				{
+					id: "2FBD353D78A3EC13"
+					type: "item"
+					item: {
+						id: "minecraft:mushroom_stew"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0AE7E0640F9F4B51"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_beef"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7AD1A639A8453A64"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_salmon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1854F006499A430A"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_cod"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "02CAAFD171C06133"
+					type: "item"
+					item: {
+						id: "minecraft:cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0DA1BBAD378108DD"
+					type: "item"
+					item: {
+						id: "minecraft:cookie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4B46FD1363A81414"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_chicken"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4CDA8B7BFBF6C1C4"
+					type: "item"
+					item: {
+						id: "minecraft:baked_potato"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1DC3C0671B178794"
+					type: "item"
+					item: {
+						id: "minecraft:pumpkin_pie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2A8FD7586046A708"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_rabbit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4D92C780F0FDD2EC"
+					type: "item"
+					item: {
+						id: "minecraft:rabbit_stew"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3B03CD7E3B0AF268"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_mutton"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "41FC467944C5ADE4"
+					type: "item"
+					item: {
+						id: "minecraft:beetroot_soup"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Crafting"
+			icon: {
+				id: "minecraft:crafting_table"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: -1.5d
+			description: ["Crafting andesite alloys is the first step to crafting prowess"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "1B6EAD2A803CC778"
+			tasks: [{
+				id: "50CA0D0CEDF9D042"
+				type: "advancement"
+				advancement: "create:andesite_alloy"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Excavation"
+			icon: {
+				id: "minecraft:iron_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -14.5d
+			y: 5.0d
+			description: ["A shovel is an excavator's best friend"]
+			hide_dependency_lines: true
+			dependencies: ["1A368565B2C38CAC"]
+			hide: true
+			optional: true
+			id: "341B70AF40F81C30"
+			tasks: [
+				{
+					id: "2D974F09F2B2A674"
+					type: "item"
+					item: {
+						id: "minecraft:sand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 128L
+					consume_items: true
+				}
+				{
+					id: "734866F71605468D"
+					type: "item"
+					item: {
+						id: "minecraft:gravel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 128L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Harvesting"
+			icon: {
+				id: "minecraft:iron_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			description: ["One could assume this is a seedy deal"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "433B4D9A3D9EAEF0"
+			tasks: [
+				{
+					id: "43707C913B8C111C"
+					type: "item"
+					item: {
+						id: "minecraft:wheat_seeds"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "0E96FF68A4960F5A"
+					type: "item"
+					item: {
+						id: "minecraft:pumpkin_seeds"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "3A90939F3E767135"
+					type: "item"
+					item: {
+						id: "minecraft:melon_seeds"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "57A2BA1FD1EB73F5"
+					type: "item"
+					item: {
+						id: "minecraft:beetroot_seeds"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Fishing"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -11.5d
+			y: 1.0d
+			description: [
+				"Many go fishing all of their lives without knowing that it is not fish they are after"
+				""
+				"          -Henry David Thoreau"
+			]
+			hide_dependency_lines: true
+			dependencies: ["63A8571B09B35392"]
+			hide: true
+			optional: true
+			id: "7372F100692E3025"
+			tasks: [{
+				id: "019D503F474AF2D8"
+				type: "stat"
+				icon: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "minecraft:fish_caught"
+				value: 50
+			}]
+		}
+		{
+			title: "Flying"
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -12.5d
+			y: 1.0d
+			description: ["Earn your wings"]
+			hide_dependency_lines: true
+			dependencies: ["3DCDAF31F60F2059"]
+			hide: true
+			optional: true
+			id: "2E2B68445EBCE415"
+			tasks: [{
+				id: "1DAE782BD4E771C2"
+				type: "stat"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:fly_one_cm"
+				value: 15000
+			}]
+		}
+		{
+			title: "Magic"
+			icon: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 1.5d
+			description: ["Magic. It's magical."]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "5C8DD2A8B76F4B40"
+			tasks: [{
+				id: "2C3FB6C5A983E30A"
+				type: "advancement"
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Mining"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			description: ["A miner's life for me!"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "4B8414705BE4AD6F"
+			tasks: [
+				{
+					id: "4E7883884CEAB5C4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5233040253719A94"
+					type: "item"
+					item: {
+						id: "minecraft:lapis_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "6DB7B925A55BAB9D"
+					type: "item"
+					item: {
+						id: "minecraft:redstone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Sailing"
+			icon: "minecraft:oak_boat"
+			x: -13.5d
+			y: 1.0d
+			description: [
+				"Soon may the Wellerman come"
+				"To bring us sugar and tea and rum"
+				"One day, when the tonguing is done"
+				"We'll take our leave and go"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00407138718D12EA"]
+			hide: true
+			optional: true
+			id: "5069062104A33C5A"
+			tasks: [{
+				id: "39F5C850A6E16B53"
+				type: "stat"
+				icon: "minecraft:oak_boat"
+				stat: "minecraft:boat_one_cm"
+				value: 15000
+			}]
+		}
+		{
+			title: "Smithing"
+			icon: "minecraft:smithing_table"
+			x: -0.5d
+			y: 1.5d
+			description: ["Soon to be the best blacksmith in the realm"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "401EE147EF6C30FC"
+			tasks: [{
+				id: "16AEC6AC998BB2B4"
+				type: "stat"
+				icon: {
+					id: "minecraft:blast_furnace"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				stat: "minecraft:interact_with_blast_furnace"
+				value: 30
+			}]
+		}
+		{
+			title: "Swimming"
+			icon: {
+				id: "minecraft:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 1.5d
+			description: ["So much to see, under the sea"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "2D8DB6A81CA16BEC"
+			tasks: [{
+				id: "7A156236EB1EE2EB"
+				type: "stat"
+				icon: {
+					id: "minecraft:turtle_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:swim_one_cm"
+				value: 150000
+			}]
+		}
+		{
+			title: "Taming"
+			x: -14.5d
+			y: 1.0d
+			description: ["Making your best friends"]
+			hide_dependency_lines: true
+			dependencies: ["0FC2C9A8FB32F803"]
+			hide: true
+			optional: true
+			id: "5C2FD6C2EE15D9D6"
+			tasks: [{
+				id: "262DB8724A1367DB"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Woodcutting"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -12.5d
+			y: 5.0d
+			description: ["How much wood, could a minecraft player chop, if a minecraft player could chop wood."]
+			hide_dependency_lines: true
+			dependencies: ["7B60B65511332363"]
+			hide: true
+			optional: true
+			id: "4D6BA08F2B407FA9"
+			tasks: [
+				{
+					id: "0BF03F5B3F182F2B"
+					type: "item"
+					item: {
+						id: "minecraft:oak_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "58218A1B15706DA5"
+					type: "item"
+					item: {
+						id: "minecraft:spruce_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "0E8F71FB8A777110"
+					type: "item"
+					item: {
+						id: "minecraft:dark_oak_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Harvesting - 1K"
+			x: 2.5d
+			y: 0.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["433B4D9A3D9EAEF0"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "79F0C611489A546A"
+			tasks: [{
+				id: "0794B8A036B43995"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "083F03C0B3B38297"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Harvesting - 5K"
+			x: 3.5d
+			y: 0.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["433B4D9A3D9EAEF0"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "07CB53B6CF971E45"
+			tasks: [{
+				id: "08396CC9B85465C3"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "726F6CB7A7520C94"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Harvesting - 50K"
+			x: 4.5d
+			y: 0.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["433B4D9A3D9EAEF0"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "1D2CAAA48CEE2DE5"
+			tasks: [{
+				id: "1628D6CA969BB980"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01FE4134C8B61664"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Fishing - 1K"
+			x: -11.5d
+			y: 2.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["7372F100692E3025"]
+			hide: true
+			optional: true
+			id: "75FA9178DBF63227"
+			tasks: [{
+				id: "7CD624494AF01D94"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5A933F06701ABE30"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "374E652216B09840"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 75FA9178DBF63227"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Fishing - 5K"
+			x: -11.5d
+			y: 3.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["7372F100692E3025"]
+			hide: true
+			optional: true
+			id: "4D9BD72E28DDBAC1"
+			tasks: [{
+				id: "214017D3FC958B5D"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4D9DB4B0A73EE59C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "13D864BD91E9731A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4D9BD72E28DDBAC1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Fishing - 50K"
+			x: -11.5d
+			y: 4.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["7372F100692E3025"]
+			hide: true
+			optional: true
+			id: "63A8571B09B35392"
+			tasks: [{
+				id: "65D82E606CE56E16"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6C951A2E22843D1D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "14C46A51775FFFE2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 63A8571B09B35392"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Flying - 1K"
+			x: -12.5d
+			y: 2.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["2E2B68445EBCE415"]
+			hide: true
+			optional: true
+			id: "018DC13A55886791"
+			tasks: [{
+				id: "65E12FFCCB3803DC"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "32EABAC6F2F9427D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "flying"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "33B8F6BED51824A7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 018DC13A55886791"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Flying - 5K"
+			x: -12.5d
+			y: 3.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["2E2B68445EBCE415"]
+			hide: true
+			optional: true
+			id: "4CA64323D62E439A"
+			tasks: [{
+				id: "453A5EABED1206A2"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "281AC8E0BDED6EB2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "flying"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "20F2D026A7CE83B6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4CA64323D62E439A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Flying - 50K"
+			x: -12.5d
+			y: 4.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["2E2B68445EBCE415"]
+			hide: true
+			optional: true
+			id: "3DCDAF31F60F2059"
+			tasks: [{
+				id: "5158EDAC8F7197B0"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6E2E942013D580F3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "flying"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "7B914C58DCA8DE9C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3DCDAF31F60F2059"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Magic - 1K"
+			x: 2.0d
+			y: 2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["5C8DD2A8B76F4B40"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "5A5C9E6477DB4515"
+			tasks: [{
+				id: "79A4099244E82088"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7857B02F3544B9C1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Magic - 5K"
+			x: 2.0d
+			y: 3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["5C8DD2A8B76F4B40"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "6D4333D5B9586DEE"
+			tasks: [{
+				id: "72431493A88D9098"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27AF0BAC762887E9"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Magic - 50K"
+			x: 2.0d
+			y: 4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["5C8DD2A8B76F4B40"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "20F4DCD507E90AAF"
+			tasks: [{
+				id: "2102956E9456A55D"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F6E2BEF9F582694"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "magic"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Mining - 1K"
+			x: -2.5d
+			y: 0.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["4B8414705BE4AD6F"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "784833F8046229A9"
+			tasks: [{
+				id: "2B2F0E87D364DC9B"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "04E07AD3D22A0603"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "mining"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Mining - 5K"
+			x: -3.5d
+			y: 0.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["4B8414705BE4AD6F"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "436B3EF085D68FCC"
+			tasks: [{
+				id: "5514CB0882D0FFE2"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6943473C8E4EE51B"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "mining"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Mining - 50K"
+			x: -4.5d
+			y: 0.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["4B8414705BE4AD6F"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "70E215D3F4DD2AB5"
+			tasks: [{
+				id: "4847D6EF5A6E7F3E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B0328E14E7BC0BA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "mining"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Sailing - 1K"
+			x: -13.5d
+			y: 2.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["5069062104A33C5A"]
+			hide: true
+			optional: true
+			id: "00407138718D12EA"
+			tasks: [{
+				id: "29908555AACE5FEA"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "052824471D68EC99"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "sailing"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "3F143F251D5BAADC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 00407138718D12EA"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Sailing - 5K"
+			x: -13.5d
+			y: 3.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["5069062104A33C5A"]
+			hide: true
+			optional: true
+			id: "73BEA6B4C8C036F4"
+			tasks: [{
+				id: "73A73E951DB36B3A"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "374460C2E86AEEA1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "sailing"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "6A4640F5189FEF6E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 73BEA6B4C8C036F4"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Sailing - 50K"
+			x: -13.5d
+			y: 4.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["5069062104A33C5A"]
+			hide: true
+			optional: true
+			id: "244D4EFFBADD74FD"
+			tasks: [{
+				id: "28B7AE7242B905B0"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "560411B5C673D0E9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "sailing"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "5C6D9E6F4DE57891"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 244D4EFFBADD74FD"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Smithing - 1K"
+			x: -0.5d
+			y: 2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["401EE147EF6C30FC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "2DEC87CE6209893C"
+			tasks: [{
+				id: "10EC954C07E154BB"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37F080FF7D82A6A5"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Smithing - 5K"
+			x: -0.5d
+			y: 3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["401EE147EF6C30FC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "13416A97BEF56BA8"
+			tasks: [{
+				id: "104EC3BAC22055EC"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33EE5AB3916DB912"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Smithing - 50K"
+			x: -0.5d
+			y: 4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["401EE147EF6C30FC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "494D609344DAC7D7"
+			tasks: [{
+				id: "761404514D172F5B"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7DA0D7114AFB7FFA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "smithing"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Swimming - 1K"
+			x: 0.5d
+			y: 2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["2D8DB6A81CA16BEC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "43F66961D6BF6BCC"
+			tasks: [{
+				id: "173F6538DD7FE01E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4C42D51B370EAC27"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "swimming"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Swimming - 5K"
+			x: 0.5d
+			y: 3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["2D8DB6A81CA16BEC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "1B6784D370F1F713"
+			tasks: [{
+				id: "7976AB784857855C"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "225CCE99EA45B8BA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "swimming"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Swimming - 50K"
+			x: 0.5d
+			y: 4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["2D8DB6A81CA16BEC"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "399982F796B8A066"
+			tasks: [{
+				id: "0EE6BCA97EC26FC3"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7310762710DC66CE"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "swimming"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Taming - 1K"
+			x: -14.5d
+			y: 2.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["5C2FD6C2EE15D9D6"]
+			hide: true
+			optional: true
+			id: "046FC1FDBA0D407B"
+			tasks: [{
+				id: "3D8098927CA70A2F"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3D935C848AE13EFC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "taming"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "05FE1E25C924026A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 046FC1FDBA0D407B"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Taming - 5K"
+			x: -14.5d
+			y: 3.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["5C2FD6C2EE15D9D6"]
+			hide: true
+			optional: true
+			id: "0D4F4DDE3D1C9B4A"
+			tasks: [{
+				id: "06B1A24926213B8A"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7A3F7F24A7D08F55"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "taming"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "15D7AC83A480D832"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0D4F4DDE3D1C9B4A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Taming - 50K"
+			x: -14.5d
+			y: 4.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["5C2FD6C2EE15D9D6"]
+			hide: true
+			optional: true
+			id: "0FC2C9A8FB32F803"
+			tasks: [{
+				id: "2E9188B26C99A5D0"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5788870A5E03A298"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "taming"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "1FD0481AEBF416EC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0FC2C9A8FB32F803"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Woodcutting - 1K"
+			x: -12.5d
+			y: 6.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["4D6BA08F2B407FA9"]
+			hide: true
+			optional: true
+			id: "2D04F05DFD73D5F3"
+			tasks: [{
+				id: "6386EC6224A71AEE"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "22A7E373913D595E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "572D6AF9F918C53A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2D04F05DFD73D5F3"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Woodcutting - 5K"
+			x: -12.5d
+			y: 7.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["4D6BA08F2B407FA9"]
+			hide: true
+			optional: true
+			id: "135D808858D5592A"
+			tasks: [{
+				id: "2844040AA4FF5AFD"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5C22A9CEFEF6EBA1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "36921D894F887638"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 135D808858D5592A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Woodcutting - 50K"
+			x: -12.5d
+			y: 8.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["4D6BA08F2B407FA9"]
+			hide: true
+			optional: true
+			id: "7B60B65511332363"
+			tasks: [{
+				id: "7A8FFDF7231C990A"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2E4D8E40DDDA547C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "386451A083205F22"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7B60B65511332363"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Agility - 1K"
+			x: -2.0d
+			y: -2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["00302463E3A24B69"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "62C071C000B941AD"
+			tasks: [{
+				id: "426FCCA652CE9D9A"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6ADBF113D04D73A1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "agility"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Agility - 5K"
+			x: -2.0d
+			y: -3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["00302463E3A24B69"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "2DF74AEB5599C8EC"
+			tasks: [{
+				id: "3AC4054E3F3D1FCD"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B732146A1B8978D"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "agility"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Agility - 50K"
+			x: -2.0d
+			y: -4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["00302463E3A24B69"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "503FC3F1F6D582C1"
+			tasks: [{
+				id: "2DFD9C1419711E13"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15E329E47BAB4639"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "agility"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Alchemy - 1K"
+			x: -13.5d
+			y: 6.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["3962EABD7672F637"]
+			hide: true
+			optional: true
+			id: "0DABC8C05EB60068"
+			tasks: [{
+				id: "48FAA177CCB34BA5"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7883B1B7A76A4FA5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "alchemy"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "6808925D9CCE0F69"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0DABC8C05EB60068"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Alchemy - 5K"
+			x: -13.5d
+			y: 7.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["3962EABD7672F637"]
+			hide: true
+			optional: true
+			id: "1E24BF02EE8494EC"
+			tasks: [{
+				id: "41EB5E4E02711576"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04CAFEE09CEF77F6"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "alchemy"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "237813F4219AE7C2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1E24BF02EE8494EC"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Alchemy - 50K"
+			x: -13.5d
+			y: 8.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["3962EABD7672F637"]
+			hide: true
+			optional: true
+			id: "255F6E71C43D108E"
+			tasks: [{
+				id: "7AEF21DDF4CB2171"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "49BC679FBAEA7828"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "alchemy"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "2BF7E05749FEF6AF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 255F6E71C43D108E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Archery - 1K"
+			x: -10.5d
+			y: 2.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["0382604673D22740"]
+			hide: true
+			optional: true
+			id: "5EF2AAC3446F318E"
+			tasks: [{
+				id: "06097E194207934F"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "347AC2EE79146795"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "archery"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "5B2EE0B9B135F83A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5EF2AAC3446F318E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Archery - 5K"
+			x: -10.5d
+			y: 3.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["0382604673D22740"]
+			hide: true
+			optional: true
+			id: "5F07121123F520A9"
+			tasks: [{
+				id: "5E4D32F46E53BE38"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "30A0804880BBC9B4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "archery"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "181A8C9F1075AC0D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F07121123F520A9"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Archery - 50K"
+			x: -10.5d
+			y: 4.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["0382604673D22740"]
+			hide: true
+			optional: true
+			id: "05AE8DA66E68BB7E"
+			tasks: [{
+				id: "23DF1DD91B168EC1"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6F425C519A7CBCDD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "archery"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "375D6EC84A5331EC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 05AE8DA66E68BB7E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Building - 1K"
+			x: -0.5d
+			y: -2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["1010FA944FA76A62"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "6642257AC455B8AE"
+			tasks: [{
+				id: "32EA089B01F02D73"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7689E6E020926CC1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "building"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Building - 5K"
+			x: -0.5d
+			y: -3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["1010FA944FA76A62"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "7120C599E3C8B437"
+			tasks: [{
+				id: "07D419C68AC3BEE5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "701C8188152300B2"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "building"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Building - 50K"
+			x: -0.5d
+			y: -4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["1010FA944FA76A62"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "03E49C83177054B1"
+			tasks: [{
+				id: "289F959560D78A57"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B96CBDD4F4FA1AF"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "building"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Combat - 1K"
+			x: 0.5d
+			y: -2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["11D4E45AC7E95585"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "0C58A6800C9C39E2"
+			tasks: [{
+				id: "4323F708C7A7CF54"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15F90BF62C4301E5"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Combat - 5K"
+			x: 0.5d
+			y: -3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["11D4E45AC7E95585"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "54A0C977F40B9242"
+			tasks: [{
+				id: "5527BB49FCD50D41"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3D7F4040CA1B5EA1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Combat - 50K"
+			x: 0.5d
+			y: -4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["11D4E45AC7E95585"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "3B57E4B3EC8881A1"
+			tasks: [{
+				id: "65A66ACBD00E0C60"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "271F13073FB08EE6"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "combat"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Cooking - 1K"
+			x: -2.0d
+			y: 2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["02E30D533940CAA1"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "6F63773F7411E029"
+			tasks: [{
+				id: "746494589FBA0736"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "130E1AF85C7EB6CA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Cooking - 5K"
+			x: -2.0d
+			y: 3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["02E30D533940CAA1"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "305875FCC1EA5BA9"
+			tasks: [{
+				id: "2200703D19E59528"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "195701F396A3D1E0"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Cooking - 50K"
+			x: -2.0d
+			y: 4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["02E30D533940CAA1"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "6A342366597F06DF"
+			tasks: [{
+				id: "1657AE9DD1E898A5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B66331484EF957A"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Crafting - 1K"
+			x: 2.0d
+			y: -2.5d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["1B6EAD2A803CC778"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "50AC3AE1A29544A7"
+			tasks: [{
+				id: "0294B05C9AEE0CFA"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A250EBCFDCB43D7"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 1000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Crafting - 5K"
+			x: 2.0d
+			y: -3.5d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["1B6EAD2A803CC778"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "1768022E9DEE9A69"
+			tasks: [{
+				id: "137B84B7941E169A"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12B4241F9F1C112E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 5000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Crafting - 50K"
+			x: 2.0d
+			y: -4.5d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["1B6EAD2A803CC778"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "576CA6B9D2AB91DE"
+			tasks: [{
+				id: "65B73356BB63D34E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "21565977AEE89D62"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 50000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Excavation - 1K"
+			x: -14.5d
+			y: 6.0d
+			description: ["1 coin for 1K xp"]
+			dependencies: ["341B70AF40F81C30"]
+			hide: true
+			optional: true
+			id: "6255F2D486A0E79A"
+			tasks: [{
+				id: "1C3882CAFC7BD071"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6113FD5EF2FBFA83"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 1000L
+					ignoreBonuses: true
+				}
+				{
+					id: "31236CC07751A149"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6255F2D486A0E79A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Excavation - 5K"
+			x: -14.5d
+			y: 7.0d
+			description: ["5 coins for 5K xp"]
+			dependencies: ["341B70AF40F81C30"]
+			hide: true
+			optional: true
+			id: "1A368565B2C38CAC"
+			tasks: [{
+				id: "524CFF188E42EE5E"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "38FDFE4026212470"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 5000L
+					ignoreBonuses: true
+				}
+				{
+					id: "286F2829E8B8F40C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1A368565B2C38CAC"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Excavation - 50K"
+			x: -14.5d
+			y: 8.0d
+			description: ["50 coins for 50K xp"]
+			dependencies: ["341B70AF40F81C30"]
+			hide: true
+			optional: true
+			id: "0EBABC6E61E637B8"
+			tasks: [{
+				id: "434E526BB62FBAF1"
+				type: "item"
+				item: {
+					id: "dotcoinmod:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2897F9AA7976A26F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 50000L
+					ignoreBonuses: true
+				}
+				{
+					id: "43728ABAAEA3FB25"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EBABC6E61E637B8"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Currency Conversion"
+			icon: "minecraft:emerald"
+			x: 7.0d
+			y: 0.0d
+			description: ["Emeralds used to be the life blood of trade. Thankfully, you can convert them into a more useful currency."]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "13B419528BC2FB2E"
+			tasks: [
+				{
+					id: "122D78A3C5D3197B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "540531C2171F5933"
+					type: "item"
+					item: {
+						id: "minecraft:emerald_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Gem Conversion - 1"
+			x: 7.0d
+			y: -1.0d
+			description: ["1 emerald for 1 copper"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "2D92A368BA3F6CE9"
+			tasks: [{
+				id: "29EBB7F2F30C228F"
+				type: "item"
+				item: "minecraft:emerald"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "38929B94CCED2756"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "Gem Conversion - 32"
+			x: 7.0d
+			y: -2.0d
+			description: ["32 emerald for 1 silver"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "07EE2B6DAF1AFB21"
+			tasks: [{
+				id: "57410CAF13D5BE68"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "018007EFC542485D"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:iron_coin"
+			}]
+		}
+		{
+			title: "Gem Conversion - 64"
+			x: 7.0d
+			y: -3.0d
+			description: ["64 emerald for 2 silver"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "03DD1C913D602C68"
+			tasks: [{
+				id: "660E4CA9C929BF6D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2507B08E37B5C765"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:iron_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Block Conversion - 1"
+			x: 7.0d
+			y: 1.0d
+			description: ["1 emerald block for 10 copper"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "65741B29F4899839"
+			tasks: [{
+				id: "37CC1A1C37CAAFD2"
+				type: "item"
+				item: "minecraft:emerald_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "76DA3B69C076F365"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:copper_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "Block Conversion - 32"
+			x: 7.0d
+			y: 2.0d
+			description: ["32 emerald blocks for 10 silver"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "475AFD0F8CB4FCAE"
+			tasks: [{
+				id: "5A23146FEC19E668"
+				type: "item"
+				item: "minecraft:emerald_block"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29515205815A726F"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:iron_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "Block Conversion - 64"
+			x: 7.0d
+			y: 3.0d
+			description: ["64 emerald blocks for 20 silver"]
+			dependencies: ["13B419528BC2FB2E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "620E2CA03387329A"
+			tasks: [{
+				id: "5AA30C040A73B0EF"
+				type: "item"
+				item: "minecraft:emerald_block"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0266A4D24779A4CC"
+				type: "item"
+				auto: "enabled"
+				item: "dotcoinmod:iron_coin"
+				count: 20
+			}]
+		}
+		{
+			title: "Netherite Block"
+			icon: "minecraft:netherite_block"
+			x: 9.0d
+			y: -0.5d
+			description: ["1 platinum coin for 1 netherite block"]
+			dependencies: ["52FFEC501CB7D4A2"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "458E6D2546646CF6"
+			tasks: [{
+				id: "5615EB0B255D9491"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "38AE298F571070DD"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:netherite_block"
+			}]
+		}
+		{
+			title: "Heroes' Special Shop"
+			icon: "minecraft:player_head"
+			x: 8.0d
+			y: 0.0d
+			description: ["Unlocks the Heroes' Special Shop"]
+			hide_dependency_lines: true
+			dependencies: ["1D0A6DDA64A4E333"]
+			hide: true
+			id: "52FFEC501CB7D4A2"
+			tasks: [
+				{
+					id: "56ECCB7809E54031"
+					type: "item"
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "5C13FA2AB809DAFA"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Nether Star"
+			icon: "minecraft:nether_star"
+			x: 9.0d
+			y: 0.5d
+			description: ["1 platinum coin for 1 nether star"]
+			dependencies: ["52FFEC501CB7D4A2"]
+			hide: true
+			optional: true
+			can_repeat: true
+			repeatable: true
+			id: "44B2F3AB71F6B8F3"
+			tasks: [{
+				id: "74EF9051ECF3B089"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2805AA712888A5FC"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			title: "The Supplier"
+			icon: {
+				id: "shoppy:shop_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 8.5d
+			description: [
+				"As you land in the new land, you realize, you need many materials."
+				""
+				"The captain of the ship that brought you here gives you a rough glare."
+				""
+				"\"You think that the King is willing to provide anything you need? Get out there and get it yourself.\""
+				""
+				"Despite your protests, he does not budge, readying his ship to return."
+				""
+				"A crew member approaches you."
+				""
+				"\"I have a few connections back in the old world. I can get you the stuff you need, but it won't be cheap.\""
+			]
+			dependencies: ["0DD8D8E6A5D51DF6"]
+			hide: true
+			size: 1.5d
+			id: "3996FF2DB0119958"
+			tasks: [{
+				id: "1E17C215DB20094C"
+				type: "item"
+				item: {
+					id: "dotcoinmod:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Phantom Membrames"
+			icon: "minecraft:phantom_membrane"
+			x: 1.5d
+			y: 8.5d
+			dependencies: ["3996FF2DB0119958"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "7F426D11723C0605"
+			tasks: [{
+				id: "2D28B25AC33C6B4F"
+				type: "item"
+				item: {
+					id: "dotcoinmod:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2EEBD0473AAEDBC6"
+				type: "item"
+				item: {
+					id: "minecraft:phantom_membrane"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "The Blacksmith"
+			icon: {
+				id: "shoppy:shop_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 10.5d
+			description: [
+				"As you go to trade with your source, you're approached by a burly woman, her face angry."
+				""
+				"\"Are you the one who has been funding the supply trade through here?\""
+				""
+				"At your explanation, her face softens, though mistrust is still apparent."
+				""
+				"\"I'm looking for somewhere to sell my wares. I've heard you may have a colony. Any interest in hiring a smith?\""
+			]
+			dependencies: ["3996FF2DB0119958"]
+			hide: true
+			size: 1.5d
+			id: "71FBF0E880CD9599"
+			tasks: [
+				{
+					id: "25F1EE0AC4104F7B"
+					type: "item"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "08D8F20B23E6C1EA"
+					type: "advancement"
+					advancement: "minecolonies:production/build_blacksmith"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Trading Up - Rare"
+			icon: "apotheosis:rare_material"
+			x: -1.0d
+			y: 11.5d
+			dependencies: ["71FBF0E880CD9599"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "0392FC37CB73A17C"
+			tasks: [
+				{
+					id: "4AE209E861F76306"
+					type: "item"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3FE90091EE794E46"
+					type: "item"
+					item: {
+						id: "apotheosis:uncommon_material"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 12L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6045697370AC22B4"
+				type: "item"
+				item: {
+					id: "apotheosis:rare_material"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Trading Up - Uncommon"
+			icon: "apotheosis:uncommon_material"
+			x: -1.5d
+			y: 10.5d
+			dependencies: ["71FBF0E880CD9599"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "0EA4543360F430C8"
+			tasks: [
+				{
+					id: "2143844092C16FEA"
+					type: "item"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1C613ACCB45744EA"
+					type: "item"
+					item: {
+						id: "apotheosis:common_material"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 12L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "23E5FBC3FAFA2B5F"
+				type: "item"
+				item: {
+					id: "apotheosis:uncommon_material"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Trading Up - Epic"
+			icon: "apotheosis:epic_material"
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["71FBF0E880CD9599"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "2E4DEF881108C42F"
+			tasks: [
+				{
+					id: "244C0BEB86BEE947"
+					type: "item"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "50E8866BDEF193C6"
+					type: "item"
+					item: {
+						id: "apotheosis:rare_material"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 12L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "33DE61B61AA3A943"
+				type: "item"
+				item: {
+					id: "apotheosis:epic_material"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Trading Up - Mythic"
+			icon: "apotheosis:mythic_material"
+			x: 1.0d
+			y: 11.5d
+			dependencies: ["71FBF0E880CD9599"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "13493A6490E622D6"
+			tasks: [
+				{
+					id: "2E1A5F2631356F57"
+					type: "item"
+					item: {
+						id: "dotcoinmod:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0CAE45250CCF6D7D"
+					type: "item"
+					item: {
+						id: "apotheosis:epic_material"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 12L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "04CEF3AE334E1891"
+				type: "item"
+				item: {
+					id: "apotheosis:mythic_material"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Purchase - Gem Dust"
+			icon: {
+				id: "apotheosis:gem_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["71FBF0E880CD9599"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "170EB746E290EED6"
+			tasks: [
+				{
+					id: "5895F88EF3D1A082"
+					type: "item"
+					item: {
+						id: "dotcoinmod:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "64EB323B13A9E8F7"
+					type: "item"
+					item: {
+						id: "apotheosis:common_material"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5126352611D4B62E"
+				type: "item"
+				item: {
+					id: "apotheosis:gem_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Bread"
+			icon: {
+				id: "minecraft:bread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["3996FF2DB0119958"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "3ADCBE7B526A35A9"
+			tasks: [{
+				id: "30627E6883ABA2D3"
+				type: "item"
+				item: {
+					id: "dotcoinmod:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1779191462CD3ED1"
+				type: "item"
+				item: {
+					id: "minecraft:bread"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 8
+			}]
+		}
+	]
+	quest_links: [ ]
+}

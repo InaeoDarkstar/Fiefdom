@@ -1,0 +1,651 @@
+{
+	id: "15CA5D905DB3D9E2"
+	group: ""
+	order_index: 7
+	filename: "master_chef"
+	title: "Master Chef"
+	icon: "minecraft:cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.5d
+			y: -7.5d
+			width: 20.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/masterchef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "The Utensils of the Craft"
+			icon: "croptopia:frying_pan"
+			x: 0.0d
+			y: 1.0d
+			description: ["Create the various tools you will need to craft food items."]
+			dependencies: ["042405075CA41D91"]
+			hide: true
+			id: "3703E929C0A8EEAC"
+			tasks: [
+				{
+					id: "4060F80F3AEB7E47"
+					type: "item"
+					item: {
+						id: "croptopia:knife"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26CA906746D9FD71"
+					type: "item"
+					item: {
+						id: "croptopia:cooking_pot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5FC142EB55773440"
+					type: "item"
+					item: {
+						id: "croptopia:frying_pan"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "14BB203B61BB7FF8"
+					type: "item"
+					item: {
+						id: "croptopia:food_press"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0282E31CE9F818A8"
+					type: "item"
+					item: {
+						id: "croptopia:mortar_and_pestle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "212B081FE2991A55"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 200L
+					ignoreBonuses: true
+				}
+				{
+					id: "1388941CF2265C5D"
+					type: "item"
+					item: {
+						id: "croptopia:tomato"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "A Grove Start"
+			x: 1.0d
+			y: 2.5d
+			description: ["Once you find fruits from trees, you can craft their saplings by putting two of the fruits with a sapling. Try it with apples"]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "5B6E18146198FD55"
+			tasks: [{
+				id: "1A929DC1E5141262"
+				type: "item"
+				item: {
+					id: "croptopia:apple_sapling"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "760788AA3B7A1556"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Seeding Start"
+			x: -1.0d
+			y: 2.5d
+			description: ["Getting a seed crop will help you with your cooking goals."]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "79242DB1305747EA"
+			tasks: [{
+				id: "06FC2BFCE9CF6149"
+				type: "item"
+				item: {
+					id: "croptopia:tomato_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "03FC852CD40CEAA7"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Full Hand of Seeds"
+			x: -1.0d
+			y: 7.0d
+			description: ["Collect all the types of seeds within Croptopia."]
+			hide_dependency_lines: true
+			dependencies: [
+				"09E0B18CE74A03BF"
+				"12882879186272D7"
+				"3655CD9DA37FE3F2"
+				"170FB50C5200D91C"
+				"5B2AE91FA5A221F3"
+				"2B563312AC200A68"
+			]
+			hide: false
+			id: "4C6368F9401713F1"
+			tasks: [{
+				id: "39B8630EF1B9C838"
+				type: "advancement"
+				advancement: "croptopia:gather_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6723E61665495648"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 2000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Plain Seeds"
+			x: -1.5d
+			y: 3.5d
+			description: ["Gather all the seeds from the plains"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "170FB50C5200D91C"
+			tasks: [{
+				id: "3002F901F2605A70"
+				type: "advancement"
+				advancement: "croptopia:gather_plains"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "268508C993FEE563"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Desert Seeds"
+			x: -1.5d
+			y: 4.5d
+			description: ["Gather all the seeds from the desert"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "09E0B18CE74A03BF"
+			tasks: [{
+				id: "3EAD511E9E624F0E"
+				type: "advancement"
+				advancement: "croptopia:gather_desert"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12521C9EBB34D016"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Forest Seeds"
+			x: -1.5d
+			y: 5.5d
+			description: ["Gather all the seeds from the forest"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "12882879186272D7"
+			tasks: [{
+				id: "2FB15DD1169BCA14"
+				type: "advancement"
+				advancement: "croptopia:gather_forest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6B4F4702C0D1BF78"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Savanna Seeds"
+			x: -0.5d
+			y: 3.5d
+			description: ["Gather all the seeds from the savanna"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "5B2AE91FA5A221F3"
+			tasks: [{
+				id: "2DF33971BECA9DCE"
+				type: "advancement"
+				advancement: "croptopia:gather_savanna"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7E473244CF0297A1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Jungle Seeds"
+			x: -0.5d
+			y: 4.5d
+			description: ["Gather all the seeds from the jungle"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "3655CD9DA37FE3F2"
+			tasks: [{
+				id: "5095133897FFE89D"
+				type: "advancement"
+				advancement: "croptopia:gather_jungle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5CFBAA3028B04433"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Swamp Seeds"
+			x: -0.5d
+			y: 5.5d
+			description: ["Gather all the seeds from the swamp"]
+			dependencies: ["79242DB1305747EA"]
+			hide: true
+			id: "2B563312AC200A68"
+			tasks: [{
+				id: "4734B521004D853D"
+				type: "advancement"
+				advancement: "croptopia:gather_swamp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6EA144DE0034173D"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Dark Forest Saplings"
+			x: 0.5d
+			y: 3.5d
+			description: ["Gather all the saplings from the dark forest or its variants"]
+			dependencies: ["5B6E18146198FD55"]
+			id: "3E0A804323AB84E2"
+			tasks: [{
+				id: "271CE4231983F67F"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_dark_forest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7FA2964438AA794E"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Jungle Saplings"
+			x: 1.5d
+			y: 3.5d
+			description: ["Gather all the saplings from the jungle or its variants"]
+			dependencies: ["5B6E18146198FD55"]
+			id: "3C75BFFEC228200A"
+			tasks: [{
+				id: "18249E50081E8190"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_jungle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2E67CDF520158712"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Plain Saplings"
+			x: 0.5d
+			y: 4.5d
+			description: ["Gather all the saplings from the plains or its variants"]
+			dependencies: ["5B6E18146198FD55"]
+			id: "749C1376E888FA6A"
+			tasks: [{
+				id: "110BC22381436DF7"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_plains"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "02A54D2E8276B6EC"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Forest Saplings"
+			x: 1.5d
+			y: 4.5d
+			description: ["Gather all the saplings from the forest or its variants"]
+			dependencies: ["5B6E18146198FD55"]
+			id: "1496E7DD8C541918"
+			tasks: [{
+				id: "477FE1B0D5D189F9"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_forest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "593AFAD1126D01C0"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Cinnamon Sticks"
+			x: -2.0d
+			y: 1.0d
+			description: ["Get cinnamon from the jungle"]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "09329BF0FA820CC7"
+			tasks: [{
+				id: "5C9DDFDBB6F3BEDC"
+				type: "advancement"
+				advancement: "croptopia:cinnamon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5E71F388474D1AAA"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 150L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "Salt"
+			x: -1.5d
+			y: -0.5d
+			description: ["Gain salt from a river"]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "7EA238CE7670228E"
+			tasks: [{
+				id: "0E395FE3A41445EF"
+				type: "advancement"
+				advancement: "croptopia:salt"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3031A5E3884EAECF"
+				type: "pmmo:xpreward"
+				team_reward: false
+				auto: "enabled"
+				skill: "cooking"
+				amount: 150L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Home Cooked Meal"
+			x: 0.0d
+			y: -0.5d
+			description: ["Eat a meal that you have created."]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "02820919056D71F4"
+			tasks: [{
+				id: "58D407E3B872C918"
+				type: "advancement"
+				advancement: "croptopia:eatcrafted"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0590347712FCA807"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 100L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Large Home Cooked Meal"
+			x: 0.0d
+			y: -1.5d
+			description: ["Eat an item using five ingredients"]
+			dependencies: ["02820919056D71F4"]
+			id: "584EE7A2559E58A4"
+			tasks: [{
+				id: "3ABB9E2DF2A35858"
+				type: "advancement"
+				advancement: "croptopia:eatbig"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53DCC23362FA9839"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Master Chef"
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"Eat all 172 Croptopia Foods. "
+				""
+				"You will need to have completed the \"Do You Deliver?\" quest from the Building the Kingdom Questline to complete this quest. Can't be a Master Chef without a Restaurant"
+			]
+			dependencies: [
+				"584EE7A2559E58A4"
+				"1A714DD89A9C69AF"
+			]
+			hide: true
+			id: "3FABDB61DA209092"
+			tasks: [{
+				id: "370E01A49A90E597"
+				type: "advancement"
+				advancement: "croptopia:gather_food"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2EFD4CAF5CFF28D1"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 3000L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Barista"
+			x: 1.5d
+			y: 0.5d
+			description: ["Make a drink from Croptopia"]
+			dependencies: ["3703E929C0A8EEAC"]
+			hide: true
+			id: "5D07C71E5B9F8882"
+			tasks: [{
+				id: "20A56BD2763B27E3"
+				type: "advancement"
+				advancement: "croptopia:getdrinks"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3BDCD14D62C20688"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 250L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "The Master Barista"
+			x: 3.0d
+			y: -0.5d
+			description: ["Make all 22 Croptopia drinks"]
+			dependencies: ["5D07C71E5B9F8882"]
+			id: "3E347DCD3BD02A32"
+			tasks: [{
+				id: "78CCB05FDB1200BB"
+				type: "advancement"
+				advancement: "croptopia:gather_drinks"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "51001097BAE8F5AB"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "cooking"
+				amount: 1500L
+				ignoreBonuses: true
+			}]
+		}
+		{
+			title: "A Full Grove"
+			x: 1.0d
+			y: 6.0d
+			description: ["Collect all the saplings from Croptopia"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3E0A804323AB84E2"
+				"1496E7DD8C541918"
+				"3C75BFFEC228200A"
+				"749C1376E888FA6A"
+			]
+			id: "290F2863B7556C94"
+			tasks: [{
+				id: "585A346408C69D4B"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "598B5866C6E2F450"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "harvesting"
+				amount: 1500L
+				ignoreBonuses: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

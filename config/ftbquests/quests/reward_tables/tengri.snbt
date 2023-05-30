@@ -1,0 +1,84 @@
+{
+	id: "77D658341CF24D20"
+	order_index: 14
+	title: "Tengri Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "minecraft:bow"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 1b
+							id: "minecraft:arrow"
+							Count: 64b
+						}
+						{
+							Slot: 2b
+							id: "minecraft:cooked_rabbit"
+							Count: 10b
+						}
+						{
+							Slot: 3b
+							id: "betteranimalsplus:wolf_cape_brown"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 4b
+							id: "druidcraftrg:brown_bedroll"
+							Count: 1b
+						}
+						{
+							Slot: 5b
+							id: "minecraft:flint_and_steel"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 6b
+							id: "minecraft:campfire"
+							Count: 5b
+						}
+						{
+							Slot: 7b
+							id: "toughasnails:wool_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 8b
+							id: "toughasnails:wool_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,1031 @@
+{
+	id: "000000000000044D"
+	group: ""
+	order_index: 6
+	filename: "create"
+	title: "Mechanical Advantage"
+	icon: "create:goggles"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -2.5d
+			width: 15.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/mechanical.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000450"
+			tasks: [{
+				id: "0000000000000451"
+				type: "item"
+				item: "create:belt_connector"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7A8DDF64FC9608AA"
+				type: "item"
+				item: "create:belt_connector"
+				count: 32
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["The Clutch stops outgoing rotation when a redstone signal is applied."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000458"]
+			hide: true
+			id: "0000000000000454"
+			tasks: [{
+				id: "0000000000000455"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "790CEBCD09694347"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["The Gearshift reverses outgoing Rotational Force when a Redstone signal is applied."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000458"]
+			hide: true
+			id: "0000000000000456"
+			tasks: [{
+				id: "0000000000000457"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "51F768748A8D5B7A"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+		}
+		{
+			title: "Turning stone into machines"
+			icon: "create:andesite_alloy"
+			x: -2.0d
+			y: 0.0d
+			description: ["Many of the devices used in CREATE is based off of andesite alloys. Make a handful to get started."]
+			dependencies: ["56898DB9BBAE241B"]
+			hide: true
+			size: 2.0d
+			id: "0000000000000458"
+			tasks: [
+				{
+					id: "0000000000000459"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+				{
+					id: "099203870155107F"
+					type: "item"
+					item: {
+						id: "create:andesite_alloy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "311D6756D53F50A6"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 32
+				}
+				{
+					id: "3B4D75AE42DF8AAD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100L
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "000000000000045A"
+			tasks: [{
+				id: "000000000000045B"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "1FD8D28077EC30E8"
+				type: "item"
+				item: "create:blaze_cake_base"
+			}]
+		}
+		{
+			title: "Filters"
+			icon: {
+				id: "create:filter"
+				Count: 1b
+				tag: {
+					Items: { }
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			description: [
+				"Filters are used to sort multiple different items through one output."
+				""
+				"Filters can only be used on machines that have a filter slot, such as Brass Funnels, Brass Tunnels, and Basins."
+			]
+			dependencies: ["000000000000046A"]
+			hide: true
+			id: "000000000000045C"
+			tasks: [
+				{
+					id: "000000000000045D"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+				{
+					id: "000000000000045E"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "166CECA5095CAFF9"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Kinetic Forces"
+			x: -1.0d
+			y: 1.5d
+			description: [
+				"The Speedometer measures the speed of Rotational Force."
+				""
+				"The Stressometer is used to measure the amount of Stress on a Shaft."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000458"]
+			hide: true
+			id: "000000000000045F"
+			tasks: [
+				{
+					id: "0000000000000460"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "0000000000000461"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [{
+				id: "327CCF89C7813997"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			title: "Tools of the trade"
+			icon: {
+				id: "create:orange_toolbox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"Engineer's Goggles allow you to see information about your machines."
+				""
+				"The Wrench is a tool used to rotate, dismantle and configure components"
+				""
+				"The Toolbox is used to store more items for your build."
+			]
+			dependencies: ["56898DB9BBAE241B"]
+			hide: true
+			id: "0000000000000462"
+			tasks: [
+				{
+					id: "0000000000000463"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "0000000000000464"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "2940D0C619B7BB3D"
+					type: "item"
+					item: "create:brown_toolbox"
+				}
+			]
+			rewards: [{
+				id: "7CF3777BE2FA9D6C"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: ["The Encased Chain Drive is a block that can transfer rotation much like the Mechanical Belt."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000458"]
+			hide: true
+			id: "0000000000000465"
+			tasks: [{
+				id: "0000000000000466"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "6844DA50D035EEF5"
+				type: "item"
+				item: "create:encased_chain_drive"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "create:andesite_tunnel"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"The Andesite Tunnel is decorative Tunnel for Mechanical Belts."
+				""
+				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
+			]
+			dependencies: ["0000000000000450"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "0000000000000467"
+			tasks: [
+				{
+					id: "0000000000000468"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+				{
+					id: "0000000000000469"
+					type: "item"
+					item: "create:brass_tunnel"
+				}
+			]
+			rewards: [{
+				id: "014648654A02A8D2"
+				type: "item"
+				item: "create:andesite_tunnel"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "create:andesite_funnel"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 5.0d
+			description: ["The Funnel is used to extract or insert materials into inventories."]
+			dependencies: ["0000000000000467"]
+			hide: true
+			id: "000000000000046A"
+			tasks: [
+				{
+					id: "000000000000046B"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "000000000000046C"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+			]
+			rewards: [{
+				id: "10E1AC1476E59B79"
+				type: "item"
+				item: "create:andesite_funnel"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			description: ["The Mechanical Piston is a piston that can push Contraptions multiple blocks when powered with Rotational Power."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "000000000000046D"
+			tasks: [{
+				id: "000000000000046E"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [{
+				id: "616349F11928EF15"
+				type: "item"
+				item: "create:mechanical_piston"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			description: ["The Sticky Mechanical Piston is a piston that can push Contraptions multiple blocks when powered with Rotational Power."]
+			dependencies: ["000000000000046D"]
+			hide: true
+			id: "000000000000046F"
+			tasks: [{
+				id: "0000000000000470"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+			rewards: [{
+				id: "7693632113C50A9B"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			description: [
+				"The Fluid Tank is a fluid storage mechanism that can store up to 8 buckets of fluid per block."
+				""
+				"Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000473"
+			tasks: [{
+				id: "0000000000000474"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "26BCDFD884D405D5"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			title: "Linking it all together"
+			icon: {
+				id: "create:linear_chassis"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 3.5d
+			description: [
+				"The Linear Chassis is one method of connecting up moving structures or minecart contraptions."
+				""
+				"The Radial Chassis is a block used to connect Contraptions."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000479"
+			tasks: [
+				{
+					id: "000000000000047A"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "000000000000047B"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "000000000000047C"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+			]
+			rewards: [
+				{
+					id: "73D1DD893F9C875F"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 4
+				}
+				{
+					id: "2686B1AE969A2A31"
+					type: "item"
+					item: "create:radial_chassis"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["The Mechanical Drill is a block used to break blocks."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "000000000000047F"
+			tasks: [{
+				id: "0000000000000480"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "4859F1C3B12EAC00"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: [
+				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward."
+				""
+				"It will then either deposit the items to an inventory on the Contraption, or, if no inventories are available, it will drop the items on to the ground."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000483"
+			tasks: [{
+				id: "0000000000000484"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "6D06EA6A80049DC6"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 16
+			}]
+		}
+		{
+			title: "Gearboxes"
+			icon: {
+				id: "create:gearbox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 2.5d
+			description: ["The Gearbox can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000489"
+			tasks: [
+				{
+					id: "000000000000048A"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+				{
+					id: "000000000000048B"
+					type: "item"
+					item: "create:gearbox"
+				}
+			]
+			rewards: [
+				{
+					id: "165405136AEC8E17"
+					type: "item"
+					item: "create:gearbox"
+					count: 2
+				}
+				{
+					id: "35E037341F06884B"
+					type: "item"
+					item: "create:vertical_gearbox"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			description: [
+				"The Encased Fan is a mechanical component that can create air streams and generate power."
+				""
+				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "000000000000048C"
+			tasks: [{
+				id: "000000000000048D"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "2FF74FEED253681C"
+				type: "item"
+				item: "create:propeller"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			description: ["Mechanical Crafters are machines that can automatically craft items."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "0000000000000492"
+			tasks: [{
+				id: "0000000000000493"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "1FD526637BD9016F"
+				type: "item"
+				item: "create:brass_casing"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["In order to begin generating power, a Windmill Bearing must have at sail or wool attached."]
+			dependencies: ["56A7781353F88367"]
+			hide: true
+			id: "0000000000000494"
+			tasks: [{
+				id: "0000000000000495"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "62539F04D2C1FC81"
+				type: "item"
+				item: {
+					id: "create:shaft"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Transfering power"
+			icon: {
+				id: "create:shaft"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 2.0d
+			description: [
+				""
+				"You now have power, But it'll need to move to your machines. Create cogweels, the basic components to transfer power around."
+			]
+			dependencies: ["29951186B4D666F0"]
+			id: "0000000000000496"
+			tasks: [
+				{
+					id: "0000000000000497"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "000000000000049C"
+					type: "item"
+					title: "Cogwheel"
+					item: {
+						id: "create:cogwheel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000049D"
+					type: "item"
+					title: "Large Cogwheel"
+					item: {
+						id: "create:large_cogwheel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "363CB6E6046DFC1C"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: [
+				"The Water Wheel is a source of rotational power. It generates rotational force when water flows over it."
+				""
+				"The water wheel can be combined with a bucket of water or a river to generate power."
+			]
+			dependencies: ["56A7781353F88367"]
+			hide: true
+			id: "000000000000049E"
+			tasks: [{
+				id: "000000000000049F"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "72AF8BD5DB212E5C"
+				type: "item"
+				item: {
+					id: "create:water_wheel"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			description: ["The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "00000000000004A0"
+			tasks: [{
+				id: "00000000000004A1"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "7843221DAA95EFAF"
+				type: "item"
+				item: "create:limestone"
+				count: 64
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: ["Crushing Wheels are the more advanced version of the Millstone. It applies Crushing recipes to any items inserted from the direction they are spinning away from."]
+			dependencies: ["0000000000000492"]
+			hide: true
+			id: "00000000000004A2"
+			tasks: [{
+				id: "00000000000004A3"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "70FFD7366F3FFB37"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 24
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: ["The Hand Crank generates a small amount of Rotational Force through player interaction."]
+			dependencies: ["56A7781353F88367"]
+			hide: true
+			id: "00000000000004A4"
+			tasks: [{
+				id: "00000000000004A5"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "14CB6B8F7A0FB743"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			description: ["The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "00000000000004A6"
+			tasks: [{
+				id: "00000000000004A7"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "64F6B486A756B8F0"
+				type: "item"
+				item: "create:dough"
+				count: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			description: [
+				"Mechanical Saws are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. When chopping down a tree, it will automatically destroy the entire tree by only destroying the bottom-most block."
+				""
+				"When placed facing upward, the Saw applies sawing or stonecutting recipes."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: true
+			id: "00000000000004A8"
+			tasks: [{
+				id: "00000000000004A9"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "02E033781C0A7370"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			description: ["The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."]
+			dependencies: ["0000000000000473"]
+			hide: true
+			id: "00000000000004AA"
+			tasks: [{
+				id: "00000000000004AB"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "529A5EB5322FEB59"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			description: [
+				"The Basin is a block that holds items and fluids used in Packing, Compacting, and Mixing recipes."
+				""
+				"A Basin can also function as an interaction point in fluid systems as fluids can be placed in or removed from a Basin directly by a player."
+			]
+			dependencies: ["00000000000004A6"]
+			hide: true
+			id: "00000000000004AC"
+			tasks: [{
+				id: "00000000000004AD"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "55DAEFC4AD398606"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 32
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: [
+				"Super Glue holds structures in Contraptions together, like Slimeballs."
+				""
+				"The main difference between Super Glue and Slimeballs is that Super Glue does not need to use the wooden face of a Linear Chassis block to adhere blocks to each other."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000496"]
+			hide: false
+			id: "1649CACDA9411210"
+			tasks: [{
+				id: "4CF58B688D370BDB"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5002022DFE1760D5"
+				type: "item"
+				item: "minecraft:lime_dye"
+				count: 4
+			}]
+		}
+		{
+			icon: "create:goggles"
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Yes we can!"
+			description: [
+				"CREATE is a vanilla enhanced mod that can create mechanical systems for automation purposes. This guide can help you get started."
+				"                                                Most of the systems and designs can be viewed by 'pondering' an item.  (W while looking at it)"
+			]
+			dependencies: ["4A31F90BCE24D994"]
+			hide: true
+			id: "56898DB9BBAE241B"
+			tasks: [{
+				id: "3DA8314F1A8B4145"
+				type: "checkmark"
+				title: "Can we built it?"
+			}]
+		}
+		{
+			title: "Generating Power"
+			x: -4.0d
+			y: 0.0d
+			description: [
+				"There are 2 main ways to generate power- windmills and water wheels.  "
+				"                                               You can also use a hand crack that require player interactions."
+			]
+			dependencies: ["0000000000000458"]
+			hide: true
+			id: "56A7781353F88367"
+			tasks: [{
+				id: "54C3F64D256BCE36"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			description: [
+				"Combining sails onto a block, attached to the windmill bearing will generate power.  You need at least 8 attached to the bearing."
+				"                                                   Sails and Wool do not require superglue or slime balls to attach."
+			]
+			dependencies: ["0000000000000494"]
+			hide: true
+			id: "599A9A12734CECD2"
+			tasks: [{
+				id: "28743A01B43C5BE0"
+				type: "item"
+				item: {
+					id: "create:white_sail"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+		}
+		{
+			title: "Learning the Trade"
+			icon: "create:wrench"
+			x: 0.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000494"
+				"000000000000049E"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "29951186B4D666F0"
+			tasks: [{
+				id: "6A1464DEBBB38C54"
+				type: "checkmark"
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "43FBE8719B219EC4"
+				type: "pmmo:xpreward"
+				auto: "enabled"
+				skill: "crafting"
+				amount: 200L
+				ignoreBonuses: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

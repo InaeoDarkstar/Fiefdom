@@ -1,0 +1,67 @@
+{
+	id: "7C598424402483EF"
+	order_index: 1
+	title: "Squire Reward"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "levelhearts:heart_container", count: 2 }
+		{ item: "torchmaster:megatorch" }
+		{ item: "minecraft:lantern", count: 16 }
+		{ item: "minecraft:glowstone_dust", count: 7 }
+		{ item: "minecraft:chest", count: 32 }
+		{ item: "minecraft:redstone", count: 64 }
+		{ item: "minecraft:chicken_spawn_egg", count: 2 }
+		{ item: "minecraft:cow_spawn_egg", count: 2 }
+		{ item: "minecraft:sheep_spawn_egg", count: 2 }
+		{ item: "minecraft:pig_spawn_egg", count: 2 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "dungeons_gear:anima_conduit"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "dungeons_gear:altruistic"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+	]
+}

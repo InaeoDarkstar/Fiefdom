@@ -1,0 +1,8157 @@
+{
+	id: "5E0DF2C20D3FA5F2"
+	group: "390342AC46863EE8"
+	order_index: 1
+	filename: "test"
+	title: "Class Tree"
+	icon: "waystones:bound_scroll"
+	disable_toast: true
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 14.5d
+			y: -7.5d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/ftb_warning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -19.0d
+			y: -0.5d
+			width: 9.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/p_perks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Warrior's Health I"
+			x: 6.0d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["Add 1 Permanent Heart"]
+			dependencies: ["554643BE5FAE4320"]
+			optional: true
+			id: "479A8C5B8A11EDEC"
+			tasks: [{
+				id: "69B10E7A700DA451"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"pmmo:vein_data": {
+							charge: -1.0d
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "69EAB062C2421A5A"
+				type: "command"
+				title: "Warrior's Health I"
+				icon: "levelhearts:heart_container"
+				auto: "enabled"
+				command: "/power grant @p origins:warrior_health_i skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reach"
+			disable_toast: true
+			x: 3.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["Your innate craftsman skill allows you extended reach."]
+			dependencies: ["554643BE5FAE4320"]
+			optional: true
+			id: "392658050FB64872"
+			tasks: [{
+				id: "5531434EAA9FB594"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "25FDD4C9CDC4CE23"
+				type: "command"
+				title: "Reach"
+				icon: "graveyard:skeleton_hand"
+				auto: "enabled"
+				command: "/power grant @p origins:reach"
+				player_command: false
+			}]
+		}
+		{
+			title: "Skilled Hands"
+			x: 5.0d
+			y: -8.5d
+			description: ["You're used to working with your hands, gain Haste."]
+			dependencies: ["53A31EFEB2C6D28D"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "27856420A902EB03"
+			tasks: [{
+				id: "1D5142EE1B1236C8"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70540C536D410DF3"
+				type: "command"
+				title: "Skilled Hands"
+				icon: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:skilled_hands"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tools of the Trade"
+			x: 0.5d
+			y: -9.5d
+			description: ["Your skills with hammers and axes as tools increases your combat effectiveness with them."]
+			dependencies: ["775914E01FA23515"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "449415062AB4DFBD"
+			tasks: [{
+				id: "61F84D41CAB72A71"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3CAB02E23DDF5542"
+				type: "command"
+				title: "Tools of the Trade"
+				icon: {
+					id: "stalwart_dungeons:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:toolsofthetrade"
+				player_command: false
+			}]
+		}
+		{
+			title: "Soldier"
+			x: 6.0d
+			y: -1.5d
+			shape: "octagon"
+			description: [
+				""
+				"{image:kubejs:textures/images/cards/soldier.png width:175 height:200 align:1 fit:true}"
+			]
+			dependencies: [
+				"479A8C5B8A11EDEC"
+				"0C038780B8BF2A86"
+			]
+			size: 1.5d
+			incompatible: [
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "473E15814A16DBC1"
+			tasks: [{
+				id: "77D058B9F7361895"
+				type: "checkmark"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1655EA756B37F1EB"
+				type: "command"
+				title: "Soldier"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins:origin origins-classes:soldier/soldier"
+				player_command: false
+			}]
+		}
+		{
+			title: "Bark Skin"
+			x: 7.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["Your skin is as hard as wood, giving you +2 Armor "]
+			dependencies: [
+				"479A8C5B8A11EDEC"
+				"0C038780B8BF2A86"
+			]
+			optional: true
+			id: "2C257896E6B9DA1E"
+			tasks: [{
+				id: "43C4B582A58D8E6D"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "432023C245A42E34"
+				type: "command"
+				title: "Bark Skin"
+				icon: "minecraft:oak_log"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:woodskin skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Warrior's Health II"
+			x: 8.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["Add 1 Permanent Heart"]
+			dependencies: ["2C257896E6B9DA1E"]
+			optional: true
+			id: "242270D578752B0B"
+			tasks: [{
+				id: "59CFF0579AD84C21"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "283E26F5178812F4"
+				type: "command"
+				title: "Warrior's Health II"
+				icon: "levelhearts:heart_container"
+				auto: "enabled"
+				command: "/power grant @p origins:warrior_health_ii skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Expert Carpentry"
+			x: -1.0d
+			y: -8.5d
+			description: ["Your carpentry skills increase your wood byproducts"]
+			dependencies: ["449415062AB4DFBD"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "47D17848B13E638E"
+			tasks: [{
+				id: "56D9A5BAC6A4FF38"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73C9D47BDF11950F"
+				type: "command"
+				title: "Carpentry II"
+				icon: "minecraft:oak_stairs"
+				auto: "enabled"
+				command: "/power grant @p origins:carpentry_ii"
+				player_command: false
+			}]
+		}
+		{
+			title: "Safe Fall"
+			x: 3.5d
+			y: -9.5d
+			description: ["Years of training in caves has reduced the damage you take from falling"]
+			dependencies: ["775914E01FA23515"]
+			optional: true
+			id: "53A31EFEB2C6D28D"
+			tasks: [{
+				id: "11E952D4D7AE469D"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1DA8EDDD246E73DE"
+				type: "command"
+				title: "Safe Fall"
+				icon: "minecraft:feather"
+				auto: "enabled"
+				command: "/power grant @p origins:fall_resistance"
+				player_command: false
+			}]
+		}
+		{
+			title: "QUEST: Let's Make a Deal"
+			x: 0.5d
+			y: -11.0d
+			description: ["Kahjit has wares, if you have coin."]
+			dependencies: ["449415062AB4DFBD"]
+			size: 1.5d
+			optional: true
+			id: "7AA0CFC978CB13F1"
+			tasks: [{
+				id: "13C99192DEC0F7EA"
+				type: "stat"
+				title: "Villager Trades"
+				icon: "dotcoinmod:gold_coin"
+				stat: "minecraft:traded_with_villager"
+				value: 100
+			}]
+		}
+		{
+			title: "QUEST:  Metallurgical Supplies"
+			icon: "minecraft:iron_ingot"
+			x: 3.5d
+			y: -11.0d
+			description: ["Metal smelting is your game."]
+			dependencies: ["53A31EFEB2C6D28D"]
+			size: 1.5d
+			optional: true
+			id: "2CF348ECCA09AEFE"
+			tasks: [
+				{
+					id: "7854E6A594BDAAD9"
+					type: "item"
+					icon: "minecraft:copper_ingot"
+					item: "minecraft:copper_ingot"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "2880ABDE4BDEB08C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:iron_ingot"
+					count: 20L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Freeman's Fortitude"
+			x: 2.0d
+			y: -12.0d
+			description: ["All of your hard labor has increased your health.  +2 Permanent Hearts."]
+			dependencies: [
+				"2CF348ECCA09AEFE"
+				"7AA0CFC978CB13F1"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0C8E281707BA837D"
+			tasks: [{
+				id: "5C49BC9602C551B0"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3820D6929B1BBF03"
+				type: "command"
+				title: "Freeman's Fortitude"
+				icon: "levelhearts:heart_container"
+				auto: "enabled"
+				command: "/power grant @p origins:freeman_fortitude"
+				player_command: false
+			}]
+		}
+		{
+			title: "Artisan"
+			x: -1.0d
+			y: -7.0d
+			description: ["{image:kubejs:textures/images/cards/artisan.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["47D17848B13E638E"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "1C7ED6BB0A354354"
+			tasks: [{
+				id: "41B6CBA0E7215097"
+				type: "checkmark"
+				title: "Checkmark"
+				icon: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "23E7BCEA2891267F"
+				type: "command"
+				title: "Artisan"
+				icon: "minecraft:crafting_table"
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/artisan"
+				player_command: false
+			}]
+		}
+		{
+			title: "Excavator"
+			x: 5.0d
+			y: -7.0d
+			description: [
+				"{image:kubejs:textures/images/cards/excavator.png width:175 height:200 align:1 fit:true}"
+				""
+			]
+			dependencies: ["27856420A902EB03"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"09F547D3F828753F"
+				"4219BEB05FC3D16F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+				"387795DE06A568C1"
+			]
+			id: "267D9676923393C0"
+			tasks: [{
+				id: "2386FF53EFC0BC65"
+				type: "checkmark"
+				title: "origin2b"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "154E21A71B724940"
+				type: "command"
+				title: "Excavator"
+				icon: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/excavator"
+				player_command: false
+			}]
+		}
+		{
+			title: "Master Chef"
+			x: 5.0d
+			y: -12.0d
+			description: ["XP gained by using the smoker is increased by 200%"]
+			dependencies: ["2CF348ECCA09AEFE"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "00E51C3073FB687C"
+			tasks: [{
+				id: "41A93655BB714B73"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0879921FADDEA55B"
+				type: "command"
+				title: "Chef"
+				icon: "minecraft:cooked_beef"
+				auto: "enabled"
+				command: "/power grant @p origins-classes:more_smoker_xp"
+				player_command: false
+			}]
+		}
+		{
+			title: "Call to Arms"
+			x: -1.0d
+			y: -12.0d
+			description: ["Militia training grants you +4 increase armor and  +1 attack damage."]
+			dependencies: ["7AA0CFC978CB13F1"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "7F7C493720BB302B"
+			tasks: [{
+				id: "0E9C8D7EC94AB34A"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "617F0702382E86C7"
+				type: "command"
+				title: "Call to Arms"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "no_toast"
+				command: "/power grant @p origins:call_to_arms"
+				player_command: false
+			}]
+		}
+		{
+			title: "Luck of the Draw"
+			x: -2.0d
+			y: -13.5d
+			description: ["You seem to have the best luck when looting chests"]
+			dependencies: ["7F7C493720BB302B"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "2296CB115CF363AF"
+			tasks: [{
+				id: "6A6259F6C31C5E74"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "028282FA414FBD24"
+				type: "command"
+				title: "Luck of the Draw"
+				icon: "minecraft:chest"
+				auto: "enabled"
+				command: "/power grant @p origins:luck"
+				player_command: false
+			}]
+		}
+		{
+			title: "Smelting"
+			x: 0.5d
+			y: -13.5d
+			description: ["Using a Blast Furance yeilds 200% XP orbs"]
+			dependencies: [
+				"0C8E281707BA837D"
+				"7F7C493720BB302B"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "637F8F392714B531"
+			tasks: [{
+				id: "4A6F7C628EA07E51"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1E12C34EBC8A95A5"
+				type: "command"
+				title: "Smelting"
+				icon: "minecraft:blast_furnace"
+				auto: "enabled"
+				command: "/power grant @p origins:more_xp_blast"
+				player_command: false
+			}]
+		}
+		{
+			title: "Dark Vision"
+			x: 3.5d
+			y: -13.5d
+			description: ["You spend so much time underground, you have developed better eyesight in the dark. "]
+			dependencies: [
+				"0C8E281707BA837D"
+				"00E51C3073FB687C"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6F32C9659A795C0E"
+			tasks: [{
+				id: "266BB442BE9111D6"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01C85D700DAF98B1"
+				type: "command"
+				title: "Dark Vision"
+				icon: "create:goggles"
+				auto: "enabled"
+				command: "/power grant @p origins:dusk_vision"
+				player_command: false
+			}]
+		}
+		{
+			title: "Butcher"
+			x: 6.0d
+			y: -13.5d
+			description: ["As a skilled Butcher, you produce more animal loot."]
+			dependencies: ["00E51C3073FB687C"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "4428C4CA210000D0"
+			tasks: [{
+				id: "032C0EEFDDE1392C"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01D8730EBE5C0420"
+				type: "command"
+				title: "Butcher"
+				icon: "minecraft:beef"
+				auto: "enabled"
+				command: "/power grant @p origins-classes:more_animal_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "Connections"
+			x: -3.0d
+			y: -12.0d
+			description: ["You know the wandering traders so well, they offer you additional Rare trades."]
+			dependencies: ["2296CB115CF363AF"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0E2978F8E6585068"
+			tasks: [{
+				id: "4CB7D21649CA1E8E"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "05DC320E644428EF"
+				type: "command"
+				title: "Wandering Connections"
+				icon: "supplementaries:globe"
+				command: "/power grant @p origins-classes:rare_wandering_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "Bonemeal Effciency"
+			x: 7.0d
+			y: -12.0d
+			description: ["Bonemeal you use has higher yields and is doublely effective."]
+			dependencies: ["4428C4CA210000D0"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "15D4EEF4630CB10E"
+			tasks: [{
+				id: "289C8221C66D720E"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "79A836B75CDA2F0D"
+				type: "command"
+				icon: "minecraft:bone_meal"
+				auto: "enabled"
+				command: "/power grant @p origins-classes:better_bone_meal"
+				player_command: false
+			}]
+		}
+		{
+			title: "Blacksmith"
+			x: -1.0d
+			y: -17.0d
+			description: ["{image:kubejs:textures/images/cards/blacksmith.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["650D0922503ABE05"]
+			size: 2.0d
+			incompatible: [
+				"25174516493C2EB1"
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"1C09850428A2A454"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"387795DE06A568C1"
+				"1C7ED6BB0A354354"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "5D9B22EFE696BE43"
+			tasks: [{
+				id: "109DA2C05953F52B"
+				type: "checkmark"
+				title: "origin3a"
+				icon: "minecraft:anvil"
+			}]
+			rewards: [
+				{
+					id: "0132C2F2BCD1D0CB"
+					type: "command"
+					title: "Blacksmith"
+					icon: "minecraft:anvil"
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:freeman/blacksmith"
+					player_command: false
+				}
+				{
+					id: "6DE122A1BF955C30"
+					type: "pmmo:levelreward"
+					auto: "enabled"
+					skill: "reforging"
+					amount: 2
+				}
+			]
+		}
+		{
+			title: "Cultivator"
+			x: 9.0d
+			y: -12.0d
+			description: ["{image:kubejs:textures/images/cards/cultivator.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["15D4EEF4630CB10E"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"7BAEF2FBDC9D26D4"
+				"5C259234775B6C14"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"619264C4589103F4"
+				"4219BEB05FC3D16F"
+				"0BD7BDCD77393C3A"
+				"09F547D3F828753F"
+				"7C074F4CD2476A41"
+				"515B3F66751628D3"
+				"5E939DB3F3277241"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"1C7ED6BB0A354354"
+			]
+			id: "5C0A96FA7295997E"
+			tasks: [{
+				id: "4D15CE65B9BC0936"
+				type: "checkmark"
+				title: "origin3b"
+				icon: "minecolonies:blockhutfield"
+			}]
+			rewards: [{
+				id: "1FFC9916779C6FA4"
+				type: "command"
+				title: "Cultivator"
+				icon: "minecolonies:blockhutfield"
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/cultivator"
+				player_command: false
+			}]
+		}
+		{
+			title: "Skilled Hands II"
+			x: 5.0d
+			y: -15.0d
+			description: ["Your tool efficency is so strong, your breakspeed is increase by 60%"]
+			dependencies: [
+				"6F32C9659A795C0E"
+				"4428C4CA210000D0"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "78B19A990CB46836"
+			tasks: [{
+				id: "009764E43BEE9AF9"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "05D7F931936B6864"
+				type: "command"
+				title: "Skilled Hands II"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:skilled_hands_ii"
+				player_command: false
+			}]
+		}
+		{
+			title: "Baron"
+			icon: {
+				id: "dungeons_mobs:drowned_necromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			x: -5.0d
+			y: -12.0d
+			description: ["{image:kubejs:textures/images/cards/baron.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["0E2978F8E6585068"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"5C259234775B6C14"
+				"1C09850428A2A454"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "387795DE06A568C1"
+			tasks: [{
+				id: "0320F55A982A7BED"
+				type: "checkmark"
+				title: "Origin 3c"
+				icon: {
+					id: "dotcoinmod:coin_bag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D651E70DB2E91A5"
+				type: "command"
+				title: "Baron"
+				icon: "dotcoinmod:gold_coin"
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/baron"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset Wooden Skin"
+			x: 7.199999999999999d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2C257896E6B9DA1E"]
+			hide: true
+			size: 0.3d
+			optional: true
+			incompatible: ["242270D578752B0B"]
+			id: "4B13A3C6012A110A"
+			tasks: [{
+				id: "20C307B1F799FC7D"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1B7330226C458200"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2C257896E6B9DA1E"
+					player_command: false
+				}
+				{
+					id: "434B30522B2FB916"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "070700B482D231C2"
+					type: "command"
+					auto: "invisible"
+					command: "/power remove @p origins:woodskin skilltree"
+					player_command: false
+				}
+				{
+					id: "79BBF25492B86B97"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4B13A3C6012A110A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Mining Training"
+			x: 0.5d
+			y: -4.5d
+			description: [
+				"Your training has paid off."
+				""
+				"Gain Mining XP."
+			]
+			dependencies: ["554643BE5FAE4320"]
+			optional: true
+			id: "4E7A200FB2E0118B"
+			tasks: [{
+				id: "1F5177BE1F517A4C"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74255C46F75133C6"
+				type: "command"
+				title: "Mining Training"
+				icon: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "enabled"
+				command: "/pmmo admin @p add mining xp 943"
+				player_command: false
+			}]
+		}
+		{
+			title: "Combat Training"
+			x: 4.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"Your training has paid off."
+				""
+				"Gain combat XP."
+			]
+			dependencies: ["554643BE5FAE4320"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0C038780B8BF2A86"
+			tasks: [{
+				id: "7E3E492A4C2EF5B2"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32567E3A4654BDF9"
+				type: "command"
+				title: "Combat XP"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/pmmo admin @p add combat xp 943"
+				player_command: false
+			}]
+		}
+		{
+			title: "Freeman"
+			x: 2.0d
+			y: -5.5d
+			description: ["{image:kubejs:textures/images/cards/freeman.png width:175 height:200 align:1 fit:true}"]
+			dependencies: [
+				"4E7A200FB2E0118B"
+				"392658050FB64872"
+			]
+			size: 1.5d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "166AB34BE751BAE1"
+			tasks: [{
+				id: "17E16DE30FF9DBD0"
+				type: "checkmark"
+				title: "Gathering"
+				icon: {
+					id: "stalwart_dungeons:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CE556233E4EE750"
+				type: "command"
+				title: "Freeman"
+				icon: {
+					id: "stalwart_dungeons:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/freeman"
+				player_command: false
+			}]
+		}
+		{
+			title: "Better Carpentry "
+			x: 2.0d
+			y: -7.0d
+			description: ["Your carpentry skills increase your plank production by 2"]
+			dependencies: [
+				"4E7A200FB2E0118B"
+				"392658050FB64872"
+			]
+			optional: true
+			id: "4D90A33A5FDAE7B8"
+			tasks: [{
+				id: "0094ECA288C3CC84"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "11CF1D93FD4C7380"
+				type: "command"
+				title: "More Planks"
+				icon: "minecraft:oak_planks"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins-classes:more_planks_from_logs skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Culinary Arts"
+			x: 2.0d
+			y: -8.5d
+			description: ["Food you cook has an increased Saturation rate."]
+			dependencies: ["4D90A33A5FDAE7B8"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "775914E01FA23515"
+			tasks: [{
+				id: "6522793DEBB49CC8"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4791AC94AF36DB33"
+				type: "command"
+				title: "Culinary Arts"
+				icon: "minecraft:cooked_chicken"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins-classes:better_crafted_food"
+				player_command: false
+			}]
+		}
+		{
+			title: "Attack Speed I"
+			x: 5.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["You can attack faster."]
+			dependencies: ["3BB14904748FD756"]
+			optional: true
+			id: "4193DE0480B84BE3"
+			tasks: [{
+				id: "739048AA91EDA0B6"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "307EBCFE3D8AC22A"
+				type: "command"
+				title: "Attack Speed I"
+				icon: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:attack_speed_i skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fletching"
+			x: 9.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["You expertise in fletching yields 16 arrows "]
+			dependencies: ["242270D578752B0B"]
+			optional: true
+			id: "2D2428DB1E16956C"
+			tasks: [{
+				id: "35FA6A07EDBECB27"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "199AAFE4538AD756"
+				type: "command"
+				title: "Fletching"
+				icon: "minecraft:arrow"
+				auto: "enabled"
+				command: "/power grant @p origins:fletching skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Weapon Specialist I"
+			x: 7.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["You gain increases melee damage."]
+			dependencies: ["242270D578752B0B"]
+			optional: true
+			id: "3BB14904748FD756"
+			tasks: [{
+				id: "5C2F8AD9D937459D"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F0D6F158A031771"
+				type: "command"
+				title: "Weapon Specialist I"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:melee_damage_i skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Sharpshooter"
+			x: 10.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["Your arrows hit with better precision, +2 Damage"]
+			dependencies: ["2D2428DB1E16956C"]
+			optional: true
+			id: "17E827DAD0CF3FB3"
+			tasks: [{
+				id: "4447B7F766CACBC3"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F4F5C0794941D40"
+				type: "command"
+				title: "Sharpshooter"
+				icon: "minecraft:arrow"
+				auto: "enabled"
+				command: "/power grant @p origins:sharpshooter skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "QUEST: Dealer of Death "
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 10.5d
+			y: 0.5d
+			shape: "octagon"
+			description: ["You slay."]
+			dependencies: ["2D2428DB1E16956C"]
+			size: 1.5d
+			optional: true
+			id: "619F6F4BC8367A75"
+			tasks: [{
+				id: "3EAF0F5DD18F80F8"
+				type: "stat"
+				icon: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 250
+			}]
+		}
+		{
+			title: "QUEST: Not Today, Thank You"
+			icon: {
+				id: "magistuarmory:steel_heatershield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: 8.0d
+			y: 3.0d
+			shape: "octagon"
+			description: [
+				"Some people think hiding behind a shield is cowardly."
+				""
+				"For you, it's a way of life, and the smart thing to do."
+			]
+			dependencies: ["3BB14904748FD756"]
+			size: 1.5d
+			id: "2B91D41CEBE3C455"
+			tasks: [{
+				id: "764F4DB8D7EA8584"
+				type: "stat"
+				icon: {
+					id: "magistuarmory:steel_heatershield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_blocked_by_shield"
+				value: 500
+			}]
+		}
+		{
+			title: "Armor Expert"
+			x: 10.0d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Armor Total has +4 Armor Toughness"]
+			dependencies: [
+				"2B91D41CEBE3C455"
+				"619F6F4BC8367A75"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6080CA3E382DE7AF"
+			tasks: [{
+				id: "00296E9437826854"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "247327AEFE1A175E"
+				type: "command"
+				title: "Armor Expert"
+				icon: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:armor_expert skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Attack Speed II"
+			x: 12.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["You weapon attack speed increases by 20%"]
+			dependencies: ["619F6F4BC8367A75"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "153B6709BF8BAB79"
+			tasks: [{
+				id: "15E4DF6CFD317D36"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D5B0FB2A761E48E"
+				type: "command"
+				title: "Attack Speed II"
+				icon: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:attack_speed_ii skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Strength"
+			x: 8.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: ["You permanently gain Strength I"]
+			dependencies: ["2B91D41CEBE3C455"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "08BAA3CD640EBD71"
+			tasks: [{
+				id: "578F27AF1BE8B33A"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43F0C4BF2E7EB807"
+				type: "command"
+				title: "Strength"
+				icon: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:strength skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Iron Skin"
+			x: 6.5d
+			y: 6.0d
+			shape: "hexagon"
+			description: ["Your skin becomes hard as Iron, granting +6 Armor"]
+			dependencies: ["653B35C89BE2C595"]
+			optional: true
+			id: "6D60C48632668B95"
+			tasks: [{
+				id: "60CB1A88C5F37877"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "750153C805CE0AB6"
+				type: "command"
+				title: "Iron Skin"
+				icon: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:ironskin skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Trueshot"
+			x: 13.5d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["Your arrows hit with better precision, 150% Damage increase"]
+			dependencies: ["30C80248B44BA6EE"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6CFE1913384D3F28"
+			tasks: [{
+				id: "2FF8C57266E7F21D"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "38FAB70EC80B624B"
+				type: "command"
+				title: "Trueshot"
+				icon: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:trueshot skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Pathfinding"
+			x: 14.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["Your years in the wild allow you to sprint longer and jump higher when sprinting"]
+			dependencies: ["153B6709BF8BAB79"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "30C80248B44BA6EE"
+			tasks: [{
+				id: "4D0F3D8A8DF48BCA"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70890CD4E003085F"
+				type: "command"
+				title: "Pathfinding"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:sprint_jump skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Weapon Specialist II"
+			x: 12.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Your melee damage is increased by 4"]
+			dependencies: [
+				"6080CA3E382DE7AF"
+				"153B6709BF8BAB79"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1F1B43E8E1987FC9"
+			tasks: [{
+				id: "2D9F03DFFF14ED8F"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44379B3177415AAE"
+				type: "command"
+				title: "Weapon Specialist II"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:melee_damage_ii skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Wreckless Attack"
+			x: 10.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["You deal more damage when under 5 Hearts"]
+			dependencies: [
+				"08BAA3CD640EBD71"
+				"6080CA3E382DE7AF"
+			]
+			dependency_requirement: "one_completed"
+			id: "6717CA77FE004F35"
+			tasks: [{
+				id: "7C3F558285427BB6"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D6E0754AD560792"
+				type: "command"
+				title: "Wreckless Attack"
+				icon: {
+					id: "undergarden:cloggrum_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:wreckless_attack skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Warrior's Health III"
+			x: 8.5d
+			y: 6.5d
+			shape: "hexagon"
+			description: ["Add 2 Permanent Hearts"]
+			dependencies: ["08BAA3CD640EBD71"]
+			dependency_requirement: "one_completed"
+			id: "653B35C89BE2C595"
+			tasks: [{
+				id: "2C9F1B09F22E2023"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F62B56157AB37A4"
+				type: "command"
+				title: "Warrior's Health III"
+				icon: "levelhearts:heart_container"
+				auto: "enabled"
+				command: "/power grant @p origins:warrior_health_iii skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Hide in the Shadows"
+			x: 14.5d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["You are able to disappear in low light levels."]
+			dependencies: [
+				"30C80248B44BA6EE"
+				"1F1B43E8E1987FC9"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "51089528E7D6F292"
+			tasks: [{
+				id: "0CEF181DB4B91C25"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "31570664BC176756"
+				type: "command"
+				title: "Hide in the Shadows"
+				icon: "graveyard:corruption"
+				auto: "enabled"
+				command: "/power grant @p origins:hide_in_shadows skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ranger"
+			x: 15.0d
+			y: -3.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/ranger.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["6CFE1913384D3F28"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "7BAEF2FBDC9D26D4"
+			tasks: [{
+				id: "163BE1C5B1A66073"
+				type: "checkmark"
+				icon: {
+					id: "magistuarmory:longbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CC9B54BBBE15690"
+				type: "command"
+				title: "Ranger"
+				icon: {
+					id: "magistuarmory:longbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/ranger"
+				player_command: false
+			}]
+		}
+		{
+			title: "Guardian"
+			x: 5.0d
+			y: 7.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/guardian.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["6D60C48632668B95"]
+			size: 2.0d
+			incompatible: [
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"473E15814A16DBC1"
+				"5C259234775B6C14"
+				"1C09850428A2A454"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "6C59508BBB9E2BAC"
+			tasks: [{
+				id: "6D88C3B3395AC9E3"
+				type: "checkmark"
+				icon: {
+					id: "twilightforest:knightmetal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "619FD246D5E78B14"
+				type: "command"
+				title: "Guardian"
+				icon: {
+					id: "twilightforest:knightmetal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "invisible"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/guardian"
+				player_command: false
+			}]
+		}
+		{
+			title: "Beastmaster"
+			x: 16.0d
+			y: 5.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/beastmaster.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["51089528E7D6F292"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "5C259234775B6C14"
+			tasks: [{
+				id: "77FC33EC4752E051"
+				type: "checkmark"
+				icon: "minecraft:bone"
+			}]
+			rewards: [{
+				id: "12B39DFDE0E21537"
+				type: "command"
+				title: "Beastmaster"
+				icon: "minecraft:bone"
+				auto: "invisible"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/beastmaster"
+				player_command: false
+			}]
+		}
+		{
+			title: "Warrior"
+			icon: {
+				id: "magistuarmory:wood_kiteshield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 1.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/warrior.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["4193DE0480B84BE3"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+				"7BAEF2FBDC9D26D4"
+			]
+			id: "25174516493C2EB1"
+			tasks: [{
+				id: "108B793516687F25"
+				type: "checkmark"
+				icon: {
+					id: "magistuarmory:wood_kiteshield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5834C0FD69F96BBE"
+				type: "command"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/warrior"
+				player_command: false
+			}]
+		}
+		{
+			title: "Archer"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: -3.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/archer.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["17E827DAD0CF3FB3"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"05A7E95C86F8474F"
+				"5D9B22EFE696BE43"
+				"5C0A96FA7295997E"
+			]
+			id: "5305D3ABF19941F5"
+			tasks: [{
+				id: "4171E1E3B144F3EB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5AA240232F88DB52"
+				type: "command"
+				title: "Archer"
+				icon: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/archer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Intelligence"
+			x: -2.0d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"You learn quicker then normal."
+				""
+				"Increased XP gain."
+			]
+			dependencies: ["554643BE5FAE4320"]
+			optional: true
+			id: "23D31EB5591D127D"
+			tasks: [{
+				id: "57AC2B8B5D4F28DB"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1ABC01AB486C8362"
+				type: "command"
+				title: "Intelligence"
+				icon: "minecraft:experience_bottle"
+				auto: "enabled"
+				command: "/power grant @p origins:intelligence skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Magic Training"
+			x: -0.5d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"Your training has paid off."
+				""
+				"Gain Magic XP."
+			]
+			dependencies: ["554643BE5FAE4320"]
+			optional: true
+			id: "58BA9372940B8F48"
+			tasks: [{
+				id: "4441F6771599EB7F"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5FD07C19DEA43407"
+				type: "command"
+				title: "Magic Training"
+				icon: "ars_nouveau:novice_spell_book"
+				auto: "enabled"
+				command: "/pmmo admin @p add magic xp 943"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mage"
+			x: -2.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/mage.png width:175 height:200 align:1 fit:true}"]
+			dependencies: [
+				"23D31EB5591D127D"
+				"58BA9372940B8F48"
+			]
+			size: 1.5d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"7BAEF2FBDC9D26D4"
+				"5C259234775B6C14"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"1C7ED6BB0A354354"
+				"267D9676923393C0"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+				"387795DE06A568C1"
+			]
+			id: "619264C4589103F4"
+			tasks: [{
+				id: "045F1560ED18B9F9"
+				type: "checkmark"
+				icon: "ars_nouveau:source_gem"
+			}]
+			rewards: [{
+				id: "441D5868538A978F"
+				type: "command"
+				title: "Mage"
+				icon: "ars_nouveau:source_gem"
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:magic/mage"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mage Armor"
+			x: -3.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["You gain cooldown absorption."]
+			dependencies: [
+				"23D31EB5591D127D"
+				"58BA9372940B8F48"
+			]
+			optional: true
+			id: "17F3CE912E8D530C"
+			tasks: [{
+				id: "2153BA6564418888"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "268D7624D1B8A2B4"
+				type: "command"
+				title: "Mage Armor"
+				icon: {
+					id: "ars_nouveau:novice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:magearmor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Magic Resist"
+			x: -4.0d
+			y: 0.5d
+			shape: "circle"
+			description: ["Magic keeps you safe."]
+			dependencies: ["17F3CE912E8D530C"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1AF00136A62C33E6"
+			tasks: [{
+				id: "48FF402360A1C9A4"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0A53428671DE124D"
+				type: "command"
+				title: "Magic Resist"
+				icon: {
+					id: "ars_nouveau:enchanters_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:magic_resist"
+				player_command: false
+			}]
+		}
+		{
+			title: "Enchanted Weapon"
+			x: -3.0d
+			y: 2.0d
+			shape: "circle"
+			description: ["You magically enchant your weapon to deal +1 Fire Damage"]
+			dependencies: ["1AF00136A62C33E6"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "17C61D79053F37E5"
+			tasks: [{
+				id: "4FF7D881643E1A06"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7774DE6F51B27FF7"
+				type: "command"
+				title: "Enchanted Weapon"
+				icon: {
+					id: "stalwart_dungeons:ancient_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:enchanted_weapon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mana Regen"
+			x: -6.0d
+			y: -2.0d
+			shape: "circle"
+			description: ["Increase your Mana Regen by 5"]
+			dependencies: ["123C93A5E548722A"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "7560196C65EA971F"
+			tasks: [{
+				id: "5A40A1C2D3D58B2A"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "08391507CBCE690B"
+				type: "command"
+				title: "Mana Regen"
+				icon: "ars_nouveau:amulet_of_mana_regen"
+				auto: "enabled"
+				command: "/power grant @p origins:mana_regen_i"
+				player_command: false
+			}]
+		}
+		{
+			title: "Book Smart"
+			x: -1.0d
+			y: 2.0d
+			shape: "circle"
+			description: ["You are well read, and your mana increases by 500"]
+			dependencies: ["17C61D79053F37E5"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0FA86409BFD12118"
+			tasks: [{
+				id: "643BD361753D0F4E"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "42083853F1C56950"
+				type: "command"
+				title: "Book Smart"
+				icon: "minecraft:bookshelf"
+				auto: "enabled"
+				command: "/power grant @p origins:book_smart"
+				player_command: false
+			}]
+		}
+		{
+			title: "Spell Damage"
+			x: -5.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["You have increased spell damage"]
+			dependencies: ["1AF00136A62C33E6"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "123C93A5E548722A"
+			tasks: [{
+				id: "620D75484A87AA2F"
+				type: "item"
+				item: "dotcoinmod:token"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F8E00A012D4ACEF"
+				type: "command"
+				title: "Spell Damage"
+				icon: "itemfilters:damage"
+				auto: "enabled"
+				command: "/power grant @p origins:magic_damage"
+				player_command: false
+			}]
+		}
+		{
+			title: "QUEST: Magical Dimensions we will go."
+			icon: "blue_skies:multi_portal_item"
+			x: -4.0d
+			y: 3.0d
+			shape: "circle"
+			description: ["Visit one Magical Dimension to learn its secrets"]
+			dependencies: ["17C61D79053F37E5"]
+			size: 1.5d
+			optional: true
+			min_required_tasks: 1
+			id: "555BE65AD5D03962"
+			tasks: [
+				{
+					id: "3F882C5A28E28979"
+					type: "dimension"
+					dimension: "blue_skies:everbright"
+				}
+				{
+					id: "3D64C2368745C72F"
+					type: "dimension"
+					dimension: "twilightforest:twilight_forest"
+				}
+				{
+					id: "01DF9ADCAC6BEFA5"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+				{
+					id: "38E17446541E18D7"
+					type: "dimension"
+					dimension: "blue_skies:everdawn"
+				}
+			]
+		}
+		{
+			title: "QUEST: Sorcerer's Apprentice"
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+			}
+			x: -6.5d
+			y: 0.5d
+			shape: "circle"
+			description: ["Reach level 25 in Magic"]
+			dependencies: ["123C93A5E548722A"]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			optional: true
+			id: "05A70240A8DE1F4A"
+			tasks: [
+				{
+					id: "26028844D79A6D98"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					icon: "ars_nouveau:apprentice_spell_book"
+					skill: "magic"
+					requiredLevel: 25
+				}
+				{
+					id: "1A9206F26A1A1003"
+					type: "checkmark"
+					title: "Accept"
+				}
+			]
+		}
+		{
+			title: "False Life"
+			x: -6.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"Bolstering yourself with a magic facsimile of life."
+				""
+				"Gain 2 permenant Hearts"
+			]
+			dependencies: [
+				"05A70240A8DE1F4A"
+				"555BE65AD5D03962"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0655DA0438E424B0"
+			tasks: [{
+				id: "043F393C49F985A6"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B574DB8AAF6DAE3"
+				type: "command"
+				title: "False Life"
+				icon: "levelhearts:heart_piece"
+				auto: "enabled"
+				command: "/power grant @p origins:magic_health"
+				player_command: false
+			}]
+		}
+		{
+			title: "Bubble Mask"
+			x: -8.0d
+			y: 0.5d
+			shape: "circle"
+			description: ["You can breathe better underwater."]
+			dependencies: ["05A70240A8DE1F4A"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "2A0107ECE067418A"
+			tasks: [{
+				id: "35E56E336DF2066B"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "034836424FADF62E"
+				type: "command"
+				title: "Bubble Mask"
+				icon: "supplementaries:bubble_block"
+				auto: "enabled"
+				command: "/power grant @p origins:bubble_mask"
+				player_command: false
+			}]
+		}
+		{
+			title: "Cheat Death"
+			x: -9.5d
+			y: -1.0d
+			shape: "circle"
+			description: ["You have learned to harness enough magic to cheat death.  "]
+			dependencies: ["6185B4A6B9A0BD2C"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "65D82DB321351DE6"
+			tasks: [{
+				id: "272CD0CBA924865E"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19BAD2F46E63874C"
+				type: "command"
+				title: "Cheat Death"
+				icon: "minecraft:totem_of_undying"
+				auto: "enabled"
+				command: "/power grant @p origins:cheatdeath"
+				player_command: false
+			}]
+		}
+		{
+			title: "Life Essence"
+			x: -4.0d
+			y: 4.5d
+			shape: "circle"
+			description: ["When you kill a mob, you are able to absorb the life essense, healing youself."]
+			dependencies: ["555BE65AD5D03962"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "4A52480CB995F15B"
+			tasks: [{
+				id: "310464AB75B0E85A"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B05690439CEA438"
+				type: "command"
+				title: "Life Essence"
+				icon: "levelhearts:heart_piece"
+				auto: "enabled"
+				command: "/power grant @p origins:leech skilltree"
+				player_command: false
+			}]
+		}
+		{
+			title: "Smite"
+			x: -2.5d
+			y: 6.0d
+			shape: "circle"
+			description: ["Extra Damage to Undead."]
+			dependencies: ["6849C8F21526B7E9"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "689359A4203DEDF7"
+			tasks: [{
+				id: "5240ADAD05D455DE"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7060A5BB1EA2E577"
+				type: "command"
+				title: "Smite"
+				icon: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:smite"
+				player_command: false
+			}]
+		}
+		{
+			title: "Potion Bonus"
+			icon: "dotcoinmod:token"
+			x: -6.5d
+			y: 7.0d
+			shape: "circle"
+			description: ["Increase the level of potions by dipping them into a water filled cauldron."]
+			dependencies: [
+				"42319BEBAD3B1A5B"
+				"6849C8F21526B7E9"
+			]
+			dependency_requirement: "one_completed"
+			id: "58D6281AD2C944B4"
+			tasks: [{
+				id: "7A6D56F0A94B1ABA"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "102F1EB9CB021393"
+				type: "command"
+				title: "Potion Bonus"
+				icon: "minecraft:cauldron"
+				auto: "enabled"
+				command: "/power grant @p origins-classes:potion_bonus"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tomb Bound"
+			x: -10.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["You can reach through the void and acquire your belongings upon death."]
+			dependencies: ["2A0107ECE067418A"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6185B4A6B9A0BD2C"
+			tasks: [{
+				id: "64F048AEEF0A2F52"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "103D824117990374"
+				type: "command"
+				title: "Tomb Bound"
+				icon: {
+					id: "tombstone:decorative_tombstone"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:keepinv"
+				player_command: false
+			}]
+		}
+		{
+			title: "Poison Dipped"
+			x: -6.0d
+			y: 5.0d
+			shape: "circle"
+			description: [
+				"You coat your weapons with a mild poison."
+				""
+				"Applies Poison I on Hit."
+			]
+			dependencies: [
+				"0655DA0438E424B0"
+				"4A52480CB995F15B"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "42319BEBAD3B1A5B"
+			tasks: [{
+				id: "3133E3AF25ECC460"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61306FD9916F5B9B"
+				type: "command"
+				title: "Poison Dipped"
+				icon: "domesticationinnovation:rotten_apple"
+				auto: "enabled"
+				command: "/power grant @p origins:venom"
+				player_command: false
+			}]
+		}
+		{
+			title: "Holy Elixer"
+			x: -4.0d
+			y: 7.0d
+			shape: "circle"
+			description: ["Healing Potions increase effectivness"]
+			dependencies: ["4A52480CB995F15B"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6849C8F21526B7E9"
+			tasks: [{
+				id: "27DE26FD25B4A0CE"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1CDE8CF05A119E6B"
+				type: "command"
+				title: "Holy Elixer"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				auto: "enabled"
+				command: "/power grant @p origins:holy_elixer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mana Regen II"
+			x: -8.5d
+			y: 2.5d
+			shape: "circle"
+			description: ["Increase your Mana Regen by 10"]
+			dependencies: [
+				"2A0107ECE067418A"
+				"0655DA0438E424B0"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "01AF241799E3CFC8"
+			tasks: [{
+				id: "3DC582AD391EFDC1"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "058089DDBFA42BA5"
+				type: "command"
+				title: "Mana Regen II"
+				icon: "ars_nouveau:source_gem"
+				auto: "enabled"
+				command: "/power grant @p origins:mana_regen_ii"
+				player_command: false
+			}]
+		}
+		{
+			title: "Alchemist"
+			x: -8.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/alchemist.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["58D6281AD2C944B4"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"7C074F4CD2476A41"
+				"5E939DB3F3277241"
+				"166AB34BE751BAE1"
+				"1C7ED6BB0A354354"
+				"267D9676923393C0"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "515B3F66751628D3"
+			tasks: [{
+				id: "0BBCDB2D0F0A3415"
+				type: "checkmark"
+				icon: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "07C641E142623704"
+				type: "command"
+				title: "Alchemist"
+				icon: "minecraft:brewing_stand"
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:magic/alchemist"
+				player_command: false
+			}]
+		}
+		{
+			title: "Enchanter"
+			x: -12.0d
+			y: 5.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/enchanter.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["51E87CE8151968DA"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"515B3F66751628D3"
+				"5E939DB3F3277241"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "7C074F4CD2476A41"
+			tasks: [{
+				id: "3F61E03D3EB8AC69"
+				type: "checkmark"
+				icon: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "2A8CDA56307180E2"
+					type: "command"
+					title: "Enchanter"
+					icon: "minecraft:enchanting_table"
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:magic/enchanter"
+					player_command: false
+				}
+				{
+					id: "33833DA4472243EC"
+					type: "pmmo:levelreward"
+					auto: "enabled"
+					skill: "reforging"
+					amount: 2
+				}
+			]
+		}
+		{
+			title: "Cleric"
+			x: -1.0d
+			y: 7.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/cleric.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["689359A4203DEDF7"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"5C259234775B6C14"
+				"1C09850428A2A454"
+				"6C59508BBB9E2BAC"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"387795DE06A568C1"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "5E939DB3F3277241"
+			tasks: [{
+				id: "27AD4750DC4EFCDC"
+				type: "checkmark"
+				icon: {
+					id: "tombstone:ankh_of_pray"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CECF51F985FCA60"
+				type: "command"
+				title: "Priest"
+				icon: {
+					id: "tombstone:ankh_of_pray"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:magic/priest"
+				player_command: false
+			}]
+		}
+		{
+			title: "Professor"
+			x: 0.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/professor.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["0FA86409BFD12118"]
+			size: 2.0d
+			incompatible: [
+				"25174516493C2EB1"
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"09F547D3F828753F"
+				"515B3F66751628D3"
+				"5E939DB3F3277241"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+				"387795DE06A568C1"
+			]
+			id: "4219BEB05FC3D16F"
+			tasks: [{
+				id: "519D40E72C9AE6DD"
+				type: "checkmark"
+				icon: "tombstone:book_of_magic_impregnation"
+			}]
+			rewards: [{
+				id: "5BFA0238584FD9D6"
+				type: "command"
+				title: "Professor"
+				icon: "tombstone:book_of_magic_impregnation"
+				auto: "invisible"
+				command: "/origin set @p origins-classes:class origins-classes:magic/professor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Wizard"
+			x: -5.0d
+			y: -3.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/wizard.png width:175 height:200 align:1}"]
+			dependencies: ["7560196C65EA971F"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"7C074F4CD2476A41"
+				"515B3F66751628D3"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"387795DE06A568C1"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "0BD7BDCD77393C3A"
+			tasks: [{
+				id: "752782CF8E0D7D27"
+				type: "checkmark"
+				title: "2"
+				icon: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "792357F2FAD0CEC8"
+				type: "command"
+				title: "Wizard"
+				icon: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:magic/wizard"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset Warrior's Health I"
+			x: 6.449999999999999d
+			y: -2.55d
+			shape: "diamond"
+			dependencies: ["479A8C5B8A11EDEC"]
+			size: 0.3d
+			optional: true
+			incompatible: ["2C257896E6B9DA1E"]
+			id: "170E3E85240BC9AD"
+			tasks: [{
+				id: "53E6B36B95523305"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E404D714AA07179"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 479A8C5B8A11EDEC"
+					player_command: false
+				}
+				{
+					id: "1E0376F7B16D2184"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "14C8B76BC7A36983"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/power revoke @p origins:health skilltree"
+					player_command: false
+				}
+				{
+					id: "51F0018B7DB33635"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 170E3E85240BC9AD"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Warrior's Health II"
+			x: 8.25d
+			y: 1.05d
+			shape: "diamond"
+			dependencies: ["242270D578752B0B"]
+			size: 0.3d
+			optional: true
+			incompatible: ["2D2428DB1E16956C"]
+			id: "0E8902FCA35A3137"
+			tasks: [{
+				id: "555EABA58A39352C"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "26969888A60D5436"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 242270D578752B0B"
+					player_command: false
+				}
+				{
+					id: "682802E7FE15E85E"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "5DFCF96C6B541236"
+					type: "command"
+					auto: "invisible"
+					command: "/power remove @p origins:health"
+					player_command: false
+				}
+				{
+					id: "51EC42901393E133"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0E8902FCA35A3137"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecolonies:banner_rally_guards"
+				Count: 1b
+				tag: {
+					isActive: 0b
+					guardtowerpositions: [ ]
+				}
+			}
+			x: 2.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"The Lord calls his men to tame the wilds."
+				""
+				"Follow his instructions and write your legend."
+			]
+			id: "554643BE5FAE4320"
+			tasks: [{
+				id: "04A958D10C6CDA5F"
+				type: "checkmark"
+				title: "Vassal"
+			}]
+			rewards: [
+				{
+					id: "727FC21ACE24C0D5"
+					type: "item"
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "15B38E182F9B55FE"
+					type: "gamestage"
+					auto: "enabled"
+					stage: "vassal"
+				}
+			]
+		}
+		{
+			title: "Prospector"
+			x: 5.0d
+			y: -17.0d
+			description: ["{image:kubejs:textures/images/cards/prospector.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["78B19A990CB46836"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"5E939DB3F3277241"
+				"09F547D3F828753F"
+				"7C074F4CD2476A41"
+				"515B3F66751628D3"
+				"166AB34BE751BAE1"
+				"1C7ED6BB0A354354"
+				"267D9676923393C0"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"5C0A96FA7295997E"
+			]
+			id: "05A7E95C86F8474F"
+			tasks: [{
+				id: "5224314D31F3F7A0"
+				type: "checkmark"
+				icon: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "1F5239E46F115889"
+				type: "command"
+				title: "Prospector"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:freeman/prospector"
+				player_command: false
+			}]
+		}
+		{
+			title: "Berserker"
+			x: 12.0d
+			y: 8.0d
+			shape: "octagon"
+			description: ["{image:kubejs:textures/images/cards/berserker.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["646BB0A9004CF36D"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"5305D3ABF19941F5"
+				"25174516493C2EB1"
+				"6C59508BBB9E2BAC"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"09F547D3F828753F"
+				"5E939DB3F3277241"
+				"515B3F66751628D3"
+				"7C074F4CD2476A41"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"387795DE06A568C1"
+				"5D9B22EFE696BE43"
+				"05A7E95C86F8474F"
+				"5C0A96FA7295997E"
+			]
+			id: "1C09850428A2A454"
+			tasks: [{
+				id: "4A0409DD042FB20A"
+				type: "checkmark"
+				icon: {
+					id: "undergarden:cloggrum_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6377CC54D8FF395F"
+				type: "command"
+				title: "Beserker"
+				icon: {
+					id: "undergarden:cloggrum_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+				auto: "invisible"
+				command: "/origin set @p origins-classes:class origins-classes:soldier/beserker"
+				player_command: false
+			}]
+		}
+		{
+			title: "Warlock"
+			icon: {
+				id: "ars_nouveau:archmage_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -11.0d
+			y: -3.0d
+			shape: "circle"
+			description: ["{image:kubejs:textures/images/cards/warlock.png width:175 height:200 align:1 fit:true}"]
+			dependencies: ["65D82DB321351DE6"]
+			size: 2.0d
+			incompatible: [
+				"473E15814A16DBC1"
+				"25174516493C2EB1"
+				"5305D3ABF19941F5"
+				"6C59508BBB9E2BAC"
+				"1C09850428A2A454"
+				"5C259234775B6C14"
+				"7BAEF2FBDC9D26D4"
+				"619264C4589103F4"
+				"0BD7BDCD77393C3A"
+				"4219BEB05FC3D16F"
+				"7C074F4CD2476A41"
+				"515B3F66751628D3"
+				"5E939DB3F3277241"
+				"166AB34BE751BAE1"
+				"267D9676923393C0"
+				"1C7ED6BB0A354354"
+				"5D9B22EFE696BE43"
+				"387795DE06A568C1"
+				"5C0A96FA7295997E"
+				"05A7E95C86F8474F"
+			]
+			id: "09F547D3F828753F"
+			tasks: [{
+				id: "2E3E4D469C7257C9"
+				type: "checkmark"
+				icon: "whisperwoods:ghost_light_magic_purple"
+			}]
+			rewards: [{
+				id: "2089EF27A6D43770"
+				type: "command"
+				title: "Warlock"
+				icon: {
+					id: "ars_nouveau:archmage_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				auto: "enabled"
+				command: "/origin set @p origins-classes:class origins-classes:magic/warlock"
+				player_command: false
+			}]
+		}
+		{
+			title: "Efficient Repairs"
+			x: -1.0d
+			y: -15.0d
+			description: ["You are efficient in repairing your items using anvils"]
+			dependencies: [
+				"2296CB115CF363AF"
+				"637F8F392714B531"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "650D0922503ABE05"
+			tasks: [{
+				id: "1B02AEA7D475A951"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "36EE90D6DDB1218E"
+				type: "command"
+				title: "Efficient Repairs"
+				icon: "minecraft:anvil"
+				auto: "enabled"
+				command: "/power grant @p origins-classes:efficient_repairs"
+				player_command: false
+			}]
+		}
+		{
+			title: "Passive Regen"
+			x: 10.5d
+			y: 7.0d
+			shape: "hexagon"
+			description: ["Your body heals more then the standard person."]
+			dependencies: [
+				"6717CA77FE004F35"
+				"653B35C89BE2C595"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "646BB0A9004CF36D"
+			tasks: [{
+				id: "4948F2572257AA11"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07DAD32C8022C22A"
+				type: "command"
+				title: "Passive Regen"
+				icon: "levelhearts:heart_container"
+				auto: "enabled"
+				command: "/power grant @p origins:passive_regen"
+				player_command: false
+			}]
+		}
+		{
+			title: "Knowledge of the Ages"
+			x: -10.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["Gain the Knowledge I potion effect."]
+			dependencies: [
+				"6185B4A6B9A0BD2C"
+				"01AF241799E3CFC8"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "51E87CE8151968DA"
+			tasks: [{
+				id: "6A6412F2F186965C"
+				type: "item"
+				item: "dotcoinmod:token"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48AB11C4033C49A7"
+				type: "command"
+				title: "Knowledge of the Ages"
+				icon: "create:experience_nugget"
+				auto: "enabled"
+				command: "/power grant @p origins:knowledge"
+				player_command: false
+			}]
+		}
+		{
+			x: -17.0d
+			y: -15.5d
+			optional: true
+			id: "6DF4728B4BD8D02A"
+			tasks: [{
+				id: "7CAB55E18B1F493D"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 5
+			}]
+			rewards: [{
+				id: "69A920F37A446A44"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -14.5d
+			optional: true
+			id: "7D1177E26AA0931F"
+			tasks: [{
+				id: "270807589180D641"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 10
+			}]
+			rewards: [{
+				id: "21C878DFF35187ED"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -13.5d
+			optional: true
+			id: "23DCA89F5FC7F305"
+			tasks: [{
+				id: "100FB852C3F8CDD7"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 20
+			}]
+			rewards: [{
+				id: "3F0DE91837E5A28E"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -12.5d
+			optional: true
+			id: "032A116A6823CD3C"
+			tasks: [{
+				id: "2B469F438CABDD95"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 30
+			}]
+			rewards: [{
+				id: "77C2BDE464F15CD6"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -11.5d
+			optional: true
+			id: "15153697553A86D3"
+			tasks: [{
+				id: "6584B3AECE5C8D5F"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "2873A48D2D8DD48B"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -10.5d
+			optional: true
+			id: "53E139DAFE88A13C"
+			tasks: [{
+				id: "74FEABBC20FA1C74"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 50
+			}]
+			rewards: [{
+				id: "00CE7F88435E6110"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -9.5d
+			optional: true
+			id: "14D9221A9978A5FB"
+			tasks: [{
+				id: "17332765AC6018F8"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 60
+			}]
+			rewards: [{
+				id: "5D9193AB074F7625"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -8.5d
+			optional: true
+			id: "222FCD664CD526A3"
+			tasks: [{
+				id: "7ECDB891B2194046"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 70
+			}]
+			rewards: [{
+				id: "18E86D25760DFF0F"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -7.5d
+			optional: true
+			id: "0DCC97BB3E178D48"
+			tasks: [{
+				id: "7E3AA6DDE1DB8D70"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 80
+			}]
+			rewards: [{
+				id: "5E034C7BD9AC2C10"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -6.5d
+			optional: true
+			id: "708171191B02F826"
+			tasks: [{
+				id: "0A2B5E3BC07C4FB2"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 90
+			}]
+			rewards: [{
+				id: "174B860459EA143B"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -15.5d
+			optional: true
+			id: "684881AEFE2BA39C"
+			tasks: [{
+				id: "2F495F00D933E937"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 100
+			}]
+			rewards: [{
+				id: "3E45F56D4D510180"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			title: "Reset Combat Training"
+			x: 4.8d
+			y: -1.05d
+			shape: "diamond"
+			dependencies: ["0C038780B8BF2A86"]
+			size: 0.3d
+			optional: true
+			incompatible: ["2C257896E6B9DA1E"]
+			id: "75B1F5D1F9C012E2"
+			tasks: [{
+				id: "63635AB42D83B3D5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3C9C7E0BCF803D76"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0C038780B8BF2A86"
+					player_command: false
+				}
+				{
+					id: "1DCF3142B2B5A4D5"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "1D6BDC8573EB8870"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 75B1F5D1F9C012E2"
+					player_command: false
+				}
+				{
+					id: "4883B0EBFB6F8E3E"
+					type: "command"
+					auto: "invisible"
+					command: "/pmmo admin @p add combat xp -675"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Weapon Specialist I"
+			x: 7.199999999999999d
+			y: 2.55d
+			shape: "diamond"
+			dependencies: ["3BB14904748FD756"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"4193DE0480B84BE3"
+				"2B91D41CEBE3C455"
+			]
+			id: "04ED3543097FF5F0"
+			tasks: [{
+				id: "742E6E15E238C351"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "69D2F7B06569135B"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "177DF0F955C0BAE8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3BB14904748FD756"
+					player_command: false
+				}
+				{
+					id: "43315560F0050A91"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 04ED3543097FF5F0"
+					player_command: false
+				}
+				{
+					id: "3644EAE24BF79AEA"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:melee_damage_i skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Attack Speed I"
+			x: 5.25d
+			y: 2.55d
+			shape: "diamond"
+			dependencies: ["4193DE0480B84BE3"]
+			size: 0.3d
+			optional: true
+			incompatible: ["25174516493C2EB1"]
+			id: "4592435E168C7308"
+			tasks: [{
+				id: "74ED5CFF9C2C35D3"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7F11AE9B118906B7"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "47A42C42F15AC881"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4193DE0480B84BE3"
+					player_command: false
+				}
+				{
+					id: "73C65AC07C8356B4"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4592435E168C7308"
+					player_command: false
+				}
+				{
+					id: "2CFA0C3A8BDD9EBE"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:attack_speed_i skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Fletching"
+			x: 9.75d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["2D2428DB1E16956C"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"17E827DAD0CF3FB3"
+				"619F6F4BC8367A75"
+			]
+			id: "25DC90685EABD2F6"
+			tasks: [{
+				id: "0312367F4E6BD555"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1FE5C2FF7D5BCB0A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2D2428DB1E16956C"
+					player_command: false
+				}
+				{
+					id: "1F7AFC266A33D048"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 25DC90685EABD2F6"
+					player_command: false
+				}
+				{
+					id: "101A3E3B8264B866"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "7836FE4808C0546A"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:fletching skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Sharpshooter"
+			x: 10.35d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["17E827DAD0CF3FB3"]
+			size: 0.3d
+			optional: true
+			incompatible: ["5305D3ABF19941F5"]
+			id: "303BE10A6EF64536"
+			tasks: [{
+				id: "6C3FD35F3379DC61"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7CC3A54A96DDE702"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 303BE10A6EF64536"
+					player_command: false
+				}
+				{
+					id: "6DFDF9646F8835D4"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "5336118CAC01AA25"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 17E827DAD0CF3FB3"
+					player_command: false
+				}
+				{
+					id: "0716F90EE687433F"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:sharpshooter skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Armor Expert"
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["6080CA3E382DE7AF"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6717CA77FE004F35"
+				"1F1B43E8E1987FC9"
+			]
+			id: "0C6ACFCC168ED5B7"
+			tasks: [{
+				id: "7D941645D894882E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "29F6850075141C86"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6080CA3E382DE7AF"
+					player_command: false
+				}
+				{
+					id: "0933AB36B3B96157"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "18F3C91EA4742278"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0C6ACFCC168ED5B7"
+					player_command: false
+				}
+				{
+					id: "0763E8015E56870C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:armor_expert skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Attack Speed II"
+			x: 12.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["153B6709BF8BAB79"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"30C80248B44BA6EE"
+				"1F1B43E8E1987FC9"
+			]
+			id: "3099E9DD8F748AEC"
+			tasks: [{
+				id: "61EC1A35EBD91245"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40F525859518DCA3"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "2DAD1499784A1E2E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 153B6709BF8BAB79"
+					player_command: false
+				}
+				{
+					id: "386347A2B645FA1B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3099E9DD8F748AEC"
+					player_command: false
+				}
+				{
+					id: "4859365656F7E14F"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:attack_speed_ii skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Strength"
+			x: 8.4d
+			y: 4.95d
+			dependencies: ["08BAA3CD640EBD71"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6717CA77FE004F35"
+				"653B35C89BE2C595"
+			]
+			id: "6FBE98679FD1428E"
+			tasks: [{
+				id: "67D43F4A6163FF42"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7F43CD22C7DC9521"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "4E5F73E180030EF6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 08BAA3CD640EBD71"
+					player_command: false
+				}
+				{
+					id: "67AC56A4CEEB5FF6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6FBE98679FD1428E"
+					player_command: false
+				}
+				{
+					id: "2540825DB27B7F9C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:strength skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Trueshot"
+			x: 14.0d
+			y: -0.5d
+			dependencies: ["6CFE1913384D3F28"]
+			size: 0.3d
+			optional: true
+			incompatible: ["7BAEF2FBDC9D26D4"]
+			id: "42712F1B9152A7EE"
+			tasks: [{
+				id: "729B44A836930936"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2A10322047BEE3DB"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "68D49C8C0C657BF6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CFE1913384D3F28"
+					player_command: false
+				}
+				{
+					id: "5ACAEA07F10004CA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 42712F1B9152A7EE"
+					player_command: false
+				}
+				{
+					id: "699A2D0D75912D91"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:trueshot skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Pathfinding"
+			x: 14.5d
+			y: 1.5d
+			dependencies: ["30C80248B44BA6EE"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6CFE1913384D3F28"
+				"51089528E7D6F292"
+			]
+			id: "538F2059D9859069"
+			tasks: [{
+				id: "6EDEF790EDCAF4CB"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11E903A2E90D1F53"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "1724FE0F50179BD7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 30C80248B44BA6EE"
+					player_command: false
+				}
+				{
+					id: "22657E8DE7A72077"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 538F2059D9859069"
+					player_command: false
+				}
+				{
+					id: "6BAF741540C499FA"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:sprint_jump skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Hide in the Shadows"
+			x: 15.149999999999999d
+			y: 3.3d
+			dependencies: ["51089528E7D6F292"]
+			size: 0.3d
+			optional: true
+			incompatible: ["5C259234775B6C14"]
+			id: "748A125EC923D012"
+			tasks: [{
+				id: "26FB9B10776CE0D6"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7B21C35A15951C80"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "546EF0D89DF7549F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 51089528E7D6F292"
+					player_command: false
+				}
+				{
+					id: "56B93B91086E69F3"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 748A125EC923D012"
+					player_command: false
+				}
+				{
+					id: "5CF0BDCF4C38D5D5"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:hide_in_shadows skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Weapon Specialist II"
+			x: 13.0d
+			y: 3.0d
+			dependencies: ["1F1B43E8E1987FC9"]
+			size: 0.3d
+			optional: true
+			incompatible: ["51089528E7D6F292"]
+			id: "4657AE5CEA93BCAC"
+			tasks: [{
+				id: "097DCACAA88E94F1"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "117886685BB23033"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "3629554D00FE6B17"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1F1B43E8E1987FC9"
+					player_command: false
+				}
+				{
+					id: "5FAC9368D9C19E1B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4657AE5CEA93BCAC"
+					player_command: false
+				}
+				{
+					id: "50AB8490C34DAE24"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:melee_damage_ii skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Wreckless Attack"
+			x: 10.5d
+			y: 5.5d
+			dependencies: ["6717CA77FE004F35"]
+			size: 0.3d
+			optional: true
+			incompatible: ["646BB0A9004CF36D"]
+			id: "253C1541F519F69C"
+			tasks: [{
+				id: "19F973D60E856AAE"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7FD3295CE490297A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6717CA77FE004F35"
+					player_command: false
+				}
+				{
+					id: "6004591305C091A5"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "408FA8779BC92BAB"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 253C1541F519F69C"
+					player_command: false
+				}
+				{
+					id: "333FE039AED95694"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:wreckless_attack skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Passive Regen"
+			x: 10.799999999999999d
+			y: 7.5d
+			dependencies: ["646BB0A9004CF36D"]
+			size: 0.3d
+			optional: true
+			incompatible: ["1C09850428A2A454"]
+			id: "5FE2FA13EF7E62BC"
+			tasks: [{
+				id: "0F78FD69652D5E06"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "24E26653576AA217"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "40939FF2291C2B66"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 646BB0A9004CF36D"
+					player_command: false
+				}
+				{
+					id: "233AD031B2264FD9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5FE2FA13EF7E62BC"
+					player_command: false
+				}
+				{
+					id: "4540C1C43344762C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:passive_regen"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Warrior's Health III"
+			x: 9.0d
+			y: 7.0d
+			dependencies: ["653B35C89BE2C595"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6D60C48632668B95"
+				"646BB0A9004CF36D"
+			]
+			id: "565193AE00C8BD6E"
+			tasks: [{
+				id: "0201D525645024E7"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7FAD45F5B1D86CEA"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "5E4F1EBA1EDB1409"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 653B35C89BE2C595"
+					player_command: false
+				}
+				{
+					id: "11C46C9444A84421"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 565193AE00C8BD6E"
+					player_command: false
+				}
+				{
+					id: "468EE7ACC0CEA583"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:warrior_health_iii skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Iron Skin"
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["6D60C48632668B95"]
+			size: 0.3d
+			optional: true
+			incompatible: ["6C59508BBB9E2BAC"]
+			id: "0DA5A2470F8214CA"
+			tasks: [{
+				id: "3512A61833CEB867"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "13B3D098F513C6F4"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "3A301CE9879C2D37"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6D60C48632668B95"
+					player_command: false
+				}
+				{
+					id: "7BA5D1F14DD86680"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0DA5A2470F8214CA"
+					player_command: false
+				}
+				{
+					id: "3A330B202E8E4107"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:ironskin skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Reach"
+			x: 3.75d
+			y: -4.05d
+			dependencies: ["392658050FB64872"]
+			size: 0.3d
+			optional: true
+			incompatible: ["4D90A33A5FDAE7B8"]
+			id: "74C1DA81D892F7A9"
+			tasks: [{
+				id: "45091963EFD6541F"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5FC30BC4E7C6643A"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "30B74E6F66AA2DF3"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 392658050FB64872"
+					player_command: false
+				}
+				{
+					id: "7B70C3E645A104A4"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 74C1DA81D892F7A9"
+					player_command: false
+				}
+				{
+					id: "604D7D6BFFA95ECE"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/power revoke @p origins:reach"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Mining Training"
+			x: 0.3d
+			y: -4.05d
+			dependencies: ["4E7A200FB2E0118B"]
+			size: 0.3d
+			optional: true
+			incompatible: ["4D90A33A5FDAE7B8"]
+			id: "14ACECEA763E683F"
+			tasks: [{
+				id: "60268DD310A38E6D"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "14105CF663A23D8B"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "1E3001BD50F1A3A3"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4E7A200FB2E0118B"
+					player_command: false
+				}
+				{
+					id: "3C4F77731E9AEBE5"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 14ACECEA763E683F"
+					player_command: false
+				}
+				{
+					id: "5188EBAE77AED73B"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/pmmo admin @p add mining xp -675"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Better Carpentry"
+			x: 2.55d
+			y: -6.75d
+			dependencies: ["4D90A33A5FDAE7B8"]
+			size: 0.3d
+			optional: true
+			incompatible: ["775914E01FA23515"]
+			id: "5B9DDA61717F4CEB"
+			tasks: [{
+				id: "6F288F28EA71F9AA"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "283CC13C55730633"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "5579D912023B74D9"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4D90A33A5FDAE7B8"
+					player_command: false
+				}
+				{
+					id: "11DDCD741B25DB8D"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5B9DDA61717F4CEB"
+					player_command: false
+				}
+				{
+					id: "2A4446985AA6F630"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:more_planks_from_logs skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Culinary Arts"
+			x: 2.4d
+			y: -8.1d
+			dependencies: ["775914E01FA23515"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"449415062AB4DFBD"
+				"53A31EFEB2C6D28D"
+			]
+			id: "1C0A9B699044E3D0"
+			tasks: [{
+				id: "59262BABA82310FD"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "201669E0457DA5B1"
+					type: "item"
+					auto: "enabled"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "38E146D7FE2CB7C5"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 775914E01FA23515"
+					player_command: false
+				}
+				{
+					id: "557663C846E1980A"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1C0A9B699044E3D0"
+					player_command: false
+				}
+				{
+					id: "17CAE2944D1D6982"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:better_crafted_food"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Advanced Carpentry"
+			x: -0.6d
+			y: -8.1d
+			dependencies: ["47D17848B13E638E"]
+			size: 0.3d
+			optional: true
+			incompatible: ["1C7ED6BB0A354354"]
+			id: "1002212058FE0434"
+			tasks: [{
+				id: "67A0EE63BB592B3C"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "203713A3F48BC1F8"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "4242CA0BCBE2B3AB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 47D17848B13E638E"
+					player_command: false
+				}
+				{
+					id: "0855AC5B997FD078"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1002212058FE0434"
+					player_command: false
+				}
+				{
+					id: "687323F071D6AF5A"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:carpentry_ii"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Safe Fall"
+			x: 3.75d
+			y: -9.0d
+			dependencies: ["53A31EFEB2C6D28D"]
+			dependency_requirement: "one_completed"
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"27856420A902EB03"
+				"2CF348ECCA09AEFE"
+			]
+			id: "44332BA873411FD3"
+			tasks: [{
+				id: "187F6C9C6FBC2066"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "52BBDBE190C38761"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "7F7731D6C1CF5009"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 53A31EFEB2C6D28D"
+					player_command: false
+				}
+				{
+					id: "27B788FE2187E24B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 44332BA873411FD3"
+					player_command: false
+				}
+				{
+					id: "644C3D216743F702"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:fall_resistance"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Tools of the Trade"
+			x: 0.75d
+			y: -9.15d
+			dependencies: ["449415062AB4DFBD"]
+			dependency_requirement: "one_completed"
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"47D17848B13E638E"
+				"7AA0CFC978CB13F1"
+			]
+			id: "452F92CE8D93DB3E"
+			tasks: [{
+				id: "0DA6530BFD6AA05E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "38747239EDEC574E"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "613A20370DF809BF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 449415062AB4DFBD"
+					player_command: false
+				}
+				{
+					id: "4A2AE98827D671DA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 452F92CE8D93DB3E"
+					player_command: false
+				}
+				{
+					id: "305DE7F03295F7BC"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:toolsofthetrade"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Skilled Hands"
+			x: 5.3999999999999995d
+			y: -8.1d
+			dependencies: ["27856420A902EB03"]
+			size: 0.3d
+			optional: true
+			incompatible: ["267D9676923393C0"]
+			id: "1D1983E0933B54D5"
+			tasks: [{
+				id: "4B39A31C40A0AAAE"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40E7B8C855D70C77"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "530E11E1475DBD52"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 27856420A902EB03"
+					player_command: false
+				}
+				{
+					id: "4A389BC9271C6082"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1D1983E0933B54D5"
+					player_command: false
+				}
+				{
+					id: "735E511477BEC33B"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/power revoke @p origins:skilled_hands"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Call to Arms"
+			x: -1.2d
+			y: -11.549999999999999d
+			dependencies: ["7F7C493720BB302B"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"637F8F392714B531"
+				"2296CB115CF363AF"
+			]
+			id: "1FBCB2691C0C8442"
+			tasks: [{
+				id: "3ED4CA5DC1A2CF17"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2CD1128886952D38"
+					type: "item"
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "799AD03E69FA6EE0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7F7C493720BB302B"
+					player_command: false
+				}
+				{
+					id: "7DCB770E750CA9F0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1FBCB2691C0C8442"
+					player_command: false
+				}
+				{
+					id: "02AED73D7E11427C"
+					type: "command"
+					command: "/power revoke @p origins:call_to_arms"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Freeman's Fortitude"
+			x: 2.25d
+			y: -11.549999999999999d
+			dependencies: ["0C8E281707BA837D"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6F32C9659A795C0E"
+				"637F8F392714B531"
+			]
+			id: "374997C57D9A9691"
+			tasks: [{
+				id: "0CEC168056DB7AAB"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "663AE52188197D10"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "13DBCAB1255297AD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0C8E281707BA837D"
+					player_command: false
+				}
+				{
+					id: "397CB7860CB56E17"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 374997C57D9A9691"
+					player_command: false
+				}
+				{
+					id: "614AA2353ADDED58"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:freeman_fortitude"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Master Chef"
+			x: 5.25d
+			y: -11.549999999999999d
+			dependencies: ["00E51C3073FB687C"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"4428C4CA210000D0"
+				"6F32C9659A795C0E"
+			]
+			id: "0C7FAEB3C45FC31D"
+			tasks: [{
+				id: "7035ACC33CF86D38"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "20451059E4FB1E05"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "627995FDDFFBD7DE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 00E51C3073FB687C"
+					player_command: false
+				}
+				{
+					id: "555FE6642C2E6DFC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0C7FAEB3C45FC31D"
+					player_command: false
+				}
+				{
+					id: "5B2FB7016ACFE5D6"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:more_smoker_xp"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Connections"
+			x: -2.6999999999999997d
+			y: -11.549999999999999d
+			dependencies: ["0E2978F8E6585068"]
+			size: 0.3d
+			optional: true
+			incompatible: ["387795DE06A568C1"]
+			id: "47062828D1CCFEC2"
+			tasks: [{
+				id: "1D98596EBD89A93D"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7F4B80139A7E7D15"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "2E878C49C7879C8A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0E2978F8E6585068"
+					player_command: false
+				}
+				{
+					id: "2F1391605EAC4A59"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 47062828D1CCFEC2"
+					player_command: false
+				}
+				{
+					id: "5106568DEFD8480E"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:rare_wandering_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Luck of the Draw"
+			x: -1.7999999999999998d
+			y: -13.049999999999999d
+			dependencies: ["2296CB115CF363AF"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"650D0922503ABE05"
+				"0E2978F8E6585068"
+			]
+			id: "0F063BF46F29340F"
+			tasks: [{
+				id: "46FB6F32C1EDA30E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "44146C21E13A56B6"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "701FCCC6F713C34F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2296CB115CF363AF"
+					player_command: false
+				}
+				{
+					id: "69761AEB02020AED"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0F063BF46F29340F"
+					player_command: false
+				}
+				{
+					id: "3A7C8EEC43BD96DF"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:luck"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Smelting"
+			x: 0.75d
+			y: -13.049999999999999d
+			dependencies: ["637F8F392714B531"]
+			size: 0.3d
+			optional: true
+			incompatible: ["650D0922503ABE05"]
+			id: "7FC17E8095580685"
+			tasks: [{
+				id: "6DFD41FD21B57D84"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5B7E0D56166849FA"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "3ED188AA117B2855"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 637F8F392714B531"
+					player_command: false
+				}
+				{
+					id: "1396A54CF349AAF4"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7FC17E8095580685"
+					player_command: false
+				}
+				{
+					id: "10DA2B156333F223"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:more_xp_blast"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Efficient Repairs"
+			x: -0.75d
+			y: -14.399999999999999d
+			dependencies: ["650D0922503ABE05"]
+			size: 0.3d
+			optional: true
+			incompatible: ["5D9B22EFE696BE43"]
+			id: "5CC8618EEF85B28B"
+			tasks: [{
+				id: "056E9314972D4832"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7D38AD0216BCB4FB"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "776B9095158F760F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 650D0922503ABE05"
+					player_command: false
+				}
+				{
+					id: "60D8FB954353ADDD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5CC8618EEF85B28B"
+					player_command: false
+				}
+				{
+					id: "6BA3156953A4B13C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:efficient_repairs"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Dark Vision"
+			x: 3.75d
+			y: -13.049999999999999d
+			dependencies: ["6F32C9659A795C0E"]
+			size: 0.3d
+			optional: true
+			incompatible: ["78B19A990CB46836"]
+			id: "2DC3B9A36A52DDD5"
+			tasks: [{
+				id: "76E2FFF8267E1213"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "062ED37FC37D44B8"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "5B1F60416C9A3294"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6F32C9659A795C0E"
+					player_command: false
+				}
+				{
+					id: "59AA56AFB46D1D44"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2DC3B9A36A52DDD5"
+					player_command: false
+				}
+				{
+					id: "00885357F9D013DB"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:dusk_vision"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Skilled Hands II"
+			x: 5.25d
+			y: -14.549999999999999d
+			dependencies: ["78B19A990CB46836"]
+			size: 0.3d
+			optional: true
+			incompatible: ["05A7E95C86F8474F"]
+			id: "7E02DA4E3E752D69"
+			tasks: [{
+				id: "0C67221CA71548B5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "69E8A73307516D92"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "3E50977CE119A81D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 78B19A990CB46836"
+					player_command: false
+				}
+				{
+					id: "598B390501611DB5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7E02DA4E3E752D69"
+					player_command: false
+				}
+				{
+					id: "1E99521C1645633E"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:skilled_hands_ii"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Butcher"
+			x: 6.449999999999999d
+			y: -13.2d
+			dependencies: ["4428C4CA210000D0"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"78B19A990CB46836"
+				"15D4EEF4630CB10E"
+			]
+			id: "5FB26BBE5741FB81"
+			tasks: [{
+				id: "7DD190F76DB12E76"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0A078E9A77C01E98"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4428C4CA210000D0"
+					player_command: false
+				}
+				{
+					id: "6E579D54DDE3B2AD"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "019065776101768D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5FB26BBE5741FB81"
+					player_command: false
+				}
+				{
+					id: "0ED1C943CA01CC0A"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:more_animal_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Bonemeal Efficiency"
+			x: 7.35d
+			y: -11.7d
+			dependencies: ["15D4EEF4630CB10E"]
+			size: 0.3d
+			optional: true
+			incompatible: ["5C0A96FA7295997E"]
+			id: "2BB4C96CDD571A36"
+			tasks: [{
+				id: "37C15D2E47B1CBBC"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5B4CB624678D8E6B"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "41F2FE18A80D709F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 15D4EEF4630CB10E"
+					player_command: false
+				}
+				{
+					id: "31E48D5B39E9F4E5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2BB4C96CDD571A36"
+					player_command: false
+				}
+				{
+					id: "669F44774B69AF79"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:better_bone_meal"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Intelligence"
+			x: -1.5d
+			y: -2.6999999999999997d
+			dependencies: ["23D31EB5591D127D"]
+			size: 0.3d
+			incompatible: ["17F3CE912E8D530C"]
+			id: "63ED4DBAD84D110B"
+			tasks: [{
+				id: "25E6BA979028CAE5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6129ED2FB00980B2"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "7ADF4B9C4520919C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 23D31EB5591D127D"
+					player_command: false
+				}
+				{
+					id: "499EA375A9EFC6C0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 63ED4DBAD84D110B"
+					player_command: false
+				}
+				{
+					id: "5C8E8A0AB312E76A"
+					type: "command"
+					command: "/power revoke @p origins:intelligence skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Magic Training"
+			x: 0.0d
+			y: -1.05d
+			dependencies: ["58BA9372940B8F48"]
+			size: 0.3d
+			optional: true
+			incompatible: ["17F3CE912E8D530C"]
+			id: "000A95AF633010B8"
+			tasks: [{
+				id: "4EFEC4D1DC06E272"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03DAF79010B643DB"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "3A3DF1AAF854E019"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 58BA9372940B8F48"
+					player_command: false
+				}
+				{
+					id: "66349CB0F7132814"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 000A95AF633010B8"
+					player_command: false
+				}
+				{
+					id: "73F3085FBEB8B69E"
+					type: "command"
+					auto: "invisible"
+					command: "/pmmo admin @p add magic xp -675"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Mage Armor"
+			x: -2.55d
+			y: 0.0d
+			dependencies: ["17F3CE912E8D530C"]
+			size: 0.3d
+			optional: true
+			incompatible: ["1AF00136A62C33E6"]
+			id: "60D033FE2E1691F5"
+			tasks: [{
+				id: "290C752735F49D39"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2E6E1BEECB6D5300"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "7DFEEE94C69A502A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 17F3CE912E8D530C"
+					player_command: false
+				}
+				{
+					id: "5CA8188539280D5B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 60D033FE2E1691F5"
+					player_command: false
+				}
+				{
+					id: "183603DB558252D5"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:magearmor"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Magic Reset"
+			x: -3.4499999999999997d
+			y: 0.75d
+			dependencies: ["1AF00136A62C33E6"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"17C61D79053F37E5"
+				"123C93A5E548722A"
+			]
+			id: "7721F1D6917EC613"
+			tasks: [{
+				id: "547FB450140571EA"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5229F225EC2065CB"
+					type: "item"
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "3BC2F6E96B6E3D2A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1AF00136A62C33E6"
+					player_command: true
+				}
+				{
+					id: "382328C267F8C86A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7721F1D6917EC613"
+					player_command: true
+				}
+				{
+					id: "6E5A40C7CDD171ED"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:magic_resist"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Mana Regen"
+			x: -5.55d
+			y: -1.5d
+			dependencies: ["7560196C65EA971F"]
+			size: 0.3d
+			optional: true
+			incompatible: ["0BD7BDCD77393C3A"]
+			id: "5CBE1E01F98D5AAB"
+			tasks: [{
+				id: "2A7111511AE2F41A"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C1170EB158D68C3"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "3395545DC66CC192"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7560196C65EA971F"
+					player_command: false
+				}
+				{
+					id: "2A76DA828E7445C7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5CBE1E01F98D5AAB"
+					player_command: false
+				}
+				{
+					id: "260F8D1B0976685C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:mana_regen_i"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Spell Damage"
+			x: -5.25d
+			y: 0.0d
+			dependencies: ["123C93A5E548722A"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"7560196C65EA971F"
+				"05A70240A8DE1F4A"
+			]
+			id: "1DED86581C3DD4F1"
+			tasks: [{
+				id: "7B40B8C7029B8B99"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "09BC575BEDF02FCC"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "276A4735150520A5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 123C93A5E548722A"
+					player_command: false
+				}
+				{
+					id: "4DA1931E1366DA0C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1DED86581C3DD4F1"
+					player_command: false
+				}
+				{
+					id: "28EDB822A9E0BA35"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:magic_damage"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Enchanted Weapon"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["17C61D79053F37E5"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"0FA86409BFD12118"
+				"555BE65AD5D03962"
+			]
+			id: "757D3047A30EFAEA"
+			tasks: [{
+				id: "250361166FE30319"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B553D1D361C6D32"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "74B0215796E881EA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 17C61D79053F37E5"
+					player_command: false
+				}
+				{
+					id: "2CFD1A7907B1D900"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 757D3047A30EFAEA"
+					player_command: false
+				}
+				{
+					id: "34B644C32024B033"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:enchanted_weapon"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Book Smart"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["0FA86409BFD12118"]
+			size: 0.3d
+			optional: true
+			incompatible: ["4219BEB05FC3D16F"]
+			id: "24C31026E8C2513B"
+			tasks: [{
+				id: "23087B3C5848BF6E"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "568DCD765032BB9B"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+				}
+				{
+					id: "7ED7B9C6C646CF56"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0FA86409BFD12118"
+					player_command: false
+				}
+				{
+					id: "479AB3AC14ED0E2B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 24C31026E8C2513B"
+					player_command: false
+				}
+				{
+					id: "5D23EFD1800E446D"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:book_smart"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.6499999999999995d
+			y: 0.8999999999999999d
+			dependencies: ["2A0107ECE067418A"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6185B4A6B9A0BD2C"
+				"01AF241799E3CFC8"
+			]
+			id: "00B73D4A61090A64"
+			tasks: [{
+				id: "1BEF5E67B781EE54"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7A4F258EF801F474"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "1CC76F6B95AA242A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2A0107ECE067418A"
+					player_command: false
+				}
+				{
+					id: "0D518BF9E50750A7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 00B73D4A61090A64"
+					player_command: false
+				}
+				{
+					id: "23D1C99E1A83A4BB"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:bubble_mask"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset False Life"
+			x: -5.7d
+			y: 3.0d
+			dependencies: ["0655DA0438E424B0"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"01AF241799E3CFC8"
+				"42319BEBAD3B1A5B"
+			]
+			id: "6A059A363C374CA6"
+			tasks: [{
+				id: "2680A57A63FB52B6"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2BB43190CDDA4D0D"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "1CBB05373ED55477"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0655DA0438E424B0"
+					player_command: false
+				}
+				{
+					id: "6AEB72F685B61120"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6A059A363C374CA6"
+					player_command: false
+				}
+				{
+					id: "3E4BB846C2DF4401"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:magic_health"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Life Essence"
+			x: -3.5999999999999996d
+			y: 4.95d
+			dependencies: ["4A52480CB995F15B"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"6849C8F21526B7E9"
+				"42319BEBAD3B1A5B"
+			]
+			id: "1AEF0AD627620422"
+			tasks: [{
+				id: "591C545304BF7FF8"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6D8DBA95AF09651D"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "2440EC631459AC00"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4A52480CB995F15B"
+					player_command: false
+				}
+				{
+					id: "29DF4674A9224581"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1AEF0AD627620422"
+					player_command: false
+				}
+				{
+					id: "136A0F50CD06A95B"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:leech skilltree"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Cheat Death"
+			x: -9.15d
+			y: -0.6d
+			dependencies: ["65D82DB321351DE6"]
+			size: 0.3d
+			optional: true
+			incompatible: ["09F547D3F828753F"]
+			id: "4007060E53FABF40"
+			tasks: [{
+				id: "64EBBAF287917942"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "49259F75221A94AD"
+					type: "item"
+					auto: "enabled"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "28209312E079C6F4"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 65D82DB321351DE6"
+					player_command: false
+				}
+				{
+					id: "05782554C2C4BF3F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4007060E53FABF40"
+					player_command: false
+				}
+				{
+					id: "4346C480CC98DF5D"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:cheatdeath"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Tomb Bound"
+			x: -9.6d
+			y: 1.5d
+			dependencies: ["6185B4A6B9A0BD2C"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"65D82DB321351DE6"
+				"51E87CE8151968DA"
+			]
+			id: "072369B37B2452BB"
+			tasks: [{
+				id: "22489E55E5B30CC5"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "224D679E5EA47C99"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "4F1BAA409E394EF9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6185B4A6B9A0BD2C"
+					player_command: false
+				}
+				{
+					id: "31AC617B216AFA41"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 072369B37B2452BB"
+					player_command: false
+				}
+				{
+					id: "5A857909F4B09507"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:keepinv"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Mana Regen II"
+			x: -8.1d
+			y: 3.0d
+			dependencies: ["01AF241799E3CFC8"]
+			size: 0.3d
+			optional: true
+			incompatible: ["51E87CE8151968DA"]
+			id: "730D933EAEC5E614"
+			tasks: [{
+				id: "087768419E71416A"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E902BCC86B2BC88"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "06816D41E84F7674"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 01AF241799E3CFC8"
+					player_command: false
+				}
+				{
+					id: "24EE55E297E02954"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 730D933EAEC5E614"
+					player_command: false
+				}
+				{
+					id: "76B1A544E41421DD"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:mana_regen_ii"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Poison Dipped"
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["42319BEBAD3B1A5B"]
+			size: 0.3d
+			optional: true
+			incompatible: ["58D6281AD2C944B4"]
+			id: "78B250A91E3EC162"
+			tasks: [{
+				id: "6CA1A7A68D94DC67"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4838FFB26DF0BBAA"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "1019A685E25A9B6D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 42319BEBAD3B1A5B"
+					player_command: false
+				}
+				{
+					id: "445EC1F41939D28E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 78B250A91E3EC162"
+					player_command: false
+				}
+				{
+					id: "01C75CBE01C7B75C"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:venom"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Holy Elixer"
+			x: -3.5d
+			y: 7.5d
+			dependencies: ["6849C8F21526B7E9"]
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"689359A4203DEDF7"
+				"58D6281AD2C944B4"
+			]
+			id: "75C901D5F376F411"
+			tasks: [{
+				id: "0DE3A230201E5D6F"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0892007291336565"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 2
+				}
+				{
+					id: "41AF12B825FD905C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6849C8F21526B7E9"
+					player_command: false
+				}
+				{
+					id: "65B9A3E734B157DF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 75C901D5F376F411"
+					player_command: true
+				}
+				{
+					id: "18E294DA276B078D"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:holy_elixer"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Smite"
+			x: -2.25d
+			y: 6.6d
+			dependencies: ["689359A4203DEDF7"]
+			size: 0.3d
+			optional: true
+			incompatible: ["5E939DB3F3277241"]
+			id: "19BE51FD11DABE83"
+			tasks: [{
+				id: "46413601DB3E74EE"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "495B990AC769394D"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "2CBA4EE1F3877D2D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 689359A4203DEDF7"
+					player_command: false
+				}
+				{
+					id: "5FE5CE8F46CF56BF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 19BE51FD11DABE83"
+					player_command: false
+				}
+				{
+					id: "65CF4012262825AE"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:smite"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Knowledge of the Ages"
+			x: -9.5d
+			y: 4.0d
+			dependencies: ["51E87CE8151968DA"]
+			size: 0.3d
+			optional: true
+			incompatible: ["515B3F66751628D3"]
+			id: "364BAA13ABE00EC8"
+			tasks: [{
+				id: "45AC0568A9DAC0A4"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6C9826BC914D2FC7"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "65AD9742371A2D8C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 51E87CE8151968DA"
+					player_command: false
+				}
+				{
+					id: "489907928C7DD961"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 364BAA13ABE00EC8"
+					player_command: false
+				}
+				{
+					id: "6916B4109D3959C8"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins:knowledge"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Potion Bonus"
+			x: -6.0d
+			y: 7.5d
+			dependencies: ["58D6281AD2C944B4"]
+			size: 0.3d
+			optional: true
+			incompatible: ["515B3F66751628D3"]
+			id: "430DE0CF85F9A1BC"
+			tasks: [{
+				id: "52C81866C549F831"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5050FE57F6AD4B64"
+					type: "item"
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					item: "dotcoinmod:token"
+					count: 3
+				}
+				{
+					id: "495F698879D1E6BA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 58D6281AD2C944B4"
+					player_command: false
+				}
+				{
+					id: "78F6B38C2A8E91E9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 430DE0CF85F9A1BC"
+					player_command: false
+				}
+				{
+					id: "430FF434020ACDE7"
+					type: "command"
+					auto: "invisible"
+					command: "/power revoke @p origins-classes:potion_bonus"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -14.5d
+			optional: true
+			id: "10CE4EBC9CAB3B3E"
+			tasks: [{
+				id: "58DBEBEE72A592F4"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 110
+			}]
+			rewards: [{
+				id: "4D463729F021E0BD"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -13.5d
+			optional: true
+			id: "0C280C9DCBD306D0"
+			tasks: [{
+				id: "7EF84B41138A687A"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 120
+			}]
+			rewards: [{
+				id: "3623C28D9A141583"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -12.5d
+			optional: true
+			id: "17DD2E41287A8430"
+			tasks: [{
+				id: "3DA748AFAAE6B426"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 130
+			}]
+			rewards: [{
+				id: "09F2181D55C4979A"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -11.5d
+			optional: true
+			id: "6C14CCF8CBD708A3"
+			tasks: [{
+				id: "5AEB4F3688DB538F"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 140
+			}]
+			rewards: [{
+				id: "2079B67A62233DC9"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -10.5d
+			optional: true
+			id: "13ABF802CC30DFF3"
+			tasks: [{
+				id: "2E07201E4D0E1E48"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 150
+			}]
+			rewards: [{
+				id: "3E6BCB6A16B6B43D"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -9.5d
+			optional: true
+			id: "33BF25115467EA3B"
+			tasks: [{
+				id: "42E0D92393825722"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 160
+			}]
+			rewards: [{
+				id: "01A7A3E2889F87B8"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -8.5d
+			optional: true
+			id: "3B75437803B38574"
+			tasks: [{
+				id: "673D945D03D81C54"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 170
+			}]
+			rewards: [{
+				id: "69C0E82B5E70DF79"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -7.5d
+			optional: true
+			id: "10E59602F8811623"
+			tasks: [{
+				id: "14255146A668BC5D"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 180
+			}]
+			rewards: [{
+				id: "7B806222A6074C09"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.5d
+			optional: true
+			id: "16924696863228D3"
+			tasks: [{
+				id: "7F695A38E2DAC11A"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 190
+			}]
+			rewards: [{
+				id: "009D34222315E6D0"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -15.5d
+			optional: true
+			id: "539413A6C87CB8F2"
+			tasks: [{
+				id: "64C0B4D666653E1E"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 200
+			}]
+			rewards: [{
+				id: "41FB49AF29F11A1C"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -14.5d
+			optional: true
+			id: "74AC2B286080D89E"
+			tasks: [{
+				id: "7220165FAD807241"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 210
+			}]
+			rewards: [{
+				id: "1555F28CF320979D"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -13.5d
+			optional: true
+			id: "54BEDFECA7D28933"
+			tasks: [{
+				id: "60713FD68EA66DB0"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 220
+			}]
+			rewards: [{
+				id: "23C7E54720A43B41"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -12.5d
+			optional: true
+			id: "48DF0BB88BFFFA28"
+			tasks: [{
+				id: "1A92C1DCE5E497C7"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 230
+			}]
+			rewards: [{
+				id: "693C2D2EE180C7ED"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -11.5d
+			optional: true
+			id: "1522D7173B6950E2"
+			tasks: [{
+				id: "58293F46BA5DEA0A"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 240
+			}]
+			rewards: [{
+				id: "3BD3F05AA01CC358"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.5d
+			optional: true
+			id: "15BCF0C649B687A1"
+			tasks: [{
+				id: "019B2777AF9EE1D4"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 250
+			}]
+			rewards: [{
+				id: "55615A4DFB634415"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -9.5d
+			optional: true
+			id: "6F36163EFC044513"
+			tasks: [{
+				id: "5D06ECD7A349844C"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 260
+			}]
+			rewards: [{
+				id: "1B8BF17309AE36C9"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -8.5d
+			optional: true
+			id: "4526299F2DEE160B"
+			tasks: [{
+				id: "759DD60656673251"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 270
+			}]
+			rewards: [{
+				id: "38B77B1762EC2E21"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.5d
+			optional: true
+			id: "7C2F76270B4B1F4A"
+			tasks: [{
+				id: "1B060856CAF8773B"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 280
+			}]
+			rewards: [{
+				id: "6F2CE022E88A4772"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.5d
+			optional: true
+			id: "344607B7DB62EA0F"
+			tasks: [{
+				id: "641A10D8B27AD8C0"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 290
+			}]
+			rewards: [{
+				id: "48B18D9B3E60BF44"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -15.5d
+			optional: true
+			id: "3ED4BA9CE1F3E471"
+			tasks: [{
+				id: "5AFD7C08BA1C2C4C"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 300
+			}]
+			rewards: [{
+				id: "4ABFDFC7F7537ECE"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -14.5d
+			optional: true
+			id: "469FE5CA34351982"
+			tasks: [{
+				id: "2DE0B9DF465DB734"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 310
+			}]
+			rewards: [{
+				id: "7F123E04342CCFFF"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -13.5d
+			optional: true
+			id: "13962DDD8E746829"
+			tasks: [{
+				id: "73DB74943EB78696"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 320
+			}]
+			rewards: [{
+				id: "15A939EF52FF0204"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -12.5d
+			optional: true
+			id: "3BA34BA975DFA159"
+			tasks: [{
+				id: "0D6A4BD1E9398E10"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 330
+			}]
+			rewards: [{
+				id: "4F23F9BA6659CF9C"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.5d
+			optional: true
+			id: "6CF5C91089FB2A7C"
+			tasks: [{
+				id: "3E2E7AA5577F162A"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 340
+			}]
+			rewards: [{
+				id: "53B1D377101FE60A"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.5d
+			optional: true
+			id: "720F4694F0FA7AAE"
+			tasks: [{
+				id: "708A953893EF9E1B"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 350
+			}]
+			rewards: [{
+				id: "19B48AC501645E9A"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -9.5d
+			optional: true
+			id: "591D51EA6F005672"
+			tasks: [{
+				id: "1A6B19BE367EE3A8"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 360
+			}]
+			rewards: [{
+				id: "58FCEED567D5AE36"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -8.5d
+			optional: true
+			id: "5DB370A871EAC660"
+			tasks: [{
+				id: "7237CC4DAA87AB11"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 370
+			}]
+			rewards: [{
+				id: "760D9A467F2B51FE"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -7.5d
+			optional: true
+			id: "5388415D84567DC1"
+			tasks: [{
+				id: "0C29800E95641CB2"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 380
+			}]
+			rewards: [{
+				id: "3C6C6A62ACC95CD7"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.5d
+			optional: true
+			id: "443EA0FE6A5B552A"
+			tasks: [{
+				id: "700404214F96CF69"
+				type: "pmmo:skill"
+				skill: "total_level"
+				requiredLevel: 390
+			}]
+			rewards: [{
+				id: "6B1056207386264D"
+				type: "item"
+				item: "dotcoinmod:token"
+			}]
+		}
+		{
+			title: "Reset Soldier"
+			x: 5.2d
+			y: -2.2d
+			shape: "circle"
+			dependencies: ["473E15814A16DBC1"]
+			size: 0.4d
+			optional: true
+			id: "1446841EC741ADCF"
+			tasks: [{
+				id: "5CE9C031C1E54942"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "742AD388692AD30A"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "7107EC3A344882FC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 473E15814A16DBC1"
+					player_command: false
+				}
+				{
+					id: "4F0A450519B7D529"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1446841EC741ADCF"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Archer"
+			x: 9.6d
+			y: -4.0d
+			shape: "circle"
+			dependencies: ["5305D3ABF19941F5"]
+			size: 0.4d
+			optional: true
+			id: "6091F02DCD5D6A3A"
+			tasks: [{
+				id: "3F8A7084044A5AF3"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4E1FEEBF86959D14"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "057E3E485450AEAB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5305D3ABF19941F5"
+					player_command: false
+				}
+				{
+					id: "644DF51FE2C0EFDD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6091F02DCD5D6A3A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Warrior"
+			x: 3.0d
+			y: 1.6d
+			shape: "circle"
+			dependencies: ["25174516493C2EB1"]
+			size: 0.4d
+			optional: true
+			id: "32C66D40E718234C"
+			tasks: [{
+				id: "3F046B1FD00EEFAB"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1161D19941AF9FE6"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "4AA172FA66BC8A08"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 25174516493C2EB1"
+					player_command: false
+				}
+				{
+					id: "1AE1B7C5D02E9AAD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 32C66D40E718234C"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Guardian"
+			x: 4.0d
+			y: 6.6d
+			shape: "circle"
+			dependencies: ["6C59508BBB9E2BAC"]
+			size: 0.4d
+			optional: true
+			id: "56C2AD531B17ADE2"
+			tasks: [{
+				id: "72BFF9A50914FA77"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "49E124EF6CC7109D"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "6C2689FCF862E738"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6C59508BBB9E2BAC"
+					player_command: false
+				}
+				{
+					id: "6B3CDA9F2149121F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 56C2AD531B17ADE2"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Berserker"
+			x: 13.0d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["1C09850428A2A454"]
+			size: 0.4d
+			optional: true
+			id: "5A00FE7897195D10"
+			tasks: [{
+				id: "7F80F3FB94A765AD"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2DFF70404DD43F8F"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "774BD414F597E6F2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1C09850428A2A454"
+					player_command: false
+				}
+				{
+					id: "6B6381F466BE1DA9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5A00FE7897195D10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Beastmaster"
+			x: 17.0d
+			y: 4.6d
+			shape: "circle"
+			dependencies: ["5C259234775B6C14"]
+			size: 0.4d
+			optional: true
+			id: "5125B6CE1D7AEF3A"
+			tasks: [{
+				id: "6B9DD1AADFD44697"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A46A5D1994B391B"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "03366649112B6DFE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5C259234775B6C14"
+					player_command: false
+				}
+				{
+					id: "1A00581A9199D70A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5125B6CE1D7AEF3A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Ranger"
+			x: 16.0d
+			y: -3.6d
+			shape: "circle"
+			dependencies: ["7BAEF2FBDC9D26D4"]
+			size: 0.4d
+			optional: true
+			id: "77E1166F71401679"
+			tasks: [{
+				id: "523501C066628846"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3806FB814BA16FF4"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "2900F87E629BEBC8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7BAEF2FBDC9D26D4"
+					player_command: false
+				}
+				{
+					id: "30B2155607F73813"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 77E1166F71401679"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Freeman"
+			x: 2.0d
+			y: -4.6d
+			shape: "circle"
+			dependencies: ["166AB34BE751BAE1"]
+			size: 0.4d
+			optional: true
+			id: "365AAB94138BE3C7"
+			tasks: [{
+				id: "1D244D0B8745E568"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0EED3AD1E525CE83"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "60B8916B8D621E0F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 166AB34BE751BAE1"
+					player_command: false
+				}
+				{
+					id: "63E4B6B05AAB9066"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 365AAB94138BE3C7"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Excavator"
+			x: 5.8d
+			y: -6.6d
+			shape: "circle"
+			dependencies: ["267D9676923393C0"]
+			size: 0.4d
+			optional: true
+			id: "0C5A9BD5C9AA4DA8"
+			tasks: [{
+				id: "6AB398AA45165B55"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5057A89FE1F2FF2C"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "3431E24074FFF19D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 267D9676923393C0"
+					player_command: false
+				}
+				{
+					id: "28131C56963088F9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0C5A9BD5C9AA4DA8"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Artisan"
+			x: -1.6d
+			y: -6.4d
+			shape: "circle"
+			dependencies: ["1C7ED6BB0A354354"]
+			size: 0.4d
+			optional: true
+			id: "6284CFBF681C9634"
+			tasks: [{
+				id: "74F72C4E4E44EBBF"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7329D880CEE88C50"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "4F021FC4676066C5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1C7ED6BB0A354354"
+					player_command: false
+				}
+				{
+					id: "7F39AEC97E54E75E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6284CFBF681C9634"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Cultivator"
+			x: 9.8d
+			y: -12.6d
+			shape: "circle"
+			dependencies: ["5C0A96FA7295997E"]
+			size: 0.4d
+			optional: true
+			id: "001700996EA3334D"
+			tasks: [{
+				id: "1DE25AF18E6042EC"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0737E32CE6490C4B"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "476D4519AFABD01F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5C0A96FA7295997E"
+					player_command: false
+				}
+				{
+					id: "1E5B98727B2DC093"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 001700996EA3334D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Baron"
+			x: -5.8d
+			y: -11.6d
+			shape: "circle"
+			dependencies: ["387795DE06A568C1"]
+			size: 0.4d
+			optional: true
+			id: "796DF0376CBF5124"
+			tasks: [{
+				id: "1E8D0AAA42C77012"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "004A2F30D51DF613"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "491669B6905B9037"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 387795DE06A568C1"
+					player_command: false
+				}
+				{
+					id: "6ED6617D0CD876DE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 796DF0376CBF5124"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Blacksmith"
+			x: -0.6d
+			y: -17.8d
+			shape: "circle"
+			dependencies: ["5D9B22EFE696BE43"]
+			size: 0.4d
+			optional: true
+			id: "11017820F70CED4B"
+			tasks: [{
+				id: "122CDB49E46743ED"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "540142A91112853E"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "6C2D2DE87A16C1BD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5D9B22EFE696BE43"
+					player_command: false
+				}
+				{
+					id: "26B7DED98654B1EB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 11017820F70CED4B"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Prospector"
+			x: 4.6d
+			y: -17.8d
+			shape: "circle"
+			dependencies: ["05A7E95C86F8474F"]
+			size: 0.4d
+			optional: true
+			id: "063A328A032E241A"
+			tasks: [{
+				id: "694869DED2ED0990"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27884F70F9D1A97B"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "7BCAD47EACD23CB1"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 05A7E95C86F8474F"
+					player_command: false
+				}
+				{
+					id: "2BB9E119AF1CE00D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 063A328A032E241A"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Mage"
+			x: -1.2d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["619264C4589103F4"]
+			size: 0.4d
+			optional: true
+			id: "29A65BB9EC1CF8C7"
+			tasks: [{
+				id: "7ADBEDA7E52A4D4F"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "44F4CBDD653679C5"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "70A54C6DE4C2EB87"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 619264C4589103F4"
+					player_command: false
+				}
+				{
+					id: "34D73A4CA0073540"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 29A65BB9EC1CF8C7"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Professor"
+			x: 0.8d
+			y: 0.2d
+			shape: "circle"
+			dependencies: ["4219BEB05FC3D16F"]
+			size: 0.4d
+			id: "30A16A0F271E81AE"
+			tasks: [{
+				id: "581059E6AE7C38EF"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04C811EBCDC0F352"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "55ADDD95BC1DA958"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4219BEB05FC3D16F"
+					player_command: false
+				}
+				{
+					id: "770B9DAC0B2C2228"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 30A16A0F271E81AE"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Wizard"
+			x: -5.0d
+			y: -4.2d
+			shape: "circle"
+			dependencies: ["0BD7BDCD77393C3A"]
+			size: 0.4d
+			optional: true
+			id: "60F356D497C7173C"
+			tasks: [{
+				id: "3DE431D2324E7A18"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "56764F68A9925912"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "52C8BFBAF5EADE76"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0BD7BDCD77393C3A"
+					player_command: false
+				}
+				{
+					id: "2D9B39A234C9F22D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 60F356D497C7173C"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Warlock"
+			x: -11.6d
+			y: -4.0d
+			shape: "circle"
+			dependencies: ["09F547D3F828753F"]
+			size: 0.4d
+			optional: true
+			id: "3D246D7B19096442"
+			tasks: [{
+				id: "22C3262A4F5E1B71"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "088B87D667C2E510"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "435B30D1DF8DE473"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 09F547D3F828753F"
+					player_command: false
+				}
+				{
+					id: "4FED240AF66C2A3A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3D246D7B19096442"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Enchanter"
+			x: -13.0d
+			y: 4.4d
+			shape: "circle"
+			dependencies: ["7C074F4CD2476A41"]
+			size: 0.4d
+			optional: true
+			id: "010CFCABBC418901"
+			tasks: [{
+				id: "3449C21BD68C6115"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3B93BC064E4B4160"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "3D1A0775A290B8EE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7C074F4CD2476A41"
+					player_command: false
+				}
+				{
+					id: "627761F2B7E28E49"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 010CFCABBC418901"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Alchemist"
+			x: -7.4d
+			y: 9.0d
+			shape: "circle"
+			dependencies: ["515B3F66751628D3"]
+			size: 0.4d
+			optional: true
+			id: "2F3E9E66E3F36007"
+			tasks: [{
+				id: "437D45E112403966"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2EF81E98F09385EE"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "6DB6B528EE991C61"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 515B3F66751628D3"
+					player_command: false
+				}
+				{
+					id: "03F396156B777D0C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2F3E9E66E3F36007"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Reset Cleric"
+			x: 0.0d
+			y: 6.6d
+			shape: "circle"
+			dependencies: ["5E939DB3F3277241"]
+			size: 0.4d
+			optional: true
+			id: "5DB2CD25C859BC9D"
+			tasks: [{
+				id: "5ADB214D6CB72655"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "75A3D6AB9711815B"
+					type: "command"
+					title: "Set Vassal"
+					icon: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+					auto: "enabled"
+					command: "/origin set @p origins-classes:class origins-classes:vassal"
+					player_command: false
+				}
+				{
+					id: "5F210CE703B3F40E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5E939DB3F3277241"
+					player_command: false
+				}
+				{
+					id: "0EB1F661844912BE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5DB2CD25C859BC9D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Toggle On Enchanted Weapon"
+			x: -3.0d
+			y: 1.25d
+			dependencies: ["17C61D79053F37E5"]
+			size: 0.5d
+			optional: true
+			can_repeat: true
+			id: "39D6B0D64B2A1812"
+			tasks: [{
+				id: "647491DE327CCB53"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4239FB830E79AE17"
+				type: "command"
+				auto: "no_toast"
+				command: "/power grant @p origins:enchanted_weapon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Toggle Off Enchanted Weapon"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["17C61D79053F37E5"]
+			size: 0.5d
+			optional: true
+			can_repeat: true
+			id: "17C4B88EDEF95EBD"
+			tasks: [{
+				id: "76981528FAD2F121"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2515D070EACF8C99"
+				type: "command"
+				auto: "no_toast"
+				command: "/power revoke @p origins:enchanted_weapon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reforging Unlock - Smithing"
+			x: -23.5d
+			y: 1.5d
+			description: ["An alternative way to unlock the reforging capabilities of the blacksmith and enchanter"]
+			optional: true
+			id: "6B5FD90C73AFB335"
+			tasks: [{
+				id: "15EF26654F97BCD7"
+				type: "pmmo:skill"
+				skill: "smithing"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "24BE43EEB80A66CF"
+				type: "pmmo:levelreward"
+				auto: "enabled"
+				skill: "reforging"
+				amount: 2
+			}]
+		}
+		{
+			title: "Reforging Unlock - Magic"
+			x: -23.5d
+			y: 2.5d
+			description: ["An alternative way to unlock the reforging capabilities of the blacksmith and enchanter"]
+			optional: true
+			id: "6E1C80E6CD150115"
+			tasks: [{
+				id: "7B799DBF5569A587"
+				type: "pmmo:skill"
+				skill: "magic"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "0D7A97FC71BD9667"
+				type: "pmmo:levelreward"
+				auto: "enabled"
+				skill: "reforging"
+				amount: 2
+			}]
+		}
+		{
+			title: "Endurance"
+			x: -15.5d
+			y: 1.5d
+			description: ["Your skills grant you permanent HP"]
+			id: "3E388ADD1683A2FB"
+			tasks: [
+				{
+					id: "0ED1163605219D67"
+					type: "pmmo:skill"
+					skill: "combat"
+					requiredLevel: 40
+				}
+				{
+					id: "0269B54297802F54"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 40
+				}
+			]
+			rewards: [{
+				id: "0586CFACF9A47ADE"
+				type: "command"
+				title: "Endurance - 2 HP"
+				icon: "levelhearts:heart_container"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:endurance"
+				player_command: false
+			}]
+		}
+		{
+			x: -21.5d
+			y: 1.5d
+			description: ["Your run speed increases due to your agility"]
+			id: "23B8AA3573643267"
+			tasks: [{
+				id: "3EB3B466F78D1C00"
+				type: "pmmo:skill"
+				skill: "agility"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "0971F5534467A8C1"
+				type: "command"
+				title: "Agility Speed"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:agi_speed"
+				player_command: false
+			}]
+		}
+		{
+			x: -20.5d
+			y: 1.5d
+			description: ["Your building skills increases your reach"]
+			id: "7AF0FF141F1A2FC4"
+			tasks: [{
+				id: "1799B8B8D43629F9"
+				type: "pmmo:skill"
+				skill: "building"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "0728F950A67DCDFD"
+				type: "command"
+				title: "Builder's Reach"
+				icon: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:build_reach"
+				player_command: false
+			}]
+		}
+		{
+			x: -19.5d
+			y: 1.5d
+			description: ["Your skills in combat increase your damage"]
+			id: "2C3C94851F8D7A08"
+			tasks: [{
+				id: "01C923F08374CA0C"
+				type: "pmmo:skill"
+				skill: "combat"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "7C6D718499438162"
+				type: "command"
+				title: "Combat Damage"
+				icon: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:combat_damage"
+				player_command: false
+			}]
+		}
+		{
+			x: -18.5d
+			y: 1.5d
+			description: ["Your swimming ability helps you see better underwater"]
+			id: "059DEA9E784FE4CC"
+			tasks: [{
+				id: "58D1DB65DF33C5EA"
+				type: "pmmo:skill"
+				skill: "swimming"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "109031BC72502E09"
+				type: "command"
+				title: "Water vision"
+				icon: "aquamirae:oxygen_tank"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:watervision"
+				player_command: false
+			}]
+		}
+		{
+			x: -17.5d
+			y: 1.5d
+			description: ["Your skill in magic increases your mana regen"]
+			id: "5FA73A388E7AB948"
+			tasks: [{
+				id: "148CD5BEEC4A7AC4"
+				type: "pmmo:skill"
+				skill: "magic"
+				requiredLevel: 40
+			}]
+			rewards: [{
+				id: "1F5C56BA0E6E16E7"
+				type: "command"
+				title: "Magic Regen"
+				icon: "ars_nouveau:amulet_of_mana_regen"
+				team_reward: false
+				auto: "enabled"
+				command: "/power grant @p origins:magic_regen"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Sorcer's Apprentice"
+			x: -6.8999999999999995d
+			y: 1.2d
+			dependencies: ["05A70240A8DE1F4A"]
+			size: 0.3d
+			incompatible: [
+				"2A0107ECE067418A"
+				"0655DA0438E424B0"
+			]
+			id: "544DECF2B9F3A6A1"
+			tasks: [{
+				id: "0DBDFC29F08D549C"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "3B4D7EEA09F62962"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 05A70240A8DE1F4A"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Magical Dimensions we will go"
+			x: -4.6499999999999995d
+			y: 3.4499999999999997d
+			description: ["Reset the Quest: Magical Dimensions we will go"]
+			dependencies: ["555BE65AD5D03962"]
+			dependency_requirement: "one_completed"
+			size: 0.3d
+			optional: true
+			incompatible: [
+				"0655DA0438E424B0"
+				"4A52480CB995F15B"
+			]
+			id: "2978895CC5E4E7D7"
+			tasks: [{
+				id: "5C3E45BB17F572AB"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "51DD9444BD4D0BE5"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 555BE65AD5D03962"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Not Today, Thank You"
+			x: 8.549999999999999d
+			y: 2.4d
+			description: ["Reset the Quest: Not Today, Thank You"]
+			dependencies: ["2B91D41CEBE3C455"]
+			size: 0.3d
+			incompatible: [
+				"08BAA3CD640EBD71"
+				"6080CA3E382DE7AF"
+			]
+			id: "653EA917676C124D"
+			tasks: [{
+				id: "03B751D6DE7927C6"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "2BC2E3C94B46A51A"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 2B91D41CEBE3C455"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Dealer of Death "
+			x: 9.9d
+			y: 1.05d
+			description: ["Reset the Quest: Dealer of Death "]
+			dependencies: ["619F6F4BC8367A75"]
+			size: 0.3d
+			incompatible: [
+				"153B6709BF8BAB79"
+				"6080CA3E382DE7AF"
+			]
+			id: "731E1E00D6D866D2"
+			tasks: [{
+				id: "23BD7CEA6F1E01BE"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "6177D82AA602A2B3"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 619F6F4BC8367A75"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Metallurgical Supplies"
+			x: 2.85d
+			y: -10.65d
+			description: ["Reset the Quest: Metallurgical Supplies"]
+			dependencies: ["2CF348ECCA09AEFE"]
+			size: 0.3d
+			incompatible: [
+				"00E51C3073FB687C"
+				"0C8E281707BA837D"
+			]
+			id: "7113ED929A8C3ACC"
+			tasks: [{
+				id: "5DB632C7D335C67A"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "6E48991E8FB32C30"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 2CF348ECCA09AEFE"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reset - Quest: Let's Make a Deal"
+			x: 1.2d
+			y: -10.65d
+			description: ["Reset the Quest: Metallurgical Supplies"]
+			dependencies: ["7AA0CFC978CB13F1"]
+			size: 0.3d
+			incompatible: [
+				"7F7C493720BB302B"
+				"0C8E281707BA837D"
+			]
+			id: "19E0A6B78A8D9704"
+			tasks: [{
+				id: "1E7BCAF0CBDBD261"
+				type: "checkmark"
+				title: "Reset"
+			}]
+			rewards: [{
+				id: "27C04AE761907F6A"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 7AA0CFC978CB13F1"
+				player_command: false
+			}]
+		}
+		{
+			title: "More Tokens for the Rich"
+			x: -12.5d
+			y: -15.5d
+			id: "6A4AE09D706B2827"
+			tasks: [{
+				id: "4B85E6405478F57E"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78D846DB1F261C51"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "More Tokens for the Rich"
+			x: -12.5d
+			y: -14.5d
+			id: "1A33CFD1DB93D416"
+			tasks: [{
+				id: "56502EBEDA013DC5"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15E87593888935F3"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "More Tokens for the Rich"
+			x: -12.5d
+			y: -13.5d
+			id: "1CFB623226153DE4"
+			tasks: [{
+				id: "0FB6D4C7BBE76B44"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "763FB4F950F7B455"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "More Tokens for the Rich"
+			x: -12.5d
+			y: -12.5d
+			id: "5A9498A6BC879BB7"
+			tasks: [{
+				id: "421467DB52E9FAF7"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5AA6666BF21CB8FE"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "More Tokens for the Rich"
+			x: -12.5d
+			y: -11.5d
+			id: "3CAC47C1D3D5E62F"
+			tasks: [{
+				id: "4D0245297EC8BD81"
+				type: "item"
+				item: {
+					id: "dotcoinmod:platinum_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "532901668A801DBD"
+				type: "item"
+				item: {
+					id: "dotcoinmod:token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

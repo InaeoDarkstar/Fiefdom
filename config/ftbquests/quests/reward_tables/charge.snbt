@@ -1,0 +1,34 @@
+{
+	id: "57D1E2D3C079EEE7"
+	order_index: 6
+	title: "Charge"
+	icon: "minecraft:creeper_banner_pattern"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:flower_banner_pattern" }
+		{ item: "minecraft:creeper_banner_pattern" }
+		{ item: "minecraft:skull_banner_pattern" }
+		{ item: "minecraft:mojang_banner_pattern" }
+		{ item: "minecraft:globe_banner_pattern" }
+		{ item: "minecraft:piglin_banner_pattern" }
+		{ item: "iceandfire:banner_pattern_fire" }
+		{ item: "iceandfire:banner_pattern_ice" }
+		{ item: "iceandfire:banner_pattern_lightning" }
+		{ item: "iceandfire:banner_pattern_fire_head" }
+		{ item: "iceandfire:banner_pattern_ice_head" }
+		{ item: "iceandfire:banner_pattern_lightning_head" }
+		{ item: "iceandfire:banner_pattern_amphithere" }
+		{ item: "iceandfire:banner_pattern_bird" }
+		{ item: "iceandfire:banner_pattern_eye" }
+		{ item: "iceandfire:banner_pattern_fae" }
+		{ item: "iceandfire:banner_pattern_feather" }
+		{ item: "iceandfire:banner_pattern_gorgon" }
+		{ item: "iceandfire:banner_pattern_hippocampus" }
+		{ item: "iceandfire:banner_pattern_hippogryph_head" }
+		{ item: "iceandfire:banner_pattern_mermaid" }
+		{ item: "iceandfire:banner_pattern_sea_serpent" }
+		{ item: "iceandfire:banner_pattern_troll" }
+		{ item: "iceandfire:banner_pattern_weezer" }
+		{ item: "iceandfire:banner_pattern_dread" }
+	]
+}

@@ -1,0 +1,44 @@
+{
+	id: "7089D4483DB2F335"
+	order_index: 12
+	title: "Circle Supply"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:chest"
+			Count: 1b
+			tag: {
+				BlockEntityTag: {
+					Items: [
+						{
+							Slot: 0b
+							id: "vanillafoodpantry:bottle_water"
+							Count: 5b
+						}
+						{
+							Slot: 1b
+							id: "minecraft:white_candle"
+							Count: 10b
+						}
+						{
+							Slot: 2b
+							id: "ars_nouveau:novice_spell_book"
+							Count: 1b
+						}
+						{
+							Slot: 3b
+							id: "ars_nouveau:source_berry"
+							Count: 32b
+						}
+					]
+					id: "minecraft:chest"
+				}
+				display: {
+					Lore: ["\"(+NBT)\""]
+				}
+			}
+		}
+	}]
+}

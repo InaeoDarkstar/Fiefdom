@@ -1,0 +1,57 @@
+{
+	id: "6E5BC5ACF9C5F15B"
+	order_index: 8
+	title: "Supply Shipment"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:iron_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 20
+		}
+		{
+			item: {
+				id: "minecraft:torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 24
+		}
+		{
+			item: {
+				id: "minecraft:gold_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "minecraft:white_wool"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+		}
+	]
+}
