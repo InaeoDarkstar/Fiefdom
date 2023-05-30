@@ -1,0 +1,12 @@
+{
+  "override": true,
+  "levels": [
+    {"harvesting": 15},
+    {"harvesting": 25},
+    {"harvesting": 35},
+    {"harvesting": 45},
+    {"harvesting": 55},
+    {"harvesting": 65},
+    {"harvesting": 75}
+  ]
+}

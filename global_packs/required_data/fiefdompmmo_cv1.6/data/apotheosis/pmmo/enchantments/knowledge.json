@@ -1,0 +1,8 @@
+{
+  "override": true,
+  "levels": [
+    {"total_level": 350},
+    {"total_level": 450},
+    {"total_level": 550}
+  ]
+}

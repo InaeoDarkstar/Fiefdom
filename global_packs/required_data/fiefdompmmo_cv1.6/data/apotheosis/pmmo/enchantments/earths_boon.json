@@ -1,0 +1,10 @@
+{
+  "override": true,
+  "levels": [
+    {"mining": 25},
+    {"mining": 35},
+    {"mining": 45},
+    {"mining": 55},
+    {"mining": 65}
+  ]
+}
