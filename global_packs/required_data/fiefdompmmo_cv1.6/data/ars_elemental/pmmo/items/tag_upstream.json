@@ -1,0 +1,40 @@
+{"override":true,
+"isTagFor":[
+	"ars_elemental:water_upstream",
+	"ars_elemental:magma_upstream",
+	"ars_elemental:air_upstream"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"magic": 25},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"magic": 10},
+	"ENCHANT":{"magic": 5},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{"magic": 15},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

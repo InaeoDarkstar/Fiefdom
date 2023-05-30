@@ -1,0 +1,42 @@
+{"override":true,
+"isTagFor":[
+	"ars_elemental:air_caster_tome",
+	"ars_elemental:earth_caster_tome",
+	"ars_elemental:anima_caster_tome",
+	"ars_elemental:fire_caster_tome",
+	"ars_elemental:water_caster_tome"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"magic": 150},
+	"ENCHANT":{"magic": 25},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"magic": 50},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"magic": 1.1},
+	"WORN":{}
+},
+"negative_effect":{}
+}

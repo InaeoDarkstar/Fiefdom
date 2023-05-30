@@ -1,0 +1,41 @@
+{"override":true,
+"isTagFor":[
+	"ars_elemental:air_hat",
+	"ars_elemental:air_robes",
+	"ars_elemental:air_leggings",
+	"ars_elemental:air_boots"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"magic": 150},
+	"ENCHANT":{"magic": 25},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level": 350, "magic": 45},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"magic": 1.05, "agility": 1.075}
+},
+"negative_effect":{}
+}
