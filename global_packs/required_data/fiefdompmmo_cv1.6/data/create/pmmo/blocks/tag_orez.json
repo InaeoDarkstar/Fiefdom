@@ -1,0 +1,21 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"mining": 25},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {"mining": 15},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["create:deepslate_zinc_ore",
+"create:zinc_ore"]
+}

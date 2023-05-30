@@ -1,0 +1,26 @@
+{
+"override":true, 
+"isTagFor":[
+	"#minecraft:wool",
+	"#minecraft:wool_carpets"
+	
+
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"crafting": 1},
+	"BLOCK_PLACE":{"crafting": 2},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

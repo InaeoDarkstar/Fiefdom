@@ -1,0 +1,27 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 10},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"building": 1.15},
+	"WORN":{}
+},
+"negative_effect":{}
+}

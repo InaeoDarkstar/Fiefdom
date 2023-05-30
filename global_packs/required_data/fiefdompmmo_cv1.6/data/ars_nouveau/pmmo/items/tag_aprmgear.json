@@ -1,0 +1,41 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 3},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"crafting": 5},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {"magic": 1.05},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {"total_level": 150, "magic": 20}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["ars_nouveau:apprentice_boots",
+"ars_nouveau:apprentice_hood",
+"ars_nouveau:apprentice_leggings",
+"ars_nouveau:apprentice_robes"]
+}

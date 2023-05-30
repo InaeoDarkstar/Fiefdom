@@ -1,0 +1,53 @@
+{"override":true,
+"isTagFor": [
+	"smallships:oak_brigg",
+	"smallships:spruce_brigg",
+	"smallships:birch_brigg",
+	"smallships:jungle_brigg",
+	"smallships:acacia_brigg",
+	"smallships:dark_oak_brigg"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"swimming": 100, "crafting": 250},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"swimming": 15},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{"swimming": 15}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "smallships:sail_item": {
+        "salvageMax": 2,
+        "baseChance": 0.3,
+        "maxChance": 0.9,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 10},
+        "xpPerItem": {"smithing": 50}
+    }
+}
+}

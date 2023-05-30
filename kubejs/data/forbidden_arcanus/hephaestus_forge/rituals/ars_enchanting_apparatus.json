@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 2
+        },
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:diamond_block",
+    "essences": {
+        "aureal": 50,
+        "experience": 100,
+        "blood": 250,
+        "souls": 1
+    },
+    "result": {
+        "item": "ars_nouveau:enchanting_apparatus",
+        "count": 1
+    }
+}

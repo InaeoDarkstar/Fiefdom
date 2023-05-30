@@ -1,0 +1,46 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 5},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"crafting": 25},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {"total_level": 150, "magic": 35}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["ars_nouveau:amulet_of_mana_boost",
+"ars_nouveau:amulet_of_mana_regen",
+"ars_nouveau:belt_of_levitation",
+"ars_nouveau:belt_of_unstable_gifts",
+"ars_nouveau:dull_trinket",
+"ars_nouveau:mundane_belt",
+"ars_nouveau:ring_of_greater_discount",
+"ars_nouveau:ring_of_lesser_discount",
+"ars_nouveau:ring_of_potential"]
+}

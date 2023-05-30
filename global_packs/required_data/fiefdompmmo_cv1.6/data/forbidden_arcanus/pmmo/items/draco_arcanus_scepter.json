@@ -1,0 +1,48 @@
+{
+  "salvage": {
+    "forbidden_arcanus:draco_arcanus_staff": {
+      "salvageMax": 1,
+      "baseChance": 1.0,
+      "maxChance": 1.0,
+      "chancePerLevel": {},
+      "levelReq": {"smithing": 35},
+      "xpPerItem": {"smithing": 250}
+    }
+  },
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {"magic": 3},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"smithing": 750},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {"mining": 2.1}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {"magic": 70},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {"combat": 70},
+    "TOOL": {"magic": 70},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

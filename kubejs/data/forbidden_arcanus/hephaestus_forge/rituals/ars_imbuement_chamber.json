@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "ars_nouveau:source_berry",
+            "slot": 0
+        },
+        {
+            "item": "ars_nouveau:blue_archwood_sapling",
+            "slot": 1
+        },
+        {
+            "item": "ars_nouveau:purple_archwood_sapling",
+            "slot": 2
+        },
+        {
+            "item": "ars_nouveau:source_berry",
+            "slot": 3
+        },
+        {
+            "item": "ars_nouveau:green_archwood_sapling",
+            "slot": 4
+        },
+        {
+            "item": "ars_nouveau:red_archwood_sapling",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:amethyst_block",
+    "essences": {
+        "aureal": 50,
+        "experience": 20,
+        "blood": 500,
+        "souls": 1
+    },
+    "result": {
+        "item": "ars_nouveau:imbuement_chamber",
+        "count": 1
+    }
+}

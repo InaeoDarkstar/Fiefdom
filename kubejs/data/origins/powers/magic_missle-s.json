@@ -1,0 +1,17 @@
+{
+    "type": "origins:fire_projectile",
+    "name": "Magic Missle",
+	"description": "you create one glowing darts of magical force. ",
+	"entity_type": "minecolonies:firearrow",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 0
+    },
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+	}
+}

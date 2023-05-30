@@ -1,0 +1,22 @@
+{
+ 	"name": "Holy Elixer",
+ 	"description": "Healing Potions have increased effect on you.",
+ 	"type": "origins:multiple",
+
+ 	"modifier": {
+ 		"type": "origins:modify_status_effect_amplifier",
+ 		"status_effect": "minecraft:instant_health",
+ 		"modifier": {
+ 			"operation": "addition",
+ 			"value": 1
+ 		}
+ 	},
+ 	"m18": {
+ 		"type": "origins:modify_status_effect_amplifier",
+ 		"status_effect": "minecraft:regeneration",
+ 		"modifier": {
+ 			"operation": "addition",
+ 			"value": 1
+ 		}
+}
+}

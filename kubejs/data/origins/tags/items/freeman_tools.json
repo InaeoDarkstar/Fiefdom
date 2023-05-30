@@ -1,0 +1,215 @@
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"replace": false,
+		"values": [
+			"minecraft:stone_axe",
+			"minecraft:iron_axe",
+			"minecraft:golden_axe",
+			"minecraft:diamond_axe",
+			"minecraft:netherite_axe",
+			"minecraft:wooden_axe",
+
+			{
+				"required": false,
+				"id": "blue_skies:bluebright_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:dusk_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:frostbright_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:maple_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:cherry_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:turquoise_stone_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:lunar_stone_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:pyrope_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:aquite_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:diopside_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:charoite_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:diopside_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:horizonite_axe"
+			},
+
+			{
+				"required": false,
+				"id": "copperized:copper_axe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:forgotten_axe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:forgotten_battleaxe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:utherium_axe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:froststeel_axe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:cloggrum_axe"
+			},
+			{
+				"required": false,
+				"id": "undergarden:cloggrum_battleaxe"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:tungsten_axe"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:chorundum_axe"
+			},
+			{
+				"required": false,
+				"id": "twilightforest:ironwood_axe"
+			},
+			{
+				"required": false,
+				"id": "twilightforest:steelleaf_pickaxe"
+			},
+			{
+				"required": false,
+				"id": "twilightforest:gold_minotaur_axe"
+			},
+			{
+				"required": false,
+				"id": "twilightforest:diamond_minotaur_axe"
+			},
+			{
+				"required": false,
+				"id": "twlightforest:knightmetal_axe"
+			},
+			{
+				"required": false,
+				"id": "kobolds:kobold_iron_axe"
+			},
+			{
+				"required": false,
+				"id": "orcz:orcteeth_tool_axe"
+			},
+			{
+				"required": false,
+				"id": "orcz:orcteethpaxel"
+			},
+			{
+				"required": false,
+				"id": "arsarsenal:source_steel_axe"
+			},
+			{
+				"required": false,
+				"id": "blue_skies:crushing_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:tungsten_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:nether_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:wooden_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:stone_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:iron_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:diamond_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:golden_hammer"
+			},
+			{
+				"required": false,
+				"id": "stalwart_dungeons:netherite_hammer"
+			},
+			{
+				"required": false,
+				"id": "orcz:heavyorchammer"
+			}
+		]
+
+	}

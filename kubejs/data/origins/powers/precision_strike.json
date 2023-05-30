@@ -1,0 +1,65 @@
+{
+    "name": "Precision Strike",
+    "description": "If you didn't attack anything for 5 seconds your next attack deals 4 bonus damage.",
+    "condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:tyr1"
+},
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 1
+        }
+    },
+    "wait": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": 1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": "<",
+            "compare_to": 5
+        }
+    },
+    "strike": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": -5
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": "<=",
+            "compare_to": 5
+        },
+        "cooldown": 20
+    },
+    "damage": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:and",
+            "conditions": {
+                "type": "origins:resource",
+                "resource": "*:*_resource",
+                "comparison": "==",
+                "compare_to": 5
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 4.0
+        }
+    }
+}

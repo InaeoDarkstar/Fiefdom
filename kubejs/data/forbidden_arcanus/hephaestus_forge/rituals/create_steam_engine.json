@@ -1,0 +1,24 @@
+{
+    "inputs": [
+        {
+            "item": "create:golden_sheet",
+            "slot": 0
+        },
+        {
+            "item": "miencraft:copper_block",
+            "slot": 3
+        }
+
+    ],
+    "hephaestus_forge_item": "create:andesite_alloy",
+    "essences": {
+        "aureal": 100,
+        "experience": 100,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "create:steam_engine",
+        "count": 2
+    }
+}

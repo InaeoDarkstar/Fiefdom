@@ -1,0 +1,38 @@
+{"override": true,
+"isTagFor":[
+	"graveyard:skull_with_rib_cage",
+	"graveyard:leaning_skeleton",
+	"graveyard:skull_pile",
+	"graveyard:lying_skeleton",
+	"graveyard:wither_skull_with_rib_cage",
+	"graveyard:leaning_wither_skeleton",
+	"graveyard:wither_skull_pile",
+	"graveyard:lying_wither_skeleton",
+	"graveyard:creeper_skeleton",
+	"graveyard:skeleton_hand",
+	"graveyard:wither_skeleton_hand",
+	"graveyard:torso_pile",
+	"graveyard:wither_torso_pile",
+	"graveyard:skull_on_pike",
+	"graveyard:wither_skull_on_pike",
+	"graveyard:bone_remains",
+	"graveyard:wither_bone_remains",
+	"graveyard:laterally_lying_skeleton",
+	"graveyard:laterally_lying_wither_skeleton"
+],
+"xp_values":{
+	"BLOCK_BREAK":{"magic": 15},
+	"BLOCK_PLACE":{"building": 5},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

@@ -1,0 +1,46 @@
+{"override":true,
+"isTagFor":[
+	"twilightforest:naga_boss_spawner",
+	"twilightforest:lich_boss_spawner",
+	"twilightforest:minoshroom_boss_spawner",
+	"twilightforest:hydra_boss_spawner",
+	"twilightforest:knight_phantom_boss_spawner",
+	"twilightforest:ur_ghast_boss_spawner",
+	"twilightforest:alpha_yeti_boss_spawner",
+	"twilightforest:snow_queen_boss_spawner",
+	"twilightforest:final_boss_boss_spawner"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

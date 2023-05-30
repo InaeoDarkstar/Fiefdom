@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+"croptopia:lemonade",
+"croptopia:limeade",
+"croptopia:soy_milk",
+"croptopia:coffee"
+  ]
+}

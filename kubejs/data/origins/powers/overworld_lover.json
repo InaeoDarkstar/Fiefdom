@@ -1,0 +1,24 @@
+{
+    "name": "Overworld Lover",
+    "description": "You take twice as much damage in all dimensions except the Overworld",
+    "condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:phrygia2"
+},
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "the_end",
+        "dimension": "the_nether",
+        "dimension": "twilight_forest",
+        "dimension": "undergarden",
+        "dimension": "everbright",
+        "dimension": "everdawn",
+        "dimension": "dungeon_dimension",
+        "dimension": "otherside"
+    },
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 3
+    }
+}

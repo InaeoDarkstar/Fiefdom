@@ -1,0 +1,5 @@
+{
+    "name": "\u00A7aKeep Inventory",
+    "description": "Every time you die, you conjour all your items back to you! (Keep inventory is on for you)",
+    "type": "origins:keep_inventory"
+}

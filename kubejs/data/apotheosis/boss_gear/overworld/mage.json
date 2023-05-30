@@ -1,0 +1,2587 @@
+{
+	"weight": 12,
+	"quality": 1,
+	"mainhands": [{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:stone_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:stone_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_tool_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_tool_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_shovel"
+			}
+		},
+		{
+			"weight": 45,
+			"stack": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		{
+			"weight": 45,
+			"stack": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:ghostly_pickaxe"
+			}
+		},
+		{
+			"weight": 25,
+			"stack": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		{
+			"weight": 25,
+			"stack": {
+				"item": "minecraft:diamond_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orc_steelpickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcsteelshovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:club"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_zweihander"
+			}
+		},
+		{
+			"weight": 20,
+			"stack": {
+				"item": "magistuarmory:noble_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_ahlspiess"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_bastardsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_claymore"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_concavehalberd"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_estoc"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_flamebladedsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_guisarme"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_lochaberaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_lucernhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_pike"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_ranseur"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_zweihander"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:stone_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_tool_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orc_steel_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:great_reaper_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:skullbreaker_hammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:barbedclub"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:blacksmith_hammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:stone_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_tool_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:iron_scimitar"
+			}
+		},
+		{
+			"weight": 50,
+			"stack": {
+				"item": "graveyard:bone_dagger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_stylet"
+			}
+		},
+		{
+			"weight": 30,
+			"stack": {
+				"item": "magistuarmory:messer_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:chiefsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orc_steel_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_morgenstern"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_heavywarhammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_heavymace"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_chivalrylance"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_katzbalger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_shortsword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_stylet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:spiritual_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:sharpened_dark_metal_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:nightmare_scythe"
+			}
+		},
+		{
+			"weight": 40,
+			"stack": {
+				"item": "born_in_chaos_v1:dark_ritual_dagger"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:soul_cutlass"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:intoxicating_dagger"
+			}
+		},
+		{
+			"weight": 40,
+			"stack": {
+				"item": "ars_nouveau:enchanters_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:trident"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:heavy_crossbow"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:longbow"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:bow"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "supplementaries:slingshot"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "ars_nouveau:spell_bow"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:trident_hayfork"
+			}
+		}		
+	],
+	"offhands": [{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stone_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wood_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:copper_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gold_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:iron_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:steel_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:diamond_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_kiteshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_pavese"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_roundshield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_tartsche"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_rondache"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_buckler"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_target"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:netherite_heatershield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:shield_of_the_deep"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:royal_guard_shield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:vanguard_shield"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "ars_nouveau:enchanters_shield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_shield"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:warted_tungsten_shield"
+			}
+		}
+	],
+	"boots": [{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gambeson_boots"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:chainmail_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:chainmail_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:cuirassier_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_boots"
+			}
+		},
+		{
+			"weight": 255,
+			"stack": {
+				"item": "ars_nouveau:novice_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:dark_metal_armor_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:royal_guard_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:flying_fish_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:roadrunner_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:crusader_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:lamellar_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:platemail_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gothic_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:kastenbrust_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:xivcenturyknight_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_armor_armor_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:ceremonial_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:pirate_shoes"
+			}
+		},
+		{
+			"weight": 180,
+			"stack": {
+				"item": "ars_nouveau:apprentice_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:knight_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:jousting_boots"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "ars_nouveau:archmage_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:maximilian_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_boots"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:air_boots"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:aqua_boots"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:earth_boots"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:fire_boots"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:warted_tungsten_boots"
+			}
+		}
+	],
+	"chestplates": [{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gambeson_chestplate"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:crocodile_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:chainmail_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:cuirassier_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:brigandine_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:rocky_chestplate"
+			}
+		},
+		{
+			"weight": 255,
+			"stack": {
+				"item": "ars_nouveau:novice_robes"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:royal_guard_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:vanguard_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:halfarmor_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:crusader_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:lamellar_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:platemail_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gothic_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:kastenbrust_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:dark_metal_armor_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:xivcenturyknight_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_armor_armor_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:ceremonial_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:wingedhussar_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:pirate_chest"
+			}
+		},
+		{
+			"weight": 180,
+			"stack": {
+				"item": "ars_nouveau:apprentice_robes"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:knight_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:jousting_chestplate"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "ars_nouveau:archmage_robes"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:maximilian_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_chestplate"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_chestplate"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:air_robes"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:aqua_robes"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:earth_robes"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:fire_robes"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:warted_tungsten_chestplate"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "alexsmobs:unsettling_kimono"
+			}
+		}
+	],
+	"helmets": [{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:coif"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "minecraft:leather_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:chainmail_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:chainmail_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:cuirassier_helmet"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "alexsmobs:fedora"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "alexsmobs:sombrero"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:norman_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:shishak"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:spiked_turtle_shell"
+			}
+		},
+		{
+			"weight": 255,
+			"stack": {
+				"item": "ars_nouveau:novice_hood"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:diamond_pillager_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:diamond_vindicator_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:gold_pillager_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:gold_vindicator_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:royal_guard_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:vanguard_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:barbute"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:turtle_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:frontier_cap"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:froststalker_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:moose_headgear"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:face_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:greathelm"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:kettlehat"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:grand_bascinet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:sallet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:dark_metal_armor_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:bascinet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_armor_armor_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:ceremonialarmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:pirate_cap"
+			}
+		},
+		{
+			"weight": 180,
+			"stack": {
+				"item": "ars_nouveau:apprentice_hood"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:armet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:stechhelm"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "ars_nouveau:archmage_hood"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:maximilian_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_helmet"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_helmet"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:air_hat"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:aqua_hat"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:earth_hat"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:fire_hat"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:warted_tungsten_helmet"
+			}
+		}
+	],
+	"leggings": [{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:pantyhose"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "copperized:copper_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:chainmail_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:chainmail_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:cuirassier_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:golden_leggings"
+			}
+		},
+		{
+			"weight": 255,
+			"stack": {
+				"item": "ars_nouveau:novice_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:royal_guard_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "dungeons_mobs:vanguard_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:iron_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:emu_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:crusader_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:platemail_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:gothic_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:kastenbrust_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "born_in_chaos_v1:dark_metal_armor_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:xivcenturyknight_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "orcz:orcteeth_armor_armor_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecolonies:pirate_legs"
+			}
+		},
+		{
+			"weight": 180,
+			"stack": {
+				"item": "ars_nouveau:apprentice_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:knight_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:diamond_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:jousting_leggings"
+			}
+		},
+		{
+			"weight": 80,
+			"stack": {
+				"item": "ars_nouveau:archmage_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "magistuarmory:maximilian_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:netherite_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:tungsten_leggings"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:air_leggings"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:aqua_leggings"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:earth_leggings"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "ars_elemental:fire_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "stalwart_dungeons:warted_tungsten_leggings"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "alexsmobs:centipede_leggings"
+			}
+		}
+	],
+	"tags": [
+		"overworld_mage"
+	]
+}

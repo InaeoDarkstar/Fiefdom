@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:no_mining_exhaustion"
+  ],
+  "icon": "minecraft:iron_shovel",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

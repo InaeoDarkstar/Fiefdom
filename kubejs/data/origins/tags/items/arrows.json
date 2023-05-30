@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:arrow",     
+	"minecraft:spectral_arrow",
+    "minecraft:tipped_arrow",
+    
+    "ars_nouveau:pierce_arrow",
+    "ars_nouveau:split_arrow",
+    "ars_nouveau:split_arrow",
+    "ars_nouveau:amplify_arrow",
+    "apotheosis:obsidian_arrow",
+    "apotheosis:obsidian_arrow",
+    "apotheosis:broadhead_arrow",
+    "apotheosis:explosive_arrow"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {"smithing": 5},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {"smithing": 1},
+    "ENCHANT": {"magic": 10},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"smithing": 250},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {"harvesting": 2.2}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {"combat": 65},
+    "TOOL": {"harvesting": 65},
+    "WEAR": {}
+  },
+  "vein_data": {
+    "chargeCap": 1000,
+    "chargeRate": 0.5
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["deeperdarker:warden_axe",
+"deeperdarker:warden_hoe"]
+}

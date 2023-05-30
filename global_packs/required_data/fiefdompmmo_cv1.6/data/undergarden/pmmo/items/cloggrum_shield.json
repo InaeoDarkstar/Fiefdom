@@ -1,0 +1,37 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{"smithing": 15},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 50},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level": 100},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"combat": 1.15},
+	"WORN":{}
+},
+"negative_effect":{"minecraft:slowness": 1},
+"salvage":{
+    "undergarden:cloggrum_ingot": {
+        "salvageMax": 6,
+        "baseChance": 0.1,
+        "maxChance": 0.85,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 30}
+    }
+}
+}

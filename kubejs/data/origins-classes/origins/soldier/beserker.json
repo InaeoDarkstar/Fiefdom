@@ -1,0 +1,11 @@
+{
+  "loading_priority": 100,
+"powers": [
+       	"origins:berserk"
+	
+  ],
+  "icon": "minecraft:iron_axe",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Magic Health",
+	"description": "You gain 2 hearts",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Magic Health",
+    "attribute": "minecraft:generic.max_health",
+    "value": 4.0,
+    "operation": "addition"
+  }
+}

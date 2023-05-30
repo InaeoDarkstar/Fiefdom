@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "create:large_cogwheel",
+    "essences": {
+        "aureal": 100,
+        "experience": 50,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "create:water_wheel",
+        "count": 3
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "override": true,
+  "levels": [
+    {"combat": 50, "magic": 25},
+    {"combat": 50, "magic": 25},
+    {"combat": 50, "magic": 25},
+    {"combat": 50, "magic": 25},
+    {"combat": 60, "magic": 30},
+    {"combat": 70, "magic": 40},
+    {"combat": 80, "magic": 50},
+    {"combat": 90, "magic": 60},
+    {"combat": 100, "magic": 70}
+  ]
+}

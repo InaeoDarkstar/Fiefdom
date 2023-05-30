@@ -1,0 +1,38 @@
+{
+  "xp_values": {
+    "RANGED_TO_PLAYERS": {},
+    "RANGED_TO_MOBS": {},
+    "CONSUME": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "CRAFT": {},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_ANIMALS": {},
+    "MELEE_TO_PLAYERS": {},
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "BREW": {},
+    "SMELT": {"smithing": 7},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "ACTIVATE_ITEM": {},
+    "FISH": {},
+    "ENCHANT": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "TOOL": {},
+    "PLACE": {},
+    "USE": {},
+    "USE_ENCHANTMENT": {},
+    "BREAK": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "WEAPON": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["#minecraft:diamond_ores"]
+}

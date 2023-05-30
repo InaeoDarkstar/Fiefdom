@@ -1,0 +1,10 @@
+{"override":true,
+"bonus":{
+    "BIOME":{"combat": 1.15}
+},
+"positive_effect":{},
+"negative_effect":{},
+"travel_req":{},
+"vein_blacklist":[],
+"mob_multiplier":{}
+}

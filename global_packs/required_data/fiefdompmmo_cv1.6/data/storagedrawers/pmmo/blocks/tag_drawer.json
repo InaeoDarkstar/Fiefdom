@@ -1,0 +1,28 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 1}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["#storagedrawers:drawers",
+"storagedrawers:acacia_trim",
+"storagedrawers:birch_trim",
+"storagedrawers:crimson_trim",
+"storagedrawers:dark_oak_trim",
+"storagedrawers:jungle_trim",
+"storagedrawers:oak_trim",
+"storagedrawers:spruce_trim",
+"storagedrawers:warped_trim"]
+}

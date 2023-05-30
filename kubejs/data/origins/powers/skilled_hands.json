@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Skilled Hands",
+    "attribute": "apotheosis:mining_speed",
+    "value": 0.2,
+    "operation": "multiply_base"
+  }
+}

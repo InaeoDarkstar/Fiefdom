@@ -1,0 +1,17 @@
+{"override":true,
+"xp_values":{
+	"BLOCK_BREAK":{"mining":50},
+	"BLOCK_PLACE":{},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{"mining": 40},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

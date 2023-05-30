@@ -1,0 +1,7 @@
+{
+	"type": "origins:inventory",
+	"title": "Pocket",
+	"drop_on_death": true,
+	"name": "Pockets",
+	"description": "you have very large pockets, perfect for storing valuables!"
+}

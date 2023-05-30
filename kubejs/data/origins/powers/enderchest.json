@@ -1,0 +1,15 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:ender_chest"
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "name": "\u00A7aEnder Chest",
+    "description": "Since you can access the void, you can open your own enderchest, since you know where in the void, those items are."
+}

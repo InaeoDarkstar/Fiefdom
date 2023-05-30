@@ -1,0 +1,77 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting":30},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{"total_level":50},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{"combat":1.25},
+	"WORN":{}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{},
+"salvage":{
+    "born_in_chaos_v1:shattered_skull": {
+        "salvageMax": 1,
+        "baseChance": 0.0,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 100}
+    },
+    "born_in_chaos_v1:bone_handle": {
+        "salvageMax": 1,
+        "baseChance": 0.0,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 100}
+    }
+}
+}

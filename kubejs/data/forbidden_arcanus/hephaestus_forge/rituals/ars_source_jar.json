@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 0
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 1
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 2
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 3
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 4
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "forbidden_arcanus:runic_glass",
+    "essences": {
+        "aureal": 100,
+        "experience": 100,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "ars_nouveau:source_jar",
+        "count": 3
+    }
+}

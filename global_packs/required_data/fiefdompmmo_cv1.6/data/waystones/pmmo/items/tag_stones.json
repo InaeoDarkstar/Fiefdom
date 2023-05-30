@@ -1,0 +1,67 @@
+{"override":true,
+"isTagFor":[
+"waystones:black_sharestone",
+"waystones:blue_sharestone",
+"waystones:brown_sharestone",
+"waystones:cyan_sharestone",
+"waystones:gray_sharestone",
+"waystones:green_sharestone",
+"waystones:light_blue_sharestone",
+"waystones:light_gray_sharestone",
+"waystones:lime_sharestone",
+"waystones:magenta_sharestone",
+"waystones:mossy_waystone",
+"waystones:orange_sharestone",
+"waystones:pink_sharestone",
+"waystones:purple_sharestone",
+"waystones:red_sharestone",
+"waystones:sandy_waystone",
+"waystones:sharestone",
+"waystones:white_sharestone",
+"waystones:yellow_sharestone",
+"waystones:waystone"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"magic": 5},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 10},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 10},
+	"PLACE":{},
+	"BREAK":{"magic": 25},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "waystones:warp_stone": {
+        "salvageMax": 1,
+        "baseChance": 0.1,
+        "maxChance": 0.80,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25, "magic": 10},
+        "xpPerItem": {"smithing": 50}
+    },
+"minecraft:obsidian": {
+        "salvageMax": 3,
+        "baseChance": 0.25,
+        "maxChance": 0.9,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 10}
+}
+}
+}

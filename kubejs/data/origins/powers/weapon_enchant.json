@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Weapon Enchant",
+    "attribute": "apotheosis:fire_damage",
+    "value": 1,
+    "operation": "addition"
+  }
+}

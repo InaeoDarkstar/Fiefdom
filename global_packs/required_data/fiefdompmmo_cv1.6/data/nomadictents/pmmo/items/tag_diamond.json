@@ -1,0 +1,40 @@
+{
+  "xp_values": {
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_PLAYERS": {},
+    "ACTIVATE_ITEM": {},
+    "ANVIL_REPAIR": {},
+    "RANGED_TO_ANIMALS": {},
+    "FISH": {},
+    "BREW": {},
+    "BLOCK_PLACE": {},
+    "CRAFT": {"crafting": 77},
+    "MELEE_TO_PLAYERS": {},
+    "ENCHANT": {},
+    "SMELT": {},
+    "CONSUME": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "RANGED_TO_MOBS": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE": {},
+    "WEAPON": {},
+    "INTERACT": {},
+    "WEAR": {},
+    "TOOL": {},
+    "BREAK": {},
+    "PLACE": {},
+    "USE_ENCHANTMENT": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["nomadictents:diamond_crossbeams",
+"nomadictents:diamond_tent_shovel"
+]
+}

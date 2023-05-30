@@ -1,0 +1,28 @@
+{
+	"type": "origins:action_when_damage_taken",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [
+				
+			{
+				"effect": "minecraft:absorption",
+				"duration": 200,
+				"is_ambient": false,
+				"amplifier": 1,
+				"show_particles": true,
+				"show_icon": true
+				
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 12
+
+
+	},
+	"cooldown": 3000,
+	"name": "MageArmor",
+	"description": "[PRIMARY] Channel Magic to protect you."
+}

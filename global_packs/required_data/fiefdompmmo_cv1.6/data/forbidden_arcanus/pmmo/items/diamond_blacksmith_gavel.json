@@ -1,0 +1,52 @@
+{
+  "salvage": {
+    "minecraft: diamond": {
+      "salvageMax": 4,
+      "baseChance": 0.2,
+      "maxChance": 0.9,
+      "chancePerLevel": {"smithing": 0.025},
+      "levelReq": {"smithing": 20},
+      "xpPerItem": {"smithing": 100}
+    }
+  },
+  "vein_data": {
+    "chargeCap": 450,
+    "chargeRate": 0.25
+  },
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {"combat": 1},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 3},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"smithing": 70},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {"mining": 1.75}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {"combat": 40},
+    "TOOL": {"mining": 40},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

@@ -1,0 +1,48 @@
+{
+  "xp_values": {
+    "RANGED_TO_PLAYERS": {},
+    "RANGED_TO_MOBS": {},
+    "CONSUME": {"cooking": 3},
+    "DEAL_MELEE_DAMAGE": {},
+    "CRAFT": {},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_ANIMALS": {},
+    "MELEE_TO_PLAYERS": {},
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "BREW": {},
+    "SMELT": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "ACTIVATE_ITEM": {},
+    "FISH": {},
+    "ENCHANT": {"magic": 3}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "TOOL": {},
+    "PLACE": {},
+    "USE": {},
+    "USE_ENCHANTMENT": {},
+    "BREAK": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "WEAPON": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "PLACE": [],
+    "USE": [],
+    "USE_ENCHANTMENT": [],
+    "BREAK": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "WEAPON": []
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

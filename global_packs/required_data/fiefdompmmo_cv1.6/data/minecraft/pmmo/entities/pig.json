@@ -1,0 +1,60 @@
+{
+"override":true, 
+"isTagFor":[
+
+"minecraft:chicken",
+"minecraft:cow",
+"minecraft:pig",
+"minecraft:sheep",
+"minecraft:goat"
+
+
+	   
+    ],  
+
+
+
+  "xp_values": {
+    "EFFECT": {},
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "DIVING": {},
+    "MELEE_TO_MOBS": {"combat": 1},
+    "BREED": {},
+    "TAMING": {},
+    "DEAL_MELEE_DAMAGE": {"combat": 1},
+    "DEAL_RANGED_DAMAGE": {"combat": 1},
+    "BREATH_CHANGE": {},
+    "FROM_IMPACT": {},
+    "MELEE_TO_ANIMALS": {"combat": 1},
+    "FROM_MAGIC": {"magic": 1},
+    "SLEEP": {},
+    "DEATH": {"harvesting": 20},
+    "ENTITY": {},
+    "FROM_PLAYERS": {"combat": 1},
+    "RANGED_TO_MOBS": {"combat": 1},
+    "SHIELD_BLOCK": {"combat": 1},
+    "SUBMERGED": {},
+    "RECEIVE_DAMAGE": {},
+    "RIDING": {},
+    "FROM_MOBS": {},
+    "SPRINTING": {},
+    "CROUCH_JUMP": {},
+    "RANGED_TO_ANIMALS": {"combat": 1},
+    "FROM_ANIMALS": {},
+    "JUMP": {},
+    "SWIMMING": {},
+    "FROM_PROJECTILES": {"combat": 1},
+    "SPRINT_JUMP": {},
+    "SURFACING": {},
+    "FROM_ENVIRONMENT": {},
+    "SWIM_SPRINTING": {}
+  },
+"requirements":{
+	"KILL":{},
+	"RIDE":{},
+	"TAME":{},
+	"BREED":{},
+	"ENTITY_INTERACT":{}
+}
+}

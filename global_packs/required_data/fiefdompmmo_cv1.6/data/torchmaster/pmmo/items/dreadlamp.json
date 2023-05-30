@@ -1,0 +1,37 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 75},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{"total_level": 125},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:obsidian": {
+        "salvageMax": 5,
+        "baseChance": 0.3,
+        "maxChance": 0.9,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 20}
+    }
+}
+}

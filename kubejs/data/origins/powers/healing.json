@@ -1,0 +1,29 @@
+{
+	"name": "Healing",
+	"description": "Heal yourself 60% of healing is given instantly and the rest is given over the next seconds. Undead get damaged instead.",
+
+	"type": "origins:active_self",
+
+
+
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:heal",
+				"amount": 6
+			}
+		]
+	},
+
+
+
+
+
+	"cooldown": 200,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 18
+	},
+	"key": "primary"
+}

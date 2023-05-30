@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_dealt",
+    
+      "modifier":
+
+{
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4,
+            "name": "More Damage"
+        }
+}

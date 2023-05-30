@@ -1,0 +1,11 @@
+{	"name": "Circle",
+	"description": "The Scholars from Circle study the arcane arts and are adept with magic from a young age.",
+	"powers": [
+		
+		"origins:mana_regen_c",
+		"origins:gamestage-circle",
+		"origins:shieldpower"
+	],
+	"icon": "minecraft:ender_pearl"
+	
+ }

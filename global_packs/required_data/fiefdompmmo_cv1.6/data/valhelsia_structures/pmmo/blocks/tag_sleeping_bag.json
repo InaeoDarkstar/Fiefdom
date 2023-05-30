@@ -1,0 +1,20 @@
+{"override": true,
+"isTagFor":[
+	"#valhelsia_structures:sleeping_bags"
+],
+"xp_values":{
+	"BLOCK_BREAK":{"building": 1},
+	"BLOCK_PLACE":{"building": 1},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

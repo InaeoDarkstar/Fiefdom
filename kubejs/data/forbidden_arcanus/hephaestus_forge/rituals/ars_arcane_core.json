@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:gold_ingot",
+            "slot": 0
+        },
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 1
+        },
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:gold_ingot",
+            "slot": 3
+        },
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 4
+        },
+        {
+            "item": "ars_nouveau:sourcestone",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "ars_nouveau:source_gem_block",
+    "essences": {
+        "aureal": 50,
+        "experience": 100,
+        "blood": 250,
+        "souls": 1
+    },
+    "result": {
+        "item": "ars_nouveau:arcane_core",
+        "count": 1
+    }
+}

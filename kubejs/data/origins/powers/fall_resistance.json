@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "name": "Fall Resistance",
+    "description": "You take 50% less damage from falling.",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}

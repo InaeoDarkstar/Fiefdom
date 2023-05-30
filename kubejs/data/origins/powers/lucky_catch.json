@@ -1,0 +1,71 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.luck",
+		"operation": "addition",
+		"value": 1
+	},
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+		"type": "origins:command",
+		"command": "execute if entity @e[distance=..15,type=fishing_bobber]",
+		"comparison": ">",
+		"compare_to": 0
+	},
+	{
+		"type": "origins:block_in_radius",
+		"radius": 15,
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:water"
+		}
+	},
+	{
+		"type": "origins:or",
+		"conditions": [
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:fishing_rod"
+				}
+			}
+		},
+		{
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:fishing_rod"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:fishing_rod"
+						},
+						"inverted": true
+					}
+				}
+			]
+		}
+		]
+	}
+	]
+	},
+	"name": "Lucky Catch",
+    "description": "You seem to have better luck at fishing when compared to others."
+}

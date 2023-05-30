@@ -1,0 +1,36 @@
+{
+    "name": "Stun",
+    "description": "Magic that stuns nearby entities for 10 seconds.",
+    "type": "origins:active_self",
+    "cooldown": 3600,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..15,type=!player] minecraft:slowness 10 255 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..15,type=!player] minecraft:mining_fatigue 10 255 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..15,type=!player] apotheosis:sundering 10 255 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..15,type=!player] minecraft:weakness 10 255 true"
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}

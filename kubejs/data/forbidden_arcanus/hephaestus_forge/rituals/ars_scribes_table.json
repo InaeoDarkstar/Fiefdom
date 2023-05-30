@@ -1,0 +1,35 @@
+{
+    "inputs": [
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 0
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "slot": 4
+        },
+        {
+            "item": "ars_nouveau:archwood_slab",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:purple_carpet",
+    "essences": {
+        "aureal": 100,
+        "experience": 50,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "ars_nouveau:scribes_table",
+        "count": 1
+    }
+}

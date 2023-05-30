@@ -1,0 +1,55 @@
+{
+  "xp_values": {
+    "RANGED_TO_PLAYERS": {},
+    "RANGED_TO_MOBS": {},
+    "CONSUME": {"cooking": 12},
+    "DEAL_MELEE_DAMAGE": {},
+    "CRAFT": {},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_ANIMALS": {},
+    "MELEE_TO_PLAYERS": {},
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "BREW": {},
+    "SMELT": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "ACTIVATE_ITEM": {},
+    "FISH": {},
+    "ENCHANT": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "TOOL": {},
+    "PLACE": {},
+    "USE": {},
+    "USE_ENCHANTMENT": {},
+    "BREAK": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "WEAPON": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "PLACE": [],
+    "USE": [],
+    "USE_ENCHANTMENT": [],
+    "BREAK": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "WEAPON": []
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["minecraft:cooked_beef",
+"minecraft:cooked_chicken",
+"minecraft:cooked_cod",
+"minecraft:cooked_mutton",
+"minecraft:cooked_porkchop",
+"minecraft:cooked_rabbit",
+"minecraft:cooked_salmon"
+]
+}

@@ -1,0 +1,11 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:trade_availability",
+    "origins:tradesecrets"
+  ],
+  "icon": "dotcoinmod:gold_coin",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

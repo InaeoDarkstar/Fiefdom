@@ -1,0 +1,56 @@
+{"override": true,
+"isTagFor":[
+	"graveyard:skull_with_rib_cage",
+	"graveyard:leaning_skeleton",
+	"graveyard:skull_pile",
+	"graveyard:lying_skeleton",
+	"graveyard:wither_skull_with_rib_cage",
+	"graveyard:leaning_wither_skeleton",
+	"graveyard:wither_skull_pile",
+	"graveyard:lying_wither_skeleton",
+	"graveyard:creeper_skeleton",
+	"graveyard:skeleton_hand",
+	"graveyard:wither_skeleton_hand",
+	"graveyard:torso_pile",
+	"graveyard:wither_torso_pile",
+	"graveyard:skull_on_pike",
+	"graveyard:wither_skull_on_pike",
+	"graveyard:bone_remains",
+	"graveyard:wither_bone_remains",
+	"graveyard:laterally_lying_skeleton",
+	"graveyard:laterally_lying_wither_skeleton"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"building": 5},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 10},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

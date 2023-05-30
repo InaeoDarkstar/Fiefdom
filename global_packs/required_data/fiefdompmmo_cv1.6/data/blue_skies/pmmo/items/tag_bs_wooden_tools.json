@@ -1,0 +1,107 @@
+{"override":true,
+"isTagFor":[
+	"blue_skies:bluebright_axe",
+	"blue_skies:lunar_axe",
+	"blue_skies:starlit_axe",
+	"blue_skies:dusk_axe",
+	"blue_skies:frostbright_axe",
+	"blue_skies:maple_axe",
+	"blue_skies:cherry_axe",
+
+	"blue_skies:bluebright_hoe",
+	"blue_skies:lunar_hoe",
+	"blue_skies:starlit_hoe",
+	"blue_skies:dusk_hoe",
+	"blue_skies:frostbright_hoe",
+	"blue_skies:maple_hoe",
+	"blue_skies:cherry_hoe",
+
+	"blue_skies:bluebright_pickaxe",
+	"blue_skies:lunar_pickaxe",
+	"blue_skies:starlit_pickaxe",
+	"blue_skies:dusk_pickaxe",
+	"blue_skies:frostbright_pickaxe",
+	"blue_skies:maple_pickaxe",
+	"blue_skies:cherry_pickaxe",
+
+	"blue_skies:bluebright_shovel",
+	"blue_skies:lunar_shovel",
+	"blue_skies:starlit_shovel",
+	"blue_skies:dusk_shovel",
+	"blue_skies:frostbright_shovel",
+	"blue_skies:maple_shovel",
+	"blue_skies:cherry_shovel"
+	],  
+
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 1},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:stick": {
+        "salvageMax": 2,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 5},
+        "xpPerItem": {"crafting": 5}
+    }
+},
+"vein_data":{
+    "chargeCap": 150,
+    "chargeRate": 0.05
+}
+}

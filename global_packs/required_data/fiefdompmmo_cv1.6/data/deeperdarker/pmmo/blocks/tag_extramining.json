@@ -1,0 +1,25 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"mining": 1},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 1}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["deeperdarker:echo_soil",
+"deeperdarker:geyser",
+"deeperdarker:gloom_sculk",
+"deeperdarker:infested_sculk",
+"deeperdarker:sculk_gleam",
+"deeperdarker:sculk_jaw"]
+}

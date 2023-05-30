@@ -1,0 +1,43 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {"total_level": 450},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {"total_level": 450},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["deeperdarker:sculk_centipede_spawn_egg",
+"deeperdarker:sculk_leech_spawn_egg",
+"deeperdarker:sculk_snapper_spawn_egg",
+"deeperdarker:shattered_spawn_egg",
+"deeperdarker:shriek_worm_spawn_egg",
+"deeperdarker:stalker_spawn_egg"]
+}

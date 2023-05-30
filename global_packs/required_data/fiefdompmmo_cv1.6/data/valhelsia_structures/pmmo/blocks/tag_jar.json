@@ -1,0 +1,21 @@
+{"override": true,
+"isTagFor":[
+	"#valhelsia_structures:jars",
+	"#valhelsia_structures:big_jars"
+],
+"xp_values":{
+	"BLOCK_BREAK":{"crafting": 10},
+	"BLOCK_PLACE":{"building": 5},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

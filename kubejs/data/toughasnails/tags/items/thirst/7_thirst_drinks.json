@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+"toughasnails:glow_berry_juice",
+"toughasnails:pumpkin_juice",
+"toughasnails:sweet_berry_juice",
+"croptopia:apple_juice",
+"croptopia:cranberry_juice",
+"croptopia:grape_juice",
+"croptopia:melon_juice",
+"croptopia:orange_juice",
+"croptopia:pineapple_juice",
+"croptopia:saguaro_juice",
+"croptopia:tomato_juice",
+"croptopia:lemonade",
+"croptopia:limeade",
+"croptopia:soy_milk",
+"croptopia:coffee"
+  ]
+}

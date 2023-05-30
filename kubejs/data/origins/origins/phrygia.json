@@ -1,0 +1,13 @@
+{
+    "name": "Phrygia",
+	"description": "The Merchant Republic of Phrygia value their gold above all, and trade with whoever have coin to spare.",
+	"powers": [
+		
+		"origins:gold",
+		"origins:gamestage-phrygia",
+		"origins:cowards_heal",
+		"origins:overworld_lover"
+	],
+	"icon": "dotcoinmod:gold_coin"
+	
+	 }

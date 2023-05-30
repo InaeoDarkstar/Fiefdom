@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:better_enchanting"
+  ],
+  "icon": "minecraft:enchanting_table",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

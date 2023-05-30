@@ -1,0 +1,20 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"mining": 15},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {"mining": 10},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["forbidden_arcanus:arcane_crystal_ore"]
+}

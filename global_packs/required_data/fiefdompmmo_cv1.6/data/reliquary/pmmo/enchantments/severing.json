@@ -1,0 +1,14 @@
+{
+  "override": true,
+  "levels": [
+    {"combat": 25,
+"combat": 35,
+"combat": 45,
+"combat": 55,
+"combat": 65,
+"combat": 75,
+"combat": 85,
+"combat": 90,
+"combat": 90}
+  ]
+}

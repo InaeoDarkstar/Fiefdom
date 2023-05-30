@@ -1,0 +1,10 @@
+{
+  "vein_blacklist": [],
+  "travel_req": {"total_level": 200},
+  "mob_multiplier": {},
+  "override": true,
+  "isTagFor": [],
+  "bonus": {
+    "DIMENSION": {"combat": 1.25}
+  }
+}

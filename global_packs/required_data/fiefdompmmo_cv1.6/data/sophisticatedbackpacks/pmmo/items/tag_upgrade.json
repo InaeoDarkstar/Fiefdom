@@ -1,0 +1,57 @@
+{"override": true,
+"isTagFor":[
+	"sophisticatedbackpacks:battery_upgrade",
+	"sophisticatedbackpacks:blasting_upgrade",
+	"sophisticatedbackpacks:compacting_upgrade",
+	"sophisticatedbackpacks:crafting_upgrade",
+	"sophisticatedbackpacks:deposit_upgrade",
+	"sophisticatedbackpacks:feeding_upgrade",
+	"sophisticatedbackpacks:filter_upgrade",
+	"sophisticatedbackpacks:jukebox_upgrade",
+	"sophisticatedbackpacks:magnet_upgrade",
+	"sophisticatedbackpacks:pickup_upgrade",
+	"sophisticatedbackpacks:pump_upgrade",
+	"sophisticatedbackpacks:refill_upgrade",
+	"sophisticatedbackpacks:restock_upgrade",
+	"sophisticatedbackpacks:smelting_upgrade",
+	"sophisticatedbackpacks:smoking_upgrade",
+	"sophisticatedbackpacks:stonecutter_upgrade",
+	"sophisticatedbackpacks:tank_upgrade",
+	"sophisticatedbackpacks:tool_swapper_upgrade",
+	"sophisticatedbackpacks:void_upgrade",
+	"sophisticatedbackpacks:xp_pump_upgrade"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 25},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level": 100},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 100},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

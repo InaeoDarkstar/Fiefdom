@@ -1,0 +1,12 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:more_crop_drops",
+	"origins-classes:twin_breeding"
+	
+  ],
+  "icon": "minecraft:wheat",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

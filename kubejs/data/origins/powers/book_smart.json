@@ -1,0 +1,11 @@
+{
+  "name": "Book Smart",
+  "description": "Increases the amount of mana you hold",
+  "type": "origins:attribute",
+  "modifier": {
+  
+    "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+    "value": 500,
+    "operation": "addition"
+  }
+}

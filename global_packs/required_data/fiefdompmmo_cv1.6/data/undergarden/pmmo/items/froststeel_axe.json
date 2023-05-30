@@ -1,0 +1,41 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{"smithing": 15},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{"harvesting": 30},
+	"WEAPON":{"combat": 30},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"harvesting": 1.15, "combat": 1.25},
+	"WORN":{}
+},
+"negative_effect":{"minecraft:slowness": 1},
+"salvage":{
+    "undergarden:froststeel_ingot": {
+        "salvageMax": 3,
+        "baseChance": 0.1,
+        "maxChance": 0.85,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 30}
+    }
+},
+"vein_data":{
+    "chargeCap": 400,
+    "chargeRate": 0.2
+}
+}

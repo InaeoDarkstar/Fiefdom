@@ -1,0 +1,125 @@
+{
+    "name": "Ore Expertise",
+    "description": "Your knowledge of mining ores means you extract more from copper, iron, and gold ores.",
+    "type": "origins:multiple",
+    "dcopper": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_copper",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:deepslate_copper_ore"
+        },
+        "only_when_harvested": true
+    },
+    "copper": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_copper",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:copper_ore"
+        },
+        "only_when_harvested": true
+    },
+ "iron": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_iron",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:iron_ore"
+        },
+        "only_when_harvested": true
+    },
+ "diron": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_iron",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:deepslate_iron_ore"
+        },
+        "only_when_harvested": true
+    },
+ "gold": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_gold",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:gold_ore"
+        },
+        "only_when_harvested": true
+    },
+ "dgold": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:raw_gold",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:deepslate_gold_ore"
+        },
+        "only_when_harvested": true
+    },
+ "diamond": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:diamond",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:diamond_ore"
+        },
+        "only_when_harvested": true
+    },
+ "diron": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:diamond",
+                "amount": 1
+            }
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:deepslate_diamond_ore"
+        },
+        "only_when_harvested": true
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+"minecraft:milk_bucket",
+"toughasnails:pumpkin_juice",
+"toughasnails:melon_juice",
+"croptopia:apple_juice",
+"croptopia:cranberry_juice",
+"croptopia:grape_juice",
+"croptopia:melon_juice",
+"croptopia:orange_juice",
+"croptopia:pineapple_juice",
+"croptopia:saguaro_juice",
+"croptopia:tomato_juice"
+  ]
+}

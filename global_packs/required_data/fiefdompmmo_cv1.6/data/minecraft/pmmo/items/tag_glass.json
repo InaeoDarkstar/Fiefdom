@@ -1,0 +1,66 @@
+{
+"override":true, 
+"isTagFor":[
+	"#forge:glass",
+	"#forge:glass_panes",
+	"alexsmobs:rainbow_glass",
+	"born_in_chaos_v1:dark_stained_glass",
+	"born_in_chaos_v1:dark_stained_glass_panel", 
+	"born_in_chaos_v1:scarlet_stained_glass",
+	"born_in_chaos_v1:scarlet_stained_glass_panel",
+	"born_in_chaos_v1:orange_stained_glass",
+	"born_in_chaos_v1:orange_stained_glass_panel",
+	"born_in_chaos_v1:green_stained_glass",
+	"born_in_chaos_v1:green_stained_glass_panel",
+	"born_in_chaos_v1:purple_stained_glass",
+	"born_in_chaos_v1:purple_stained_glass_panel"
+	   
+	
+    ],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 2},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{}
+}

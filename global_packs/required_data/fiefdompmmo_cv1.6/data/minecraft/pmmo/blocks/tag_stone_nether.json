@@ -1,0 +1,43 @@
+{
+"override":true, 
+"isTagFor":[
+	"minecraft:nether_bricks",
+	"minecraft:cracked_nether_bricks",
+	"minecraft:chiseled_nether_bricks",
+	"minecraft:red_nether_bricks",
+	"minecraft:smooth_quartz_stairs",
+	"minecraft:red_nether_brick_stairs",
+	"#incendium:blackstone_blocks",
+	"minecraft:basalt",
+	"minecraft:polished_basalt",
+	"minecraft:smooth_basalt",
+	"minecraft:quartz_block",
+	"minecraft:quartz_bricks",
+	"minecraft:quartz_pillar",
+	"minecraft:quartz_stairs",
+	"minecraft:nether_brick_stairs",
+	"minecraft:blackstone_stairs",
+	"minecraft:polished_blackstone_stairs",
+	"minecraft:polished_blackstone_brick_stairs",
+	"minecraft:nether_brick_slab",
+	"minecraft:quartz_slab"
+   
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"mining": 3},
+	"BLOCK_PLACE":{"building": 5},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

@@ -1,0 +1,8 @@
+{"override":true,
+"bonus":{
+    "DIMENSION":{"combat": 1.25, "agility": 1.25}
+},
+"travel_req":{"total_level": 150},
+"vein_blacklist":[],
+"mob_multiplier":{}
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Scythia",
+	"description": "Horsemen from Scythia bond with thier horses, commanding them with almost telepathic ability.",
+	"powers": [
+		
+		"origins:experienced_equestrian",
+		"origins:gamestage-scythia",
+		"origins:seeking"
+	],
+	"icon": "minecraft:saddle"
+	
+ }

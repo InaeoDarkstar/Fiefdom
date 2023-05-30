@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "toughasnails:dirty_water_bottle",
+	"toughasnails:dirty_water_canteen",
+"croptopia:water_bottle",
+"croptopia:milk_bottle"
+  ]
+}

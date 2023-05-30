@@ -1,0 +1,294 @@
+{
+    "name": "Sword Proficiency",
+    "description": "If it isn't a blade, it deals half the damage\n",
+    "condition": {
+        "inverted": true,
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "inverted": true,
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:wooden_sword"
+                },
+                {
+                    "item": "minecraft:golden_sword"
+                },
+                {
+                    "item": "minecraft:iron_sword"
+                },
+                {
+                    "item": "minecraft:diamond_sword"
+                },
+                {
+                    "item": "blue_skies:bluebright_sword"
+                },
+                {
+                    "item": "blue_skies:lunar_sword"
+                },
+                {
+                    "item": "blue_skies:starlit_sword"
+                },
+                {
+                    "item": "blue_skies:dusk_sword"
+                },
+                {
+                    "item": "blue_skies:frostbright_sword"
+                },
+                {
+                    "item": "blue_skies:maple_sword"
+                },
+                {
+                    "item": "blue_skies:cherry_sword"
+                },
+                {
+                    "item": "blue_skies:turquoise_stone_sword"
+                },
+                {
+                    "item": "blue_skies:lunar_stone_sword"
+                },
+                {
+                    "item": "blue_skies:pyrope_sword"
+                },
+                {
+                    "item": "blue_skies:aquite_sword"
+                },
+                {
+                    "item": "blue_skies:diopside_sword"
+                },
+                {
+                    "item": "blue_skies:charoite_sword"
+                },
+                {
+                    "item": "blue_skies:horizonite_sword"
+                },
+                {
+                    "item": "born_in_chaos_v1:spiritual_sword"
+                },
+                {
+                    "item": "born_in_chaos_v1:sharpened_dark_metal_sword"
+                },
+                {
+                    "item": "copperized:copper_sword"
+                },
+                {
+                    "item": "minecolonies:chiefsword"
+                },
+                {
+                    "item": "stalwart_dungeons:tungsten_sword"
+                },
+                {
+                    "item": "stalwart_dungeons:chorundum_sword"
+                },
+                {
+                    "item": "twilightforest:ironwood_sword"
+                },
+                {
+                    "item": "twilightforest:fiery_sword"
+                },
+                {
+                    "item": "twilightforest:steeleaf_sword"
+                },
+                {
+                    "item": "twilightforest:knightmetal_sword"
+                },
+                {
+                    "item": "twilightforest:ice_sword"
+                },
+                {
+                    "item": "twilightforest:glass_sword"
+                },
+                {
+                    "item": "twilightforest:giant_sword"
+                },
+                {
+                    "item": "undergarden:cloggrum_sword"
+                },
+                {
+                    "item": "undergarden:froststeel_sword"
+                },
+                {
+                    "item": "undergarden:utherium_sword"
+                },
+                {
+                    "item": "undergarden:forgotten_sword"
+                },
+                {
+                    "item": "orcz:orcteeth_tool_sword"
+                },
+                {
+                    "item": "orcz:orc_steel_sword"
+                },
+                {
+                    "item": "deeperdarker:warden_sword"
+                },
+                {
+                    "item": "magistuarmory:wood_shortsword"
+                },
+                {
+                    "item": "magistuarmory:stone_shortsword"
+                },
+                {
+                    "item": "magistuarmory:iron_shortsword"
+                },
+                {
+                    "item": "magistuarmory:gold_shortsword"
+                },
+                {
+                    "item": "magistuarmory:diamond_shortsword"
+                },
+                {
+                    "item": "magistuarmory:netherite_shortsword"
+                },
+                {
+                    "item": "magistuarmory:copper_shortsword"
+                },
+                {
+                    "item": "magistuarmory:steel_shortsword"
+                },
+                {
+                    "item": "magistuarmory:wood_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:stone_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:iron_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:gold_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:diamond_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:netherite_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:copper_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:steel_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:wood_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:stone_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:iron_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:gold_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:diamond_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:netherite_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:copper_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:steel_flamebladedsword"
+                },
+                {
+                    "item": "magistuarmory:wood_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:stone_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:iron_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:gold_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:diamond_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:netherite_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:copper_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:steel_katzbalger"
+                },
+                {
+                    "item": "magistuarmory:wood_claymore"
+                },
+                {
+                    "item": "magistuarmory:stone_claymore"
+                },
+                {
+                    "item": "magistuarmory:iron_claymore"
+                },
+                {
+                    "item": "magistuarmory:gold_claymore"
+                },
+                {
+                    "item": "magistuarmory:diamond_claymore"
+                },
+                {
+                    "item": "magistuarmory:netherite_claymore"
+                },
+                {
+                    "item": "magistuarmory:copper_claymore"
+                },
+                {
+                    "item": "magistuarmory:steel_claymore"
+                },
+                {
+                    "item": "magistuarmory:wood_zweihander"
+                },
+                {
+                    "item": "magistuarmory:stone_zweihander"
+                },
+                {
+                    "item": "magistuarmory:iron_zweihander"
+                },
+                {
+                    "item": "magistuarmory:gold_zweihander"
+                },
+                {
+                    "item": "magistuarmory:diamond_zweihander"
+                },
+                {
+                    "item": "magistuarmory:netherite_zweihander"
+                },
+                {
+                    "item": "magistuarmory:copper_zweihander"
+                },
+                {
+                    "item": "magistuarmory:steel_zweihander"
+                },
+                {
+                    "item": "magistuarmory:noble_sword"
+                },
+                {
+                    "item": "magistuarmory:rusted_bastardsword"
+                },
+                {
+                    "item": "magistuarmory:messer_sword"
+                },
+                {
+                    "item": "minecraft:netherite_sword"
+                }
+            ]
+        }
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.attack_damage",
+        "operation": "multiply_total",
+        "value": -0.5
+    },
+    "modifiers": [],
+    "tick_rate": 5,
+    "update_health": true
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wooden_pickaxe",
+    "minecraft:stone_pickaxe",
+    "minecraft:iron_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:diamond_pickaxe",
+    "minecraft:netherite_pickaxe",
+"stalwart_dungeons:tungsten_pickaxe",
+"stalwart_dungeons:chorundum_pickaxe",
+"undergarden:froststeel_pickaxe",
+"undergarden:cloggrum_pickaxe",
+"undergarden:utherium_pickaxe",
+"copperized:copper_pickaxe"
+  ]
+}

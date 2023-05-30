@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:leather_boots",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_boots",
+    "minecraft:golden_boots",
+    "minecraft:diamond_boots",
+    "minecraft:netherite_boots",
+"blue_skies:horizonite_boots",
+"blue_skies:charoite_boots",
+"blue_skies:diopside_boots",
+"blue_skies:aquite_boots",
+"blue_skies:pyrope_boots",
+"undergarden:froststeel_boots",
+"undergarden:cloggrum_boots",
+"undergarden:utherium_boots",
+"copperized:copper_boots",
+"stalwart_dungeons:tungsten_boots",
+"stalwart_dungeons:chorundum_armor_boots",
+"magistuarmory:knight_boots",
+"magistuarmory:jousting_boots",
+"magistuarmory:gothic_boots",
+"magistuarmory:maximilian_boots",
+"magistuarmory:chainmail_boots",
+"magistuarmory:platemail_boots",
+"magistuarmory:crusader_boots",
+"magistuarmory:ceremonial_boots",
+"magistuarmory:xivcenturyknight_boots",
+"magistuarmory:cuirassier_boots",
+"magistuarmory:lamellar_boots"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:magic_writing"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

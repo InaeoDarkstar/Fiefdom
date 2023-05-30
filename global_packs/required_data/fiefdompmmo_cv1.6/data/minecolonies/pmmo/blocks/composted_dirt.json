@@ -1,0 +1,20 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "BLOCK_BREAK": {"harvesting": 3},
+    "ACTIVATE_BLOCK": {},
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_PLACE": {"harvesting": 3},
+    "BREAK_SPEED": {}
+  },
+  "requirements": {
+    "PLACE": {},
+    "BREAK": {},
+    "INTERACT": {}
+  },
+  "override": true,
+  "isTagFor": []
+}

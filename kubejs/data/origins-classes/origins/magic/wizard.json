@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:stun"
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

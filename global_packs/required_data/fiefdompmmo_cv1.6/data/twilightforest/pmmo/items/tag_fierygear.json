@@ -1,0 +1,51 @@
+{
+  "salvage": {
+    "twilightforest:fiery_ingot": {
+      "salvageMax": 4,
+      "baseChance": 0.2,
+      "maxChance": 0.08,
+      "chancePerLevel": {"smithing": 0.02},
+      "levelReq": {"smithing": 25},
+      "xpPerItem": {"smithing": 55}
+    }
+  },
+  "xp_values": {
+    "FISH": {},
+    "ANVIL_REPAIR": {},
+    "CONSUME": {},
+    "RANGED_TO_PLAYERS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 2},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "RANGED_TO_MOBS": {},
+    "MELEE_TO_PLAYERS": {},
+    "ACTIVATE_ITEM": {},
+    "MELEE_TO_ANIMALS": {},
+    "BLOCK_PLACE": {},
+    "CRAFT": {"smithing": 30},
+    "RANGED_TO_ANIMALS": {}
+  },
+  "bonuses": {
+    "HELD": {},
+    "WORN": {"combat": 1.1}
+  },
+  "requirements": {
+    "WEAPON": {},
+    "USE_ENCHANTMENT": {},
+    "TOOL": {},
+    "BREAK": {},
+    "INTERACT": {},
+    "WEAR": {"total_level": 160},
+    "USE": {},
+    "PLACE": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["twilightforest:fiery_boots",
+"twilightforest:fiery_chestplate",
+"twilightforest:fiery_helmet",
+"twilightforest:fiery_leggings"]
+}

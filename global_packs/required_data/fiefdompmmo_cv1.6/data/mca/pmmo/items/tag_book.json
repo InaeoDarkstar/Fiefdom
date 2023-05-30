@@ -1,0 +1,51 @@
+{"override":true,
+"isTagFor":[
+	"mca:book_blueprint",
+	"mca:book_cult_0",
+	"mca:book_cult_1",
+	"mca:book_cult_2",
+	"mca:book_cult_ancient",
+	"mca:book_death",
+	"mca:book_family",
+	"mca:book_infection",
+	"mca:book_romance",
+	"mca:book_rose_gold",
+	"mca:book_supporters",
+	"mca:family_tree",
+	"mca:village_editor",
+	"mca:letter"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 5},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

@@ -1,0 +1,24 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:oak_slab",
+            "slot": 0
+        },
+        {
+            "item": "create:shaft",
+            "slot": 3
+        }
+
+    ],
+    "hephaestus_forge_item": "minecraft:piston",
+    "essences": {
+        "aureal": 100,
+        "experience": 10,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "create:windmill_bearing",
+        "count": 1
+    }
+}

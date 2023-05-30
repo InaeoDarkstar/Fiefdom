@@ -1,0 +1,11 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:healing",
+	"origins:healing_ray"
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

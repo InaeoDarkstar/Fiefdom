@@ -1,0 +1,39 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{"smithing": 450},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"smithing": 450},
+	"ENCHANT":{"magic": 15},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{"mining": 50},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"mining": 1.75},
+	"WORN":{}
+},
+"negative_effect":{},
+"vein_data":{
+    "chargeCap": 750,
+    "chargeRate": 0.5
+}
+}

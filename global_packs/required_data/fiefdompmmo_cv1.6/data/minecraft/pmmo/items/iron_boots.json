@@ -1,0 +1,45 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level": 100},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"agility": 1.03, "combat": 1.015}
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:iron_ingot": {
+        "salvageMax": 2,
+        "baseChance": 0.4,
+        "maxChance": 1.0,
+        "chancePerLevel": {"smithing": 0.02},
+        "levelReq": {"smithing": 10},
+        "xpPerItem": {"smithing": 500}
+    }
+}
+}

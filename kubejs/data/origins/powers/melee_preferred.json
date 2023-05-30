@@ -1,0 +1,14 @@
+{
+    "name": "Melee Preferred",
+    "description": "The Black Templars have continued in the style of their first High Marshal, preferring close combat over ranged warfare. (projectiles do 25% more dmg towards you)\n",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "inverted": false,
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.25
+    }
+}

@@ -1,0 +1,55 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 6, 2023, 10:17:02 PM
+
+#undergarden:virulent
+- undergarden:virulent_mix_source (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:virulent_mix_flowing (from The_Undergarden-1.19.2-0.8.3.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.54.261.jar)
+- reliquary:xp_juice_still (from reliquary-1.19.2-2.0.20.1166.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.10-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.10-universal.jar)
+
+#bucketlib:infinity_enchantable
+- minecraft:water (from bucketlib-1.19-1.0.4.1.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#woodenbucket:freezing
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#woodenbucket:burning
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#create:bottomless/deny
+
+#woodenbucket:cracking
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)

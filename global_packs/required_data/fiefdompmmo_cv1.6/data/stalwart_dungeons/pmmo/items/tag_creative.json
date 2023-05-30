@@ -1,0 +1,50 @@
+{"override":true,
+"isTagFor":[
+	"stalwart_dungeons:awful_dungeon_spawner",
+	"stalwart_dungeons:awful_dungeons_spawn",
+	"stalwart_dungeons:awful_ghast_spawn_egg",
+	"stalwart_dungeons:end_dungeon_spawner",
+	"stalwart_dungeons:ender_globe_spawn",
+	"stalwart_dungeons:giddy_blaze_spawn_egg",
+	"stalwart_dungeons:incomplete_wither_spawn_egg",
+	"stalwart_dungeons:keeping_castle_spawn",
+	"stalwart_dungeons:keeping_castle_spawner",
+	"stalwart_dungeons:nether_keeper_spawn_egg",
+	"stalwart_dungeons:propulk_spawn_egg",
+	"stalwart_dungeons:reinforced_blaze_spawn_egg",
+	"stalwart_dungeons:shelterer_spawn_egg"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 500},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

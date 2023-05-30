@@ -1,0 +1,24 @@
+{
+"override":true, 
+"isTagFor":[
+	"#pmmo:crops",
+	"#forge:seeds"	
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{},
+	"BLOCK_PLACE":{"harvesting": 1},
+	"GROW":{"harvesting": 0.5},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{"harvesting": 5},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

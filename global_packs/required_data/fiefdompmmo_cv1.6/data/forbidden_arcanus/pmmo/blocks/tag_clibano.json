@@ -1,0 +1,25 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"smithing": 5}
+  },
+  "requirements": {
+    "INTERACT": {"total_level": 100},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["forbidden_arcanus:clibano_center",
+"forbidden_arcanus:clibano_core",
+"forbidden_arcanus:clibano_corner",
+"forbidden_arcanus:clibano_main_part",
+"forbidden_arcanus:clibano_side_horizontal",
+"forbidden_arcanus:clibano_side_vertical"]
+}

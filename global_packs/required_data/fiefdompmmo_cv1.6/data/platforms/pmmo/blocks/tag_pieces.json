@@ -1,0 +1,27 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"crafting": 2},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 5}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": [
+"platforms:flat",
+"platforms:floor",
+"platforms:frame",
+"platforms:ramp",
+"platforms:rise",
+"platforms:rail"
+]
+}

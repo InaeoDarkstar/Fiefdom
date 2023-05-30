@@ -1,0 +1,14 @@
+{
+  "type": "origins:attribute",
+"name": "Plainwalker II",
+	"description": "Increased movement speed further",
+"condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:tengri1"
+},
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_total"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Combat Damage",
+	"description": "Combat increases your damage",
+    "type": "origins:modify_damage_dealt",
+    
+      "modifier":
+
+{
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 2,
+            "name": "Combat Damage"
+        }
+}

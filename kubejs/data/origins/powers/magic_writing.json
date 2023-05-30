@@ -1,0 +1,39 @@
+{"name": "Magic writing",
+    "description": "Professors are able to speak the language of enchantments, but lack the power to do so.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:book"
+            }
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:give",
+                "stack": {
+                    "item": "tombstone:book_of_magic_impregnation",
+                    "amount": 1
+                }
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": "primary"
+}

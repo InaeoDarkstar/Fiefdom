@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wooden_hoe",
+    "minecraft:stone_hoe",
+    "minecraft:iron_hoe",
+    "minecraft:golden_hoe",
+    "minecraft:diamond_hoe",
+    "minecraft:netherite_hoe",
+"stalwart_dungeons:tungsten_hoe",
+"stalwart_dungeons:chorundum_hoe",
+"undergarden:froststeel_hoe",
+"undergarden:cloggrum_hoe",
+"undergarden:utherium_hoe",
+"copperized:copper_hoe"
+  ]
+}

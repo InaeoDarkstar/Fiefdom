@@ -1,0 +1,13 @@
+{
+    "name": "Tengri",
+	"description": "Nomads from the Tengri tribe call any land home and live off what the World provides.",
+	"powers": [
+		
+		"origins:run_speed",
+		"origins:gamestage-tengri",
+		"origins:run_speed_b"
+		
+	],
+	"icon": "minecraft:grass",
+	"recurrent": false
+	}

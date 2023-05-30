@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+"ars_nouveau:bucket_of_source",
+"twilightforest:maze_wafer",
+"undergarden:bloody_stew",
+"undergarden:inky_stew",
+"undergarden:indigo_stew",
+"undergarden:veiled_stew",
+"minecraft:mushroom_stew",
+"orcz:orczstew",
+"croptopia:nether_wart_stew",
+"aquamirae:sea_stew",
+"forbidden_arcanus:edelwood_mushroom_stew_bucket",
+"forbidden_arcanus:edelwood_suspicious_stew_bucket"
+  ]
+}

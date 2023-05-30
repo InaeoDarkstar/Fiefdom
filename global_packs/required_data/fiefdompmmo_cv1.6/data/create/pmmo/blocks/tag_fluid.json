@@ -1,0 +1,25 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 3}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["create:fluid_pipe",
+"create:fluid_tank",
+"create:fluid_valve",
+"create:glass_fluid_pipe",
+"create:smart_fluid_pipe",
+"create:spout"]
+}

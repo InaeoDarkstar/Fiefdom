@@ -1,0 +1,51 @@
+{
+"salvage":{
+    "minecraft:copper_ingot": {
+        "salvageMax": 4,
+        "baseChance": 0.2,
+        "maxChance": 1.0,
+        "chancePerLevel": {"smithing": 0.02},
+        "levelReq": {"smithing": 8},
+        "xpPerItem": {"smithing": 200}
+    }
+},
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {"smithing": 1},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {"smithing": 2},
+    "ENCHANT": {"magic": 5},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"smithing": 25},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {"smithing": 1.04},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {"total_level": 30}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["copperized:copper_boots",
+"copperized:copper_chestplate",
+"copperized:copper_helmet",
+"copperized:copper_leggings"]
+}

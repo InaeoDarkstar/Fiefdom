@@ -1,0 +1,50 @@
+{"override":true,
+"isTagFor":["minecraft:chainmail_boots",
+"minecraft:chainmail_chestplate",
+"minecraft:chainmail_helmet",
+"minecraft:chainmail_leggings"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"smithing": 10},
+	"ENCHANT":{"magic": 3},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level": 30},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"smithing": 1.025}
+},
+"negative_effect":{},
+"salvage":{
+    "magistuarmory:steel_chainmail": {
+        "salvageMax": 4,
+        "baseChance": 0.4,
+        "maxChance": 1.0,
+        "chancePerLevel": {"smithing": 0.05},
+        "levelReq": {"smithing": 5},
+        "xpPerItem": {"smithing": 100}
+    }
+}
+}

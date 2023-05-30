@@ -1,0 +1,25 @@
+{ "type": "origins:recipe",
+	"recipe": {
+		"type": "minecraft:crafting_shaped",
+		"id": "origins:apotheosis_forge",
+		"pattern": [
+			"JJJ",
+			"HSH",
+			"HHH"
+		],
+		"key": {
+			"S": {
+				"item": "apotheosis:infused_hellshelf"
+			},
+			"H": {
+				"item": "apotheosis:gem_dust"
+			},
+			"J": {
+				"item": "apotheosis:rare_material"
+			}
+		},
+		"result": {
+			"item": "apotheosis:reforging_table"
+		}
+	}
+}

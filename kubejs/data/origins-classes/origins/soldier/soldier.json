@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:less_shield_slowdown"
+  ],
+  "icon": "minecraft:iron_helmet",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Armor Expert",
+	"description": "Gain 4 armor toughness",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Armor Expert",
+    "attribute": "minecraft:generic.armor_toughness",
+    "value": 4,
+    "operation": "addition"
+  }
+}

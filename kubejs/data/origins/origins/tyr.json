@@ -1,0 +1,13 @@
+{
+    "name": "Tyr",
+	"description": "The Warriors of Tyr are expert fighters, striking fear into their enemies.",
+	"powers": [
+		
+		"origins:expert",
+		"origins:gamestage-tyr",
+		"origins:precision_strike"
+
+	],
+	"icon": "minecraft:stone_sword"
+	
+	}

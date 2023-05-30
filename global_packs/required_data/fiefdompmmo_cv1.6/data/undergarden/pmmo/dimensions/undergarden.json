@@ -1,0 +1,8 @@
+{"override": true,
+"bonus":{
+    "DIMENSION":{}
+},
+"travel_req":{"total_level": 100},
+"vein_blacklist":[],
+"mob_multiplier":{}
+}

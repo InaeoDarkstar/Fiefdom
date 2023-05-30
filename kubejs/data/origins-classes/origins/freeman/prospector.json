@@ -1,0 +1,12 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:maniac_mining",
+	"origins:extraore"
+	
+  ],
+  "icon": "minecraft:diamond_pickaxe",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

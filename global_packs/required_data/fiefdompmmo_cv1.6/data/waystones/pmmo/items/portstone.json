@@ -1,0 +1,37 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"magic": 5},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 10},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 10},
+	"PLACE":{},
+	"BREAK":{"magic": 25},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "waystones:warp_stone": {
+        "salvageMax": 1,
+        "baseChance": 0.1,
+        "maxChance": 0.8,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25, "magic": 10},
+        "xpPerItem": {"smithing": 50}
+    }
+}
+}

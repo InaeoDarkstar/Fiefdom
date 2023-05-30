@@ -1,0 +1,53 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 4},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"crafting": 10},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {"crafting": 40, "magic": 50},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["ars_nouveau:thread_chilling",
+"ars_nouveau:thread_depths",
+"ars_nouveau:thread_drygmy",
+"ars_nouveau:thread_feather",
+"ars_nouveau:thread_gliding",
+"ars_nouveau:thread_heights",
+"ars_nouveau:thread_kindling",
+"ars_nouveau:thread_life_drain",
+"ars_nouveau:thread_magic_capacity",
+"ars_nouveau:thread_repairing",
+"ars_nouveau:thread_spellpower",
+"ars_nouveau:thread_starbuncle",
+"ars_nouveau:thread_undying",
+"ars_nouveau:thread_warding",
+"ars_nouveau:thread_whirlisprig",
+"ars_nouveau:thread_wixie"]
+}

@@ -1,0 +1,38 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"mining": 1},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 10}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["cataclysm:chiseled_end_stone_bricks",
+"cataclysm:chiseled_obsidian_bricks",
+"cataclysm:chiseled_purpur_block",
+"cataclysm:end_stone_pillar",
+"cataclysm:end_stone_teleport_trap_bricks",
+"cataclysm:melting_netherrack",
+"cataclysm:obsidian_bricks",
+"cataclysm:obsidian_brick_slab",
+"cataclysm:obsidian_brick_stairs",
+"cataclysm:obsidian_brick_wall",
+"cataclysm:obsidian_explosion_trap_bricks",
+"cataclysm:polished_end_stone",
+"cataclysm:polished_end_stone_slab",
+"cataclysm:polished_end_stone_stairs",
+"cataclysm:purpur_void_rune_trap_block",
+"cataclysm:purpur_wall",
+"cataclysm:void_infused_end_stone_bricks",
+"cataclysm:void_lantern_block",
+"cataclysm:void_stone"]
+}

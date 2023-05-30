@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:crafting"
+  ],
+  "icon": "minecraft:crafting_table",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

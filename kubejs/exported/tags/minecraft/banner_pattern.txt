@@ -1,0 +1,171 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 6, 2023, 10:17:02 PM
+
+#magistuarmory:pattern_item/steel_kiteshield
+
+#twilightforest:pattern_item/naga
+- twilightforest:naga (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/snake
+- magistuarmory:snake (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/gold_kiteshield
+
+#alexsmobs:pattern_for_australia_1
+- alexsmobs:australia_1 (from alexsmobs-1.21.1.jar)
+
+#minecraft:pattern_item/creeper
+- minecraft:creeper (from Default)
+
+#alexsmobs:pattern_for_australia_0
+- alexsmobs:australia_0 (from alexsmobs-1.21.1.jar)
+
+#magistuarmory:pattern_item/lion1
+- magistuarmory:lion1 (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/lion2
+- magistuarmory:lion2 (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/dragon
+- magistuarmory:dragon (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/orthodox_cross
+- magistuarmory:orthodox_cross (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/tower
+- magistuarmory:tower (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#twilightforest:pattern_item/hydra
+- twilightforest:hydra (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/copper_kiteshield
+
+#magistuarmory:pattern_item/bull
+- magistuarmory:bull (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/apostolic_cross
+- magistuarmory:apostolic_cross (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#twilightforest:pattern_item/ur_ghast
+- twilightforest:ur_ghast (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/eagle
+- magistuarmory:eagle (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/bowl
+- magistuarmory:bowl (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#twilightforest:pattern_item/quest_ram
+- twilightforest:quest_ram (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:pattern_item/piglin
+- minecraft:piglin (from Default)
+
+#twilightforest:pattern_item/alpha_yeti
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#alexsmobs:pattern_for_brazil
+- alexsmobs:brazil (from alexsmobs-1.21.1.jar)
+
+#magistuarmory:pattern_item/sun
+- magistuarmory:sun (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#twilightforest:pattern_item/snow_queen
+- twilightforest:snow_queen (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:pattern_item/globe
+- minecraft:globe (from Default)
+
+#magistuarmory:pattern_item/two-headed_eagle
+- magistuarmory:two-headed_eagle (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/netherite_kiteshield_smithing
+
+#minecraft:pattern_item/mojang
+- minecraft:mojang (from Default)
+
+#magistuarmory:pattern_item/tree
+- magistuarmory:tree (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#minecraft:no_item_required
+- minecraft:square_bottom_left (from Default)
+- minecraft:square_bottom_right (from Default)
+- minecraft:square_top_left (from Default)
+- minecraft:square_top_right (from Default)
+- minecraft:stripe_bottom (from Default)
+- minecraft:stripe_top (from Default)
+- minecraft:stripe_left (from Default)
+- minecraft:stripe_right (from Default)
+- minecraft:stripe_center (from Default)
+- minecraft:stripe_middle (from Default)
+- minecraft:stripe_downright (from Default)
+- minecraft:stripe_downleft (from Default)
+- minecraft:small_stripes (from Default)
+- minecraft:cross (from Default)
+- minecraft:straight_cross (from Default)
+- minecraft:triangle_bottom (from Default)
+- minecraft:triangle_top (from Default)
+- minecraft:triangles_bottom (from Default)
+- minecraft:triangles_top (from Default)
+- minecraft:diagonal_left (from Default)
+- minecraft:diagonal_up_right (from Default)
+- minecraft:diagonal_up_left (from Default)
+- minecraft:diagonal_right (from Default)
+- minecraft:circle (from Default)
+- minecraft:rhombus (from Default)
+- minecraft:half_vertical (from Default)
+- minecraft:half_horizontal (from Default)
+- minecraft:half_vertical_right (from Default)
+- minecraft:half_horizontal_bottom (from Default)
+- minecraft:border (from Default)
+- minecraft:curly_border (from Default)
+- minecraft:gradient (from Default)
+- minecraft:gradient_up (from Default)
+- minecraft:bricks (from Default)
+
+#magistuarmory:pattern_item/diamond_kiteshield
+
+#alexsmobs:pattern_for_bear
+- alexsmobs:bear (from alexsmobs-1.21.1.jar)
+
+#magistuarmory:pattern_item/silver_kiteshield
+
+#twilightforest:pattern_item/knight_phantom
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/swords
+- magistuarmory:swords (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/chess
+- magistuarmory:chess (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#minecraft:pattern_item/skull
+- minecraft:skull (from Default)
+
+#twilightforest:pattern_item/lich
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/wood_kiteshield
+
+#magistuarmory:pattern_item/lily
+- magistuarmory:lily (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#minecraft:pattern_item/flower
+- minecraft:flower (from Default)
+
+#twilightforest:pattern_item/minoshroom
+- twilightforest:minoshroom (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#magistuarmory:pattern_item/iron_kiteshield
+
+#magistuarmory:pattern_item/tin_kiteshield
+
+#magistuarmory:pattern_item/horse
+- magistuarmory:horse (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#alexsmobs:pattern_for_new_mexico
+- alexsmobs:new_mexico (from alexsmobs-1.21.1.jar)
+
+#magistuarmory:pattern_item/crusader_cross
+- magistuarmory:crusader_cross (from [1.19.2-forge]-Epic-Knights-7.11.jar)
+
+#magistuarmory:pattern_item/bronze_kiteshield

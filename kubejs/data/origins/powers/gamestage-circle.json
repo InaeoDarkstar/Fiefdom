@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "gamestage add @p circle false"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "gamestage remove @p circle false"
+    },
+    "execute_chosen_when_orb": true,
+
+
+    "hidden": true
+
+}

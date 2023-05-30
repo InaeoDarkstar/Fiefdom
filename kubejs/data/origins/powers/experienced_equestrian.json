@@ -1,0 +1,60 @@
+{
+	"name": "Experienced Equestrian",
+	"description": "Horses are 25% faster and regenerate their wounds faster when you ride them. You can also reach farther when mounted on a horse.",
+	"type": "origins:multiple",
+	"horse_powers": {
+		"type": "origins:action_on_entity_use",
+		"bientity_action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:revoke_power",
+						"power": "horse:experienced_equestrian_horse",
+						"source": "horse:experienced_equestrian"
+					},
+					{
+						"type": "origins:grant_power",
+						"power": "horse:experienced_equestrian_horse",
+						"source": "horse:experienced_equestrian"
+					}
+				]
+			}
+		},
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:in_tag",
+				"tag": "horse:horses"
+			}
+		}
+	},
+	"increased_reach": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Experienced Equestrian - +1 attack range",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "addition",
+				"value": 1
+			},
+			{
+				"name": "Experienced Equestrian - +1 reach",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "addition",
+				"value": 1
+			}
+		],
+		"condition": {
+			"type": "origins:riding",
+			"bientity_condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:in_tag",
+					"tag": "horse:horses"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+  "xp_values": {
+    "RANGED_TO_PLAYERS": {},
+    "RANGED_TO_MOBS": {},
+    "CONSUME": {"cooking": 13},
+    "DEAL_MELEE_DAMAGE": {},
+    "CRAFT": {"cooking": 13},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_ANIMALS": {},
+    "MELEE_TO_PLAYERS": {},
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "BREW": {},
+    "SMELT": {"cooking": 13},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "ACTIVATE_ITEM": {},
+    "FISH": {},
+    "ENCHANT": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "TOOL": {},
+    "PLACE": {},
+    "USE": {},
+    "USE_ENCHANTMENT": {},
+    "BREAK": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "WEAPON": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["minecraft:baked_potato",
+"minecraft:beetroot_soup",
+"minecraft:cake",
+"minecraft:enchanted_golden_apple",
+"minecraft:glistering_melon_slice",
+"minecraft:gold_ore",
+"minecraft:golden_carrot",
+"minecraft:mushroom_stew",
+"minecraft:pumpkin_pie",
+"minecraft:rabbit_stew"]
+}

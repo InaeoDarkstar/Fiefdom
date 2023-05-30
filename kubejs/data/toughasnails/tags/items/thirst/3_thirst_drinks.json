@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+
+"minecraft:milk_bucket",
+"minecraft:honey_bottle",
+"create:honey_bucket",
+"create:chocolate_bucket",
+"ars_nouveau:bucket_of_source",
+"croptopia:celery",
+"croptopia:saguaro"
+  ]
+}

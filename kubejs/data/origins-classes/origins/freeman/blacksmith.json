@@ -1,0 +1,11 @@
+{
+"loading_priority": 100,  
+"powers": [
+    "origins-classes:quality_equipment"
+    
+  ],
+  "icon": "minecraft:iron_ingot",
+  "order": 6,
+  "impact": 0,
+"unchoosable": true
+}

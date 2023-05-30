@@ -1,0 +1,74 @@
+
+   
+{
+    "name": "Gold",
+	"description": "When wearing golden armor, instantly restore 1 durability of your Armor when hit at a 50% chance, unless the armor is 1 hit away from breaking.",
+	"type": "origins:multiple",
+	"gold_helmet": {
+		"type": "origins:action_when_damage_taken",
+		"entity_action": {
+			"type": "origins:chance",
+			"action": {
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "head",
+				"action": {
+					"type": "origins:damage",
+					"amount": -1
+				}
+			},
+			"chance": 0.50
+		},
+		"cooldown": 1
+
+	
+},
+"gold_chestplate": {
+	"type": "origins:action_when_damage_taken",
+	"entity_action": {
+		"type": "origins:chance",
+		"action": {
+			"type": "origins:equipped_item_action",
+			"equipment_slot": "chest",
+			"action": {
+				"type": "origins:damage",
+				"amount": -1
+			}
+		},
+		"chance": 0.50
+	},
+	"cooldown": 1
+},
+"gold_leggings": {
+	"type": "origins:action_when_damage_taken",
+	"entity_action": {
+		"type": "origins:chance",
+		"action": {
+			"type": "origins:equipped_item_action",
+			"equipment_slot": "legs",
+			"action": {
+				"type": "origins:damage",
+				"amount": -1
+			}
+		},
+		"chance": 0.50
+	},
+	"cooldown": 1
+},
+"gold_boots": {
+	"type": "origins:action_when_damage_taken",
+	"entity_action": {
+		"type": "origins:chance",
+		"action": {
+			"type": "origins:equipped_item_action",
+			"equipment_slot": "feet",
+			"action": {
+				"type": "origins:damage",
+				"amount": -1
+			}
+		},
+		"chance": 0.50
+	},
+	"cooldown": 1
+	}
+	}
+	

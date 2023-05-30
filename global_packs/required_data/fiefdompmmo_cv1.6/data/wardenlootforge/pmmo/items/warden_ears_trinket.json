@@ -1,0 +1,48 @@
+{
+  "salvage": {
+    "modid:item": {
+      "salvageMax": 1,
+      "baseChance": 0.0,
+      "maxChance": 1.0,
+      "chancePerLevel": {},
+      "levelReq": {},
+      "xpPerItem": {}
+    }
+  },
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {"agility": 1.1},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {"magic": 25}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

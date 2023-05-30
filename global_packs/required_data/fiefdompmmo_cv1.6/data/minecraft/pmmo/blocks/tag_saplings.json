@@ -1,0 +1,26 @@
+{
+"override":true, 
+"isTagFor":[
+	"#minecraft:saplings"
+	
+	
+
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"harvesting": 1},
+	"BLOCK_PLACE":{"harvesting": 2},
+	"GROW":{"harvesting": 5},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{"harvesting": 5},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

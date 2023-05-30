@@ -1,0 +1,32 @@
+{
+"override":true, 
+"isTagFor":[
+	"#minecraft:planks" ,
+	"#minecraft:wooden_slabs",
+	"#minecraft:fences",
+	"#minecraft:fence_gates",
+	"minecraft:ladder",
+	"#minecraft:wooden_stairs",
+	"#minecraft:wooden_doors",
+	"#minecraft:wooden_trapdoors",
+	"#minecraft:wooden_pressure_plates",
+	"#minecraft:wooden_buttons",
+	"#forge:chests"	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"harvesting": 1},
+	"BLOCK_PLACE":{"building": 2},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

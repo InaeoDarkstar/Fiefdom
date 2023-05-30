@@ -1,0 +1,50 @@
+{"override":true,
+"isTagFor":[
+	"mca:gravelling_headstone",
+	"mca:upright_headstone",
+	"mca:slanted_headstone",
+	"mca:cross_headstone",
+	"mca:wall_headstone",
+	"mca:cobblestone_upright_headstone",
+	"mca:cobblestone_slanted_headstone",
+	"mca:wooden_upright_headstone",
+	"mca:wooden_slanted_headstone",
+	"mca:golden_upright_headstone",
+	"mca:golden_slanted_headstone",
+	"mca:deepslate_upright_headstone",
+	"mca:deepslate_slanted_headstone"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"building": 5},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 15},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

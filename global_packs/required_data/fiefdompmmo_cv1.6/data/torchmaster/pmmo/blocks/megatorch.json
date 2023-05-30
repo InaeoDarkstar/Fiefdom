@@ -1,0 +1,17 @@
+{
+"xp_values":{
+	"BLOCK_BREAK":{},
+	"BLOCK_PLACE":{},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{"total_level": 125},
+	"BREAK":{"total_level": 125},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

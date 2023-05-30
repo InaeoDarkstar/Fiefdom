@@ -1,0 +1,11 @@
+{
+    "name": "Enchant Weapons",
+    "description": "Weapons you use are enchanted with Fire Damage ",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "apotheosis:fire_damage",
+        "operation": "addition",
+        "value": 1
+    }
+    
+}

@@ -1,0 +1,17 @@
+{"override":true,
+"xp_values":{
+	"BLOCK_BREAK":{"combat": 100},
+	"BLOCK_PLACE":{},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{"combat": 100}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

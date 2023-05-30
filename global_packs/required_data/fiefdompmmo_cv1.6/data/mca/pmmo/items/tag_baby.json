@@ -1,0 +1,51 @@
+{"override":true,
+"isTagFor":[
+	"mca:baby_boy",
+	"mca:baby_girl",
+	"mca:sirben_baby_boy",
+	"mca:sirben_baby_girl"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{"cooking": 500},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"combat": 1.75},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:nether_star": {
+        "salvageMax": 1,
+        "baseChance": 0.0,
+        "maxChance": 0.05,
+        "chancePerLevel": {"smithing": 0.0005},
+        "levelReq": {"smithing": 75},
+        "xpPerItem": {"smithing": 2000}
+    }
+}
+}

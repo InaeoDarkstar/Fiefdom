@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Luck of the Draw",
+    "attribute": "minecraft:generic.luck",
+    "value": 1,
+    "operation": "addition"
+  }
+}

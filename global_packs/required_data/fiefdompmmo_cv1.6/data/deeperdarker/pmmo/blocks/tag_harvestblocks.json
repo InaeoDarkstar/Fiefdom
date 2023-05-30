@@ -1,0 +1,25 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"harvesting": 2},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"harvesting": 5}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["deeperdarker:gloomy_grass",
+"deeperdarker:gloom_cactus",
+"deeperdarker:sculk_tendrils",
+"deeperdarker:sculk_tendrils_plant",
+"deeperdarker:sculk_vines",
+"deeperdarker:sculk_vines_plant"]
+}

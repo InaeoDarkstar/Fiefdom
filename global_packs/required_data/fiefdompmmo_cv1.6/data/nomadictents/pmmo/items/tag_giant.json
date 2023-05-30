@@ -1,0 +1,43 @@
+{
+  "xp_values": {
+    "MELEE_TO_ANIMALS": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "MELEE_TO_MOBS": {},
+    "RANGED_TO_PLAYERS": {},
+    "ACTIVATE_ITEM": {},
+    "ANVIL_REPAIR": {},
+    "RANGED_TO_ANIMALS": {},
+    "FISH": {},
+    "BREW": {},
+    "BLOCK_PLACE": {},
+    "CRAFT": {"crafting": 101},
+    "MELEE_TO_PLAYERS": {},
+    "ENCHANT": {},
+    "SMELT": {},
+    "CONSUME": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "RANGED_TO_MOBS": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE": {},
+    "WEAPON": {},
+    "INTERACT": {},
+    "WEAR": {},
+    "TOOL": {},
+    "BREAK": {},
+    "PLACE": {},
+    "USE_ENCHANTMENT": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["nomadictents:giant_bedouin",
+"nomadictents:giant_indlu",
+"nomadictents:giant_shamiyana",
+"nomadictents:giant_tepee",
+"nomadictents:giant_yurt"
+]
+}

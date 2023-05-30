@@ -1,0 +1,38 @@
+{
+  "xp_values": {
+    "FISH": {},
+    "ANVIL_REPAIR": {},
+    "CONSUME": {},
+    "RANGED_TO_PLAYERS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 2},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {"combat": 7},
+    "RANGED_TO_MOBS": {},
+    "MELEE_TO_PLAYERS": {},
+    "ACTIVATE_ITEM": {},
+    "MELEE_TO_ANIMALS": {},
+    "BLOCK_PLACE": {},
+    "CRAFT": {},
+    "RANGED_TO_ANIMALS": {}
+  },
+  "bonuses": {
+    "HELD": {"combat": 2.5},
+    "WORN": {}
+  },
+  "requirements": {
+    "WEAPON": {"combat": 75},
+    "USE_ENCHANTMENT": {},
+    "TOOL": {},
+    "BREAK": {},
+    "INTERACT": {},
+    "WEAR": {},
+    "USE": {},
+    "PLACE": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

@@ -1,0 +1,46 @@
+{"override": true,
+"isTagFor":[
+	"graveyard:gravestone",
+	"graveyard:cobblestone_gravestone",
+	"graveyard:mossy_cobblestone_gravestone",
+	"graveyard:deepslate_gravestone",
+	"graveyard:blackstone_gravestone",
+	"graveyard:cracked_blackstone_gravestone",
+	"graveyard:stone_bricks_gravestone",
+	"graveyard:mossy_stone_bricks_gravestone",
+	"graveyard:bricks_gravestone"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{"building": 10},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 15},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

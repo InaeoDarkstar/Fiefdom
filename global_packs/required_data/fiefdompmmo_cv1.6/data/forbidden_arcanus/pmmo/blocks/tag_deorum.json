@@ -1,0 +1,25 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"smithing": 2},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 3}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["forbidden_arcanus:deorum_chain",
+"forbidden_arcanus:deorum_door",
+"forbidden_arcanus:deorum_lantern",
+"forbidden_arcanus:deorum_pressure_plate",
+"forbidden_arcanus:deorum_soul_lantern",
+"forbidden_arcanus:deorum_trapdoor"]
+}

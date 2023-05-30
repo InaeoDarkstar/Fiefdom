@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+"minecolonies:milky_bread",
+"create:builders_tea",
+"croptopia:tea"
+  ]
+}

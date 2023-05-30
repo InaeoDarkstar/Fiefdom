@@ -1,0 +1,119 @@
+{
+	"type": "origins:multiple",
+	"name": "Wild Shield",
+	"description": "You generate a natural shield that can negate damage as long as your bar is filled.",
+	"condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:circle1"
+},
+	"the_bar":
+	{
+		"type": "origins:resource",
+		"min": 0,
+		"max": 100,
+		"start_value": 100,
+		"min_action": 
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:block.chain.break",
+			"pitch": 0,
+			"volume": 1
+		},
+		"hud_render": 
+		{
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index": 15
+		}
+	},
+	
+	"cooldown":
+	{
+		"type": "origins:resource",
+		"min": 0,
+		"max": 20,
+		"start_value": 0,
+		"hud_render": 
+		{
+            "should_render": false
+        }
+	},
+	
+	"the_part_that_stops_damage":
+	{
+		"type": "origins:modify_damage_taken",
+		"self_action":
+		{
+			"type": "origins:and",
+			"actions": 
+			[
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_the_bar",
+					"change": -30
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_cooldown",
+					"change": 15
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.chain.hit",
+					"pitch": 0,
+					"volume": 1
+				}
+			]
+		},
+		"condition": 
+		{
+			"type": "origins:resource",
+			"resource": "*:*_the_bar",
+			"comparison": "!=",
+			"compare_to": 0
+		},
+		"modifier": 
+		{
+			"name": "No Damage",
+			"operation": "multiply_base_additive",
+			"value": -1
+		}
+	},
+	
+	"the_part_that_restores_the_bar":
+	{
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": 
+		{
+			"type": "origins:change_resource",
+			"resource": "*:*_the_bar",
+			"change": 2
+		},
+		"condition": 
+		{
+			"type": "origins:resource",
+			"resource": "*:*_cooldown",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	
+	"the_part_that_restores_the_cooldown":
+	{
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": 
+		{
+			"type": "origins:change_resource",
+			"resource": "*:*_cooldown",
+			"change": -1
+		},
+		"condition": 
+		{
+			"type": "origins:resource",
+			"resource": "*:*_cooldown",
+			"comparison": "!=",
+			"compare_to": 0
+		}
+	}
+}

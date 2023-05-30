@@ -1,0 +1,17 @@
+{"override":true,
+"xp_values":{
+	"BLOCK_BREAK":{"building": 1},
+	"BLOCK_PLACE":{"building": 2},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{"harvesting": 25}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

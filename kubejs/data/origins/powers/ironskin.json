@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Iron Skin",
+    "attribute": "minecraft:generic.armor",
+    "value": 6.0,
+    "operation": "addition"
+  }
+}

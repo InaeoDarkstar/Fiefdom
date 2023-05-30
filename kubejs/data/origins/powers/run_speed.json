@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+"name": "Plainwalker",
+	"description": "Your people have an increased movement speed.",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_total"
+  }
+}

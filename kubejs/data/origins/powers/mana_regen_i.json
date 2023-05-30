@@ -1,0 +1,11 @@
+{
+    "name": "Mana Regen I",
+	"description": "Increase your mana regen",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Mana Regen I",
+    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+    "value": 5,
+    "operation": "addition"
+  }
+}

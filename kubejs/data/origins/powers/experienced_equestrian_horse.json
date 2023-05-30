@@ -1,0 +1,40 @@
+{
+	"type": "origins:multiple",
+	"speed": {
+		"type": "origins:attribute",
+		"modifier": {
+			"name": "Experienced Equestrian (horse) - +25% speed boost",
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_total",
+			"value": 0.25
+		}
+	},
+	"healing": {
+		"type": "origins:action_over_time",
+		"interval": 80,
+		"entity_action": {
+			"type": "origins:heal",
+			"amount": 1
+		}
+	},
+	"remove": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:revoke_power",
+			"power": "origins:experienced_equestrian_horse",
+			"source": "origins:experienced_equestrian"
+		},
+		"condition": {
+			"type": "origins:passenger",
+			"bientity_condition": {
+				"type": "origins:actor_condition",
+				"condition": {
+					"inverted": true,
+					"type": "origins:power",
+					"power": "origins:experienced_equestrian"
+				}
+			}
+		}
+	}
+}

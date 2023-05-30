@@ -1,0 +1,45 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 150},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{"total_level": 125},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:diamond": {
+        "salvageMax": 2,
+        "baseChance": 0.3,
+        "maxChance": 0.8,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 40}
+    },
+    "minecraft:gold_block": {
+        "salvageMax": 2,
+        "baseChance": 0.3,
+        "maxChance": 0.8,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 25},
+        "xpPerItem": {"smithing": 40}
+    }
+}
+}

@@ -1,0 +1,217 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 0.0,
+			"max": 3.0,
+			"type": "minecraft:uniform"
+		},
+		"entries": [{
+				"type": "minecraft:item",
+				"weight": 5,
+				"name": "magistuarmory:chainmail_horse_armor"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_stylet"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_shortsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_bastardsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_estoc"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_claymore"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_zweihander"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_flamebladedsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_stylet"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_shortsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_bastardsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_estoc"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_claymore"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_zweihander"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_flamebladedsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_stylet"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_shortsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_bastardsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_estoc"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_claymore"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_zweihander"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_flamebladedsword"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_chainmorgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_heavymace"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_morgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_heavywarhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:diamond_lucernhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_chainmorgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_heavymace"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_morgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_heavywarhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:iron_lucernhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_chainmorgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_heavymace"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_morgenstern"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_heavywarhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gold_lucernhammer"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gothic_boots"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gothic_leggings"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:gothic_chestplate"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 3,
+				"name": "magistuarmory:sallet"
+			}
+
+		]
+	}]
+}

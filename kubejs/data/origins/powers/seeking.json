@@ -1,0 +1,28 @@
+{
+    "name": "Seeking",
+    "description": "Sense entities in a 16 block radius",
+    "condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:scythia1"
+},
+    "type": "origins:entity_glow",
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+	    {
+        	"type": "origins:can_see",
+        	"inverted": true
+	    },
+	    {
+    		"type": "origins:distance",
+    		"comparison": "<=",
+    		"compare_to": 16
+	    }
+        ]
+    },
+    "use_teams": false,
+    "red": 1.0,
+    "green": 0.0,
+    "blue": 0.0,
+    "hidden":false
+}

@@ -1,0 +1,10 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:second_wind"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

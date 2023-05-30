@@ -1,0 +1,361 @@
+{
+	"weight": 1,
+	"quality": 0,
+	"mainhands": [{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_pickaxe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_shovel"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_shovel"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_pickaxe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_shovel"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_pickaxe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:lunar_stone_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:lunar_stone_shovel"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_pickaxe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:turquoise_stone_pickaxe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:turquoise_stone_shovel"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:aquite_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:charoite_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:diopside_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:horizonite_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:lunar_stone_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:pyrope_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:turquoise_stone_axe"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:aquite_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:charoite_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:crushing_hammer"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:different_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:diopside_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:horizonite_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:lunar_stone_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:pyrope_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "blue_skies:turquoise_stone_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:bluebright_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:cherry_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:dusk_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:frostbright_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:lunar_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:maple_spear"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:soulbound_spear"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:starlit_spear"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_boots"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_boots"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_boots"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_boots"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_boots"
+			}
+		}
+	],
+	"chestplates": [{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_chestplate"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_chestplate"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_chestplate"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_chestplate"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_chestplate"
+			}
+		}
+	],
+	"helmets": [{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_helmet"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_helmet"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_helmet"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_helmet"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_helmet"
+			}
+		}
+	],
+	"leggings": [{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:aquite_leggings"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_leggings"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "blue_skies:diopside_leggings"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "blue_skies:horizonite_leggings"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "blue_skies:pyrope_leggings"
+			}
+		}
+	],
+	"tags": [
+		"blue_skies_spear"
+	]
+}

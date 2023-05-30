@@ -1,0 +1,12 @@
+{
+  "override": true,
+  "levels": [
+    {"magic": 20},
+    {"magic": 30},
+    {"magic": 40},
+    {"magic": 50},
+    {"magic": 60},
+    {"magic": 70},
+    {"magic": 80}
+  ]
+}

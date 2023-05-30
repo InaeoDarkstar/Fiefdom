@@ -1,0 +1,46 @@
+{"override": true,
+"isTagFor":[
+	"graveyard:skeleton_creeper_spawn_egg",
+	"graveyard:acolyte_spawn_egg",
+	"graveyard:ghoul_spawn_egg",
+	"graveyard:reaper_spawn_egg",
+	"graveyard:revenant_spawn_egg",
+	"graveyard:nightmare_spawn_egg",
+	"graveyard:wraith_spawn_egg",
+	"graveyard:corrupted_pillager_spawn_egg",
+	"graveyard:corrupted_vindicator_spawn_egg"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{"total_level": 800},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

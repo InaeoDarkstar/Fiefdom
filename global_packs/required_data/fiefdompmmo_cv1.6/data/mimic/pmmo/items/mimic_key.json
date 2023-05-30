@@ -1,0 +1,37 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 75},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{"total_level": 100},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:netherite_scrap": {
+        "salvageMax": 1,
+        "baseChance": 0.2,
+        "maxChance": 0.85,
+        "chancePerLevel": {"smithing": 0.005},
+        "levelReq": {"smithing": 15},
+        "xpPerItem": {"smithing": 100}
+    }
+}
+}

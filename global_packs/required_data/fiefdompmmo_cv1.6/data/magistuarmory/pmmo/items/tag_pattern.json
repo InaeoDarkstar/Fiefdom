@@ -1,0 +1,55 @@
+{"override": true,
+"isTagFor":[
+	"magistuarmory:apostolic_cross_pattern",
+	"magistuarmory:chess_pattern",
+	"magistuarmory:bull_pattern",
+	"magistuarmory:bowl_pattern",
+	"magistuarmory:eagle_pattern",
+	"magistuarmory:dragon_pattern",
+	"magistuarmory:crusader_cross_pattern",
+	"magistuarmory:lily_pattern",
+	"magistuarmory:horse_pattern",
+	"magistuarmory:orthodox_cross_pattern",
+	"magistuarmory:lion2_pattern",
+	"magistuarmory:lion1_pattern",
+	"magistuarmory:swords_pattern",
+	"magistuarmory:sun_pattern",
+	"magistuarmory:snake_pattern",
+	"magistuarmory:tree_pattern",
+	"magistuarmory:tower_pattern",
+	"magistuarmory:two-headed_eagle_pattern"
+],
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 2},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+"negative_effect":{}
+}

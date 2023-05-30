@@ -1,0 +1,205 @@
+{
+	"weight": 1,
+	"quality": 0,
+	"mainhands": [{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_pickaxe"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_shovel"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_pickaxe"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_shovel"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_pickaxe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_shovel"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:forgotten_pickaxe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:forgotten_shovel"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_battleaxe"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_axe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_axe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:forgotten_battleaxe"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_sword"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:forgotten_sword"
+			}
+		},
+		{
+			"weight": 0,
+			"stack": {
+				"item": "undergarden:slingshot"
+			}
+		}
+	],
+	"offhands": [{
+			"weight": 0,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "undergarden:cloggrum_shield"
+			}
+		}
+	],
+	"boots": [{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_boots"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_boots"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_boots"
+			}
+		}
+	],
+	"chestplates": [{
+			"weight": 1,
+			"stack": {
+				"item": "undergarden:masticated_chestplate"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_chestplate"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_chestplate"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_chestplate"
+			}
+		}
+	],
+	"helmets": [{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_helmet"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_helmet"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "undergarden:utherium_helmet"
+			}
+		}
+	],
+	"leggings": [{
+			"weight": 32,
+			"stack": {
+				"item": "undergarden:cloggrum_leggings"
+			}
+		},
+		{
+			"weight": 16,
+			"stack": {
+				"item": "undergarden:froststeel_leggings"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "undergarden:utherium_leggings"
+			}
+		}
+	],
+	"tags": [
+		"undergarden"
+	]
+}

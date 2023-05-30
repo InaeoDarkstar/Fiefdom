@@ -1,0 +1,24 @@
+{
+    "name": "Undead's Bane",
+    "description": "You naturally deter the Undead with yur attacks.",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "player"
+    },
+    "target_condition": {
+        "type": "origins:entity_group",
+        "group": "undead"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.6,
+        "name": "Max damage increase"
+    },
+    "target_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.vex.ambient",
+        "volume": 1,
+        "pitch": 1.4
+    }
+}

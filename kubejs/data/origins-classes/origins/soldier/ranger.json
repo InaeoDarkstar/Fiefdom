@@ -1,0 +1,12 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins-classes:less_bow_slowdown",
+	"origins:endless_quiver"
+	
+  ],
+  "icon": "minecraft:bow",
+  "order": 10,
+  "impact": 0
+
+}

@@ -1,0 +1,25 @@
+{ "type": "origins:recipe",
+	"recipe": {
+		"type": "minecraft:crafting_shaped",
+		"id": "origins:apotheosis_salvage",
+		"pattern": [
+			"JJJ",
+			"HSH",
+			"HHH"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:nether_star"
+			},
+			"H": {
+				"item": "apotheosis:gem_dust"
+			},
+			"J": {
+				"item": "apotheosis:prismatic_web"
+			}
+		},
+		"result": {
+			"item": "apotheosis:salvaging_table"
+		}
+	}
+}

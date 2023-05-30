@@ -1,0 +1,12 @@
+{
+    "name": "Sinann",
+	"description": "Those from the Kingdom of Sinann tame the mighty seas with their ships and feast on the bounty of the sea.",
+	"powers": [
+		
+		"origins:lucky_catch",
+		"origins:gamestage-sinann",
+		"origins:breathe"
+	],
+	"icon": "smallships:oak_cog"
+	
+	}

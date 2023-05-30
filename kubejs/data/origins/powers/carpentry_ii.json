@@ -1,0 +1,50 @@
+{
+	"type": "origins:multiple",
+	"name": "Carpentry II",
+	"description": "",
+"carpentry_stairs":{
+
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:wooden_stairs"
+	
+    }
+  },
+  "item_action": {
+    "type": "apoli:modify",
+    "modifier": "origins-classes:lumberjack/craft_plank"
+  }
+},
+"carpentry_doors":{
+
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:wooden_doors"
+	
+    }
+  },
+  "item_action": {
+    "type": "apoli:modify",
+    "modifier": "origins-classes:lumberjack/craft_plank"
+  }
+},
+"carpentry_fences":{
+
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:fences"
+	
+    }
+  },
+  "item_action": {
+    "type": "apoli:modify",
+    "modifier": "origins-classes:lumberjack/craft_plank"
+  }
+}
+}

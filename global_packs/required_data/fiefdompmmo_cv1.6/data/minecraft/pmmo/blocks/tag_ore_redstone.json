@@ -1,0 +1,27 @@
+{
+"override":true, 
+"isTagFor":[
+	"#minecraft:redstone_ores" 
+	
+	
+	
+	   
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"mining": 2},
+	"BLOCK_PLACE":{},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{"mining": 20},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

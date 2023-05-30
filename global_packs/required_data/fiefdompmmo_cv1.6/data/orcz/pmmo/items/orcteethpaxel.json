@@ -1,0 +1,39 @@
+{"override": true,
+"xp_values":{
+	"ANVIL_REPAIR":{"crafting": 5},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 10},
+	"ENCHANT":{"magic": 5},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{"total_level": 100},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"bonuses":{
+	"HELD":{"harvesting": 1.05, "mining": 1.05},
+	"WORN":{}
+},
+"vein_data":{
+    "chargeCap": 150,
+    "chargeRate": 0.05
+},
+"negative_effect":{"minecraft:slowness": 1, "minecraft:mining_fatigue": 1}
+}

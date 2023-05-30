@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "create:iron_sheet",
+            "slot": 0
+        },
+        {
+            "item": "create:iron_sheet",
+            "slot": 1
+        },
+        {
+            "item": "create:iron_sheet",
+            "slot": 2
+        },
+        {
+            "item": "create:iron_sheet",
+            "slot": 3
+        },
+        {
+            "item": "create:iron_sheet",
+            "slot": 4
+        },
+        {
+            "item": "create:iron_sheet",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:netherrack",
+    "essences": {
+        "aureal": 100,
+        "experience": 0,
+        "blood": 500,
+        "souls": 0
+    },
+    "result": {
+        "item": "create:empty_blaze_burner",
+        "count": 3
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Coward's Heal",
+	"description": "Your tenacity to stay alive means you constantly heal, though slowly.",
+"condition": {
+	"type": "origins:advancement",
+	"advancement": "adventure:phrygia1"
+},
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 2
+    },
+
+    "interval": 1320
+}

@@ -1,0 +1,93 @@
+{
+"override":true, 
+"isTagFor":[
+	"minecraft:deepslate_bricks",
+	"minecraft:bracked_deepslate_bricks",
+	"minecraft:deepslate_tiles",
+	"minecraft:cracked_deepslate_tiles",
+	"minecraft:chisled_deepslate",
+	"minecraft:reinforced_deepslate",
+	"minecraft:prismarine",
+	"minecraft:prismarine_bricks",
+	"minecraft:dark_prismarine",
+	"minecraft:prismarine_stairs",
+	"minecraft:prismarine_brick_stairs",
+	"minecraft:dark_prismarine_stairs",
+	"minecraft:polished_granite_stairs",
+	"minecraft:smooth_red_sandstone_stairs",
+	"minecraft:mossy_stone_brick_stairs",
+	"minecraft:polished_diorite_stairs",
+	"minecraft:mossy_cobblestone_stairs",
+	"minecraft:stone_stairs",
+	"minecraft:smooth_sandstone_stairs",
+	"minecraft:smooth_quartz_stairs",
+	"minecraft:granite_stairs",
+	"minecraft:andestie_stairs",
+	"minecraft:polished_andesite_stairs",
+	"minecraft:diorite_stairs",
+	"minecraft:cobbled_deepslate_stairs",
+	"minecraft:polished_deepslate_stairs",
+	"minecraft:deepslate_brick_stairs",
+	"minecraft:deepslate_tile_stairs",
+	"minecraft:purpur_block",
+	"minecraft:purpur_pillar",
+	"minecraft:purpur_stairs",
+	"minecraft:cobblestone_stairs",
+	"minecraft:netherrack",
+	"minecraft:brick_stairs",
+	"minecraft:stone_brick_stairs",
+	"minecraft:magma_block",
+	"minecraft:calcite",
+	"minecraft:mud_brick_stairs",
+	"minecraft:sandstone_stairs",
+	"minecraft:red_sandstone_stairs",
+	"minecraft:andesite_stairs",
+	"minecraft:stone_slab",
+	"minecraft:smooth_stone_slab",
+	"minecraft:sandstone_slab",
+	"minecraft:cut_sandstone_slab",
+	"minecraft:cobblestone_slab",
+	"minecraft:brick_slab",
+	"minecraft:stone_brick_slab",
+	"minecraft:mud_brick_slab",
+	"minecraft:red_sandstone_slab",
+	"minecraft:cut_red_sandstone_slab",
+	"minecraft:purpur_slab",
+	"minecraft:prismarine_slab",
+	"minecraft:prismarine_brick_slab",
+	"minecraft:dark_prismarine_slab",
+	"minecraft:smooth_stone",
+	"minecraft:bricks",
+	"#forge:stone" ,
+	"#minecraft:stone_bricks",
+	"#forge:cobblestone",
+	"#minecraft:walls",
+	"#forge:gravel",
+	"#forge:concrete",
+	"#forge:concrete_powders"
+	
+	
+	
+	
+	
+	
+	   
+	
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"mining": 1},
+	"BLOCK_PLACE":{"building": 3},
+	"GROW":{},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

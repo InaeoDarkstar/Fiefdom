@@ -1,0 +1,11 @@
+{
+  "loading_priority": 100,
+"powers": [
+       "origins:always_prepareda",
+	"origins:always_preparedb"
+  ],
+  "icon": "minecraft:brewing_stand",
+  "order": 10,
+  "impact": 0,
+"unchoosable": true
+}

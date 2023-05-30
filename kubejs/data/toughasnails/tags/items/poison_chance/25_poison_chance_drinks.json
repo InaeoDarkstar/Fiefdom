@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:potion",
+	"toughasnails:water_canteen",
+"minecraft:honey_bottle",
+"create:honey_bucket",
+"minecolonies:magicpotion",
+"reliquary:potion"
+  ]
+}

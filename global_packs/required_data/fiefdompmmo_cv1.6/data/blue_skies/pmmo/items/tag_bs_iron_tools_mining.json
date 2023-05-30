@@ -1,0 +1,85 @@
+{"override":true,
+"isTagFor":[
+	"blue_skies:charoite_pickaxe",
+	"blue_skies:charoite_shovel",
+
+	"blue_skies:diopside_pickaxe",
+	"blue_skies:diopside_shovel",
+
+	"blue_skies:horizonite_pickaxe",
+	"blue_skies:horizonite_shovel"
+
+	],  
+
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting": 15},
+	"ENCHANT":{"magic": 2},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{"mining": 20},
+	"WEAPON":{"total_level": 30},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{"mining": 1.25},
+	"WORN":{}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{},
+"salvage":{
+    "minecraft:stick": {
+        "salvageMax": 2,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 5},
+        "xpPerItem": {"crafting": 5}
+    }
+},
+"vein_data":{
+    "chargeCap": 300,
+    "chargeRate": 0.1
+}
+}

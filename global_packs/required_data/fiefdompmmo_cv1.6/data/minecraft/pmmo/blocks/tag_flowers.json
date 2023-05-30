@@ -1,0 +1,42 @@
+{
+"override":true, 
+"isTagFor":[
+"#minecraft:flowers",
+	"#forge:mushrooms",
+	"minecraft:bamboo",
+	"minecraft:big_dripleaf",
+	"minecraft:small_dripleaf",
+	"minecraft:crimson_roots",
+	"minecraft:warped_roots",
+	"minecraft:hanging_roots",
+	"minecraft:fern",
+	"minecraft:spore_blossom",
+	"minecraft:large_fern",
+	"#minecraft:leaves",
+	"minecraft:lily_pad",
+	"minecraft:kelp",
+	"minecraft:vine",
+	"#forge:seeds",
+	"#forge:crops",
+	"minecraft:sweet_berries",
+	"#minecolonies:fungi",
+	"minecraft:weeping_vines",
+	"minecraft:twisting_vines"
+    ],  
+
+"xp_values":{
+	"BLOCK_BREAK":{"harvesting": 2},
+	"BLOCK_PLACE":{"harvesting": 1},
+	"GROW":{"harvesting": 0.5},
+	"HIT_BLOCK":{},
+	"ACTIVATE_BLOCK":{}
+},
+"requirements":{
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"vein_data":{
+    "consumeAmount": 1
+}
+}

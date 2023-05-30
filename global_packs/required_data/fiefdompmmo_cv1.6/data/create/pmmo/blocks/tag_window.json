@@ -1,0 +1,28 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 4}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["create:acacia_window",
+"create:birch_window",
+"create:crimson_window",
+"create:dark_oak_window",
+"create:jungle_window",
+"create:oak_window",
+"create:ornate_iron_window",
+"create:spruce_window",
+"create:warped_window"]
+}
