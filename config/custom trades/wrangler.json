@@ -1,0 +1,191 @@
+{
+  "profession": "blue_skies:wrangler",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_charscale_moki",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:wrangler_cooked_charscale_moki_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lead",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:wrangler_lead_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:azulfo_horn",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:wrangler_copper_coin_for_azulfo_horn"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_monitor_tail",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:wrangler_cooked_monitor_tail_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_grittle_flatfish",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:wrangler_cooked_grittle_flatfish_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_mutton",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 13,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:wrangler_cooked_mutton_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cherry_pie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:cherry",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:wrangler_cherry_pie_for_cherry_and_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:wrangler_copper_coin_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_carabeef",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:wrangler_cooked_carabeef_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_venison",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:wrangler_cooked_venison_for_copper_coin"
+    }
+  ]
+}

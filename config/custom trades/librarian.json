@@ -1,0 +1,282 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:paper",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_copper_coin_for_paper"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"stalwart_dungeons:thunder_strike\",lvl:3s}]}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_enchanted_book_for_copper_coin_and_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bookshelf",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_bookshelf_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:book",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_copper_coin_for_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"origins:water_protection\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_enchanted_book_for_copper_coin_and_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lantern",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_lantern_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:ink_sac",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_copper_coin_for_ink_sac"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"apotheosis:natures_blessing\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_enchanted_book_for_copper_coin_and_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:glass",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_glass_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_copper_coin_for_writable_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchanted_book_for_copper_coin_and_book"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clock",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_clock_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_compass_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:name_tag",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_name_tag_for_iron_coin"
+    }
+  ]
+}

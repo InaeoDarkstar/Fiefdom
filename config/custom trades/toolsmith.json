@@ -1,0 +1,283 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_copper_coin_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:scaffolding",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_scaffolding_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:armor_stand",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_armor_stand_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chest",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_chest_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:ladder",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_ladder_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_bell_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:flint",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_copper_coin_for_flint"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_axe_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_shovel_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_pickaxe_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_hoe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_diamond_hoe_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:diamond",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_copper_coin_for_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_axe_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_shovel_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_diamond_pickaxe_for_iron_coin"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "profession": "blue_skies:shoveler",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:shoveler_copper_coin_for_falsite_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:shoveler_copper_coin_for_falsite_ingot_and_aquite"
+    }
+  ]
+}

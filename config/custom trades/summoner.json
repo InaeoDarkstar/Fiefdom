@@ -1,0 +1,169 @@
+{
+  "profession": "blue_skies:summoner",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:book",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:summoner_book_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:bug_guts",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:summoner_iron_coin_for_bug_guts"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:pearl",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 13,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:summoner_pearl_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:soul_fragment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:summoner_iron_coin_for_soul_fragment"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:spider_eye",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:summoner_iron_coin_for_spider_eye"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:rotten_flesh",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:summoner_iron_coin_for_rotten_flesh"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:rabbit_foot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:summoner_iron_coin_for_rabbit_foot"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:fox_pelt",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:summoner_iron_coin_for_fox_pelt"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:summoning_tome",
+        "amount": 6,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 25,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:summoner_iron_coin_for_summoning_tome"
+    }
+  ]
+}

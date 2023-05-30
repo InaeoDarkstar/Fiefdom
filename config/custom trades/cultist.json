@@ -1,0 +1,204 @@
+{
+  "profession": "mca:cultist",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "mca:sirben_baby_boy",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_sirben_baby_boy_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:sirben_baby_girl",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_sirben_baby_girl_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mca:baby_boy",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_copper_coin_for_baby_boy"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "mca:baby_girl",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_copper_coin_for_baby_girl"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_cult_0",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_cult_0_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_cult_0",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_cult_0_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_cult_0",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_cult_0_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_cult_0",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_cult_0_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_death",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_death_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_infection",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_infection_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:book_supporters",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist_book_supporters_for_copper_coin"
+    }
+  ]
+}

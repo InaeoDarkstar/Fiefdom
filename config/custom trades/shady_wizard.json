@@ -1,0 +1,853 @@
+{
+  "profession": "ars_nouveau:shady_wizard",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:source_berry",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_source_berry"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:magebloom_fiber",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_magebloom_fiber"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:bombegranate_pod",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_bombegranate_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:mendosteen_pod",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_mendosteen_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:frostaya_pod",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_frostaya_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:bastion_pod",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_bastion_pod"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 48,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_amethyst_shard"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_roll",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_roll_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ghostweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_ghostweave_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:mirrorweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_mirrorweave_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:falseweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_falseweave_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:warp_scroll",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_warp_scroll_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_horn",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_wilden_horn"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_spike",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_wilden_spike"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ars_nouveau:wilden_wing",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_copper_coin_for_wilden_wing"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_burrowing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_burrowing_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_challenge",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_challenge_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_binding",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_binding_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_awakening",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_awakening_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_disintegration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_disintegration_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_sunrise",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_sunrise_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_tesla_coil",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_tesla_coil_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_squirrels",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_squirrels_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_attraction",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_attraction_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_repulsion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_repulsion_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_cloudshaping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_cloudshaping_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flight",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flight_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_plains",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_plains_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_restoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_restoration_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_forestation",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_forestation_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_warping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_warping_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_moonfall",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_moonfall_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_containment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_containment_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_scrying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_scrying_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flowering",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flowering_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_detection",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_detection_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_fertility",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_fertility_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_overgrowth",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_overgrowth_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_desert",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_desert_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_harvest",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_harvest_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_wilden_summon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_wilden_summon_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:starbuncle_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_starbuncle_shards_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:drygmy_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_drygmy_shard_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:wixie_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_wixie_shards_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:whirlisprig_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_whirlisprig_shards_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_pie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_pie_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:fire_caster_tome",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{\"ars_nouveau:caster\":{current_slot:0,flavor:\"The hellfire flames burn even the heal magic.\",hidden_recipe:\"\",is_hidden:0b,spell_count:1,spells:{spell0:{name:\"\",recipe:{part0:\"ars_nouveau:glyph_touch\",part1:\"ars_nouveau:glyph_ignite\",part2:\"ars_nouveau:glyph_flare\",part3:\"ars_nouveau:glyph_heal\",part4:\"ars_nouveau:glyph_flare\",part5:\"ars_nouveau:glyph_heal\",part6:\"ars_nouveau:glyph_flare\",size:7},sound:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spellColor:{b:15,g:15,r:250}}}},display:{Name:\u0027{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Phoenix Fire\"}\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_fire_caster_tome_for_gold_coin"
+    }
+  ]
+}
