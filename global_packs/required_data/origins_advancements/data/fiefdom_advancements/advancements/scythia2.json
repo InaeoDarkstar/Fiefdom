@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Scythia 2",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Advancement 2",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:red_banner"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Y": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fiefdom_advancements:scythia1"
+}

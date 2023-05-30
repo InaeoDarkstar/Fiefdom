@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Tyr 1",
+            "bold": false,
+            "color": "gray"
+        },
+        "description": {
+            "text": "Advancement 1",
+            "bold": false,
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:gray_banner"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Y": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fiefdom_advancements:root"
+}

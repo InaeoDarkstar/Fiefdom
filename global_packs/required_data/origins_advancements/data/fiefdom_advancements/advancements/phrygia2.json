@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Phrygia 2",
+            "bold": false,
+            "color": "black"
+        },
+        "description": {
+            "text": "Advancement 2",
+            "color": "black"
+        },
+        "icon": {
+            "item": "minecraft:black_banner"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "y": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fiefdom_advancements:phrygia1"
+}
