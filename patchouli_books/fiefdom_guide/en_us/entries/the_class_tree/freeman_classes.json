@@ -1,0 +1,102 @@
+{
+"name": "Freeman Classes",
+"sortnum": 3,
+"icon": "stalwart_dungeons:stone_hammer",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "freeman_home",
+	"text": "$(br2)$(br2)This chapter will define the different classes in the Freeman section of the class tree."
+        },
+         {
+	"type": "text",
+	"title": "FREEMAN",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_freeman)Freeman$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_artisan)Artisan$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_excavator)Excavator$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_baron)Baron$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_blacksmith)Blacksmith$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_cultivator)Cultivator$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_prospector)Prospector$()"
+        },
+        {
+	"type": "image",
+	"title": "FREEMAN",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/freeman.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_freeman",
+	"title": "FREEMAN",
+	"text": "$(l)$(n)Pockets$()$(br2)Use key $(k:key.origins.primary_active) to active a 9 slot inventory space$(br2)$(br2)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "ARTISAN",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/artisan.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_artisan",
+	"title": "ARTISAN",
+	"text": "$(l)$(n)Crafting$()$(br2)Use key $(k:key.origins.primary_active) to active a crafting inventory gui$(br2)$(br2)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "EXCAVATOR",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/excavator.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_excavator",
+	"title": "EXCAVATOR",
+	"text": "$(l)$(n)Miner's Life$()$(br2)While breaking blocks you do not use saturation$(br2)$(br2)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "BARON",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/baron.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_baron",
+	"title": "BARON",
+	"text": "$(l)$(n)Hero's Reminisce$()$(br2)Use key $(k:key.origins.primary_active) to activate a 5 minute Hero of the Village effect on a 40 minute cooldown. $(br2)$(l)$(n)Trade Secrets$()$(br2)You can trade infinitely with villagers$(br2)$(br2)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "BLACKSMITH",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/blacksmith.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_blacksmith",
+	"title": "BLACKSMITH",
+	"text": "$(l)$(n)Quality Equips$()$(br2)Crafting items increases base stats (armor=0.25 toughness; digging tools=10% break speed; melee weapons=1 health damage; ranged weapons=2 health damage)$(br2)$(l)$(n)Reforging Arts$()$(br2)You gain a PMMO Reforging level$(br2)$(br)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "CULTIVATOR",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/cultivator.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_cultivator",
+	"title": "CULTIVATOR",
+	"text": "$(l)$(n)Farmer's Bounty$()$(br2)You gain a 30% increase in harvestable crops$(br2)$(l)$(n)Rancher's Bounty$()$(br2)You gain a 20% chance to breed two baby animals$(br2)$(br2)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "PROSPECTOR",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/prospector.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_class_prospector",
+	"title": "PROSPECTOR",
+	"text": "$(l)$(n)Maniac Mining$()$(br2)Use key $(k:key.origins.primary_active) to apply 40 exhaust, but gain Haste 5 for 20 seconds on a 10 second cooldown$(br2)$(l)$(n)Earth Knowledge$()$(br2)You gain +1 raw ore when breaking copper, iron, gold, and diamond$(br)$(br)$(l:the_class_tree/freeman_classes#freeman_home)RETURN TO TOP"
+        }
+]
+}

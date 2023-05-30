@@ -1,0 +1,16 @@
+{
+"name": "Discord",
+"sortnum": 4,
+"icon": "minecraft:player_head",
+"category": "patchouli:welcome",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)There is an official hosted server, available from the multiplayer tab. $(br2)Fiefdom is more fun with friends!"
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)$(br)Report any issues or give suggestions and feedback on the official discord. $(br2)$(l:http://discord.gg/uyQJjuzdQV)DISCORD$(/l)"
+        }
+]
+}

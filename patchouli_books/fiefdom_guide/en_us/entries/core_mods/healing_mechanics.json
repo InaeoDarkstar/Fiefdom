@@ -1,0 +1,40 @@
+{
+"name": "Healing Mechanics",
+"sortnum": 4,
+"icon": "roughtweaks:medkit",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"text": "You probably noticed, but natural health regeneration has been turned off. There are several options to recover your health, but having full food will not heal you."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)The following pages will illustrate some of the options to keep yourself in top fighting shape."
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:campfire",
+	"title": "Regen Campfires",
+	"text": "$(br2)Having a campfire nearby will give you regen. However, the campfire will not burn forever. You will need to give it logs to keep the regen running."
+        },
+        {
+	"type": "spotlight",
+	"item": "roughtweaks:bandage",
+	"title": "Bandages and Salves",
+	"text": "$(br2)The mod Rough Tweaks adds a variety of healing items, from bandages to plasters and even a medkit."
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:red_bed",
+	"title": "Sleeping",
+	"text": "$(br2)Sleeping does recover a small amount of health as well. Not to mention it keeps the phantoms away."
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:potion{\"Potion\":\"minecraft:healing\"}",
+	"title": "Potions",
+	"text": "$(br2)Potions are probably a bit more useful now, since there are options to have them in larger stacks, and they can be used to heal."
+        }
+]
+}

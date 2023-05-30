@@ -1,0 +1,25 @@
+{
+"name": "FTB Quests",
+"sortnum": 2,
+"icon": "ftbquests:book",
+"category": "patchouli:welcome",
+"pages": [
+        {
+	"type": "text",
+	"text": "Extensive quests have been created in FTBQuests to assist you with learning various mods and the changes the modpack has made. $(br2)One option is accessing the quest book in the top left of your inventory screen."
+        },
+        {
+	"type": "crafting",
+	"recipe": "ftbquests:book",
+	"text": "$(br2)Additionally, you could create a physical quest book, which can be stored in an Akashic Tome."
+        },
+        {
+	"type": "crafting",
+	"recipe": "akashictome:tome"
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        }
+]
+}

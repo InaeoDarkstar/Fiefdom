@@ -1,0 +1,17 @@
+{
+"name": "Welcome to Fiefdom",
+"sortnum": 1,
+"icon": "apotheosis:boss_summoner",
+"category": "patchouli:welcome",
+"pages": [
+        {
+	"type": "text",
+	"text": "Welcome $(playername)! $(br2)Fiefdom is a mid-core modpack meant to emulate classic role playing games. $(br2)Many of the mechanics have been made more difficult, or grindy in order to achieve this fact"
+        },
+        {
+	"type": "image",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/fiefdom_logo_simple.png"]
+        }
+]
+}

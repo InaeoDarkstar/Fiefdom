@@ -1,0 +1,162 @@
+{
+"name": "Mage Power List",
+"sortnum": 4,
+"icon": "ars_nouveau:source_gem",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)This chapter will define the powers that can be found in the Mage section of the class tree."
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        },
+        {
+	"type": "text",
+	"anchor": "mage_powerlist",
+	"text": "$(li)$(l:the_class_tree/mage_powers#book_smart)Book Smart$()$(li)$(l:the_class_tree/mage_powers#bubble_mask)Bubble Mask$()$(br)$(li)$(l:the_class_tree/mage_powers#cheat_death)Cheat Death$()$(li)$(l:the_class_tree/mage_powers#enchanted_weapon)Enchant Weapon$()$(br)$(li)$(l:the_class_tree/mage_powers#false_life)False Life$()$(li)$(l:the_class_tree/mage_powers#holy_elixer)Holy Elixer$()$(br)$(li)$(l:the_class_tree/mage_powers#intelligence)Intelligence$()$(li)$(l:the_class_tree/mage_powers#knowledge_of_the_ages)Knowledge of the Ages$()$(br)$(li)$(l:the_class_tree/mage_powers#life_essence)Life Essence$()$(li)$(l:the_class_tree/mage_powers#mage_armor)Mage Armor$()"
+        },
+        {
+	"type": "text",
+	"text": "$(li)$(l:the_class_tree/mage_powers#magic_resist)Magic Resist$()$(li)$(l:the_class_tree/mage_powers#magic_training)Magic Training$()$(br)$(li)$(l:the_class_tree/mage_powers#mana_regen)Mana Regen$()$(li)$(l:the_class_tree/mage_powers#mana_regen_ii)Mana Regen II$()$(br)$(li)$(l:the_class_tree/mage_powers#poison_dipped)Poison Dipped$()$(li)$(l:the_class_tree/mage_powers#potion_bonus)Potion Bonus$()$(br)$(li)$(l:the_class_tree/mage_powers#smite)Smite$()$(li)$(l:the_class_tree/mage_powers#spell_damage)Spell Damage$()$(br)$(li)$(l:the_class_tree/mage_powers#tomb_bound)Tomb Bound$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:bookshelf",
+	"title": "Book Smart",
+	"anchor": "book_smart",
+	"text": "You gain a flat increase of 500 mana to your Ars Nouveau mana pool$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "supplementaries:bubble_block",
+	"title": "Bubble Mask",
+	"anchor": "bubble_mask",
+	"text": "You are able to breathe underwater$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:totem_of_undying",
+	"title": "Cheat Death",
+	"anchor": "cheat_death",
+	"text": "When dying, recieve the effects of a totem of undying (regeneration, fire resistance, absorption, and resistance) on a 5 minute cooldown$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "stalwart_dungeons:ancient_fire",
+	"title": "Enchanted Weapon",
+	"anchor": "enchanted_weapon",
+	"text": "Your weapons deal +1 fire damage$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_piece",
+	"title": "False Life",
+	"anchor": "false_life",
+	"text": "You gain +4 health (2 hearts)$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:potion{\"Potion\":\"minecraft:healing\"}",
+	"title": "Holy Elixer",
+	"anchor": "holy_elixer",
+	"text": "Healing potions have their level passively increased by 1$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:experience_bottle",
+	"title": "Intelligence",
+	"anchor": "intelligence",
+	"text": "You gain 150% more experience from experience orbs$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "create:experience_nugget",
+	"title": "Knowledge of the Ages",
+	"anchor": "knowledge_of_the_ages",
+	"text": "Gain the Apotheosis Knowledge of the Ages (enemy drops turn into experience) effect($(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_piece",
+	"title": "Life Essence",
+	"anchor": "life_essence",
+	"text": "You heal one health for every kill$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "ars_nouveau:novice_robes",
+	"title": "Mage Armor",
+	"anchor": "mage_armor",
+	"text": "When taking damage gain absorption on a two and half minute cool down$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "ars_nouveau:enchanters_shield",
+	"title": "Magic Resist",
+	"anchor": "magic_resist",
+	"text": "When attacked, you take 2 less damage against magical mobs$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "ars_nouveau:novice_spell_book",
+	"title": "Magic Training",
+	"anchor": "magic_training",
+	"text": "You gain 943 PMMO Magic xp$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "ars_nouveau:amulet_of_mana_regen",
+	"title": "Mana Regen",
+	"anchor": "mana_regen",
+	"text": "Increases your Ars Nouveau base mana regen by 5$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "ars_nouveau:source_gem",
+	"title": "Mana Regen II",
+	"anchor": "mana_regen_ii",
+	"text": "Increases your Ars Nouveau base mana regen by 10$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "domesticationinnovation:rotten_apple",
+	"title": "Poison Dipped",
+	"anchor": "poison_dipped",
+	"text": "When hitting an enemy, you have a 25% chance to apply a 30 second poison$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:cauldron",
+	"title": "Potion Bonus",
+	"anchor": "potion_bonus",
+	"text": "You can increase the level of a potion by dipping it into a cauldron$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:golden_sword",
+	"title": "Smite",
+	"anchor": "smite",
+	"text": "Your damage is increased by 60% against the undead$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "itemfilters:damage",
+	"title": "Spell Damage",
+	"anchor": "spell_damage",
+	"text": "You gain the Ars Nouveau spell damage potion effect$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "tombstone:decorative_tombstone",
+	"title": "Tomb Bound",
+	"anchor": "tomb_bound",
+	"text": "The keep inventory gamerule is applied to you$(br2)$(br2)$(l:the_class_tree/mage_powers#mage_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        }
+]
+}

@@ -1,0 +1,102 @@
+{
+"name": "Mage Classes",
+"sortnum": 5,
+"icon": "ars_nouveau:source_gem",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "mage_home",
+	"text": "$(br2)$(br2)This chapter will define the different classes in the Mage section of the class tree."
+        },
+         {
+	"type": "text",
+	"title": "MAGE",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_mage)Mage$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_professor)Professor$()$(li)$(l:the_class_tree/mage_classes#mage_class_wizard)Wizard$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_alchemist)Alchemist$()$(li)$(l:the_class_tree/mage_classes#mage_class_cleric)Cleric$()$(li)$(l:the_class_tree/mage_classes#mage_class_enchanter)Enchanter$()$(li)$(l:the_class_tree/mage_classes#mage_class_warlock)Warlock$()"
+        },
+        {
+	"type": "image",
+	"title": "MAGE",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/mage.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_mage",
+	"title": "MAGE",
+	"text": "$(l)$(n)Magic Missile$()$(br2)Use key $(k:key.origins.primary_active) to fire a bolt of magic on a 5 second cooldown$(br2)$(br2)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "PROFESSOR",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/professor.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_professor",
+	"title": "PROFESSOR",
+	"text": "$(l)$(n)Magic Inflation$()$(br2)Use key $(k:key.origins.primary_active) to turn a minecraft book in your hand into a Corail's impregnation version$(br2)$(br2)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "WIZARD",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/wizard.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_wizard",
+	"title": "WIZARD",
+	"text": "$(l)$(n)Wizard's Blast$()$(br2)Use key $(k:key.origins.primary_active) to apply slowness, mining fatigue, sundering, and weakness for 10 seconds to entities in a 15 block radius on a 3 minute cooldown$(br2)$(br2)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "ALCHEMIST",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/alchemist.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_alchemist",
+	"title": "ALCHEMIST",
+	"text": "$(l)$(n)Healing Prepared$()$(br2)Use key $(k:key.origins.primary_active) to spend a level and gain a splash Instant Health II potion on a 30 second cooldown$(br2)$(l)$(n)Harming Prepared$()$(br2)Use key $(k:key.origins.secondary_active) to spend a level and gain a splash Harming potion on a 30 second cooldown$(br2)$(br)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "CLERIC",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/cleric.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_cleric",
+	"title": "CLERIC",
+	"text": "$(l)$(n)Healing Word$()$(br2)Use key $(k:key.origins.primary_active) to heal yourself 6 health (3 hearts) on a 10 second cooldown$(br2)$(l)$(n)Healing Ray$()$(br2)Use key $(k:key.origins.secondary_active) to cast a ray up to 20 block distance that heals for 6 health (3 hearts) intially, and an additional 4 health (2 hearts) over time, on a 10 second cooldown (can harm undead)$(br)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "ENCHANTER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/enchanter.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_enchanter",
+	"title": "ENCHANTER",
+	"text": "$(l)$(n)Experienced$()$(br2)You passively gain +10 to your enchanting level$(br2)$(l)$(n)Reforging Arts$()$(br2)You gain a PMMO Reforging level$(br2)$(br2)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "WARLOCK",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/warlock.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "mage_class_warlock",
+	"title": "WARLOCK",
+	"text": "$(l)$(n)Ghost Form$()$(br2)Use key $(k:key.origins.primary_active) to damage yourself 4 health (2 hearts), but gain Corail's Ghostly Shape for 20 seconds on a 3 minute cooldown$(br2)$(l)$(n)Void Portal$()$(br2)Use key $(k:key.origins.secondary_active) to open your ender chest inventory$(br)$(l:the_class_tree/mage_classes#mage_home)RETURN TO TOP"
+        }
+]
+}

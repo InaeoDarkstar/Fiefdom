@@ -1,0 +1,102 @@
+{
+"name": "Soldier Classes",
+"sortnum": 7,
+"icon": "minecraft:stone_sword",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "soldier_home",
+	"text": "$(br2)$(br2)This chapter will define the different classes in the Soldier section of the class tree."
+        },
+         {
+	"type": "text",
+	"title": "SOLDIER",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_soldier)Soldier$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_archer)Archer$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_warrior)Warrior$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_beastmaster)Beastmaster$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_berserker)Berserker$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_guardian)Guardian$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_ranger)Ranger$()"
+        },
+        {
+	"type": "image",
+	"title": "SOLDIER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/soldier.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_soldier",
+	"title": "SOLDIER",
+	"text": "$(l)$(n)Defensive Stance$()$(br2)While blocking with a shield, you have reduced slowdown (2x the normal speed)$(br2)$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "ARCHER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/archer.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_archer",
+	"title": "ARCHER",
+	"text": "$(l)$(n)Nimble$()$(br2)While aiming with a bow, you have reduced slowdown (2x the normal speed)$(br2)$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "WARRIOR",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/warrior.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_warrior",
+	"title": "WARRIOR",
+	"text": "$(l)$(n)Apply Bandages$()$(br2)Use key $(k:key.origins.primary_active) to apply regeneration for 10 seconds on a 10 minute cooldown$(br2)$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "BEASTMASTER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/beastmaster.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_beastmaster",
+	"title": "BEASTMASTER",
+	"text": "$(l)$(n)Master's Grace$()$(br2)Pets share potion effects$(br2)$(l)$(n)Master's Ire$()$(br2)Pets gain 30% more health points and 1.5 generic attack damage$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "BERSERKER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/berserker.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_berserker",
+	"title": "BERSERKER",
+	"text": "$(l)$(n)Beserk$()$(br2)Use key $(k:key.origins.primary_active) to heal 24 health (12 hearts), and apply health boost, strength 2, speed 2 for 30 seconds on a 3 minute cooldown$(br2)$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "GUARDIAN",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/guardian.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_guardian",
+	"title": "GUARDIAN",
+	"text": "$(l)$(n)Bulwark$()$(br2)Use key $(k:key.origins.primary_active) to apply absorption 2 (16 health) and resistance 2 for 10 seconds on a 3 minute cooldown$(br2)$(l)$(n)Defensive Stance$()$(br2)While blocking with a shield, you have reduced slowdown (2x the normal speed)$(br)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        },
+        {
+	"type": "image",
+	"title": "RANGER",
+	"border": "true",
+	"images": ["kubejs:textures/images/patch/ranger.png"]
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_class_ranger",
+	"title": "RANGER",
+	"text": "$(l)$(n)Endless Quiver$()$(br2)Use key $(k:key.origins.primary_active) to spend a level to gain 64 arrows$(br2)$(l)$(n)Nimble$()$(br2)While aiming with a bow, you have reduced slowdown (2x the normal speed)$(br2)$(l:the_class_tree/soldier_classes#soldier_home)RETURN TO TOP"
+        }
+]
+}

@@ -1,0 +1,162 @@
+{
+"name": "Freeman Power List",
+"sortnum": 2,
+"icon": "stalwart_dungeons:stone_hammer",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)This chapter will define the powers that can be found in the Freeman section of the class tree."
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        },
+        {
+	"type": "text",
+	"anchor": "freeman_powerlist",
+	"text": "$(li)$(l:the_class_tree/freeman_powers#better_carpentry)Better Carpentry$()$(li)$(l:the_class_tree/freeman_powers#bonemeal_efficiency)Bonemeal Efficiency$()$(br)$(li)$(l:the_class_tree/freeman_powers#butcher)Butcher$()$(li)$(l:the_class_tree/freeman_powers#call_to_arms)Call to Arms$()$(br)$(li)$(l:the_class_tree/freeman_powers#connections)Connections$()$(li)$(l:the_class_tree/freeman_powers#culinary_arts)Culinary Arts$()$(br)$(li)$(l:the_class_tree/freeman_powers#dark_vision)Dark Vision$()$(li)$(l:the_class_tree/freeman_powers#efficient_repairs)Efficient Repairs$()$(br)$(li)$(l:the_class_tree/freeman_powers#expert_carpentry)Expert Carpentry$()$(li)$(l:the_class_tree/freeman_powers#freemans_fortitude)Freeman's Fortitude$()"
+        },
+        {
+	"type": "text",
+	"text": "$(li)$(l:the_class_tree/freeman_powers#luck_of_the_draw)Luck of the Draw$()$(li)$(l:the_class_tree/freeman_powers#master_chef)Master Chef$()$(br)$(li)$(l:the_class_tree/freeman_powers#mining_training)Mining Training$()$(li)$(l:the_class_tree/freeman_powers#reach)Reach$()$(br)$(li)$(l:the_class_tree/freeman_powers#safe_fall)Safe Fall$()$(li)$(l:the_class_tree/freeman_powers#skilled_hands)Skilled Hands$()$(br)$(li)$(l:the_class_tree/freeman_powers#skilled_hands_ii)Skilled Hands II$()$(li)$(l:the_class_tree/freeman_powers#smelting)Smelting$()$(br)$(li)$(l:the_class_tree/freeman_powers#tools_of_the_trade)Tools of the Trade$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:oak_planks",
+	"title": "Better Carpentry",
+	"anchor": "better_carpentry",
+	"text": "When crafting planks you make six instead of four$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:bone_meal",
+	"title": "Bonemeal Efficiency",
+	"anchor": "bonemeal_efficiency",
+	"text": "Gain a 100% increase in bonemeal efficiency$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:beef",
+	"title": "Butcher",
+	"anchor": "butcher",
+	"text": "When slaying passive mobs (animals), recieve a 30% increase in loot$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:stone_sword",
+	"title": "Call to Arms",
+	"anchor": "call_to_arms",
+	"text": "You gain a passive +4 to generic armor, as well as a passive +1 to generic attack damage$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "supplementaries:globe",
+	"title": "Connections",
+	"anchor": "connections",
+	"text": "Wandering Traders give you more rare trades$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:cooked_chicken",
+	"title": "Culinary Arts",
+	"anchor": "culinary_arts",
+	"text": "Food that you craft has an additional 25% saturation$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "create:goggles",
+	"title": "Dark Vision",
+	"anchor": "dark_vision",
+	"text": "You can see slightly in the dark (50% strength night vision)$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:anvil",
+	"title": "Efficient Repairs",
+	"anchor": "efficient_repairs",
+	"text": "When using an anvil, you require 50% less materials to repair items and repair 100% more durability when doing so$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:oak_stairs",
+	"title": "Expert Carpentry",
+	"anchor": "expert_carpentry",
+	"text": "You are able to create additional wooden slabs, stairs, doors, and fences$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_container",
+	"title": "Freeman's Fortitude",
+	"anchor": "freemans_fortitude",
+	"text": "You gain +4 health (2 hearts)$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:chest",
+	"title": "Luck of the Draw",
+	"anchor": "luck_of_the_draw",
+	"text": "You gain +1 luck$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:cooked_beef",
+	"title": "Master Chef",
+	"anchor": "master_chef",
+	"text": "You gain 100% more experience orbs when using a smoker$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:stone_pickaxe",
+	"title": "Mining Training",
+	"anchor": "mining_training",
+	"text": "You gain 943 PMMO Mining xp$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "graveyard:skeleton_hand",
+	"title": "Reach",
+	"anchor": "reach",
+	"text": "You can reach 1 block farther$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:feather",
+	"title": "Safe Fall",
+	"anchor": "safe_fall",
+	"text": "You take half damage from falling$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:golden_pickaxe",
+	"title": "Skilled Hands",
+	"anchor": "skilled_hands",
+	"text": "You gain 20% faster mining speed$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:diamond_pickaxe",
+	"title": "Skilled Hands II",
+	"anchor": "skilled_hands_ii",
+	"text": "You gain 60% faster mining speed$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:blast_furnace",
+	"title": "Smelting",
+	"anchor": "smelting",
+	"text": "You gain 200% more experience orbs when using a blast furnace$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "stalwart_dungeons:stone_hammer",
+	"title": "Tools of the Trade",
+	"anchor": "tools_of_the_trade",
+	"text": "You gain +2 generic attack damage with hammers and axes$(br2)$(br2)$(l:the_class_tree/freeman_powers#freeman_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        }
+]
+}

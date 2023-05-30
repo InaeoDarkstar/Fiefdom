@@ -1,0 +1,133 @@
+{
+"name": "Project MMO",
+"sortnum": 6,
+"icon": "minecraft:command_block",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"text": "Project MMO (or PMMO) is the core of Fiefdom. The level requirements and earned experience help lend to the feel of a classic role playing game. $(br2)Most activites that will be done in the game will earn experience in some shape or form."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)Earning higher levels earns rewards and unlocks new items or blocks. $(br2)Pressing $(thing)$(k:key.pmmo.openMenu)$() on either a block or on an item in jei will show the xp earned or stats required. You can also access the glossary from this screen."
+        },
+        {
+	"type": "text",
+	"text": "$(br)Most requirements will show on the item in JEI. Once you meet those requirements, the tooltip will be removed. $(br2)Trying to use tools or equipment with requirements you do not meet will inflict you with debuffs. Some items will not let you interact with them until you meet their requirements."
+        },
+        {
+	"type": "text",
+	"text": "$(br)You'll need to level up to use the best tools and equipment. Raising your levels also unlocks tokens that can be used in the $(l:the_class_tree/class_tree)class tree$(). $(br2)Vein mining is also linked to PMMO. Most tools, while held, has a vein mining cap and recharge rate (obviously with better tools having higher caps and rates)."
+        },
+        {
+	"type": "text",
+	"text": "$(br)You can increase ($(thing)$(k:key.pmmo.addVein)$()) or decrease ($(thing)$(k:key.pmmo.subVein)$()) the amount you vein at once. $(br2)Use $(thing)$(k:key.pmmo.vein)$() to set your mining spot and break the block and the same type of block surround your selected block.$(br2)You can also cycle the pattern of vein mining you do with $(thing)$(k:key.pmmo.cyclevein)$()."
+        },
+        {
+	"type": "text",
+	"text": "PMMO also has a salvaging mechanic. Using the $(l:core_mods/pmmo#craft)crafting$() and $(l:core_mods/pmmo#smith)smithing$() skills, you can break down some items into their base forms by shift right-clicking onto a smithing table, earning experience. $(br2)This can be useful for earning back materials from tools and equipment you no longer need, though there is a chance you will get nothing."
+        },
+        {
+	"type": "text",
+	"text": "$(br)While base PMMO has multiple skills, Fiefdom has parsed these down into 10 major skills. $(br2)These skills and common sources of xp will be explained on the next few pages.$(br2)$(li)$(l:core_mods/pmmo#pmmoskill)PMMO Skills List$()$(li)$(l:core_mods/pmmo#pmmoperks)PMMO Perks List$()"
+        },
+        {
+	"type": "text",
+	"anchor": "pmmoskill",
+	"title": "PMMO Skills List",
+	"text": "$(li)$(l:core_mods/pmmo#agi)Agility$()$(li)$(l:core_mods/pmmo#build)Building$()$(br)$(li)$(l:core_mods/pmmo#comb)Combat$()$(li)$(l:core_mods/pmmo#cook)Cooking$()$(br)$(li)$(l:core_mods/pmmo#craft)Crafting$()$(li)$(l:core_mods/pmmo#harvs)Harvesting$()$(br)$(li)$(l:core_mods/pmmo#mag)Magic$()$(li)$(l:core_mods/pmmo#mine)Mining$()$(br)$(li)$(l:core_mods/pmmo#smith)Smithing$()$(li)$(l:core_mods/pmmo#swim)Swimming$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:leather_boots",
+	"anchor": "agi",
+	"title": "Agility",
+	"text": "Agility experience is earned from sprinting, jumping, and flying.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:obsidian",
+	"anchor": "build",
+	"title": "Building",
+	"text": "Building experience is earned from placing blocks.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:iron_sword",
+	"anchor": "comb",
+	"title": "Combat",
+	"text": "Combat experience is earned from killing and harming entities.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "dungeons_mobs:chef_helmet",
+	"anchor": "cook",
+	"title": "Cooking",
+	"text": "Cooking experience is earned from creating and consuming food.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:crafting_table",
+	"anchor": "craft",
+	"title": "Crafting",
+	"text": "Crafting experience is earned from creating and salvaging non-metallic items.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:iron_hoe",
+	"anchor": "harvs",
+	"title": "Harvesting",
+	"text": "Harvesting experience is earned from growing and collecting crops, breeding animals, killing passive mobs, and fishing.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:experience_bottle",
+	"anchor": "mag",
+	"title": "Magic",
+	"text": "Magic experience is earned from magical items, enchanting, and primarily Ars Nouveau items.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:iron_pickaxe",
+	"anchor": "mine",
+	"title": "Mining",
+	"text": "Mining experience is earned from breaking blocks, with a primary source being breaking ores.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:smithing_table",
+	"anchor": "smith",
+	"title": "Smithing",
+	"text": "Smithing experience is earned from smelting ores and crafting and salvaging metallic items.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:turtle_helmet",
+	"anchor": "swim",
+	"title": "Swimming",
+	"text": "Swimming experience is earned from swimming and sailing.$(br2)$(br2)$(l:core_mods/pmmo#pmmoskill)Return to Top$()"
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br)There are a handful of additional skills that can be earned in non-normal ways, sometimes through earning perks, or by gaining powers. These can grant unique abilities or access to powerful tools."
+        },
+        {
+	"type": "text",
+	"anchor": "pmmoperks",
+	"title": "PMMO Perks Skills List",
+	"text": "$(li)$(l:core_mods/pmmo#refor)Reforging$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "apotheosis:salvaging_table",
+	"anchor": "refor",
+	"title": "Reforging",
+	"text": "Reforging can be earned by unlocking specific classes ($(l:the_class_tree/freeman_classes#freeman_class_blacksmith)blacksmith$() or $(l:the_class_tree/mage_classes#mage_class_enchanter)enchanter$()), or by hitting a high level of $(l:core_mods/pmmo#mag)magic$() or $(l:core_mods/pmmo#smith)smithing$(). This perk allows you to use the enchanting infusers and apotheosis salvaging tables.$(br2)$(l:core_mods/pmmo#pmmoperks)Return to Top$()"
+        },
+        {
+	"type": "empty",
+	"draw_filler": "false"
+        }
+]
+}

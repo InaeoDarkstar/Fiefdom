@@ -1,0 +1,25 @@
+{
+"name": "Grim Citadels",
+"sortnum": 3,
+"icon": "harderfarther:life_heart",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "grimcitadel",
+	"text": "Harder Farther also adds Grim Citadels to make it harder to explore farther in the world.$(br2)These are large nether brick structures with many nether mobs."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)These towers surround the world spawn at specific locations, applying negative effects as you move towards them (weakness, mining fatigue, hunger). $(br2)This grim aura will also convert mobs and decay leaves."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)You will start to gain the negative effects as you get closer, until they are defeated.$(br2)To defeat the tower you will need to break the grim heart, usually near the center of the tower, sometimes surrounded by blocks."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br)The towers will give off sounds, as well as particles that will help you locate them. $(br2)Or, as they spawn in specific locations, you can locate the coordinates in the config."
+        }
+]
+}

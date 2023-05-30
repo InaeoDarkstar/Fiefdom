@@ -1,0 +1,44 @@
+{
+"name": "Class Tree Basics",
+"sortnum": 1,
+"icon": "origins:orb_of_origin",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"text": "The class tree is a branching system that helps you create your ideal playstyle, much like a classic role playing game. $(br2)The tree is split into three branches: $(br)$(li)$(l:the_class_tree/freeman_classes)Freeman$()$(li)$(l:the_class_tree/mage_classes)Mage$()$(li)$(l:the_class_tree/soldier_classes)Soldier$()"
+        },
+        {
+	"type": "text",
+	"text": "Within each branch there are a seven classes: $(br)$(li)1 Tier One$(li)2 Tier Two$(li)4 Tier Three $(br2)Each class is mutually exclusive. If you pick any, you will need to reset it before you can pick another."
+        },
+        {
+	"type": "spotlight",
+	"item": "dotcoinmod:token",
+	"text": "The token is used to unlock new powers and advance through the class tree. You can earn these by reaching total level milestones in PMMO. $(br2)$(l)DO NOT LOSE THESE$(). They can only be replaced by an admin or creative player."
+        },
+        {
+	"type": "text",
+	"text": "You can earn a total of 37 tokens through normal gameplay. $(br2)$(o)$(m)There may be more hidden in a questline.$()$(br2)Due to how the class tree is created, using FTB Teams will break the progression. $(br2)The buttons have been removed to prevent this."
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)$(br2)The following pages will list the classes and tiers within each branch, with their linking pages in other chapters."
+        },
+        {
+	"type": "text",
+	"title": "FREEMAN",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_freeman)Freeman$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_artisan)Artisan$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_excavator)Excavator$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/freeman_classes#freeman_class_baron)Baron$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_blacksmith)Blacksmith$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_cultivator)Cultivator$()$(li)$(l:the_class_tree/freeman_classes#freeman_class_prospector)Prospector$()"
+        },
+        {
+	"type": "text",
+	"title": "MAGE",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_mage)Mage$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_professor)Professor$()$(li)$(l:the_class_tree/mage_classes#mage_class_wizard)Wizard$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/mage_classes#mage_class_alchemist)Alchemist$()$(li)$(l:the_class_tree/mage_classes#mage_class_cleric)Cleric$()$(li)$(l:the_class_tree/mage_classes#mage_class_enchanter)Enchanter$()$(li)$(l:the_class_tree/mage_classes#mage_class_warlock)Warlock$()"
+        },
+        {
+	"type": "text",
+	"title": "SOLDIER",
+	"text": "$(n)Tier One$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_soldier)Soldier$()$(br2)$(n)Tier Two$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_archer)Archer$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_warrior)Warrior$()$(br2)$(n)Tier Three$()$(br)$(li)$(l:the_class_tree/soldier_classes#soldier_class_beastmaster)Beastmaster$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_berserker)Berserker$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_guardian)Guardian$()$(li)$(l:the_class_tree/soldier_classes#soldier_class_ranger)Ranger$()"
+        }
+]
+}

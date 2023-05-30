@@ -1,0 +1,12 @@
+{
+"name": "Power Bar Reference",
+"sortnum": 8,
+"icon": "origins:orb_of_origin",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)$(br)This chapter can be used as a reference if you are not sure which power is represented by which cooldown bar."
+        }
+]
+}

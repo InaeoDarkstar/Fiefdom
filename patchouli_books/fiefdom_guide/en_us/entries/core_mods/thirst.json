@@ -1,0 +1,154 @@
+{
+"name": "Thirst",
+"sortnum": 5,
+"icon": "toughasnails:purified_water_canteen",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "thirst",
+	"text": "Not only do you have to keep yourself fed, but you also need to keep yourself hydrated.$(br2)There are a handful of water options, and if all else fails, you can drink from any water source with an empty hand and shift right clicking."
+        },
+        {
+	"type": "text",
+	"text": "$(br)There are two aspects to keeping yourself hydrated: thirst and hydration.$(br2)Thirst is the actual water droplets (2 thirst being 1 droplet), much like your food shanks.$(br2)Hydration is how fast your thirst drops, much like saturation."
+        },
+        {
+	"type": "text",
+	"text": "$(br)Be careful of the things you drink though. If they are not poisoned, you could get a poisoned effect, like hunger, that drains your thirst.$(br2)The following pages will list the things you can drink, and the amounts they recover."
+        },
+        {
+	"type": "text",
+	"anchor": "thirst_list",
+	"text": "$(li)$(l:core_mods/thirst#2thirst)2 thirst$()$(li)$(l:core_mods/thirst#3thirst)3 thirst$()$(br)$(li)$(l:core_mods/thirst#4thirst)4 thirst$()$(li)$(l:core_mods/thirst#5thirst)5 thirst$()$(br)$(li)$(l:core_mods/thirst#6thirst)6 thirst$()$(li)$(l:core_mods/thirst#7thirst)7 thirst$()$(br)$(li)$(l:core_mods/thirst#8thirst)8 thirst$()$(li)$(l:core_mods/thirst#9thirst)9 thirst$()$(br)$(li)$(l:core_mods/thirst#11thirst)11 thirst$()"
+        },
+        {
+	"type": "text",
+	"text": "$(br)$(li)$(l:core_mods/thirst#20hydrate)20 hydration$()$(br)$(li)$(l:core_mods/thirst#30hydrate)30 hydration$()$(br)$(li)$(l:core_mods/thirst#40hydrate)40 hydration$()$(br)$(li)$(l:core_mods/thirst#50hydrate)50 hydration$()$(br)$(li)$(l:core_mods/thirst#60hydrate)60 hydration$()$(br)$(li)$(l:core_mods/thirst#70hydrate)70 hydration$()$(br)$(li)$(l:core_mods/thirst#90hydrate)90 hydration$()"
+        },
+        {
+	"type": "text",
+	"text": "$(br2)$(br)$(li)$(l:core_mods/thirst#25poison)25% poison chance$()$(br)$(li)$(l:core_mods/thirst#50poison)50% poison chance$()$(br)$(li)$(l:core_mods/thirst#75poison)75% poison chance$()$(br)$(li)$(l:core_mods/thirst#100poison)100% poison chance$()"
+        },
+        {
+	"type": "text",
+	"anchor": "2thirst",
+	"title": "2 Thirst",
+	"text": "$(li)Dirty Water Bottle$(li)Dirty Water Canteen$(li)Most raw fruits$(li)Water Bottle$(li)Milk Bottle$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "3thirst",
+	"title": "3 Thirst",
+	"text": "$(li)Milk Bucket$(li)Honey Bottle/Bucket$(li)Chocolate Bucket$(li)Bucket of Source$(li)Celery$(li)Saguro$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "4thirst",
+	"title": "4 Thirst",
+	"text": "$(li)Most potion variants$(li)Water Canteen$(li)Most stew variants$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "5thirst",
+	"title": "5 Thirst",
+	"text": "$(li)Milky Bread$(li)Builder's Tea$(li)Tea$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "6thirst",
+	"title": "6 Thirst",
+	"text": "$(li)Purified Water Bottle$(li)Purified Water Canteen$(li)Tropical Stew$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "7thirst",
+	"title": "7 Thirst",
+	"text": "$(li)Most juice variants$(li)Lemonade$(li)Limeade$(li)Soy Milk$(li)Coffee$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "8thirst",
+	"title": "8 Thirst",
+	"text": "$(li)Cactus juice$(li)Melon juice$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "9thirst",
+	"title": "9 Thirst",
+	"text": "$(li)Apple juice$(li)Most smoothie variants$(li)Horchata$(li)Chocolate Milkshake$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "11thirst",
+	"title": "11 Thirst",
+	"text": "$(li)Chorus Fruit Juice$(li)Wine$(li)Mead$(li)Rum$(li)Pumpkin Spice Latte$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "20hydrate",
+	"title": "20 Hydration",
+	"text": "$(li)Dirty Water Bottle$(li)Dirty Water Canteen$(li)Glow Berry Juice$(li)Sweet Berry Juice$(li)Bucket of Source$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "30hydrate",
+	"title": "30 Hydration",
+	"text": "$(li)Potion variants$(li)Stew variants$(li)Teas$(li)Honey Bottle/Bucket$(li)Chocolate Bucket$(li)Water Canteen$(li)Chorus Fruit Juice$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "40hydrate",
+	"title": "40 Hydration",
+	"text": "$(li)Milk Bucket$(li)Most juice variants$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "50hydrate",
+	"title": "50 Hydration",
+	"text": "$(li)Lemonade$(li)Limeade$(li)Soy Milk$(li)Coffee$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "60hydrate",
+	"title": "60 Hydration",
+	"text": "$(li)Purified Water Canteen$(li)Purified Water Bottle$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "70hydrate",
+	"title": "70 Hydration",
+	"text": "$(li)Apple Juice$(li)Smoothie variants$(li)Horchata$(li)Chocolate Milkshake$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "90hydrate",
+	"title": "90 Hydration",
+	"text": "$(li)Wine$(li)Cactus Juice$(li)Mead$(li)Rum$(li)Pumpkin Spice Latte$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "25poison",
+	"title": "25% Poison Chance",
+	"text": "$(li)Potion variants$(li)Water Canteen$(li)Honey Bottle/Bucket$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "50poison",
+	"title": "50% Poison Chance",
+	"text": "$(li)Bucket of Source$(li)Maze Wafer$(li)Stew variants$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "75poison",
+	"title": "75% Poison Chance",
+	"text": "$(li)Dirty Water Bottle$(li)Dirty Water Canteen$(li)Water Bottle$(li)Milk Bottle$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        },
+        {
+	"type": "text",
+	"anchor": "100poison",
+	"title": "100% Poison Chance",
+	"text": "$(li)Horseshoe Crab Blood$(li)Virulent Mix Bucket$(br2)$(l:core_mods/thirst#thirst_list)Back to Top$()"
+        }
+]
+}

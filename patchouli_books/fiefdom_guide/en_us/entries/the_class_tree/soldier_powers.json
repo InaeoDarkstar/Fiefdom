@@ -1,0 +1,162 @@
+{
+"name": "Soldier Power List",
+"sortnum": 6,
+"icon": "minecraft:stone_sword",
+"category": "patchouli:the_class_tree",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)$(br2)This chapter will define the powers that can be found in the Soldier section of the class tree."
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        },
+        {
+	"type": "text",
+	"anchor": "soldier_powerlist",
+	"text": "$(li)$(l:the_class_tree/soldier_powers#armor_expert)Armor Expert$()$(li)$(l:the_class_tree/soldier_powers#attack_speed_i)Attack Speed I$()$(br)$(li)$(l:the_class_tree/soldier_powers#attack_speed_ii)Attack Speed II$()$(li)$(l:the_class_tree/soldier_powers#bark_skin)Bark Skin$()$(br)$(li)$(l:the_class_tree/soldier_powers#combat_training)Combat Training$()$(li)$(l:the_class_tree/soldier_powers#fletching)Fletching$()$(br)$(li)$(l:the_class_tree/soldier_powers#hide_in_the_shadows)Hide in the Shadows$()$(li)$(l:the_class_tree/soldier_powers#iron_skin)Iron Skin$()$(br)$(li)$(l:the_class_tree/soldier_powers#passive_regen)Passive Regen$()$(li)$(l:the_class_tree/soldier_powers#pathfinding)Pathfinding$()"
+        },
+        {
+	"type": "text",
+	"text": "$(li)$(l:the_class_tree/soldier_powers#sharpshooter)Sharpshooter$()$(li)$(l:the_class_tree/soldier_powers#strength)Strength$()$(br)$(li)$(l:the_class_tree/soldier_powers#trueshot)Trueshot$()$(li)$(l:the_class_tree/soldier_powers#warriors_health_i)Warrior's Health I$()$(br)$(li)$(l:the_class_tree/soldier_powers#warriors_health_ii)Warrior's Health II$()$(li)$(l:the_class_tree/soldier_powers#warriors_health_iii)Warrior's Health III$()$(br)$(li)$(l:the_class_tree/soldier_powers#weapon_specialist_i)Weapon Specialist I$()$(li)$(l:the_class_tree/soldier_powers#weapon_specialist_ii)Weapon Specialist II$()$(br)$(li)$(l:the_class_tree/soldier_powers#wreckless_attack)Wreckless Attack$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:diamond_chestplate",
+	"title": "Armor Expert",
+	"anchor": "armor_expert",
+	"text": "You gain a passive +4 armor toughness$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:golden_sword",
+	"title": "Attack Speed I",
+	"anchor": "attack_speed_i",
+	"text": "Your attack speed is increased by 10%$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:golden_sword",
+	"title": "Attack Speed II",
+	"anchor": "attack_speed_ii",
+	"text": "Your attack speed is increased by 20%$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:oak_log",
+	"title": "Bark Skin",
+	"anchor": "bark_skin",
+	"text": "You gain a passive +2 armor$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:stone_sword",
+	"title": "Combat Training",
+	"anchor": "combat_training",
+	"text": "You gain 943 PMMO Combat xp$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:arrow",
+	"title": "Fletching",
+	"anchor": "fletching",
+	"text": "When crafting arrows, you create 16 instead of 4$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "graveyard:corruption",
+	"title": "Hide in the Shadows",
+	"anchor": "hide_in_the_shadows",
+	"text": "You become invisible in light levels less than 7, however, sky light will expose you$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:iron_chestplate",
+	"title": "Iron Skin",
+	"anchor": "iron_skin",
+	"text": "You gain a passive +6 armor$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_container",
+	"title": "Passive Regen",
+	"anchor": "passive_regen",
+	"text": "You have a passive heal of 1 health (0.5 hearts) every 2 seconds$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:leather_boots",
+	"title": "Pathfinding",
+	"anchor": "pathfinding",
+	"text": "You can jump 50% higher while sprinting$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:arrow",
+	"title": "Sharpshooter",
+	"anchor": "sharpshooter",
+	"text": "You gain +4 damage (2 hearts) to your arrows$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:iron_sword",
+	"title": "Strength",
+	"anchor": "strength",
+	"text": "You gain a passive level of strength$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:bow",
+	"title": "Trueshot",
+	"anchor": "trueshot",
+	"text": "Your arrows gain a 50% damage increase$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_container",
+	"title": "Warrior's Health I",
+	"anchor": "warriors_health_i",
+	"text": "You gain +2 health (1 heart)$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_container",
+	"title": "Warrior's Health II",
+	"anchor": "warriors_health_ii",
+	"text": "You gain +2 health (1 heart)$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "levelhearts:heart_container",
+	"title": "Warrior's Health III",
+	"anchor": "warriors_health_iii",
+	"text": "You gain +4 health (2 heart)$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:stone_sword",
+	"title": "Weapon Specialist I",
+	"anchor": "weapon_specialist_i",
+	"text": "You gain +2 generic attack damage$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "minecraft:diamond_sword",
+	"title": "Weapon Specialist II",
+	"anchor": "weapon_specialist_ii",
+	"text": "You gain +4 generic attack damage$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "spotlight",
+	"item": "undergarden:cloggrum_battleaxe",
+	"title": "Wreckless Attack",
+	"anchor": "wreckless_attack",
+	"text": "You gain +2 generic attack damage when below or at 8 health (4 hearts)$(br2)$(br2)$(l:the_class_tree/soldier_powers#soldier_powerlist)RETURN TO TOP$()"
+        },
+        {
+	"type": "empty",
+	"draw_filler": false
+        }
+]
+}

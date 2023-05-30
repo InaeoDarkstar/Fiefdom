@@ -1,0 +1,17 @@
+{
+"name": "Core Mod List",
+"sortnum": 1,
+"icon": "minecolonies:resourcescroll",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)This section will illustrate and explain many of the core mechanics and mods that make up Fiefdom"
+        },
+        {
+	"type": "text",
+	"title": "Core Mod/Mechanic List",
+	"text": "$(br)$(li)$(l:core_mods/harder_farther)Harder Farther$()$(br)$(li)$(l:core_mods/grim_towers)Grim Citadels$()$(br)$(li)$(l:core_mods/healing_mechanics)Healing Mechanics$()$(br)$(li)$(l:core_mods/thirst)Thirst$()$(br)$(li)$(l:core_mods/pmmo)Project MMO$()$(br)$(li)$(l:core_mods/bosses)Bosses$()"
+        }
+]
+}

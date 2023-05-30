@@ -1,0 +1,166 @@
+{
+"name": "Bosses",
+"sortnum": 7,
+"icon": "alexsmobs:void_worm_eye",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"text": "Fiefdom adds a handful of mods that include bosses. $(br2)While some are more common, this chapter will help the player locate or summon some of the lesser known bosses."
+        },
+        {
+	"type": "entity",
+	"entity": "born_in_chaos_v1:supreme_bonescaller",
+	"rotate": "true",
+	"offset": "0.25",
+	"text": "A mini boss from the Born in Chaos mob, they can be found at the top of the dark tower."
+        },
+        {
+	"type": "entity",
+	"entity": "born_in_chaos_v1:sir_pumpkinhead",
+	"offset": "0.15",
+	"scale": "0.75",
+	"text": "This boss from the Born in Chaos mob can be summoned by breaking an evil pumpkin surrounded by candles that spawns in the world."
+        },
+        {
+	"type": "entity",
+	"entity": "graveyard:lich",
+	"text": "From the Graveyard mod, obtain 3 bone staff pieces from ruins. Get a bone dagger, fill a bottle with blood from a villager. Find the floating lich prison island. At night, place upper to lower staff pieces in front of the altar, then pour the blood."
+        },
+        {
+	"type": "entity",
+	"entity": "aquamirae:captain_cornelia",
+	"offset": "0.15",
+	"text": "From the Aquamirae mod, find the ice maze, replacing the deep frozen ice biome. Kill the pillager captain to get the shell horn. Use it near water to summon the boss."
+        },
+        {
+	"type": "entity",
+	"entity": "blue_skies:alchemist",
+	"text": "From the Blue Skies mod, in the Everdawn, this boss can be found in a blinding dungeon. Find the keys and defeat him."
+        },
+        {
+	"type": "entity",
+	"entity": "blue_skies:summoner",
+	"text": "From the Blue Skies mod, in the Everbright, this boss can be found in a blinding dungeon. Find the keys and defeat him."
+        },
+        {
+	"type": "entity",
+	"entity": "blue_skies:arachnarch",
+	"scale": "0.7",
+	"text": "From the Blue Skies mod, in the Everdawn, beat the alchemist and find a Poison Dungeon. Find the four keys to fight this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "blue_skies:starlit_crusher",
+	"scale": "0.7",
+	"offset": "0.35",
+	"text": "From the Blue Skies mod, in the Everbright, beat the summoner and find a Nature Dungeon. Find the four keys to fight this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:naga",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the naga labyrinth to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:lich",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the lich tower after defeating the naga to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:knight_phantom",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the catacombs in the dark forest by placing a boss skull on a pedestal to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:ur_ghast",
+	"scale": "0.7",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the carminite tower in the dark forest after defeating the kinght phantom to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:alpha_yeti",
+	"scale": "0.7",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the winter biomes to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:snow_queen",
+	"scale": "0.8",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, scale the ice wall after defeating the alpha yeti to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:minoshroom",
+	"scale": "0.8",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the labyrinth in the swamps to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "twilightforest:hydra",
+	"text": "From the Twilight Forest mod, in the Twilight dimension, find the hydra den in the swamp after defeating the minoshroom to defeat this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "stalwart_dungeons:nether_keeper",
+	"scale": "0.8",
+	"text": "From the Stalwart Dungeons mod, found in the Keeping Castle in the nether, activate this boss by touching the altar with a nether star."
+        },
+        {
+	"type": "entity",
+	"entity": "stalwart_dungeons:awful_ghast",
+	"scale": "0.5",
+	"text": "From the Stalwart Dungeons mod, found in the Awful Dungeon in the nether, activate this boss by touching the altar with a nether star."
+        },
+        {
+	"type": "entity",
+	"entity": "stalwart_dungeons:shelterer",
+	"scale": "0.6",
+	"text": "From the Stalwart Dungeons mod, found in the End Dungeon in the end, activate this boss by touching the altar with a nether star. Make sure to bring tnt or explosions."
+        },
+        {
+	"type": "entity",
+	"entity": "cataclysm:netherite_monstrosity",
+	"scale": "0.7",
+	"text": "From the Cataclysm mod, found in the nether in the soul blacksmith, this boss likes lava."
+        },
+        {
+	"type": "entity",
+	"entity": "cataclysm:ignis",
+	"scale": "0.7",
+	"text": "From the Cataclysm mod, found in the nether in the burning arena, defeat the ignited revenant to use their drop to activate this boss"
+        },
+        {
+	"type": "entity",
+	"entity": "cataclysm:the_harbinger",
+	"scale": "0.7",
+	"text": "From the Cataclysm mod, found in the overworld in the ancient factory, this boss can be activated with a nether star."
+        },
+        {
+	"type": "entity",
+	"entity": "cataclysm:ender_guardian",
+	"scale": "0.7",
+	"text": "From the Cataclysm mod, found in the end in the ruined citadel, you'll need to fight through the ender golem to get to this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "alexsmobs:warped_mosco",
+	"text": "From the Alex's Mobs mod, you can check the mod book for help on how to spawn this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "alexsmobs:void_worm",
+	"text": "From the Alex's Mobs mod, you can check the mod book for help on how to spawn this boss."
+        },
+        {
+	"type": "entity",
+	"entity": "alexsmobs:farseer",
+	"scale": "0.6",
+	"text": "From the Alex's Mobs mod, you can check the mod book for help on how to spawn this boss."
+        },
+        {
+	"type": "empty",
+	"draw_filler": "false"
+        }
+]
+}

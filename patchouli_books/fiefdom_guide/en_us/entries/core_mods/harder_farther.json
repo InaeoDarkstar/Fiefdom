@@ -1,0 +1,25 @@
+{
+"name": "Harder Farther",
+"sortnum": 2,
+"icon": "harderfarther:life_heart",
+"category": "patchouli:core_mods",
+"pages": [
+        {
+	"type": "text",
+	"anchor": "harder_farther",
+	"text": "Harder Farther is a mod that makes mobs and farms more difficult, especially when you get further from spawn.$(br2)This is also the mod that adds $(l:core_mods/grim_towers#grimcitadel)Grim Citadels$() which are explained in a seperate section."
+        },
+        {
+	"type": "text",
+	"text": "Harder Farther makes mobs more difficult the farther you go from spawn.$(br2)The default value is after 1000 blocks, the difficulty increases, with a max difficulty at 30,000 blocks. $(br2)Fiefdom configs have been set at 15,000 blocks if you are looking for a place with max modifiers."
+        },
+        {
+	"type": "text",
+	"text": "$(br)Mobs are also difficult at different altitudes (6% harder below y-level 32; 9% harder above y-level 99)$(br2)This difficulty affects mobs health (up to 200 extra), movement speed (up to 20% faster), damage (up to 100% boosted), and knockback resistance(up to 95% resistance)."
+        },
+        {
+	"type": "text",
+	"text": "$(br)The advantages of going further is the increased loot drop chance from normal mobs and chests.$(br2)Some loot that might be worth considering the difficulty curve is netherite scraps from mobs, or budding amethyst or even elytra from chests."
+        }
+]
+}

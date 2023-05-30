@@ -1,0 +1,16 @@
+{
+"name": "RPG Mechanics",
+"sortnum": 3,
+"icon": "blue_skies:star_flare",
+"category": "patchouli:welcome",
+"pages": [
+        {
+	"type": "text",
+	"text": "$(br2)Fiefdom has been balanced for most playstyles. $(br2)For the crafter, the adventurer, or the builder, there should be something to do."
+        },
+        {
+	"type": "text",
+	"text": "$(br)One of the core aspects of the modpack is the Project MMO mod. $(br2)Many items have been gated behind levels that you will need to earn from playing the game. $(br2)Check the $(l:core_mods/pmmo)PMMO$() section for more information."
+        }
+]
+}
