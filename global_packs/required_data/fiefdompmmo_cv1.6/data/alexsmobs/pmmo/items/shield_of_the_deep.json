@@ -1,0 +1,95 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting":100},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{"total_level":100},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"combat":1.5}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{
+	"minecraft:slowness":0
+},
+"salvage":{
+    "alexsmobs:serrated_shark_tooth": {
+        "salvageMax": 3,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 20}
+    },
+    "alexsmobs:shark_tooth": {
+        "salvageMax": 2,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 20}
+    },
+    "minecraft:prismarine_bricks": {
+        "salvageMax": 3,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 20}
+    },
+    "minecraft:heart_of_the_sea": {
+        "salvageMax": 1,
+        "baseChance": 0.0,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.001},
+        "levelReq": {"crafting": 30},
+        "xpPerItem": {"crafting": 1000}
+    }
+}
+}

@@ -1,0 +1,62 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting":21},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"requirements":{
+	"WEAR":{"total_level":125},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"agility":1.07}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+
+"negative_effect":{
+	"minecraft:slowness":0
+},
+
+"salvage":{
+    "alexsmobs:centipede_leg": {
+        "salvageMax": 7,
+        "baseChance": 0.10,
+        "maxChance": 0.9,
+        "chancePerLevel": {"crafting": 0.01},
+        "levelReq": {"crafting": 10},
+        "xpPerItem": {"crafting": 10}
+    }
+}
+}

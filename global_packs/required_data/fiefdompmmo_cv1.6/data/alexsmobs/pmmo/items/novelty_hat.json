@@ -1,0 +1,16 @@
+{"override":true,
+
+"requirements":{
+	"WEAR":{"total_level":120}
+},
+
+"bonuses":{
+	"WORN":{"agility":0.5, "combat": 0.5, "cooking": 2}
+},
+
+"negative_effect":{
+	"minecraft:slowness":0
+}
+
+
+}

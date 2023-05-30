@@ -1,0 +1,55 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{"total_level":5},
+	"TOOL":{},
+	"WEAPON":{},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"agility":1.4, "combat": 1.4, "crafting": 0.1, "swimming": 0.1, "smithing": 0.1, "cooking": 0.1}
+},
+"negative_effect":{}
+}

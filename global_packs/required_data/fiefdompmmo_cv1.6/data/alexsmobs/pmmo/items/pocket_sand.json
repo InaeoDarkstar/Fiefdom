@@ -1,0 +1,18 @@
+{"override":true,
+"xp_values":{
+	"CRAFT":{"crafting":30}
+},
+
+"requirements":{
+	"USE":{"combat":15}
+},
+
+"bonuses":{
+	"HELD":{},
+	"WORN":{}
+},
+
+"negative_effect":{
+}
+
+}

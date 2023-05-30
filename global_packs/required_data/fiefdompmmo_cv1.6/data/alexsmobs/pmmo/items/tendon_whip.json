@@ -1,0 +1,78 @@
+{"override":true,
+"xp_values":{
+	"ANVIL_REPAIR":{},
+	"BLOCK_PLACE":{},
+	"BREW":{},
+	"CONSUME":{},
+	"CRAFT":{"crafting":50},
+	"ENCHANT":{},
+	"FISH":{},
+	"SMELT":{},
+	"DEAL_MELEE_DAMAGE":{},
+	"MELEE_TO_MOBS":{},
+	"MELEE_TO_ANIMALS":{},
+	"MELEE_TO_PLAYERS":{},
+	"DEAL_RANGED_DAMAGE":{},
+	"RANGED_TO_MOBS":{},
+	"RANGED_TO_ANIMALS":{},
+	"RANGED_TO_PLAYERS":{},
+	"ACTIVATE_ITEM":{}
+},
+"nbt_xp_values":{
+	"ANVIL_REPAIR":[],
+	"BLOCK_PLACE":[],
+	"BREW":[],
+	"CONSUME":[],
+	"CRAFT":[],
+	"ENCHANT":[],
+	"FISH":[],
+	"SMELT":[],
+	"ACTIVATE_ITEM":[]
+},
+"requirements":{
+	"WEAR":{},
+	"TOOL":{},
+	"WEAPON":{"combat":20},
+	"USE":{},
+	"PLACE":{},
+	"BREAK":{},
+	"INTERACT":{}
+},
+"nbt_requirements":{
+	"WEAR":[],
+	"TOOL":[],
+	"WEAPON":[],
+	"USE":[],
+	"PLACE":[],
+	"BREAK":[],
+	"INTERACT":[]
+},
+"bonuses":{
+	"HELD":{},
+	"WORN":{"combat":1.25}
+},
+"nbt_bonuses":{
+	"HELD":[],
+	"WORN":[]
+},
+"negative_effect":{},
+"salvage":{
+    "alexsmobs:dropbear_claw": {
+        "salvageMax": 3,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.02},
+        "levelReq": {"crafting": 15},
+        "xpPerItem": {"crafting": 10}
+    },
+    "alexsmobs:elastic_tendon": {
+        "salvageMax": 3,
+        "baseChance": 0.05,
+        "maxChance": 1.0,
+        "chancePerLevel": {"crafting": 0.02},
+        "levelReq": {"crafting": 15},
+        "xpPerItem": {"crafting": 10}
+    }
+
+}
+}
