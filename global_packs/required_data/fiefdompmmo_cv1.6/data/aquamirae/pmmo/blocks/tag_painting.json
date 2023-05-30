@@ -1,0 +1,23 @@
+{
+  "vein_data": {
+    "consumeAmount": 1
+  },
+  "xp_values": {
+    "GROW": {},
+    "HIT_BLOCK": {},
+    "BLOCK_BREAK": {"crafting": 1},
+    "BREAK_SPEED": {},
+    "ACTIVATE_BLOCK": {},
+    "BLOCK_PLACE": {"building": 2}
+  },
+  "requirements": {
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {}
+  },
+  "override": true,
+  "isTagFor": ["aquamirae:painting_anglerfish",
+"aquamirae:painting_aurora",
+"aquamirae:painting_oxygelium",
+"aquamirae:painting_tortured_soul"]
+}

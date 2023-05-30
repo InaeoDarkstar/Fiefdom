@@ -1,0 +1,48 @@
+{
+  "salvage": {
+    "aquamirae:esca": {
+      "salvageMax": 1,
+      "baseChance": 0.2,
+      "maxChance": 1.0,
+      "chancePerLevel": {"smithing": 0.05},
+      "levelReq": {"smithing": 5},
+      "xpPerItem": {"smithing": 75}
+    }
+  },
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {"building": 3},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"crafting": 8},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {"swimming": 1.75}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

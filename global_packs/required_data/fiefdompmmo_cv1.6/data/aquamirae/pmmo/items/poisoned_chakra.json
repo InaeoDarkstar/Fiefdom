@@ -1,0 +1,48 @@
+{
+  "salvage": {
+    "aquamirae:anglers_fang": {
+      "salvageMax": 4,
+      "baseChance": 0.3,
+      "maxChance": 0.9,
+      "chancePerLevel": {"smithing": 0.02},
+      "levelReq": {"smithing": 20},
+      "xpPerItem": {"smithing": 100}
+    }
+  },
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {"combat": 1},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {"magic": 1},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"smithing": 150},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {},
+    "HELD": {"combat": 1.2}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {"combat": 40},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {"combat": 40},
+    "TOOL": {},
+    "WEAR": {}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": []
+}

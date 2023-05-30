@@ -1,0 +1,42 @@
+{
+  "xp_values": {
+    "MELEE_TO_PLAYERS": {},
+    "RANGED_TO_PLAYERS": {},
+    "MELEE_TO_MOBS": {},
+    "DEAL_MELEE_DAMAGE": {},
+    "BREW": {},
+    "DEAL_RANGED_DAMAGE": {},
+    "RANGED_TO_ANIMALS": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "CONSUME": {},
+    "FISH": {},
+    "MELEE_TO_ANIMALS": {},
+    "SMELT": {},
+    "ENCHANT": {"magic": 5},
+    "RANGED_TO_MOBS": {},
+    "CRAFT": {"crafting": 250},
+    "ACTIVATE_ITEM": {}
+  },
+  "bonuses": {
+    "WORN": {"combat": 1.09, "swimming": 1.02},
+    "HELD": {}
+  },
+  "requirements": {
+    "USE_ENCHANTMENT": {},
+    "USE": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {},
+    "TOOL": {},
+    "WEAR": {"total_level": 250}
+  },
+  "negative_effect": {},
+  "override": true,
+  "isTagFor": ["aquamirae:abyssal_boots",
+"aquamirae:abyssal_brigantine",
+"aquamirae:abyssal_heaume",
+"aquamirae:abyssal_leggings",
+"aquamirae:abyssal_tiara"]
+}
