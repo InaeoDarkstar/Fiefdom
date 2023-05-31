@@ -1,0 +1,19 @@
+{
+  "vein_blacklist": [],
+  "travel_req": {"total_level": 450},
+  "mob_multiplier": {
+"minecraft:enderman":{
+"health": 1.25,
+"damage": 1.25
+},
+"minecraft:shulker":{
+"health": 1.25,
+"damage": 1.25
+}
+},
+  "override": true,
+  "isTagFor": [],
+  "bonus": {
+    "DIMENSION": {"agility": 1.25"}
+  }
+}
