@@ -203,9 +203,13 @@
 
 			#What effects and levels should be applied if a player does not meet an item req
 			[Auto_Values.Requirements.Items."Item Penalties"]
-				"minecraft:mining_fatigue" = 1
-				"minecraft:slowness" = 1
-				"minecraft:weakness" = 1
+				"minecraft:mining_fatigue" = 5
+				"minecraft:slowness" = 5
+				"minecraft:weakness" = 5
+				"minecraft:nausea" = 1
+				"minecraft:blindness" = 2
+				"minecraft:poison" = 5
+				"minecraft:hunger" = 2
 
 		[Auto_Values.Requirements.BLocks]
 
