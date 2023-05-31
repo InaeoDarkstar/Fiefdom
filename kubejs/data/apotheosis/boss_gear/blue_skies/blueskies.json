@@ -240,12 +240,14 @@
 			"weight": 1,
 			"stack": {
 				"item": "blue_skies:moonstone_shield"
-			},
+			}
+		},
 		{
 			"weight": 1,
 			"stack": {
 				"item": "blue_skies:spiked_shield"
 			}
+		}
 	],
 	"boots": [{
 			"weight": 8,
