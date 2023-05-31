@@ -7,7 +7,7 @@
     ],  
 
 "xp_values":{
-	"BLOCK_BREAK":{},
+	"BLOCK_BREAK":{"harvesting": 1},
 	"BLOCK_PLACE":{"harvesting": 1},
 	"GROW":{"harvesting": 0.5},
 	"HIT_BLOCK":{},
