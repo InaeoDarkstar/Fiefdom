@@ -1,6 +1,6 @@
 {
 	"entity": "dungeons_mobs:illusioner",
-	"weight": 10,
+	"weight": 0,
 	"quality": 1,
 	"size": {
 		"width": 1,
